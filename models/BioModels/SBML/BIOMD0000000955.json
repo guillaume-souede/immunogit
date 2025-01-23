@@ -1,0 +1,291 @@
+{
+  "name" : "Giordano2020 - SIDARTHE model of COVID-19 spread in Italy",
+  "description" : "In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positive for SARS-CoV-2 were registered as of 5 April 2020. Ending the global SARS-CoV-2 pandemic requires implementation of multiple population-wide strategies, including social distancing, testing and contact tracing. We propose a new model that predicts the course of the epidemic to help plan an effective control strategy. The model considers eight stages of infection: susceptible (S), infected (I), diagnosed (D), ailing (A), recognized (R), threatened (T), healed (H) and extinct (E), collectively termed SIDARTHE. Our SIDARTHE model discriminates between infected individuals depending on whether they have been diagnosed and on the severity of their symptoms. The distinction between diagnosed and non-diagnosed individuals is important because the former are typically isolated and hence less likely to spread the infection. This delineation also helps to explain misperceptions of the case fatality rate and of the epidemic spread. We compare simulation results with real data on the COVID-19 epidemic in Italy, and we model possible scenarios of implementation of countermeasures. Our results demonstrate that restrictive social-distancing measures will need to be combined with widespread testing and contact tracing to end the ongoing COVID-19 pandemic.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32322102",
+    "journal" : "Nature medicine",
+    "title" : "Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy.",
+    "affiliation" : "Department of Industrial Engineering, University of Trento, Trento, Italy. giulia.giordano@unitn.it.",
+    "synopsis" : "In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positive for SARS-CoV-2 were registered as of 5 April 2020. Ending the global SARS-CoV-2 pandemic requires implementation of multiple population-wide strategies, including social distancing, testing and contact tracing. We propose a new model that predicts the course of the epidemic to help plan an effective control strategy. The model considers eight stages of infection: susceptible (S), infected (I), diagnosed (D), ailing (A), recognized (R), threatened (T), healed (H) and extinct (E), collectively termed SIDARTHE. Our SIDARTHE model discriminates between infected individuals depending on whether they have been diagnosed and on the severity of their symptoms. The distinction between diagnosed and non-diagnosed individuals is important because the former are typically isolated and hence less likely to spread the infection. This delineation also helps to explain misperceptions of the case fatality rate and of the epidemic spread. We compare simulation results with real data on the COVID-19 epidemic in Italy, and we model possible scenarios of implementation of countermeasures. Our results demonstrate that restrictive social-distancing measures will need to be combined with widespread testing and contact tracing to end the ongoing COVID-19 pandemic.",
+    "year" : 2020,
+    "month" : "6",
+    "volume" : "26",
+    "issue" : "6",
+    "pages" : "855-860",
+    "link" : "http://identifiers.org/pubmed/32322102",
+    "authors" : [
+      {
+        "name" : "Giulia Giordano",
+        "institution" : "Department of Industrial Engineering, University of Trento, Trento, Italy. giulia.giordano@unitn.it.",
+        "orcid" : "0000-0002-8600-1738"
+      },
+      {
+        "name" : "Franco Blanchini",
+        "institution" : "Dipartimento di Scienze Matematiche, Informatiche e Fisiche, University of Udine, Udine, Italy.",
+        "orcid" : "0000-0002-4109-5531"
+      },
+      {
+        "name" : "Raffaele Bruno",
+        "institution" : "Division of Infectious Diseases I, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy.Department of Clinical, Surgical, Diagnostic, and Paediatric Sciences, University of Pavia, Pavia, Italy.",
+        "orcid" : "0000-0002-0235-9207"
+      },
+      {
+        "name" : "Patrizio Colaneri",
+        "institution" : "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, Milano, Italy.IEIIT-CNR, Milano, Italy."
+      },
+      {
+        "name" : "Alessandro Di Filippo",
+        "institution" : "Division of Infectious Diseases I, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy."
+      },
+      {
+        "name" : "Angela Di Matteo",
+        "institution" : "Division of Infectious Diseases I, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy."
+      },
+      {
+        "name" : "Marta Colaneri",
+        "institution" : "Division of Infectious Diseases I, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Giordano2020.xml",
+        "description" : "SBML L3V1 file of SIDARTHE model of COVID-19 spread in Italy",
+        "fileSize" : "95481",
+        "mimeType" : "application/xml",
+        "md5sum" : "52153304928fce930398b1e5f005853f",
+        "sha1sum" : "b4f7c66e9f0a2cbbff9d3d5105bc1ba84ff867c8",
+        "sha256sum" : "698f74f46ecb64764fd049407f7ab970da7cf44b5c647f4c0cc2fbecb336cb55"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Giordano2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "22406",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "311ae569a22fc930ea7df6926f07f5bb",
+        "sha1sum" : "1ed822ce45537f8ec216963c267a71a04c2db520",
+        "sha256sum" : "37277b4840d119ff019976367e183548406d91a14a9725ea0343be999278e54a"
+      },
+      {
+        "name" : "Giordano2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "35167",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "61d65c6150edfe13b03b049ebfcbecd4",
+        "sha1sum" : "093e27671334a05cbb3b483bfc4f0ddea75eac00",
+        "sha256sum" : "003deb72101ee200f7bcc97c8153d575671b2b1d8dc1f8321bc1d1139f56a608"
+      },
+      {
+        "name" : "Giordano2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10164",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d8bd7a2a296422b2da4d9291fb1c4454",
+        "sha1sum" : "dd0e67710e9fbbffb230fc2c64eeeac564909303",
+        "sha256sum" : "7e20550e0f28d5fe8a675052755e80869dcbd28c5d1e46e3a454aaf62bbb8528"
+      },
+      {
+        "name" : "Giordano2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10164",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f72c17aa011fba1dccb14a77e7835fe8",
+        "sha1sum" : "4b5f95f8ebf91edbca40a09b7d9de984711bcc34",
+        "sha256sum" : "203d70e1c1a732447e80ed7b30e480c7e5c313a668e8bb54a0a405e7d805ffcd"
+      },
+      {
+        "name" : "Giordano2020.cps",
+        "description" : "CPS file created on COPASI version 4.27 (Build 217) of SIDARTHE model of COVID-19 spread in Italy",
+        "fileSize" : "115832",
+        "mimeType" : "application/xml",
+        "md5sum" : "b6250f5403f4e5183108ce3c80124142",
+        "sha1sum" : "717e56d3b7f742d932cf2b4991b8ede85c929090",
+        "sha256sum" : "3ac399d406a663aa2796d09c651e845071cb1751494f99185e71c55610faceac"
+      },
+      {
+        "name" : "Giordano2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6609",
+        "mimeType" : "text/plain",
+        "md5sum" : "3fc9cf22ed993dcc6cd40b30194552de",
+        "sha1sum" : "c15dba9c71a23ef9d506503e9ff961a1c967aa3d",
+        "sha256sum" : "45b10dcd41c015deef19e44abeabaed48aa432eaf536ebf9029f25317013d503"
+      },
+      {
+        "name" : "Giordano2020.sedml",
+        "description" : "SED-ML file of SIDARTHE model of COVID-19 spread in Italy (additionally CRBM-validated and adjusted).",
+        "fileSize" : "30769",
+        "mimeType" : "application/xml",
+        "md5sum" : "0f96c91837f09385ef532990f4d6af3a",
+        "sha1sum" : "8a9f0eeab2f192315ec67588b9d32468aed2f361",
+        "sha256sum" : "2b3a1c0e50c0e27ae49a6c0a3476384879bd975f7ede46f581a5b37d7d3fd0bb"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "154464",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "556b252a322c746fc1a590f4e3ba9209",
+        "sha1sum" : "af37fbc61f8e6193c03d693cf671d833323b8208",
+        "sha256sum" : "c476c8af76acc49473e69af7bfd1a2b50c9238c59fb1056d062826eb54a20c10"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "1323",
+        "mimeType" : "text/plain",
+        "md5sum" : "f7e605356a757ebcaa6cfbd195d83237",
+        "sha1sum" : "87c7df05a1ecd1e1531ee7a626a337560ef39673",
+        "sha256sum" : "9f0b72c3e57645c5a6fcc97bdbe56f3f3e2f2eefb38441a0cdbf389ee56d4121"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1429",
+        "mimeType" : "application/xml",
+        "md5sum" : "edb891d760b7fccf62077cbfac440d58",
+        "sha1sum" : "3f89c0ec62d0757848e4d04ba84c87ac0599b838",
+        "sha256sum" : "1d5af6944aacc8e4e01025ca4007d0ec865f34efd7f36c223b6b5b09c81fea41"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4366",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "465a34b16c1952853c4f33e92b265910",
+        "sha1sum" : "0ebb2a46a1967a23ddade2eed0a7ca9a453d7a42",
+        "sha256sum" : "91fee302a9136f4619f1775328621ed09cf197b496306cfae3f1085c57856a88"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1596017711,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000955"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1600601383,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000955"
+      },
+      {
+        "version" : 8,
+        "submitted" : 1601378703,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000955"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1601935477,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000955"
+      },
+      {
+        "version" : 11,
+        "submitted" : 1724290250,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725281944,
+  "submissionId" : "MODEL2007280002",
+  "publicationId" : "BIOMD0000000955",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32322102",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32322102"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000955",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000955"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2007280002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2007280002"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000503",
+      "resource" : "Infectious Disease Ontology",
+      "uri" : "http://identifiers.org/ido/0000503"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    }
+  ]
+}
