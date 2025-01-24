@@ -8,7 +8,7 @@ import sys
 import zipfile as z
 import requests
 import json
-import re
+from re import *
 from bs4 import BeautifulSoup
 """
 PATHS
