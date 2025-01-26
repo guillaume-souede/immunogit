@@ -2,7 +2,7 @@
 # ImmunoGIT: Building a Model and Metadata Repository Relevant to Human Immune System Responses
 
 ## Biological Context
-The human immune system plays a crucial role in various diseases and health conditions, ranging from defending the body against pathogens to managing autoimmune disorders. Developing a comprehensive, shareable repository of computational models that focus on the human immune system can be pivotal in advancing the concept of **Immune Digital Twins (IDTs)**, which aim to digitally represent the immune system to understand and predict its responses.
+
 
 ## References
 1. [Building Immune Digital Twins WG](https://www.rd-alliance.org/groups/building-immune-digital-twins-wg/activity/)
