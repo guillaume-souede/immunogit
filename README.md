@@ -1,5 +1,5 @@
 ![ImmunoGIT logo](./images/logo.png)
-# ImmunoGIT: Building a Model and Metadata Repository Relevant to Human Immune System Responses
+# ImmunoGIT
 
 ## Biological Context
 
