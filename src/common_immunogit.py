@@ -1,6 +1,9 @@
 """
 MODULES
 """
+import asyncio
+from playwright.async_api import async_playwright
+import nest_asyncio
 import os
 import subprocess
 import sys
@@ -13,7 +16,6 @@ from bs4 import BeautifulSoup
 PATHS
 """
 current_path = os.getcwd()
-# BELOW PATH IS IMPORTANT AND TO RE-USE !
 root_path = os.path.abspath(os.path.join(current_path, ".."))
 
 os.makedirs(os.path.join(root_path, "models/BioModels/SBML"), exist_ok=True)
