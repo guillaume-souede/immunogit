@@ -1,7 +1,4 @@
-::: center
 ![image](raw/logo.png){width="30%"}
-:::
-
  \
 
 ::: center
