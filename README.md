@@ -1,5 +1,5 @@
 ::: center
-![image](pics/ut2.png){width="30%"}
+![image](raw/logo.png){width="30%"}
 :::
 
  \
