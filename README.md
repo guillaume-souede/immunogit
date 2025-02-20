@@ -28,9 +28,12 @@ CTRL + C
 CTRL + V
 ```
 
+## Additional assistance
+- To view the technical specifications, see [Specifications.md](Specifications.md).
+
 ---
 
-## Authors
+## Credits
 
 ### Supervisors
 - **Anna Niarakis** – PU, CoSysBio, MCD-CBI  
