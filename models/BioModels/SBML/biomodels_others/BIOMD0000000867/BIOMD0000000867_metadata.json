@@ -1,0 +1,299 @@
+{
+    "name": "Coulibaly2019 - Interleukin-15 Signaling in HIF-1a Regulation in Natural Killer Cells",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model comprised of non-linear ordinary differential equations describing the dynamic relationship between hypoxia-inducible factor-1 alpha (HIF-1a) mRNA, HIF-1a protein, and interleukin-15-mediated upstream signalling events in natural killer cells from human blood. Regulatory expressions are also included for mammalian target of rapamycin (mTOR), nuclear factor-kappa beta, and signal transducer and activator of transcription 3 (STAT3).</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "31681292",
+        "journal": "Frontiers in immunology",
+        "title": "Interleukin-15 Signaling in HIF-1α Regulation in Natural Killer Cells, Insights Through Mathematical Models.",
+        "affiliation": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany.",
+        "synopsis": "Natural killer (NK) cells belong to the first line of host defense against infection and cancer. Cytokines, including interleukin-15 (IL-15), critically regulate NK cell activity, resulting in recognition and direct killing of transformed and infected target cells. NK cells have to adapt and respond in inflamed and often hypoxic areas. Cellular stabilization and accumulation of the transcription factor hypoxia-inducible factor-1α (HIF-1α) is a key mechanism of the cellular hypoxia response. At the same time, HIF-1α plays a critical role in both innate and adaptive immunity. While the HIF-1α hydroxylation and degradation pathway has been recently described with the help of mathematical methods, less is known concerning the mechanistic mathematical description of processes regulating the levels of HIF-1α mRNA and protein. In this work we combine mathematical modeling with experimental laboratory analysis and examine the dynamic relationship between HIF-1α mRNA, HIF-1α protein, and IL-15-mediated upstream signaling events in NK cells from human blood. We propose a system of non-linear ordinary differential equations with positive and negative feedback loops for describing the complex interplay of HIF-1α regulators. The experimental design is optimized with the help of mathematical methods, and numerical optimization techniques yield reliable parameter estimates. The mathematical model allows for the investigation and prediction of HIF-1α stabilization under different inflammatory conditions and provides a better understanding of mechanisms mediating cellular enrichment of HIF-1α. Thanks to the combination of <i>in vitro</i> experimental data and <i>in silico</i> predictions we identified the mammalian target of rapamycin (mTOR), the nuclear factor-κB (NF-κB), and the signal transducer and activator of transcription 3 (STAT3) as central regulators of HIF-1α accumulation. We hypothesize that the regulatory pathway proposed here for NK cells can be extended to other types of immune cells. Understanding the molecular mechanisms involved in the dynamic regulation of the HIF-1α pathway in immune cells is of central importance to the immune cell function and could be a promising strategy in the design of treatments for human inflammatory diseases and cancer.",
+        "year": 2019,
+        "month": "0",
+        "volume": "10",
+        "pages": "2401",
+        "link": "http://identifiers.org/pubmed/31681292",
+        "authors": [
+            {
+                "name": "Anna Coulibaly",
+                "institution": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany.",
+                "orcid": "0000-0001-5746-4496"
+            },
+            {
+                "name": "Anja Bettendorf",
+                "institution": "Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany."
+            },
+            {
+                "name": "Ekaterina Kostina",
+                "institution": "Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany.Institute for Applied Mathematics, Heidelberg University, Heidelberg, Germany."
+            },
+            {
+                "name": "Ana Sofia Figueiredo",
+                "institution": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany."
+            },
+            {
+                "name": "Sonia Y Velásquez",
+                "institution": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany.",
+                "orcid": "0009-0007-0777-8455"
+            },
+            {
+                "name": "Hans-Georg Bock",
+                "institution": "Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany."
+            },
+            {
+                "name": "Manfred Thiel",
+                "institution": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany."
+            },
+            {
+                "name": "Holger A Lindner",
+                "institution": "Department of Anesthesiology and Surgical Intensive Care Medicine, Medical Faculty Mannheim, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany.",
+                "orcid": "0000-0002-6679-4355"
+            },
+            {
+                "name": "Maria Vittoria Barbarossa",
+                "institution": "Institute for Applied Mathematics, Heidelberg University, Heidelberg, Germany.",
+                "orcid": "0000-0001-8788-1709"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Coulibaly2019.xml",
+                "description": "SBML L2V4 Representation of Coulibaly2019 - Interleukin-15 Signaling in HIF-1a Regulation in Natural Killer Cells",
+                "fileSize": "115387",
+                "mimeType": "application/xml",
+                "md5sum": "593012115791ced4d23114e8b0a7d3ca",
+                "sha1sum": "879494367ba0c358c4ea76f1afe0c84ccc3c59e2",
+                "sha256sum": "9c770c5b37feb951f55b2f68044e1c329b792ddbc3d6f592e50ad76a64f03309"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Coulibaly2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "33800",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "12e4e381812cdae9b6ba071521aad0da",
+                "sha1sum": "874287f7084466169ede34a6fb321fd062092260",
+                "sha256sum": "3f42014310ff29d37845e3e4a92d256e03589dc538ec739fc79677a284b276d0"
+            },
+            {
+                "name": "Coulibaly2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "53861",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a743d7891d46794050566c65bc318b1b",
+                "sha1sum": "189ac63055dc2ef23ba2330f17667f1b18cd49f3",
+                "sha256sum": "4c66a3107563ac18f2912c484099820b21ce73c17014b02cbb70568ff2215dcd"
+            },
+            {
+                "name": "Coulibaly2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "14782",
+                "mimeType": "text/x-matlab",
+                "md5sum": "478dc785d11106019a9ee9ba23066bfb",
+                "sha1sum": "dcfbbbca9f2894a61cf01164fa0f2573b8c84ade",
+                "sha256sum": "f44eaf08487fda29d99a0807ea001203486216b67cd8086a2a5e9ff1f60b9d8f"
+            },
+            {
+                "name": "Coulibaly2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "14782",
+                "mimeType": "text/x-matlab",
+                "md5sum": "6796bb81365f85b450ef0aff0f792319",
+                "sha1sum": "dd6c604453a1dd5002cb9a9cf6880466e1790b35",
+                "sha256sum": "1802fea3665f3b253ec66c127db2736634363e7c0b7db0c2019134d65f5fccbe"
+            },
+            {
+                "name": "Coulibaly2019.cps",
+                "description": "COPASI file of Coulibaly2019 - Interleukin-15 Signaling in HIF-1a Regulation in Natural Killer Cells",
+                "fileSize": "181923",
+                "mimeType": "application/xml",
+                "md5sum": "de64591b42aab7bec6bd774fafd50279",
+                "sha1sum": "667922ab5b8cc755465c953b326d09f1d1ccc604",
+                "sha256sum": "9297d69d91d4456095e2ca273a3fd967b12d523ee49aa548ee2ef41ebcda543b"
+            },
+            {
+                "name": "Coulibaly2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "12026",
+                "mimeType": "text/plain",
+                "md5sum": "d23f914c8f4038a8c7247899c2cac365",
+                "sha1sum": "234801ddec899a8c0139add141cb20b3a9898268",
+                "sha256sum": "338320dc756f977f54d8e0665e871e1c7f01fb7fbbef0703f33d23acd42ff3a8"
+            },
+            {
+                "name": "Coulibaly2019.sedml",
+                "description": "SED-ML file of Coulibaly2019 - Interleukin-15 Signaling in HIF-1a Regulation in Natural Killer Cells (additionally CRBM-validated and adjusted).",
+                "fileSize": "56491",
+                "mimeType": "application/xml",
+                "md5sum": "672185a33c3d90afc91fc5b984b242c9",
+                "sha1sum": "71f8a4c558346e77a85e2d5fce3294d37d56b21d",
+                "sha256sum": "5759da9c4a196e3c5edef6b651bb0e5eeea65c013db9a946be51dfb8542006a8"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "64131",
+                "mimeType": "image/png",
+                "md5sum": "e2fc58f4b50f3d8af0745b426eff7cdb",
+                "sha1sum": "280fd8c556030cf7b19a55ea0b59000205c5819e",
+                "sha256sum": "8071ba9fa02422b6206f9564daafb9ca4880d3cee2db435e4ceb127c7a5b8d12"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "126",
+                "mimeType": "text/plain",
+                "md5sum": "5f61edfcf4107c287dd4a7c9251f7c85",
+                "sha1sum": "2d6aa734a4b007c738c331bc94b1858a32e00b61",
+                "sha256sum": "d65156d8695b32e10d43c02409141e924e09a6b76a8ea2d225fcb906e9767e22"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1435",
+                "mimeType": "application/xml",
+                "md5sum": "d57fda31f4b5f6554fc0c83cfc5b9ec4",
+                "sha1sum": "215798a1c93eaabb4b3bc2ffaea5a1a7c82b3d90",
+                "sha256sum": "cfde36d9da8bee1a802999b2219c5772e61582332a5cc1267fd115a99b58bee5"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2281",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6c9f5bbb59a6b33dd63a3e5992113c58",
+                "sha1sum": "21e73501c1622fc64fe11bd554457f0de711f8ec",
+                "sha256sum": "342f4a1117d9baa4be0068d8e7f1cb7d18964f4b2cbe68b6d8cbecb6fdc561bb"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1574091025,
+                "submitter": "Johannes Meyer",
+                "comment": "Automatically added model identifier BIOMD0000000867"
+            },
+            {
+                "version": 3,
+                "submitted": 1724288036,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281915,
+    "submissionId": "MODEL1911180002",
+    "publicationId": "BIOMD0000000867",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Johannes Meyer",
+                "email": "johannes.p.meyer@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "31681292",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/31681292"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1911180002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1911180002"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000867",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000867"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C17380",
+            "name": "NF-kB",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C17380"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C12536",
+            "name": "Natural Killer Cell",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C12536"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C20214",
+            "name": "Hypoxia-Inducible Factor 1-Alpha",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C20214"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C20517",
+            "name": "Interleukin-15",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C20517"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "PR:000003041",
+            "name": "serine/threonine-protein kinase mTOR",
+            "resource": "Protein Ontology",
+            "uri": "http://identifiers.org/pr/PR:000003041"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C28664",
+            "name": "Signal Transducer and Activator of Transcription 3",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C28664"
+        }
+    ]
+}

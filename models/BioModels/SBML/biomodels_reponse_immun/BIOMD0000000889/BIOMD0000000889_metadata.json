@@ -1,0 +1,271 @@
+{
+    "name": "Fribourg2014 - Model of influenza A virus infection dynamics of viral antagonism and innate immune response.",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is an ordinary differential equation mathematical model investigating the early responses of human monocyte-derived dendritic cells to infection by two H1N1 influenza A viruses of different clinical outcomes: pandemic A/California/4/2009 and seasonal A/New Caledonia/20/1999.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "24594370",
+        "journal": "Journal of theoretical biology",
+        "title": "Model of influenza A virus infection: dynamics of viral antagonism and innate immune response.",
+        "affiliation": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+        "synopsis": "Viral antagonism of host responses is an essential component of virus pathogenicity. The study of the interplay between immune response and viral antagonism is challenging due to the involvement of many processes acting at multiple time scales. Here we develop an ordinary differential equation model to investigate the early, experimentally measured, responses of human monocyte-derived dendritic cells to infection by two H1N1 influenza A viruses of different clinical outcomes: pandemic A/California/4/2009 and seasonal A/New Caledonia/20/1999. Our results reveal how the strength of virus antagonism, and the time scale over which it acts to thwart the innate immune response, differs significantly between the two viruses, as is made clear by their impact on the temporal behavior of a number of measured genes. The model thus sheds light on the mechanisms that underlie the variability of innate immune responses to different H1N1 viruses.",
+        "year": 2014,
+        "month": "6",
+        "volume": "351",
+        "pages": "47-57",
+        "link": "http://identifiers.org/pubmed/24594370",
+        "authors": [
+            {
+                "name": "M Fribourg",
+                "institution": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0003-1804-8136"
+            },
+            {
+                "name": "B Hartmann",
+                "institution": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0002-5649-6776"
+            },
+            {
+                "name": "M Schmolke",
+                "institution": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States; Global Health and Emerging Pathogens Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0002-2491-3029"
+            },
+            {
+                "name": "N Marjanovic",
+                "institution": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+            },
+            {
+                "name": "R A Albrecht",
+                "institution": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States; Global Health and Emerging Pathogens Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0003-4008-503X"
+            },
+            {
+                "name": "A García-Sastre",
+                "institution": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States; Global Health and Emerging Pathogens Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States; Department of Medicine, Division of Infectious Diseases, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0002-6551-1827"
+            },
+            {
+                "name": "S C Sealfon",
+                "institution": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+                "orcid": "0000-0001-5791-1217"
+            },
+            {
+                "name": "C Jayaprakash",
+                "institution": "Department of Physics, Ohio State University, Columbus, OH 43210, United States."
+            },
+            {
+                "name": "F Hayot",
+                "institution": "Department of Neurology and Center for Translational Systems Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States. Electronic address: fernand.hayot@mssm.edu."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Fribourg2014.xml",
+                "description": "SBML L2V4 Representation of Fribourg2014 - Model of influenza A virus infection dynamics of viral antagonism and innate immune response.",
+                "fileSize": "118077",
+                "mimeType": "application/xml",
+                "md5sum": "6364e036ab6f76004a3b5568e5ad7064",
+                "sha1sum": "5664194c6696b87a2512f733f55320d32840a8ce",
+                "sha256sum": "79fe734a21ca95d78493be15df8f998bba77367e3945221ba881021568ddefe1"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Fribourg2014-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "21492",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0aac354198298d1186765ff08cc11307",
+                "sha1sum": "f201eea7f8520c92fcfd581a1abe5957a8b316b2",
+                "sha256sum": "6e00ec943c9d136d7534983167723e9bc027d0e16dc3f3c3f1e682596635fe62"
+            },
+            {
+                "name": "Fribourg2014-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "33023",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b1e756185a888b2f9745989e2ca79238",
+                "sha1sum": "e07e72e0ff638e9e3785c1ebe77d8081c47d970c",
+                "sha256sum": "8d656c94d3035e6c2decf8a1e33cff948c11a344d49544cad44bdc24cfeabf6c"
+            },
+            {
+                "name": "Fribourg2014-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "14761",
+                "mimeType": "text/x-matlab",
+                "md5sum": "401fd1dddb3a3640b0d09115fab00b83",
+                "sha1sum": "d141d1573ddc2768bbcd88da29e72d059f1f47cd",
+                "sha256sum": "2e94de37010d842745a7068b89474a80d7e5041fcc616d15c84f6b76e3fc42da"
+            },
+            {
+                "name": "Fribourg2014-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "14761",
+                "mimeType": "text/x-matlab",
+                "md5sum": "2f4c77024d1a25b0cb73ba67c7a2c6bc",
+                "sha1sum": "8174d6960b85ed85713135799f4b094fafb335bd",
+                "sha256sum": "e6943281ea0bea2f62beeafd52502bcff64ba711382f47a564a66d1ab9d8945e"
+            },
+            {
+                "name": "Fribourg2014.cps",
+                "description": "COPASI file of Fribourg2014 - Model of influenza A virus infection dynamics of viral antagonism and innate immune response.",
+                "fileSize": "168303",
+                "mimeType": "application/xml",
+                "md5sum": "48a1ddabe5e5194b477523738795738d",
+                "sha1sum": "b734c178ef30498757554cb7ef929b866e984acc",
+                "sha256sum": "76851e6fae9d165e23619a38285142f0e5895512cf86a7e466e5745412d5c232"
+            },
+            {
+                "name": "Fribourg2014.sedml",
+                "description": "SED-ML file of Fribourg2014 - Model of influenza A virus infection dynamics of viral antagonism and innate immune response. (additionally CRBM-validated and adjusted).",
+                "fileSize": "46128",
+                "mimeType": "application/xml",
+                "md5sum": "a689940e730d8bf1839e01e8e855dd34",
+                "sha1sum": "58b32076fd1201f6c15c185085fe0023251ad3a8",
+                "sha256sum": "af3f356e67d3aff14688c6cb0938f8706bb67b8a854103a0f5aaabe40c9fb6c9"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "9906",
+                "mimeType": "image/png",
+                "md5sum": "e8f2280cae43543ca956cc73e909eb1c",
+                "sha1sum": "1d92305542e88953d337f665210b53f9861ea295",
+                "sha256sum": "873a97c03a0984bf1793d959d4d18a1f040e61c2a361b97efc2465ef5ca3bb14"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "130",
+                "mimeType": "text/plain",
+                "md5sum": "30eb39e2b2a640e22a23476ea193bca5",
+                "sha1sum": "5c23a1937b2f961f50fc700ec7883879767a6eae",
+                "sha256sum": "17dc1604935714a606c6eb3824eaab7b03d66b6765dfacdfc7a7efd3bca6740e"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1319",
+                "mimeType": "application/xml",
+                "md5sum": "436d689ef56038d2893f0221798e8c4e",
+                "sha1sum": "20a9ee286904c8bb117d23f851691002ce1848dd",
+                "sha256sum": "40a38aaf666c8579e13b2edc79707156d224daa4570a19971b13b47d91aaeda8"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2033",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6262c018d4adcee6a366f17e653b1d8c",
+                "sha1sum": "adb56fed221c6bc0e85c95fc19c0f3db1851c560",
+                "sha256sum": "dcb9e76eb8ef7d8280d148106d3225afe4d59450642a47e546c4e172edb1dc18"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1576152468,
+                "submitter": "Johannes Meyer",
+                "comment": "Automatically added model identifier BIOMD0000000889"
+            },
+            {
+                "version": 3,
+                "submitted": 1724288624,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281923,
+    "submissionId": "MODEL1912120001",
+    "publicationId": "BIOMD0000000889",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Johannes Meyer",
+                "email": "johannes.p.meyer@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "24594370",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/24594370"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000889",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000889"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912120001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912120001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C18011",
+            "name": "Immunology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C18011"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "PR:000044797",
+            "name": "influenzavirus non-structural protein 1",
+            "resource": "Protein Ontology",
+            "uri": "http://identifiers.org/pr/PR:000044797"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C20493",
+            "name": "Interferon",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C20493"
+        }
+    ]
+}

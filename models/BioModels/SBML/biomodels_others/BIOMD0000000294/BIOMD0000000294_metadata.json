@@ -1,0 +1,306 @@
+{
+    "name": "Restif2007 - Vaccination invasion",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    <div class=\"dc:title\">Restif2007 - Vaccination invasion</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/17210532\" title=\"Access to this publication\">Vaccination and the dynamics    of immune evasion.</a>  </div>  <div class=\"bibo:authorList\">Restif O, Grenfell BT.</div>  <div class=\"bibo:Journal\">J R Soc Interface 2007 Feb; 4(12):  143-153</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Vaccines exert strong selective pressures on pathogens,    favouring the spread of antigenic variants. We propose a simple    mathematical model to investigate the dynamics of a novel    pathogenic strain that emerges in a population where a previous    strain is maintained at low endemic level by a vaccine. We    compare three methods to assess the ability of the novel strain    to invade and persist: algebraic rate of invasion;    deterministic dynamics; and stochastic dynamics. These three    techniques provide complementary predictions on the fate of the    system. In particular, we emphasize the importance of    stochastic simulations, which account for the possibility of    extinctions of either strain. More specifically, our model    suggests that the probability of persistence of an invasive    strain (i) can be minimized for intermediate levels of vaccine    cross-protection (i.e. immune protection against the novel    strain) and (ii) is lower if cross-immunity acts through a    reduced infectious period rather than through reduced    susceptibility.</p>  </div></div><div class=\"bm:curation\">  <p style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">This  version of the model can be used for both the stochastic and the  deterministic simulations described in the article. For  deterministic interpretations with infinite population sizes, set  the population size   <em>N</em> = 1. The model does reproduces the deterministic  time course. The initial values are set to the steady state  values for a latent infection with strain 1 with an invading  infection of strain 2 (I2=1e-06), 100 percent vaccination with a  susceptibility reduction τ=0.7 at birth (p=1), and all other  parameters as in figure 3 of the publication. </p>  <p style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">To  be compatible with older software tools, the english letter names  instead of the greek symbols were used for parameter names:  <br /></p>  <table style=\"color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif; font-size: 12px;\">    <tbody>      <tr>        <th>parameter</th>        <th>symbol</th>        <th>name</th>      </tr>      <tr>        <td>transmission rate</td>        <td>β</td>        <td>beta</td>      </tr>      <tr>        <td>recovery rate</td>        <td>γ</td>        <td>gamma</td>      </tr>      <tr>        <td>birth/death rate</td>        <td>μ</td>        <td>mu</td>      </tr>      <tr>        <td>rate of loss of natural immunity</td>        <td>σ</td>        <td>sigma</td>      </tr>      <tr>        <td>rate of loss of vaccine immunity</td>        <td>σ        <sub>v</sub></td>        <td>sigmaV</td>      </tr>      <tr>        <td>reduction of susceptibility by primary infection</td>        <td>θ</td>        <td>theta</td>      </tr>      <tr>        <td>reduction of infection period by primary infection</td>        <td>ν</td>        <td>nu</td>      </tr>      <tr>        <td>reduction of susceptibility by vaccination</td>        <td>τ</td>        <td>tau</td>      </tr>      <tr>        <td>reduction of infection period by vaccination</td>        <td>η</td>        <td>eta</td>      </tr>    </tbody>  </table>  <p style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">Originally  created by libAntimony v1.4 (using libSBML 3.4.1)</p></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000294\">BIOMD0000000294</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "17210532",
+        "journal": "Journal of the Royal Society, Interface",
+        "title": "Vaccination and the dynamics of immune evasion.",
+        "affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge Infectious Diseases Consortium, Madingley Road, Cambridge CB3 0ES, UK. or226@cam.ac.uk",
+        "synopsis": "Vaccines exert strong selective pressures on pathogens, favouring the spread of antigenic variants. We propose a simple mathematical model to investigate the dynamics of a novel pathogenic strain that emerges in a population where a previous strain is maintained at low endemic level by a vaccine. We compare three methods to assess the ability of the novel strain to invade and persist: algebraic rate of invasion; deterministic dynamics; and stochastic dynamics. These three techniques provide complementary predictions on the fate of the system. In particular, we emphasize the importance of stochastic simulations, which account for the possibility of extinctions of either strain. More specifically, our model suggests that the probability of persistence of an invasive strain (i) can be minimized for intermediate levels of vaccine cross-protection (i.e. immune protection against the novel strain) and (ii) is lower if cross-immunity acts through a reduced infectious period rather than through reduced susceptibility.",
+        "year": 2007,
+        "month": "2",
+        "volume": "4",
+        "issue": "12",
+        "pages": "143-153",
+        "link": "http://identifiers.org/pubmed/17210532",
+        "authors": [
+            {
+                "name": "Olivier Restif",
+                "institution": "Department of Veterinary Medicine, University of Cambridge, Cambridge Infectious Diseases Consortium, Madingley Road, Cambridge CB3 0ES, UK. or226@cam.ac.uk",
+                "orcid": "0000-0001-9158-853X"
+            },
+            {
+                "name": "Bryan T Grenfell",
+                "orcid": "0000-0003-3227-5909"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000294_url.xml",
+                "description": "SBML L2V4 representation of Restif2007 - Vaccination invasion",
+                "fileSize": "52312",
+                "mimeType": "application/xml",
+                "md5sum": "8215fd8d90c15e5256e551c6557fbf3f",
+                "sha1sum": "55ac617d7b3629aa42f87007c1fedf2177ff8c90",
+                "sha256sum": "7bf6a896cb35d9974823f89fb3e86182431218a6d366ad3197aa0d62ae4f2e29"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000294-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "28395",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e5e91e4917f6a546a9617f60f0c7b93a",
+                "sha1sum": "a088c4c5c04bd66ef8f0a790219f8f1017986e2a",
+                "sha256sum": "5d0dc39dda5907be55b4094ffff947fa2853bcbd1c0370ecf0ff87f28416cbfb"
+            },
+            {
+                "name": "BIOMD0000000294-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "45193",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "48d734f41c7c0c05569d8ad5b40c97c2",
+                "sha1sum": "8939f80798b8c6e32c5a49e5aa990518d136cedd",
+                "sha256sum": "b63fa30521b82ecbe03e0f123398b3abee41bffedea2b9a453981da7a92fe641"
+            },
+            {
+                "name": "BIOMD0000000294-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "9021",
+                "mimeType": "text/x-matlab",
+                "md5sum": "14814f941ecacf7d9503369dd9c26939",
+                "sha1sum": "12706d5c3a01fc1a7f7f08742e874d902a558551",
+                "sha256sum": "59e96c2b65cc21e9a731efcd284601fba6fda042d252f4dc4edc3655b1e742a5"
+            },
+            {
+                "name": "BIOMD0000000294.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "9021",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ad89f119398523f892e4e8d21e7cf054",
+                "sha1sum": "d35906f7cdc5bc193bd4c19499725835ab894fa5",
+                "sha256sum": "811c361fed11fd6f085b8b712ee4dc1c4376ac6ad2e468dc781bf281d8f754aa"
+            },
+            {
+                "name": "BIOMD0000000294.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "6554",
+                "mimeType": "text/plain",
+                "md5sum": "3e06a8f2913ffb16b200e6def4fe2dbd",
+                "sha1sum": "5e8083ae76de1906d12bf554615dddf6b5497565",
+                "sha256sum": "ec56bd0a921aab853b680ba2b46cc2cfde1bd2e4bc23a95bfe6a19c515908ae2"
+            },
+            {
+                "name": "BIOMD0000000294.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "245605",
+                "mimeType": "application/pdf",
+                "md5sum": "90d926a2ade051c696e1d145557379f3",
+                "sha1sum": "9ac506d1b73887be4bd7c7c34de030fc88bf82cc",
+                "sha256sum": "35379739f1e112ef269e041bcd2095b00a043e9f6083c9f3218f5aea699903c3"
+            },
+            {
+                "name": "BIOMD0000000294.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "208115",
+                "mimeType": "image/png",
+                "md5sum": "12730dc00e7115f6eb31291c1b51e72d",
+                "sha1sum": "efc05f1ce928bdd926e2b4a4746cee08ef5d530d",
+                "sha256sum": "057ab4d61ff9818a1d0616044a6726283659cac891de23b67d4e888d2dbbeba3"
+            },
+            {
+                "name": "BIOMD0000000294.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "48071",
+                "mimeType": "image/svg+xml",
+                "md5sum": "fdfa6c41a3eceb286313526473dfb4de",
+                "sha1sum": "e4a203d6bb6a1b984303815b2cbe0f3e60d67294",
+                "sha256sum": "919509c3c566d415820e5c672d7b6cecb99753182bb7ea816c11bea91852188e"
+            },
+            {
+                "name": "BIOMD0000000294.vcml",
+                "description": "Auto-generated VCML file",
+                "fileSize": "67310",
+                "mimeType": "application/xml",
+                "md5sum": "1c09b0de64eb099ba8cd04dd6041fcb3",
+                "sha1sum": "7cc765de58f4a70c81ca80150b8ddc87538658a5",
+                "sha256sum": "819271111dc01c1c9c66b7bfd5e6bd738a1a425a26288359ea9fad883e01503d"
+            },
+            {
+                "name": "BIOMD0000000294_url.sedml",
+                "description": "CRBM auto-generated \"template\" SED-ML file.",
+                "fileSize": "33106",
+                "mimeType": "application/xml",
+                "md5sum": "7a67213ef5f17c563abc022de4718ed5",
+                "sha1sum": "26ad57df7e8aee2f9797ac45dacb346f8bc96a21",
+                "sha256sum": "2036a07ed2480e6875237af5a3886c9d5464e018701900dd46d38dce9b71623b"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "121282",
+                "mimeType": "image/png",
+                "md5sum": "8501da44096e1e1092f3896c216b8510",
+                "sha1sum": "33b066f1e1c1439425ff6d6b76c722f026abb987",
+                "sha256sum": "bafce6ec042fd422260440522d9b190d42316d5db0fc84099f15391097b7d648"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "429",
+                "mimeType": "text/plain",
+                "md5sum": "f6a00e1e456f283784a152809fd3c291",
+                "sha1sum": "07e7a8e64d18aaa6cc15b0ff00e58543eab8ab3e",
+                "sha256sum": "23f94ec1b887cd30076ef4c46298e22c36332fa696fa4e5b7eed0cb824f43d63"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1793",
+                "mimeType": "application/xml",
+                "md5sum": "0b9bdc4d0b3b295cbb75ca8d1d6dfea7",
+                "sha1sum": "4d2a94f45175c705ca81cf7804b46ccd52d23d55",
+                "sha256sum": "9ea8c362f276d9f073adc0abf0e513d22c8ad840ac7c9f5be9fbd7dd152b4c83"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "8797",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "58890a2361ae3568f3d4dd95a4c4d543",
+                "sha1sum": "98d91e329066c19a1972c839607621251cd23b4a",
+                "sha256sum": "df0b541759a6646cabdc741087b6c208842ef3b2e22ce081f1f32b23ac149673"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1292904008,
+                "submitter": "Lukas Endler",
+                "comment": "Original import of restif07"
+            },
+            {
+                "version": 2,
+                "submitted": 1495106180,
+                "submitter": "Lukas Endler",
+                "comment": "Current version of Restif2007 - Vaccination invasion"
+            },
+            {
+                "version": 3,
+                "submitted": 1724269218,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281410,
+    "submissionId": "MODEL1012210000",
+    "publicationId": "BIOMD0000000294",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Lukas Endler",
+                "email": "lukas@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1012210000",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1012210000"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000294",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000294"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "17210532",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/17210532"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "460424",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/460424"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "BIOMD0000000249",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000249"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "460412",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/460412"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "520",
+            "name": "Bordetella pertussis",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/520"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0009814",
+            "name": "defense response, incompatible interaction",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0009814"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0035635",
+            "name": "entry of bacterium into host cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0035635"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:1116",
+            "name": "pertussis",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:1116"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "name": "Webb2002 - Fas/FasL mediated tumor T-cell interaction",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    <div class=\"dc:title\">Webb2002 - Fas/FasL mediated tumor T-cell interaction</div><div class=\"dc:description\">This deterministic model ofimmunological surveillance involving tumour cell–T-lymphocyteinteraction, cell surface expression of Fas/FasL, and theirsecreted soluble forms.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/12208611\" title=\"Access to this publication\">Cells behaving badly: a    theoretical model for the Fas/FasL system in tumour    immunology.</a>  </div>  <div class=\"bibo:authorList\">Webb SD, Sherratt JA, Fish RG.</div>  <div class=\"bibo:Journal\">Math Biosci 2002 Sep-Oct; 179(2):  113-129</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>One proposed mechanism of tumour escape from immune    surveillance is tumour up-regulation of the cell surface ligand    FasL, which can lead to apoptosis of Fas receptor (Fas)    positive lymphocytes. Based upon this 'counterattack', we have    developed a mathematical model involving tumour cell-lymphocyte    interaction, cell surface expression of Fas/FasL, and their    secreted soluble forms. The model predicts that (a) the    production of soluble forms of Fas and FasL will lead to the    down-regulation of the immune response; (b) matrix    metalloproteinase (MMP) inactivation should lead to increased    membrane FasL and result in a higher rate of Fas-mediated    apoptosis for lymphocytes than for tumour cells. Recent studies    on cancer patients lend support for these predictions. The    clinical implications are two-fold. Firstly, the use of broad    spectrum MMP inhibitors as anti-angiogenic agents may be    compromised by their adverse effect on tumour FasL    up-regulation. Also, Fas/FasL interactions may have an impact    on the outcome of numerous ongoing immunotherapeutic trials    since the final common pathway of all these approaches is the    transduction of death signals within the tumour cell.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000661\">BIOMD0000000661</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "12208611",
+        "journal": "Mathematical biosciences",
+        "title": "Cells behaving badly: a theoretical model for the Fas/FasL system in tumour immunology.",
+        "affiliation": "Department of Mathematical Sciences, Loughborough University, Leicestershire, LE11 3TU, UK. s.d.webb@lboro.ac.uk",
+        "synopsis": "One proposed mechanism of tumour escape from immune surveillance is tumour up-regulation of the cell surface ligand FasL, which can lead to apoptosis of Fas receptor (Fas) positive lymphocytes. Based upon this 'counterattack', we have developed a mathematical model involving tumour cell-lymphocyte interaction, cell surface expression of Fas/FasL, and their secreted soluble forms. The model predicts that (a) the production of soluble forms of Fas and FasL will lead to the down-regulation of the immune response; (b) matrix metalloproteinase (MMP) inactivation should lead to increased membrane FasL and result in a higher rate of Fas-mediated apoptosis for lymphocytes than for tumour cells. Recent studies on cancer patients lend support for these predictions. The clinical implications are two-fold. Firstly, the use of broad spectrum MMP inhibitors as anti-angiogenic agents may be compromised by their adverse effect on tumour FasL up-regulation. Also, Fas/FasL interactions may have an impact on the outcome of numerous ongoing immunotherapeutic trials since the final common pathway of all these approaches is the transduction of death signals within the tumour cell.",
+        "year": 2002,
+        "month": "0",
+        "volume": "179",
+        "issue": "2",
+        "pages": "113-129",
+        "link": "http://identifiers.org/pubmed/12208611",
+        "authors": [
+            {
+                "name": "Steven D Webb",
+                "institution": "Department of Mathematical Sciences, Loughborough University, Leicestershire, LE11 3TU, UK. s.d.webb@lboro.ac.uk"
+            },
+            {
+                "name": "Jonathan A Sherratt"
+            },
+            {
+                "name": "Reginald G Fish"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000661_url.xml",
+                "description": "SBML L2V4 representation of Webb2002 - Fas/FasL mediated tumor T-cell interaction",
+                "fileSize": "93666",
+                "mimeType": "application/xml",
+                "md5sum": "42a858990ac4cafccb359523f293d481",
+                "sha1sum": "a257f4990f0db162bf2e5c66210c5ec03a7dd48a",
+                "sha256sum": "49f2448d135e89e88c460fc01c555a8fee17b9b0dddfca1400fcf50eab326806"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000661-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "22210",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "cb1d214cd4d1c2d5a4b77c62b1e51595",
+                "sha1sum": "efd38750d3370752ed0ec737ca3bc628f42f222e",
+                "sha256sum": "43c70bd9272257d14acaa937eb49f58f7bf2b307abc069bfe32d288bbaf38dc1"
+            },
+            {
+                "name": "BIOMD0000000661-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "31262",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a497d2c2611c43aa0b9b0245eff6c9e5",
+                "sha1sum": "f51e3646626abd7cd9fc0259039edb35c0771294",
+                "sha256sum": "7bb351947d856b9d9da63d5e5b30202200f36f411eb5eee0e8118fe88a958c87"
+            },
+            {
+                "name": "BIOMD0000000661-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "8308",
+                "mimeType": "text/x-matlab",
+                "md5sum": "915c4e5f8745fed82e0c1fe0a7645f87",
+                "sha1sum": "a151e6b02f6f194d01034f92085c6eff8b8acd45",
+                "sha256sum": "eeb0613e6121c94453753cbde11f325bbd10bfd42c7c2a39d8c691219863f748"
+            },
+            {
+                "name": "BIOMD0000000661-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "8308",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7d10fad351c5bcc95578092d02b38da7",
+                "sha1sum": "9e1d00bee4f840e545d934d486a0f59ac3d5172a",
+                "sha256sum": "c8cbce28f3be175a42251d4fb365b1f407f96dfd55ff34b2de15ee991bd31c19"
+            },
+            {
+                "name": "BIOMD0000000661.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "8369",
+                "mimeType": "text/x-matlab",
+                "md5sum": "f7e0cbd7465c2f1b7316574a8d609f9d",
+                "sha1sum": "5e38aa0af61821203a24b2ac931d5878be6efe02",
+                "sha256sum": "5b52003268077c502321d82cc2ecee95a6a92cb4e04a5d177e9c41ccc8c9f2b9"
+            },
+            {
+                "name": "BIOMD0000000661.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "6450",
+                "mimeType": "text/plain",
+                "md5sum": "572b02524721b89aacd2a3e34bb21326",
+                "sha1sum": "c8a2d114e12914eaa02e48eec61e8aec6cd51a26",
+                "sha256sum": "90f683564ff42814465880ad047f0c1f42860eedf032e3bc73750b25ab6ac624"
+            },
+            {
+                "name": "BIOMD0000000661.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "180415",
+                "mimeType": "application/pdf",
+                "md5sum": "e76d3f05431bb79be1d2e3e91a1783f9",
+                "sha1sum": "95e04b3f73effa1a535862c6d478af66982535b1",
+                "sha256sum": "037107e976b6871a34d7691a07e453a5cf3267eb83ea2c119b8b159fef65a545"
+            },
+            {
+                "name": "BIOMD0000000661.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "156746",
+                "mimeType": "image/png",
+                "md5sum": "33fd105fa7b79d12d06852538cc4d174",
+                "sha1sum": "3adf5a12f5643a84c230cda3e4e06446f5e920a6",
+                "sha256sum": "178c7ab92cb135aa08f91927d746dea1b28bb4669fba16dba4b356334a6ac4c9"
+            },
+            {
+                "name": "BIOMD0000000661.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "43181",
+                "mimeType": "image/svg+xml",
+                "md5sum": "e3a5a891044f296b7959fe2bfaf19205",
+                "sha1sum": "088c4e88fa43718f95560f50b90c5d5800af8dc3",
+                "sha256sum": "94d0dc17c23fe9844a8cbb7eb1d62703ee01178de9874f13c6b8fe1dba31d816"
+            },
+            {
+                "name": "MODEL1006230046.cps",
+                "description": "This COPASI file reproduces figure 2 of the reference publication.",
+                "fileSize": "108879",
+                "mimeType": "application/xml",
+                "md5sum": "e0a182efb748cdf1fe02b240ad82225e",
+                "sha1sum": "404cb2dac83c5492e15265d8b363d75b74672ebd",
+                "sha256sum": "644a8f3c65ce119a40d6d7c48eb50578504856be96cf16dabddc7a44a9ccb338"
+            },
+            {
+                "name": "MODEL1006230046.sedml",
+                "description": "This SED-ML can be used to reproduces the figure 2 of the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "24181",
+                "mimeType": "application/xml",
+                "md5sum": "d4a3a6f7b212f2e97148e7374b561d55",
+                "sha1sum": "e3c1845fe7c5cbf8cf97b0774bd3b81841152c01",
+                "sha256sum": "8cdd18cd1f998421e5244176003499e0a7de0f0e16ba3856393f827358e22a86"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "48199",
+                "mimeType": "image/jpeg",
+                "md5sum": "86b2adc2a6cd9f5496ed2b604a27e99d",
+                "sha1sum": "8dd433cd3e9eb19c6d4817f5e1c244bf1c27a3cb",
+                "sha256sum": "1cfddcfda2bdf5d88bfd19caf04d6bde2f041fbfcd028ea4c74ef72eda6f0e6c"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "455",
+                "mimeType": "text/plain",
+                "md5sum": "22b3f5d5f95dc8fc43ed7621ed496d0a",
+                "sha1sum": "73590be75825f81796e17b4667541fc0a2d8d352",
+                "sha256sum": "5e3a3409fa9567301516187708976f7bca53ca41a237fbbcfbf6954f2915961e"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1909",
+                "mimeType": "application/xml",
+                "md5sum": "723380465ca588dfd244b64575bcbe11",
+                "sha1sum": "32dc1d7b8783145b45ff0706d8a89c8a85373759",
+                "sha256sum": "d2ed4c42b086bd4859706a78c6f5e42477e6ea2076b90cf014b3addecf4bb6a2"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4956",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "86495d99d75548f60c212c79e9a3a01e",
+                "sha1sum": "a9d5734d40adc8f5eb1f7bd820126905d6288e52",
+                "sha256sum": "122c8d2309abe8eeb6eb8fda68e0951b2a7a4edd0a3c03dcf3bc351c46fb946c"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1277284331,
+                "submitter": "Camille Laibe",
+                "comment": "Original import of Webb2002_FasFasLsystem_Tumour"
+            },
+            {
+                "version": 2,
+                "submitted": 1277471574,
+                "submitter": "Camille Laibe",
+                "comment": "Current version of Webb2002_FasFasLsystem_Tumour"
+            },
+            {
+                "version": 3,
+                "submitted": 1516208254,
+                "submitter": "Rahuman S Malik-Sheriff",
+                "comment": "Model name updated using online editor."
+            },
+            {
+                "version": 4,
+                "submitted": 1724282207,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281801,
+    "submissionId": "MODEL1006230046",
+    "publicationId": "BIOMD0000000661",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Camille Laibe",
+                "email": "laibe@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-4625-743X",
+                "external": false
+            },
+            {
+                "name": "Rahuman S Malik-Sheriff",
+                "email": "sheriff@ebi.ac.uk",
+                "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0003-0705-9809",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1006230046",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1006230046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000661",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000661"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "12208611",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/12208611"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:1902044",
+            "name": "regulation of Fas signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:1902044"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "PW:0000106",
+            "name": "extrinsic apoptotic pathway",
+            "resource": "Pathway Ontology",
+            "uri": "http://identifiers.org/pw/PW:0000106"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        }
+    ]
+}

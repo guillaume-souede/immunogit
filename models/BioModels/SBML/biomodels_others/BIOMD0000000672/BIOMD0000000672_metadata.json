@@ -1,0 +1,304 @@
+{
+    "name": "Brown1997 - Plasma Melatonin Levels",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Brown1997 - Plasma Melatonin Levels</div><div class=\"dc:description\">A mathematical model that incorporatesa piecewise function for NAT activity to predict melatoninconcentration.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/9124558\" title=\"Access to this publication\">A mathematical model of    diurnal variations in human plasma melatonin levels.</a>  </div>  <div class=\"bibo:authorList\">Brown EN, Choe Y, Shanahan TL,  Czeisler CA.</div>  <div class=\"bibo:Journal\">Am. J. Physiol. 1997 Mar; 272(3 Pt 1):  E506-16</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Studies in animals and humans suggest that the diurnal    pattern in plasma melatonin levels is due to the hormone's    rates of synthesis, circulatory infusion and clearance,    circadian control of synthesis onset and offset, environmental    lighting conditions, and error in the melatonin immunoassay. A    two-dimensional linear differential equation model of the    hormone is formulated and is used to analyze plasma melatonin    levels in 18 normal healthy male subjects during a constant    routine. Recently developed Bayesian statistical procedures are    used to incorporate correctly the magnitude of the immunoassay    error into the analysis. The estimated parameters [median    (range)] were clearance half-life of 23.67 (14.79-59.93) min,    synthesis onset time of 2206 (1940-0029), synthesis offset time    of 0621 (0246-0817), and maximum N-acetyltransferase activity    of 7.17(2.34-17.93) pmol x l(-1) x min(-1). All were in good    agreement with values from previous reports. The difference    between synthesis offset time and the phase of the core    temperature minimum was 1 h 15 min (-4 h 38 min-2 h 43 min).    The correlation between synthesis onset and the dim light    melatonin onset was 0.93. Our model provides a more    physiologically plausible estimate of the melatonin synthesis    onset time than that given by the dim light melatonin onset and    the first reliable means of estimating the phase of synthesis    offset. Our analysis shows that the circadian and    pharmacokinetics parameters of melatonin can be reliably    estimated from a single model.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000672\">BIOMD0000000672</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "9124558",
+        "journal": "The American journal of physiology",
+        "title": "A mathematical model of diurnal variations in human plasma melatonin levels.",
+        "affiliation": "Department of Anesthesia and Critical Care, Massachusetts General Hospital, Harvard Medical School, Boston 02114, USA.",
+        "synopsis": "Studies in animals and humans suggest that the diurnal pattern in plasma melatonin levels is due to the hormone's rates of synthesis, circulatory infusion and clearance, circadian control of synthesis onset and offset, environmental lighting conditions, and error in the melatonin immunoassay. A two-dimensional linear differential equation model of the hormone is formulated and is used to analyze plasma melatonin levels in 18 normal healthy male subjects during a constant routine. Recently developed Bayesian statistical procedures are used to incorporate correctly the magnitude of the immunoassay error into the analysis. The estimated parameters [median (range)] were clearance half-life of 23.67 (14.79-59.93) min, synthesis onset time of 2206 (1940-0029), synthesis offset time of 0621 (0246-0817), and maximum N-acetyltransferase activity of 7.17(2.34-17.93) pmol x l(-1) x min(-1). All were in good agreement with values from previous reports. The difference between synthesis offset time and the phase of the core temperature minimum was 1 h 15 min (-4 h 38 min-2 h 43 min). The correlation between synthesis onset and the dim light melatonin onset was 0.93. Our model provides a more physiologically plausible estimate of the melatonin synthesis onset time than that given by the dim light melatonin onset and the first reliable means of estimating the phase of synthesis offset. Our analysis shows that the circadian and pharmacokinetics parameters of melatonin can be reliably estimated from a single model.",
+        "year": 1997,
+        "month": "3",
+        "volume": "272",
+        "issue": "3 Pt 1",
+        "pages": "E506-16",
+        "link": "http://identifiers.org/pubmed/9124558",
+        "authors": [
+            {
+                "name": "E N Brown",
+                "institution": "Department of Anesthesia and Critical Care, Massachusetts General Hospital, Harvard Medical School, Boston 02114, USA."
+            },
+            {
+                "name": "Y Choe"
+            },
+            {
+                "name": "T L Shanahan"
+            },
+            {
+                "name": "C A Czeisler"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000672_url.xml",
+                "description": "SBML L2V4 representation of Brown1997 - Plasma Melatonin Levels",
+                "fileSize": "35769",
+                "mimeType": "application/xml",
+                "md5sum": "bba6aea654a2260e279312515c6615ca",
+                "sha1sum": "07dc5063e047746bf3e3c36e617d806354687130",
+                "sha256sum": "3fefdcfec5ab171e36a0a935099d2d5c2600f5c00535e0d8ac15cc6949ab20d4"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000672-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "4418",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "53584152b338b88365eab83ef3ff7681",
+                "sha1sum": "9de4056298b57861c8b4b65b39f242913198d8b8",
+                "sha256sum": "352a01b3a6589e9a325965dd65f33f02b7e3072d050013cd15e5d004dd862c26"
+            },
+            {
+                "name": "BIOMD0000000672-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "4514",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d721801db91da18f32eed452bc25826c",
+                "sha1sum": "b8d6e8bd565af7c0538879019a98cce4e43a5772",
+                "sha256sum": "53b40cfb203c8c94fde1ef6e6b09b69494e35faada9326f05d82cd48f8c5cb13"
+            },
+            {
+                "name": "BIOMD0000000672-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "3633",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ef9e00623cc49ebd4ae2452944bfaab4",
+                "sha1sum": "d9a62cb82449163a9974d2e498f35fa4e7db427d",
+                "sha256sum": "df5b0713a119a204e57c51cf2587eac2a971452b01a50c22ff1bde99ec43003b"
+            },
+            {
+                "name": "BIOMD0000000672-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "3633",
+                "mimeType": "text/x-matlab",
+                "md5sum": "dcdad1274790c4fefc9512e07f812dc1",
+                "sha1sum": "62494ffc61beb982f5fc45fe2e207c9162709582",
+                "sha256sum": "f7b0534b89940b2904b2d5a4e98e2df008119bea38a36392fd653a7374f8ba9a"
+            },
+            {
+                "name": "BIOMD0000000672.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "3635",
+                "mimeType": "text/x-matlab",
+                "md5sum": "8edc8df6d3b6c9fd36bdb603a797b8f7",
+                "sha1sum": "8512e6c5bb79d041fdb14b9491b2c8c5d71c0b69",
+                "sha256sum": "e25d6236822ec949e16496673da2baf3f3cb4d783e8e6e70c3c2e0d001e08166"
+            },
+            {
+                "name": "BIOMD0000000672.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "138270",
+                "mimeType": "application/pdf",
+                "md5sum": "383e7eb5e9594efff677bd8bb25dbae9",
+                "sha1sum": "1b2a217154a519c57fd6851e487fb0f31cb8ff0a",
+                "sha256sum": "f15e2db0beee9d374632756227ccd9b4410732862e5aa2dc389e66c1a004a19e"
+            },
+            {
+                "name": "BIOMD0000000672.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "4370",
+                "mimeType": "image/png",
+                "md5sum": "51a02aeed2d9b25335f3564484b8bb20",
+                "sha1sum": "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+                "sha256sum": "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+            },
+            {
+                "name": "BIOMD0000000672.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "862",
+                "mimeType": "image/svg+xml",
+                "md5sum": "48b7bcfdf9b324fa2420125f14d79265",
+                "sha1sum": "6724e0820c4d158cf2cad34dc41073cd396751b7",
+                "sha256sum": "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+            },
+            {
+                "name": "MODEL1006230019.cps",
+                "description": "Curated and annotated COPASI file.",
+                "fileSize": "45186",
+                "mimeType": "application/xml",
+                "md5sum": "f0d5218af1e1eb2b8a7512988fa339a2",
+                "sha1sum": "982b438a769487a612688b6bdc0b8da55f235b7a",
+                "sha256sum": "965b2c6a127e876e439a1acf20e279dd79bcf4fb67de4d8ba65593d8e2cfc1ed"
+            },
+            {
+                "name": "MODEL1006230019.sedml",
+                "description": "SED-ML file to produce a simulation similar to simulations in figure 3 of the reference publication, using mean parameter values of parameter estimates for fitting data from 18 subjects. (additionally CRBM-validated and adjusted).",
+                "fileSize": "9988",
+                "mimeType": "application/xml",
+                "md5sum": "ebca974e3d98fd30c7cd042e2e5eba79",
+                "sha1sum": "b325f7aa1571c7b76de8afbabab233504f1b6bda",
+                "sha256sum": "80f4ad84b5a78fa1b6ba4b2a13f00d68969eb2d8b3d4407bb329511eacf24009"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "12546",
+                "mimeType": "image/png",
+                "md5sum": "fd13a043a2bdd061fef9623f6064085e",
+                "sha1sum": "d2a01653139e7ed9b9f9c20a18cde25d48aa380c",
+                "sha256sum": "a9fe98cefdfab7240b005919f48d29ada954b1217647eb98eab3ce1fc6585c45"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "249",
+                "mimeType": "text/plain",
+                "md5sum": "45d8df47d7394b92364bc733caf8bf0b",
+                "sha1sum": "b5f1067482b89937e7df537201905f6d6dab407a",
+                "sha256sum": "ca35c3d0c118a6c0ab10edcb4540db835c0c4d4abbeec499c466744e22564f5d"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1796",
+                "mimeType": "application/xml",
+                "md5sum": "f5ff43f940436fc623394cdb12c60ea9",
+                "sha1sum": "ea9fa398967ed1551b98c5c6a162aef96ea585dd",
+                "sha256sum": "6325a8666940d710b8df6a38d8841ceb5c740b62704a8d101281347874c6b6e2"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5413",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e5e22df2e1bab23b30fd35e4ae7c2ba9",
+                "sha1sum": "87b34cb2c56b11259555d59407cec6765eb6a7b3",
+                "sha256sum": "70800246dbb10b19349c1c6aad5866bc5ac1d43f40b4c73e0602635705be77fd"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1277284318,
+                "submitter": "Camille Laibe",
+                "comment": "Original import of Brown1997_PlasmaMelatoninLevels"
+            },
+            {
+                "version": 2,
+                "submitted": 1277468964,
+                "submitter": "Camille Laibe",
+                "comment": "Current version of Brown1997_PlasmaMelatoninLevels"
+            },
+            {
+                "version": 3,
+                "submitted": 1518601534,
+                "submitter": "administrator",
+                "comment": "Current curated version of Brown1997_PlasmaMelatoninLevels"
+            },
+            {
+                "version": 4,
+                "submitted": 1724282534,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281804,
+    "submissionId": "MODEL1006230019",
+    "publicationId": "BIOMD0000000672",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            },
+            {
+                "name": "Camille Laibe",
+                "email": "laibe@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-4625-743X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aab",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1006230019",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1006230019"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000672",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000672"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "9124558",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:9124558"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "C2267",
+            "name": "Melatonin",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C2267"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "CHEBI:16796",
+            "name": "melatonin",
+            "resource": "ChEBI",
+            "uri": "http://identifiers.org/chebi/CHEBI:16796"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0030186",
+            "name": "melatonin metabolic process",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0030186"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "9124558",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/9124558"
+        }
+    ]
+}

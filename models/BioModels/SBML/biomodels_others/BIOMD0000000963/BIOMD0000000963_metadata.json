@@ -1,0 +1,307 @@
+{
+    "name": "Weitz2020 - SIR model of COVID-19 transmission with shielding",
+    "description": "The COVID-19 pandemic has precipitated a global crisis, with more than 1,430,000 confirmed cases and more than 85,000 confirmed deaths globally as of 9 April 2020. Mitigation and suppression of new infections have emerged as the two predominant public health control strategies. Both strategies focus on reducing new infections by limiting human-to-human interactions, which could be both socially and economically unsustainable in the long term. We have developed and analyzed an epidemiological intervention model that leverages serological tests to identify and deploy recovered individuals as focal points for sustaining safer interactions via interaction substitution, developing what we term ‘shield immunity’ at the population scale. The objective of a shield immunity strategy is to help to sustain the interactions necessary for the functioning of essential goods and services while reducing the probability of transmission. Our shield immunity approach could substantively reduce the length and reduce the overall burden of the current outbreak, and can work synergistically with social distancing. The present model highlights the value of serological testing as part of intervention strategies, in addition to its well-recognized roles in estimating prevalence and in the potential development of plasma-based therapies.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32382154",
+        "journal": "Nature medicine",
+        "title": "Modeling shield immunity to reduce COVID-19 epidemic spread.",
+        "affiliation": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA. jsweitz@gatech.edu.",
+        "synopsis": "The COVID-19 pandemic has precipitated a global crisis, with more than 1,430,000 confirmed cases and more than 85,000 confirmed deaths globally as of 9 April 2020<sup>1-4</sup>. Mitigation and suppression of new infections have emerged as the two predominant public health control strategies<sup>5</sup>. Both strategies focus on reducing new infections by limiting human-to-human interactions, which could be both socially and economically unsustainable in the long term. We have developed and analyzed an epidemiological intervention model that leverages serological tests<sup>6,7</sup> to identify and deploy recovered individuals<sup>8</sup> as focal points for sustaining safer interactions via interaction substitution, developing what we term 'shield immunity' at the population scale. The objective of a shield immunity strategy is to help to sustain the interactions necessary for the functioning of essential goods and services<sup>9</sup> while reducing the probability of transmission. Our shield immunity approach could substantively reduce the length and reduce the overall burden of the current outbreak, and can work synergistically with social distancing. The present model highlights the value of serological testing as part of intervention strategies, in addition to its well-recognized roles in estimating prevalence<sup>10,11</sup> and in the potential development of plasma-based therapies<sup>12-15</sup>.",
+        "year": 2020,
+        "month": "6",
+        "volume": "26",
+        "issue": "6",
+        "pages": "849-854",
+        "link": "http://identifiers.org/pubmed/32382154",
+        "authors": [
+            {
+                "name": "Joshua S Weitz",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA. jsweitz@gatech.edu.School of Physics, Georgia Institute of Technology, Atlanta, GA, USA. jsweitz@gatech.edu.Center for Microbial Dynamics and Infection, Georgia Institute of Technology, Atlanta, GA, USA. jsweitz@gatech.edu.",
+                "orcid": "0000-0002-3433-8312"
+            },
+            {
+                "name": "Stephen J Beckett",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.",
+                "orcid": "0000-0002-4410-2960"
+            },
+            {
+                "name": "Ashley R Coenen",
+                "institution": "School of Physics, Georgia Institute of Technology, Atlanta, GA, USA."
+            },
+            {
+                "name": "David Demory",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA."
+            },
+            {
+                "name": "Marian Dominguez-Mirazo",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.Interdisciplinary Graduate Program in Quantitative Biosciences, Georgia Institute of Technology, Atlanta, GA, USA.",
+                "orcid": "0000-0001-8653-3091"
+            },
+            {
+                "name": "Jonathan Dushoff",
+                "institution": "Department of Biology, McMaster University, Hamilton, Ontario, Canada.DeGroote Institute for Infectious Disease Research, McMaster University, Hamilton, Ontario, Canada.",
+                "orcid": "0000-0003-0506-4794"
+            },
+            {
+                "name": "Chung-Yin Leung",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.School of Physics, Georgia Institute of Technology, Atlanta, GA, USA.",
+                "orcid": "0000-0003-0319-4974"
+            },
+            {
+                "name": "Guanlin Li",
+                "institution": "School of Physics, Georgia Institute of Technology, Atlanta, GA, USA.Interdisciplinary Graduate Program in Quantitative Biosciences, Georgia Institute of Technology, Atlanta, GA, USA."
+            },
+            {
+                "name": "Andreea Măgălie",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.Interdisciplinary Graduate Program in Quantitative Biosciences, Georgia Institute of Technology, Atlanta, GA, USA."
+            },
+            {
+                "name": "Sang Woo Park",
+                "institution": "Department of Ecology and Evolutionary Biology, Princeton University, Princeton, NJ, USA."
+            },
+            {
+                "name": "Rogelio Rodriguez-Gonzalez",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.Interdisciplinary Graduate Program in Quantitative Biosciences, Georgia Institute of Technology, Atlanta, GA, USA.",
+                "orcid": "0000-0002-5460-4999"
+            },
+            {
+                "name": "Shashwat Shivam",
+                "institution": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA."
+            },
+            {
+                "name": "Conan Y Zhao",
+                "institution": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, USA.Interdisciplinary Graduate Program in Quantitative Biosciences, Georgia Institute of Technology, Atlanta, GA, USA.",
+                "orcid": "0000-0001-5714-2286"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Weitz2020.xml",
+                "description": "SBML L2V4 file of SIR model of COVID-19 transmission with shielding",
+                "fileSize": "25487",
+                "mimeType": "application/xml",
+                "md5sum": "b0ccad5f0189b17a01a22c0157915a0d",
+                "sha1sum": "7d7d21c8e25a57b18ce76a8a4e92a7c605a6493c",
+                "sha256sum": "f2c60c02167aa3e0d4b4ff51f1112427d7f9a177d1e60dfcfbb34826e6934eca"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Weitz2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "8050",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7c608e93d42b6eb9f884300d9542bce2",
+                "sha1sum": "4ad8099991803166aeba4f62edf20155d93f324a",
+                "sha256sum": "039e4c9b69229a77d3982bcee155bf0eafa12a0aceb28680c2f71c7230f33c44"
+            },
+            {
+                "name": "Weitz2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "10374",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1ab6172224def3a35c2ff40d8c158d1a",
+                "sha1sum": "373281d82aa81115c6b986aa34419cd6baf78b3e",
+                "sha256sum": "6c8198a80b5bd0a4f7f213663b26be68dc90940fb4a5f4514061563dccd24712"
+            },
+            {
+                "name": "Weitz2020-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "3885",
+                "mimeType": "text/x-matlab",
+                "md5sum": "20226ae79e0115b9f041e641e12c546b",
+                "sha1sum": "3917bec6517bb8cad7fce1eed9e102a5842f12b0",
+                "sha256sum": "e97b48c8c0c7df92157a56c00aaae7d43383780c208f8635a9b4073bcdf0e780"
+            },
+            {
+                "name": "Weitz2020-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "3885",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0db52c56fec08da3484272bfb5ece8bd",
+                "sha1sum": "02215d3f394012c8209372cd5802a1d6b85ad7be",
+                "sha256sum": "3cb93732f54781358ccb747095a634550012efa51af683b775e1fb6a387ab491"
+            },
+            {
+                "name": "Weitz2020.cps",
+                "description": "COPASI 4.29 (Build 228) file of SIR model of COVID-19 transmission with shielding",
+                "fileSize": "51630",
+                "mimeType": "application/xml",
+                "md5sum": "d55c29ee546f109eeed0ce35dbff1391",
+                "sha1sum": "7df702997a904910eacc5f4dcdbf36001b820265",
+                "sha256sum": "2bb08576205cc33e3ce4bd7b40d84995897e120d0e5cf4d4cd4ea2e3cce68bf4"
+            },
+            {
+                "name": "Weitz2020.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2066",
+                "mimeType": "text/plain",
+                "md5sum": "db1123fdf3b59dce5be857cb626fd0cb",
+                "sha1sum": "97f5a08446f9340f969a3357c23317ee4b39b9ac",
+                "sha256sum": "d35ac84725de39320318859024b114ed98cf055c5e5002902071a85e06cdfb55"
+            },
+            {
+                "name": "Weitz2020.sedml",
+                "description": "SED-ML file of SIR model of COVID-19 transmission with shielding (additionally CRBM-validated and adjusted).",
+                "fileSize": "9622",
+                "mimeType": "application/xml",
+                "md5sum": "b19d9a7b03d08dd43ce33260a7bc0b3d",
+                "sha1sum": "ccb37b2452df630cb9b918098244114a18b5a226",
+                "sha256sum": "8a3437ae6fe4bd9b0fbfbb11d315020c670a892c9d897fcc8af88cd6706df8c8"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "46724",
+                "mimeType": "image/png",
+                "md5sum": "50e5adfd708645f7e0703473634a133d",
+                "sha1sum": "2f15a505364fb9919251dce4c23d430f7da6b4b9",
+                "sha256sum": "2b4ee261206ac31c2c6d817eb242abeb43389cbd76e24cd0e24bdec24e106f2a"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "246",
+                "mimeType": "text/plain",
+                "md5sum": "795122e86ead288f65614d2f1aef7419",
+                "sha1sum": "664999840b66225af58e3e40ef9ddc6167db4cb1",
+                "sha256sum": "9984e7b96831cf7dc1edce3689160cf21c6aa959a215d756acd1f53e275fcb72"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1403",
+                "mimeType": "application/xml",
+                "md5sum": "4f99ef551e23787c91f5538910e9116e",
+                "sha1sum": "dce81fcfe915bb82b31ea521551456b52db6c8c7",
+                "sha256sum": "0ed549c9ef312588336de879b592babec19398ddf8f9d98289af9c9003979540"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3110",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "24109027fa3f240a55a3fdee16a360c3",
+                "sha1sum": "0bfbc5329c201cffed55c8629be86cb1573491c1",
+                "sha256sum": "04259284fd48665d5b23254516031966037b13019235d2da69c2a55e1d476f13"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1600345932,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000963"
+            },
+            {
+                "version": 6,
+                "submitted": 1601936627,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000963"
+            },
+            {
+                "version": 7,
+                "submitted": 1724290460,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281947,
+    "submissionId": "MODEL2009160002",
+    "publicationId": "BIOMD0000000963",
+    "modellingApproach": {
+        "accession": "MAMO_0000028",
+        "name": "population model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "COVID-19"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "2697049",
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/2697049"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000028",
+            "name": "population model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000028"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "DOID:0080600",
+            "name": "COVID-19",
+            "resource": "\nHuman Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0080600"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "0000503",
+            "resource": "Infectious Disease Ontology",
+            "uri": "http://identifiers.org/ido/0000503"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "32382154",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/32382154"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2009160002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2009160002"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000963",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000963"
+        }
+    ]
+}

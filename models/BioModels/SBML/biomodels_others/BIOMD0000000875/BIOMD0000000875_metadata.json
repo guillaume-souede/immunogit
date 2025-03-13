@@ -1,0 +1,366 @@
+{
+    "name": "Nelson2000- HIV-1 general model 1",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the general model without delay described by the equation system (1) in:      <b>A model of HIV-1 pathogenesis that includes an intracellular delay.</b>        <br />          Nelson PW, Murray JD, Perelson AS;      <em>Math Biosci.</em>          2000 Feb;163(2):201-15. PMID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10701304\">10701304</a>          ; doi:      <a href=\"http://dx.doi.org/10.1016/S0025-5564(99)00055-3\">10.1016/S0025-5564(99)00055-3</a>        <br />        <b>Abstract:</b>        <br />          Mathematical modeling combined with experimental measurements have yielded important insights into HIV-1 pathogenesis. For example, data from experiments in which HIV-infected patients are given potent antiretroviral drugs that perturb the infection process have been used to estimate kinetic parameters underlying HIV infection. Many of the models used to analyze data have assumed drug treatments to be completely efficacious and that upon infection a cell instantly begins producing virus. We consider a model that allows for less then perfect drug effects and which includes a delay in the initiation of virus production. We present detailed analysis of this delay differential equation model and compare the results to a model without delay. Our analysis shows that when drug efficacy is less than 100%, as may be the case in vivo, the predicted rate of decline in plasma virus concentration depends on three factors: the death rate of virus producing cells, the efficacy of therapy, and the length of the delay. Thus, previous estimates of infected cell loss rates can be improved upon by considering more realistic models of viral infection.      <br />        <b>Author Keywords:</b>          HIV; Delay; Viral life cycle; T-cells      </p>        <p>As there are no results given for this model in the article it cannot be checked for MIRIAM compliance. The SBML file should be equivalent to the described ODE file though.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "10701304",
+        "journal": "Mathematical biosciences",
+        "title": "A model of HIV-1 pathogenesis that includes an intracellular delay.",
+        "affiliation": "Department of Mathematics, Duke University, Durham, NC 27708, USA.",
+        "synopsis": "Mathematical modeling combined with experimental measurements have yielded important insights into HIV-1 pathogenesis. For example, data from experiments in which HIV-infected patients are given potent antiretroviral drugs that perturb the infection process have been used to estimate kinetic parameters underlying HIV infection. Many of the models used to analyze data have assumed drug treatments to be completely efficacious and that upon infection a cell instantly begins producing virus. We consider a model that allows for less then perfect drug effects and which includes a delay in the initiation of virus production. We present detailed analysis of this delay differential equation model and compare the results to a model without delay. Our analysis shows that when drug efficacy is less than 100%, as may be the case in vivo, the predicted rate of decline in plasma virus concentration depends on three factors: the death rate of virus producing cells, the efficacy of therapy, and the length of the delay. Thus, previous estimates of infected cell loss rates can be improved upon by considering more realistic models of viral infection.",
+        "year": 2000,
+        "month": "2",
+        "volume": "163",
+        "issue": "2",
+        "pages": "201-215",
+        "link": "http://identifiers.org/pubmed/10701304",
+        "authors": [
+            {
+                "name": "P W Nelson",
+                "institution": "Department of Mathematics, Duke University, Durham, NC 27708, USA."
+            },
+            {
+                "name": "J D Murray"
+            },
+            {
+                "name": "A S Perelson"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Nelson2000.xml",
+                "description": "SBML L2V4 representation of Nelson2000 HIV-1_general_model",
+                "fileSize": "27992",
+                "mimeType": "application/xml",
+                "md5sum": "23f77c3b3e8535cc5615c003cd0fb7d6",
+                "sha1sum": "38bc6db32c5c2a3708a0be0ecef049fdd6f31c48",
+                "sha256sum": "f7554c9bc3919784b7e979f5d3a739576c054c155ddce8d61baaf0563d74ad82"
+            }
+        ],
+        "additional": [
+            {
+                "name": "MODEL8268650277-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "8384",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0b3d8f1ee77798e624190720f6b8d864",
+                "sha1sum": "aa799539f0da28e7584346d6e1159656bcfd7825",
+                "sha256sum": "2cd2e8265afa3a09b367df414c59ef544a62695990d86ed563282db87f2bb6ed"
+            },
+            {
+                "name": "MODEL8268650277-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "12946",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d52738db9241ffae99990fa010c3aba8",
+                "sha1sum": "0039d6d2afe02d5203d1daa20091eb2178448353",
+                "sha256sum": "4aea0d185f496237f7264c5d394dcc011afbe74ce2a77fbc3686576e4efe4431"
+            },
+            {
+                "name": "MODEL8268650277-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4588",
+                "mimeType": "text/x-matlab",
+                "md5sum": "f09ccd40648e9e814b39ac1696191e04",
+                "sha1sum": "73754504e0565b884e5805f11b0c4034b544bb84",
+                "sha256sum": "4ba2bdb107d48d46efc696fdec3e0287b55cb4bbbd255c1c1bf27988374d5304"
+            },
+            {
+                "name": "MODEL8268650277-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4588",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0b3befd7b4748412ca0910c38ee52955",
+                "sha1sum": "af2c60e107f366b0591eb8114d2d9f9278d4ca65",
+                "sha256sum": "a667412408234346128c137a7668116dd0e19fa021dc8e095f9e3b3939f7f8f1"
+            },
+            {
+                "name": "MODEL8268650277.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "3818",
+                "mimeType": "text/x-matlab",
+                "md5sum": "f152a42b561e56a009fe7904952abba1",
+                "sha1sum": "11d671b239fb293203235eb63c508ba09ef6bc8f",
+                "sha256sum": "3fef79f5b5bc6b3afbb666bd65a62a8eb0f1dd9b83980a8293f6fc5fb4be4e82"
+            },
+            {
+                "name": "MODEL8268650277.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2608",
+                "mimeType": "text/plain",
+                "md5sum": "555293a0daa5f7dff89138c0e3e5136b",
+                "sha1sum": "a3e7836490d8edac9f7dbd2161218ce6edf64ff4",
+                "sha256sum": "b446db6cf153bfa72ad2d4cc1533ce26bd9c7597489ba8af8c2f71cc14d17de2"
+            },
+            {
+                "name": "MODEL8268650277.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "166262",
+                "mimeType": "application/pdf",
+                "md5sum": "8da45c1befaa07d89be365a31d608559",
+                "sha1sum": "7b5143fc2f3b78803ad0638a8dd18a7003c708f0",
+                "sha256sum": "34ed2f6e9d05af30c326bea36f96dc73e3e1a0dae37d1400ba1cf770f22a08c9"
+            },
+            {
+                "name": "MODEL8268650277.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "31686",
+                "mimeType": "image/png",
+                "md5sum": "cc49b37e38a974faffea8763490cc057",
+                "sha1sum": "7ea254deb3b72274a8ecdbb02e97df89fde616e5",
+                "sha256sum": "11ae70e20087579ac24bd9671ef3276be858b4ca13127b8ff9f670577d21aa42"
+            },
+            {
+                "name": "MODEL8268650277.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "16034",
+                "mimeType": "image/svg+xml",
+                "md5sum": "4618182c2177cfe10699b34872da4b05",
+                "sha1sum": "6f5e41a9bfec1f9e6e0a9da4ffd3c488d5a294ac",
+                "sha256sum": "65b6e643d4bc204e6b077718d4b3ce038a997ee653f26477dd4278775e35877e"
+            },
+            {
+                "name": "MODEL8268650277.vcml",
+                "description": "Auto-generated VCML file",
+                "fileSize": "19904",
+                "mimeType": "application/xml",
+                "md5sum": "bf685f365a4600b62b6815214cdce99f",
+                "sha1sum": "1e4fef810b9ac8084c8e9b463c15811773c247cf",
+                "sha256sum": "b685407ee0a69b8c97093a6d652523cc4c0f7ae3290978fb642c2622901ad901"
+            },
+            {
+                "name": "MODEL8268650277_url.xml",
+                "description": "old xml file",
+                "fileSize": "13857",
+                "mimeType": "application/xml",
+                "md5sum": "1763da2299709335e46129d5189b2af1",
+                "sha1sum": "abe0f612c6312baf7394f0c6920ba9bba2ce37c0",
+                "sha256sum": "71e948947c26fe9acc9cdb4c02cd1f8765adad85572a4b0166e6c3a804d995ca"
+            },
+            {
+                "name": "Nelson2000-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10180",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "5c53b1e667b9b716620caf088b8d9381",
+                "sha1sum": "13b2313f5d76c93fe63589ec1dcb0e06bb925e63",
+                "sha256sum": "8bf6e2c999bccbfe413daf265321c4ae2c294b399a2fb0cdcbb9543808fa06d3"
+            },
+            {
+                "name": "Nelson2000-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14755",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "518bbd513f06a7c47391edfe51622e3f",
+                "sha1sum": "01d30b2ecc09b7c2d65d8b9c304c2d7d2da03b84",
+                "sha256sum": "0628e8c5d8cb1618f16f000d395bb7b310c09de6f638802ab3bef046bda4a233"
+            },
+            {
+                "name": "Nelson2000-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5151",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ef36f19d6b6e0d28d589a0bb2f3ea113",
+                "sha1sum": "eba4f7c9698520f5e2a74b4f0afc9ace071cf248",
+                "sha256sum": "480cc56d838d00b39d6060b2f7e19dd79ae7cfb1cb1ef68be78c9bd4bffa29be"
+            },
+            {
+                "name": "Nelson2000-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5151",
+                "mimeType": "text/x-matlab",
+                "md5sum": "dc657c4602d337e6c51c860e5bd3c199",
+                "sha1sum": "bfc1c672863568d1866fc55fe9d8b81142f5e6c1",
+                "sha256sum": "bc1db5db0da82f2a08a5a599318f06c19b97b45a531124d9ec4232c10f76b560"
+            },
+            {
+                "name": "Nelson2000.cps",
+                "description": "COPASI version 4.24 (Build 197) representation of Nelson2000 HIV-1_general_model",
+                "fileSize": "61874",
+                "mimeType": "application/xml",
+                "md5sum": "837fbf7050f217cf3358dd86881ad5aa",
+                "sha1sum": "f60fdc73a13cc5a32e6fb977280256e585e0b124",
+                "sha256sum": "170e70afaeee20f071d7005c03d374be0ed83de9ea70b241186063ec79edf592"
+            },
+            {
+                "name": "Nelson2000.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3521",
+                "mimeType": "text/plain",
+                "md5sum": "d5fbf41297b044d2fea87b28eadb65be",
+                "sha1sum": "ff5323f8865c1039484638d646f50104a8f0a00c",
+                "sha256sum": "8c0ab91ac9917da9b1f8f5612f75e89cdb706e5780e738581f1e0164834858ae"
+            },
+            {
+                "name": "Nelson2000.sedml",
+                "description": "SEDML L1V2 representation of Nelson2000 HIV-1_general_model (additionally CRBM-validated and adjusted).",
+                "fileSize": "13801",
+                "mimeType": "application/xml",
+                "md5sum": "d51867f1defbb7a933e7630e7217461c",
+                "sha1sum": "2ed4a769b4ab6d5cfe1eeec60de29329aba7d7fc",
+                "sha256sum": "8198937f1640316e43ebca135de62425390d907768a6f769ea0ecad5427915d8"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "246084",
+                "mimeType": "image/png",
+                "md5sum": "a345e68a80bb7b67727b3fd0b05fdd60",
+                "sha1sum": "6e933fcf9538013b1da94f372fd266462e5f3296",
+                "sha256sum": "f527c8a874d6e52646da4eb8bd60b732cad8b10ff16a9d58baa5c7a1aacfd5cc"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "339",
+                "mimeType": "text/plain",
+                "md5sum": "7453ef84e5d0b0272120830611797cc1",
+                "sha1sum": "873d2a63e0405a9e3be874a94d1dddc7cc993e3c",
+                "sha256sum": "d7b81c048edc7beda932f2d938b42a84ed71eda47cdd49c4f068d1798f3417f6"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2714",
+                "mimeType": "application/xml",
+                "md5sum": "61a3617c39f4da9e15366ddf3c7e414c",
+                "sha1sum": "76462a795a518947b6519b80d5b96294b0d9ce46",
+                "sha256sum": "8c7a81a323b515c13b35c2f02ef4436633634538d602784cd9c501622cf4d23c"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5079",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2dd31a8b51c04e291280db96f189f4a4",
+                "sha1sum": "b4c113293fab651cee9f3a6680318ee8ef7a18d3",
+                "sha256sum": "735fda8d67e6e99008953da0a263e2cbcf1edba63bef65cf747ec55885e4fb27"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1248272254,
+                "submitter": "Lukas Endler",
+                "comment": "Original import of Nelson 2000 HIV-1 general model"
+            },
+            {
+                "version": 2,
+                "submitted": 1253721135,
+                "submitter": "Lukas Endler",
+                "comment": "Current version of Nelson2000_HIV-1_general_model"
+            },
+            {
+                "version": 5,
+                "submitted": 1574775582,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000875"
+            },
+            {
+                "version": 6,
+                "submitted": 1724288265,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281918,
+    "submissionId": "MODEL8268650277",
+    "publicationId": "BIOMD0000000875",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            },
+            {
+                "name": "Lukas Endler",
+                "email": "lukas@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aab",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0042493",
+            "name": "response to drug",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0042493"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10701304",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/10701304"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL8268650277",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL8268650277"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000875",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000875"
+        },
+        {
+            "qualifier": "bqbiol:is",
+            "accession": "MODEL8268650277",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL8268650277"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "DOID:526",
+            "name": "human immunodeficiency virus infectious disease",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:526"
+        }
+    ]
+}

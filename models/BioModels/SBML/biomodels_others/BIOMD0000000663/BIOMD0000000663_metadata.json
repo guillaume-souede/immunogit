@@ -1,0 +1,308 @@
+{
+    "name": "Wodarz2007 - HIV/CD4 T-cell interaction",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Wodarz2007 - HIV/CD4 T-cell interaction</div>        <div class=\"dc:description\">A deterministic model illustrating howCD4 T-cells can influence HIV infection.<br /></div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/17379260\" title=\"Access to this publication\">Infection dynamics in    HIV-specific CD4 T cells: does a CD4 T cell boost benefit the    host or the virus?</a>          </div>          <div class=\"bibo:authorList\">Wodarz D, Hamer DH.</div>          <div class=\"bibo:Journal\">Math Biosci 2007 Sep; 209(1):  14-29</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>Recent experimental data have shown that HIV-specific CD4 T    cells provide a very important target for HIV replication. We    use mathematical models to explore the effect of specific CD4 T    cell infection on the dynamics of virus spread and immune    responses. Infected CD4 T cells can provide antigen for their    own stimulation. We show that such autocatalytic cell division    can significantly enhance virus spread, and can also provide an    additional reservoir for virus persistence during anti-viral    drug therapy. In addition, the initial number of HIV-specific    CD4 T cells is an important determinant of acute infection    dynamics. A high initial number of HIV-specific CD4 T cells can    lead to a sudden and fast drop of the population of    HIV-specific CD4 T cells which results quickly in their    extinction. On the other hand, a low initial number of    HIV-specific CD4 T cells can lead to a prolonged persistence of    HIV-specific CD4 T cell help at higher levels. The model    suggests that boosting the population of HIV-specific CD4 T    cells can increase the amount of virus-induced immune    impairment, lead to less efficient anti-viral effector    responses, and thus speed up disease progression, especially if    effector responses such as CTL have not been sufficiently    boosted at the same time.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000663\">BIOMD0000000663</a>.</p>          <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p>        </div>        <div class=\"dc:license\">          <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>        </div>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "17379260",
+        "journal": "Mathematical biosciences",
+        "title": "Infection dynamics in HIV-specific CD4 T cells: does a CD4 T cell boost benefit the host or the virus?",
+        "affiliation": "Department of Ecology and Evolutionary Biology, 321 Steinhaus Hall, University of California, Irvine, CA 92697, USA. dwodarz@uci.edu",
+        "synopsis": "Recent experimental data have shown that HIV-specific CD4 T cells provide a very important target for HIV replication. We use mathematical models to explore the effect of specific CD4 T cell infection on the dynamics of virus spread and immune responses. Infected CD4 T cells can provide antigen for their own stimulation. We show that such autocatalytic cell division can significantly enhance virus spread, and can also provide an additional reservoir for virus persistence during anti-viral drug therapy. In addition, the initial number of HIV-specific CD4 T cells is an important determinant of acute infection dynamics. A high initial number of HIV-specific CD4 T cells can lead to a sudden and fast drop of the population of HIV-specific CD4 T cells which results quickly in their extinction. On the other hand, a low initial number of HIV-specific CD4 T cells can lead to a prolonged persistence of HIV-specific CD4 T cell help at higher levels. The model suggests that boosting the population of HIV-specific CD4 T cells can increase the amount of virus-induced immune impairment, lead to less efficient anti-viral effector responses, and thus speed up disease progression, especially if effector responses such as CTL have not been sufficiently boosted at the same time.",
+        "year": 2007,
+        "month": "9",
+        "volume": "209",
+        "issue": "1",
+        "pages": "14-29",
+        "link": "http://identifiers.org/pubmed/17379260",
+        "authors": [
+            {
+                "name": "Dominik Wodarz",
+                "institution": "Department of Ecology and Evolutionary Biology, 321 Steinhaus Hall, University of California, Irvine, CA 92697, USA. dwodarz@uci.edu"
+            },
+            {
+                "name": "Dean H Hamer"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000663_url.xml",
+                "description": "SBML L2V4 representation of Wodarz2007 - HIV/CD4 T-cell interaction",
+                "fileSize": "44962",
+                "mimeType": "application/xml",
+                "md5sum": "fd712f46dbcaafd2a94be4e062e51162",
+                "sha1sum": "1bd00d4efaa4279e96a4420d40578ef85ad9bb45",
+                "sha256sum": "e4738f53e1941d6d2bce0c37de6ce6493567ac39f6a0dfb0e9845e6c470b1ff0"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000663-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "13012",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7f6ba62b4351e0296bb835a50b9c74d3",
+                "sha1sum": "dca4d8184d6d7034e35565db3d32375f02de1403",
+                "sha256sum": "0490ef7426019aa4ba06ce8d4af8a7d02415c467a8e6ca017c4bd5136171ba4e"
+            },
+            {
+                "name": "BIOMD0000000663-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "18431",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1f6e397e170dddb347dc06b679167853",
+                "sha1sum": "ebd18f897d5cfe98f1366ddd604ea763c2aa34d7",
+                "sha256sum": "ad1cdde35395418accb57479ad7d1d695f5e74eb65e715ad6ad772733e32f0ef"
+            },
+            {
+                "name": "BIOMD0000000663-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5169",
+                "mimeType": "text/x-matlab",
+                "md5sum": "d7367d83ad04049cacfbcd70cfc43f2f",
+                "sha1sum": "b708f0170f765c72ca607cbb39cba8569af418ff",
+                "sha256sum": "e215db69d103f98beaa525f82fb0d3eaf72aa74b30de912bc8170689022ffe82"
+            },
+            {
+                "name": "BIOMD0000000663-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5169",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7f3ba09b2b7745ace35b3f3ad5cd7af8",
+                "sha1sum": "777292dd77a9177f91193646ccec48b1e629bfdc",
+                "sha256sum": "857ce69c139500e3b17daf445a457b5c00baa000d9a2c280474f3bad1da4f9d8"
+            },
+            {
+                "name": "BIOMD0000000663.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "5169",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7f3ba09b2b7745ace35b3f3ad5cd7af8",
+                "sha1sum": "777292dd77a9177f91193646ccec48b1e629bfdc",
+                "sha256sum": "857ce69c139500e3b17daf445a457b5c00baa000d9a2c280474f3bad1da4f9d8"
+            },
+            {
+                "name": "BIOMD0000000663.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3302",
+                "mimeType": "text/plain",
+                "md5sum": "0ed63aaa6227b63642a643da0dfbfb2a",
+                "sha1sum": "3fb7b278ec6d3624e846126f800039b5631c6b67",
+                "sha256sum": "88db12b144f44f0522517817ce1f62258acc5ca0f4d8b88690c1c1a48c874836"
+            },
+            {
+                "name": "BIOMD0000000663.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "155765",
+                "mimeType": "application/pdf",
+                "md5sum": "5664d4f604438d022e441b155e6edfe2",
+                "sha1sum": "c9eb2e902fa11104299c0e3ac39a3a3d2ff65745",
+                "sha256sum": "952ec1bf6a5361f0e0deeffd08c81023cf747dc638899b8875881ff727e56720"
+            },
+            {
+                "name": "BIOMD0000000663.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "63179",
+                "mimeType": "image/png",
+                "md5sum": "9ebf67246c0e5447cbbb1eabb5653ebe",
+                "sha1sum": "a667355b188fde137cf6e0e5e37a2982a1bfdd36",
+                "sha256sum": "9f7b00d537a474d1d34f5bfdab0862bafefa6d15943bc5da53beb13d3625e99c"
+            },
+            {
+                "name": "BIOMD0000000663.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "19431",
+                "mimeType": "image/svg+xml",
+                "md5sum": "4c32d19b77e0e739de0b7ce8e6a80171",
+                "sha1sum": "79093d9a220b0755c8d0076544674bab3039332f",
+                "sha256sum": "3ea59f98f8c57f4b5455b29ac2620d0bee48fe4bb85c34972f1a7e21d3660964"
+            },
+            {
+                "name": "Wodarz2007_model_2.cps",
+                "description": "COPASI file for reference publication",
+                "fileSize": "68787",
+                "mimeType": "application/xml",
+                "md5sum": "3fe65ac88830a6c05815231e6889211d",
+                "sha1sum": "9231a9a2d8b1077bbaffaf48923c662e30384535",
+                "sha256sum": "8329942078ac1b6e42ba09652bb168b4e25dcc9c4858f19c69f0f56e7f635956"
+            },
+            {
+                "name": "Wodarz2007_model_2.sedml",
+                "description": "SED-ML file for reference publication for figure 1 (ii) (additionally CRBM-validated and adjusted).",
+                "fileSize": "12985",
+                "mimeType": "application/xml",
+                "md5sum": "415d22803a2214d67854010fceeaf822",
+                "sha1sum": "cae32c601234ec6a9071c0b9440b38c89ac2c7c3",
+                "sha256sum": "8ede7a3a271985d4a4582af50173001b390bf2f5afac3ee8a38d3719307f60d1"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "20307",
+                "mimeType": "image/jpeg",
+                "md5sum": "730037307cbcd314dd8b844ea0ab9bdc",
+                "sha1sum": "8f4026dc46572f78e62054c79e98d16908e509a3",
+                "sha256sum": "dfd3350e9b677168a30900594c829bb2ea4418773c0dac0eb4c8f7a74c72ecc4"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "374",
+                "mimeType": "text/plain",
+                "md5sum": "1856e2d30196d9f48bd00e0b4169a764",
+                "sha1sum": "735fcf14292eb79b2b92e1735d9151c765de77e5",
+                "sha256sum": "cef902210bbb4b1ee3dcea2dda6807329429c7f9b29c13897e03ab77fb2f20fa"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1915",
+                "mimeType": "application/xml",
+                "md5sum": "b3939c2452709fcf401873bb5a1c99ce",
+                "sha1sum": "9bfa460bbd158306e9e5fc8f4ef16b985981dde5",
+                "sha256sum": "ea656ac19f3f17aad401298f62efeda882e3f7ad2a459b15fdee387bd1819a0d"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4951",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f362f6b2a990d2547c5b31ff045ff72d",
+                "sha1sum": "7812015e82ab4978226ec1968ecca0f922e4cc61",
+                "sha256sum": "c2c4600b19cfe0aa3368fd7c1e705340e3cb710d43a2aa4d3bc02dc7cd59f700"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1259328268,
+                "submitter": "Vijayalakshmi Chelliah",
+                "comment": "Original import of Wodarz2007_CD4TcellsInfection_VirusSpread"
+            },
+            {
+                "version": 2,
+                "submitted": 1259328332,
+                "submitter": "Vijayalakshmi Chelliah",
+                "comment": "Current version of Wodarz2007_CD4TcellsInfection_VirusSpread"
+            },
+            {
+                "version": 3,
+                "submitted": 1516724803,
+                "submitter": "administrator",
+                "comment": "Curated and annotated model xml file"
+            },
+            {
+                "version": 4,
+                "submitted": 1724282266,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281802,
+    "submissionId": "MODEL0911270008",
+    "publicationId": "BIOMD0000000663",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            },
+            {
+                "name": "Vijayalakshmi Chelliah",
+                "email": "viji@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-2618-283X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL0911270008",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL0911270008"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000663",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000663"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "17379260",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/17379260"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "0000764",
+            "name": "HIV infection",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0000764"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0046718",
+            "name": "viral entry into host cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0046718"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0000782",
+            "name": "T-lymphocyte",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0000782"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "11676",
+            "name": "Human immunodeficiency virus 1",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/11676"
+        }
+    ]
+}

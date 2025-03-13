@@ -1,0 +1,242 @@
+{
+    "name": "Schropp2019 - Target-Mediated Drug Disposition Model for Bispecific Antibodies",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This model presents a general target-mediated drug disposition (TMDD) model for bispecific antibodies (BsAbs), which bind to two different targets on different cell membranes. The model includes four different binding events for BsAbs, turnover of the targets, and internalization of the complexes. In addition, a quasi-equilibrium (QE) approximation with decreased number of binding parameters is also present.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30480383",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "title": "Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, Approximation, and Optimal Dosing Strategy.",
+        "affiliation": "Department of Mathematics and Statistics, University of Konstanz, Konstanz, Germany.",
+        "synopsis": "Bispecific antibodies (BsAbs) bind to two different targets, and create two binary and one ternary complex (TC). These molecules have shown promise as immuno-oncology drugs, and the TC is considered the pharmacologically active species that drives their pharmacodynamic effect. Here, we have presented a general target-mediated drug disposition (TMDD) model for these BsAbs, which bind to two different targets on different cell membranes. The model includes four different binding events for BsAbs, turnover of the targets, and internalization of the complexes. In addition, a quasi-equilibrium (QE) approximation with decreased number of binding parameters and, if necessary, reduced internalization parameters is presented. The model is further used to investigate the kinetics of BsAb and TC concentrations. Our analysis shows that larger doses of BsAbs may delay the build-up of the TC. Consequently, a method to compute the optimal dosing strategy of BsAbs, which will immediately create and maintain maximal possible TC concentration, is presented.",
+        "year": 2019,
+        "month": "3",
+        "volume": "8",
+        "issue": "3",
+        "pages": "177-187",
+        "link": "http://identifiers.org/pubmed/30480383",
+        "authors": [
+            {
+                "name": "Johannes Schropp",
+                "institution": "Department of Mathematics and Statistics, University of Konstanz, Konstanz, Germany."
+            },
+            {
+                "name": "Antari Khot",
+                "institution": "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, State University of New York at Buffalo, Buffalo, New York, USA."
+            },
+            {
+                "name": "Dhaval K Shah",
+                "institution": "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, State University of New York at Buffalo, Buffalo, New York, USA."
+            },
+            {
+                "name": "Gilbert Koch",
+                "institution": "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, State University of New York at Buffalo, Buffalo, New York, USA.Paediatric Pharmacology and Pharmacometrics Research, University of Basel Children's Hospital (UKBB), Basel, Switzerland.",
+                "orcid": "0000-0002-9386-0506"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Schropp2019.xml",
+                "description": "SBML L2V4 Schropp2019 - Target-Mediated Drug Disposition Model for Bispecific Antibodies",
+                "fileSize": "91686",
+                "mimeType": "application/xml",
+                "md5sum": "f8b04535615ca8481397740ce9259ee7",
+                "sha1sum": "bd078f4009ba17ae46419ba37f509e10442ebf59",
+                "sha256sum": "43c4cc50c64b5232507d7363b4848aa94ba6c237dd5285dbcfb887d5c5a276da"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Schropp2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "28623",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "70c8dbcc72fcebce77e375aa67caa734",
+                "sha1sum": "93db79f44697b7e24d11f583d192106393b5ed3a",
+                "sha256sum": "b9ce96551d870327e2817ca023d935f54565e860ea6449c327db9b5cbdbc4cae"
+            },
+            {
+                "name": "Schropp2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "45445",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "cf204b7c696718772b0b24cc31812b47",
+                "sha1sum": "2a97b820fc414e5acbce4bce6d2c86ff76a1773f",
+                "sha256sum": "8947c8d55f35d7050dbc6d2754813d5f639b1d9d37365de0d45e1f1c82b68d2f"
+            },
+            {
+                "name": "Schropp2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "10359",
+                "mimeType": "text/x-matlab",
+                "md5sum": "d5d25225e6221fbff55f9b183ea562ea",
+                "sha1sum": "297751521afd498b54b27471d5ca9c41651f05e2",
+                "sha256sum": "263fed8953220d7c24bbc45ca9c3a0cc34a19f63542e0f588ab658256c4bbc60"
+            },
+            {
+                "name": "Schropp2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "10359",
+                "mimeType": "text/x-matlab",
+                "md5sum": "c9b8a0d923710376c74a182f940e88a3",
+                "sha1sum": "8eaf09113840862f144f351b52ba206d3f9ec663",
+                "sha256sum": "be1e66688154910a98891f745140c0b0c91ce5a7f50464abb76d8ce19c1470fa"
+            },
+            {
+                "name": "Schropp2019.cps",
+                "description": "COPASI file of Schropp2019 - Target-Mediated Drug Disposition Model for Bispecific Antibodies",
+                "fileSize": "123270",
+                "mimeType": "application/xml",
+                "md5sum": "f3f26d949c61467fcb7e545fddc4e17e",
+                "sha1sum": "7e954f001cedcac0ac0361810eaf3c3b067a7675",
+                "sha256sum": "2b56f2f173ae84f7047e8d7cb213088384104cbff296fac5a225034bee742140"
+            },
+            {
+                "name": "Schropp2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "7894",
+                "mimeType": "text/plain",
+                "md5sum": "278535dcdb307616550a31f5c481a19c",
+                "sha1sum": "6b824e12e663aa7dbc0fb19447f9909d623c823d",
+                "sha256sum": "e48c3bc9c718564753baf97aea9c943b70bc893661dd28d35590120efbdcefb5"
+            },
+            {
+                "name": "Schropp2019.sedml",
+                "description": "SED-ML file of Schropp2019 - Target-Mediated Drug Disposition Model for Bispecific Antibodies (additionally CRBM-validated and adjusted).",
+                "fileSize": "31217",
+                "mimeType": "application/xml",
+                "md5sum": "3aab4894b90493747b90b680b8d8d801",
+                "sha1sum": "d87d4bebcd2d5800d8118dd0634a0672996631de",
+                "sha256sum": "37c89229ff500e359d5647ba0e3563113d5ba9b17a8f793e94a6ebc86121e94a"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "10363",
+                "mimeType": "image/png",
+                "md5sum": "061880603e57f4766c24afaf8f6059b4",
+                "sha1sum": "173ba3d68359e1c2b5d94d9910a2d198fc7dd37d",
+                "sha256sum": "b88cabdc705a80f8a01c8eb9cd516792d2558d7db098e59dfb339c9dda6ca3f4"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "125",
+                "mimeType": "text/plain",
+                "md5sum": "3b350caff40d1ecf4ccd95f8a2dc5c4d",
+                "sha1sum": "bcbe628c72b6ccae7d0661221942e6c63d221895",
+                "sha256sum": "7c4e4475d37d139a782e5a919e7bf4baf32a7a204592d25c2cb18319d8592cf5"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1419",
+                "mimeType": "application/xml",
+                "md5sum": "18d34d435d6fe70f7c7b5506309a633b",
+                "sha1sum": "f27459dcdd021ebc2e5db5c2ca0263264b74d560",
+                "sha256sum": "caacbb19f9fea4e2d55c8cca02234506049b835c39b0a5f4af0e8633fda683a3"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2165",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "19daa0d41d46cb73630f344622bc3889",
+                "sha1sum": "ae87c9c60f35fc162b162ac666ba222178cd2147",
+                "sha256sum": "2641ed7b4d5eaf58df14fb9042cfb1ff57ec91bb8242eb2205f835802caf7e77"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1565602353,
+                "submitter": "Johannes Meyer",
+                "comment": "Automatically added model identifier BIOMD0000000788"
+            },
+            {
+                "version": 3,
+                "submitted": 1724286031,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281865,
+    "submissionId": "MODEL1907240003",
+    "publicationId": "BIOMD0000000788",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Johannes Meyer",
+                "email": "johannes.p.meyer@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30480383",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/30480383"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907240003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907240003"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000788",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000788"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "C1454",
+            "name": "Bispecific Antibody",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C1454"
+        }
+    ]
+}

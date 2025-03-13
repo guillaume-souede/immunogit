@@ -1,0 +1,280 @@
+{
+    "name": "Alharbi2019 - Tumor-normal-vitamins model (TNVM) of the effects of vitamins on delaying the growth of tumor cells",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model of the interactions between tumor and normal cells, in the presence of a regular rate of vitamins, is based on the publication:S. A. Alharbi and A. S. Rambely, \"Dynamic Simulation for Analyzing the Effects of the Intervention of Vitamins on Delaying the Growth of Tumor Cells,\" in IEEE Access, vol. 7, pp. 128816-128827, 2019doi: 10.1109/ACCESS.2019.2940060.Comment:This TNVM model is described by the system of equations presented in (10), in the publication manuscript.Reproduction of Fig. 11 was achieved by swapping the values of gamma and beta2 stated in the manuscript, i.e. gamma = 0.9817 and beta2 = 0.2291.Abstract:The natural sources of the vitamins, which come from a balanced diet (as recommended by the World Cancer Research Fund and the American Institute for Cancer Research) contribute to protecting the body from advancing progressive of cancer stages. Thus, in this study, we analyze the effect of the intervention of vitamins on delaying the growth of cancer cells based on the dynamics of a normal cell cycle when the tumor cells appear in a tissue as a resulting for progressing abnormal cells due to the weak response of the immune system. We developed a mathematical model, called tumor-normal-vitamins model (TNVM), which is governed by a system of ordinary differential equations and refers to two main populations normal cells and tumor cells. This model considers the intervention of vitamins as a moderating factor within thirty days. The models are discussed analytically and numerically by utilizing the Runge-Kutta method to simulate them. The results of the analysis and simulation of free model illustrate that the model will be stable if the tumor cells succeed in eliminating normal cells in the tissue. Whereas, the analysis and simulation of the TNVM showed a case of coexistence between normal cells and tumor cells occur if an individual consumes a regular rate of vitamins that have been simulated to be 87% per day from a natural food source. Even though the response of the immune system is weak, the daily consumption of enough vitamins can play an essential role in delaying the development of an early stage of cancer. This study contributes to the increasing awareness regarding a healthy diet to reduce the risk of some deadly diseases, especially cancer.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1109/ACCESS.2019.2940060",
+        "journal": "IEEE Access",
+        "title": "Dynamic Simulation for Analyzing the Effects of the Intervention of Vitamins on Delaying the Growth of Tumor Cells",
+        "affiliation": "Mathematics Program, Faculty of Science and Technology, University Kebangsaan Malaysia, Bangi, Malaysia",
+        "synopsis": "The natural sources of the vitamins, which come from a balanced diet (as recommended by the World Cancer Research Fund and the American Institute for Cancer Research) contribute to protecting the body from advancing progressive of cancer stages. Thus, in this study, we analyze the effect of the intervention of vitamins on delaying the growth of cancer cells based on the dynamics of a normal cell cycle when the tumor cells appear in a tissue as a resulting for progressing abnormal cells due to the weak response of the immune system. We developed a mathematical model, called tumor-normal-vitamins model (TNVM), which is governed by a system of ordinary differential equations and refers to two main populations normal cells and tumor cells. This model considers the intervention of vitamins as a moderating factor within thirty days. The models are discussed analytically and numerically by utilizing the Runge-Kutta method to simulate them. The results of the analysis and simulation of free model illustrate that the model will be stable if the tumor cells succeed in eliminating normal cells in the tissue. Whereas, the analysis and simulation of the TNVM showed a case of coexistence between normal cells and tumor cells occur if an individual consumes a regular rate of vitamins that have been simulated to be 87% per day from a natural food source. Even though the response of the immune system is weak, the daily consumption of enough vitamins can play an essential role in delaying the development of an early stage of cancer. This study contributes to the increasing awareness regarding a healthy diet to reduce the risk of some deadly diseases, especially cancer.",
+        "year": 2019,
+        "month": "7",
+        "volume": "7",
+        "pages": "128816--128827",
+        "link": "http://identifiers.org/doi/10.1109/ACCESS.2019.2940060",
+        "authors": [
+            {
+                "name": "Sana Abdulkream Alharbi"
+            },
+            {
+                "name": "Azmin Sham Rambely"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Alharbi2019 TNVM.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "35233",
+                "mimeType": "application/xml",
+                "md5sum": "8b5b0bab03a8e7cca6ad46386946c5db",
+                "sha1sum": "6804d36759e44462dcc0d345e98a9c59d1be72b0",
+                "sha256sum": "a45a0493eb92ea988658dcbcd995a92a96c38528d09440b2df1307335201a3ed"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Alharbi2019 TNVM - Fig11.sedml",
+                "description": "SEDML file - Fig. 11 simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "13806",
+                "mimeType": "application/xml",
+                "md5sum": "dd6910e2457720a434a523db9c6a54ff",
+                "sha1sum": "76d3f1351434593dbf8107bce0eb22de9ffa9122",
+                "sha256sum": "dd970a85e21a40e129fb8d2fdfec2f80052b6f98a2043c8603a6b5129e86876f"
+            },
+            {
+                "name": "Alharbi2019 TNVM-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "12353",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ba2678d927d5025c377edc9f03c2e4d6",
+                "sha1sum": "e5e2ac7b6e93c65ce5261970d9370061d65605d4",
+                "sha256sum": "593e20aae91e215f1043600d9b1137ed3654625d472878bcf9c2179706cfe68b"
+            },
+            {
+                "name": "Alharbi2019 TNVM-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "15824",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "81b0b0d618c80e969c4b9afcc71cf5f5",
+                "sha1sum": "15ba4d136459ae04fc55ecbd6f975bf59dfadd85",
+                "sha256sum": "4e3d2552c0f22f7ed66b76b6a1ae42946372df2adbb1c22854565b5c07dae979"
+            },
+            {
+                "name": "Alharbi2019 TNVM-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4879",
+                "mimeType": "text/x-matlab",
+                "md5sum": "90c7ea6b10bb3fa88337e4e50e16e16e",
+                "sha1sum": "a2b56a550a05ff4ca5aead06e16733355cae0f84",
+                "sha256sum": "ad97b443614715f8a9ac890da15aed9e7c3690eb09e5b445502b12195e340fb1"
+            },
+            {
+                "name": "Alharbi2019 TNVM-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4879",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b67aa6e9428bdc4cdaf39e3c1b6930f6",
+                "sha1sum": "e2a72ee5e94d6ab2f3ad9b8cf4d0443abfef296a",
+                "sha256sum": "4283461198bad6050c9764b83eb22b0d8caa56e322bce2877b8f25e718bf8232"
+            },
+            {
+                "name": "Alharbi2019 TNVM.cps",
+                "description": "COPASI file",
+                "fileSize": "69815",
+                "mimeType": "application/xml",
+                "md5sum": "c113e4b057511e14887c96b7a9c49ea3",
+                "sha1sum": "9089f45f80d9a3691a6c24948446c34571b67a4b",
+                "sha256sum": "3c48faef8d280cf4661f43da87d2ce27f3a98869f05c33d85d0e995a21ce76f3"
+            },
+            {
+                "name": "Alharbi2019 TNVM.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3311",
+                "mimeType": "text/plain",
+                "md5sum": "a447f6637d7d7c24f5ae05b5b2c1ef58",
+                "sha1sum": "14a8fe2261da0758ef1944e5a95a9dbb79964e2f",
+                "sha256sum": "8574ae18f463731637faadbc71e3a7c54cc31c9e43f8443e52c1ee51ace4ae7f"
+            },
+            {
+                "name": "Fig11.png",
+                "description": "PNG file - Fig. 11 reproduction",
+                "fileSize": "13638",
+                "mimeType": "image/png",
+                "md5sum": "d11271c1d144af5622d09860ecda178c",
+                "sha1sum": "74f24d9423b52b11c80afe4c1baa0f5b61072c07",
+                "sha256sum": "712f52ecc11cdb50ab6b10fd267ca339ef2b6cd9551a8664b4b36703cb2dd78c"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "13638",
+                "mimeType": "image/png",
+                "md5sum": "d11271c1d144af5622d09860ecda178c",
+                "sha1sum": "74f24d9423b52b11c80afe4c1baa0f5b61072c07",
+                "sha256sum": "712f52ecc11cdb50ab6b10fd267ca339ef2b6cd9551a8664b4b36703cb2dd78c"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "315",
+                "mimeType": "text/plain",
+                "md5sum": "6265f53ba0db3142ea66bfc741c3e8c9",
+                "sha1sum": "271062b27a41941940986fcf22c728fb00071a12",
+                "sha256sum": "e4984f165e0aef2208a6d0d170bf9de6e5e20fe7b0f0b3c2e9d3490872e86295"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1567",
+                "mimeType": "application/xml",
+                "md5sum": "a969dd862c7cc399f51403ffacae5ffa",
+                "sha1sum": "2f92720943aee64bd7e26e81c3eedc7f4a23050b",
+                "sha256sum": "8f0f38c83695c51a36be992e7cdbfd0fac9c7fc7c002a025e0316303b5046161"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4214",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a3674ba0a348d3098b3cf6c79bbf0021",
+                "sha1sum": "6d5ea15b4228f11c430593eb514103a3157e9c4c",
+                "sha256sum": "dfb38a245ff4bb6dbccef780513dbe32244093749d076f225deb77e7327299cc"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1629989738,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001038"
+            },
+            {
+                "version": 4,
+                "submitted": 1724292387,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282018,
+    "submissionId": "MODEL2108260003",
+    "publicationId": "BIOMD0000001038",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002347",
+            "name": "response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002347"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C18670",
+            "name": "Cancer Immunology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C18670"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "DOID:162",
+            "name": "cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:162"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1109/ACCESS.2019.2940060",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.1109/ACCESS.2019.2940060"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.1109/ACCESS.2019.2940060",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1109/ACCESS.2019.2940060"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001038",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001038"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2108260003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2108260003"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "EFO:0002755",
+            "name": "diet",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0002755"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C16016",
+            "name": "Nutrition, Vitamins",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C16016"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C15824",
+            "name": "Nutrition, Dietary Components",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15824"
+        }
+    ]
+}

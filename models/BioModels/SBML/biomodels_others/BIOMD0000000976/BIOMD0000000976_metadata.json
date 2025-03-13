@@ -1,0 +1,252 @@
+{
+    "name": "Ghanbari2020 - forecasting the second wave of COVID-19 in Iran",
+    "description": "One of the common misconceptions about COVID-19 disease is to assume that we will not see a recurrence after the first wave of the disease has subsided. This completely wrong perception causes people to disregard the necessary protocols and engage in some misbehavior, such as routine socializing or holiday travel. These conditions will put double pressure on the medical staff and endanger the lives of many people around the world. In this research, we are interested in analyzing the existing data to predict the number of infected people in the second wave of out-breaking COVID-19 in Iran. For this purpose, a model is proposed. The mathematical analysis corresponded to the model is also included in this paper. Based on proposed numerical simulations, several scenarios of progress of COVID-19 corresponding to the second wave of the disease in the coming months, will be discussed. We predict that the second wave of will be most severe than the first one. From the results, improving the recovery rate of people with weak immune systems via appropriate medical incentives is resulted as one of the most effective prescriptions to prevent the widespread unbridled outbreak of the second wave of COVID-19.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32834656",
+        "journal": "Chaos, solitons, and fractals",
+        "title": "On forecasting the spread of the COVID-19 in Iran: The second wave.",
+        "affiliation": "Department of Engineering Science, Kermanshah University of Technology, Kermanshah, Iran.",
+        "synopsis": "One of the common misconceptions about COVID-19 disease is to assume that we will not see a recurrence after the first wave of the disease has subsided. This completely wrong perception causes people to disregard the necessary protocols and engage in some misbehavior, such as routine socializing or holiday travel. These conditions will put double pressure on the medical staff and endanger the lives of many people around the world. In this research, we are interested in analyzing the existing data to predict the number of infected people in the second wave of out-breaking COVID-19 in Iran. For this purpose, a model is proposed. The mathematical analysis corresponded to the model is also included in this paper. Based on proposed numerical simulations, several scenarios of progress of COVID-19 corresponding to the second wave of the disease in the coming months, will be discussed. We predict that the second wave of will be most severe than the first one. From the results, improving the recovery rate of people with weak immune systems via appropriate medical incentives is resulted as one of the most effective prescriptions to prevent the widespread unbridled outbreak of the second wave of COVID-19.",
+        "year": 2020,
+        "month": "11",
+        "volume": "140",
+        "pages": "110176",
+        "link": "http://identifiers.org/pubmed/32834656",
+        "authors": [
+            {
+                "name": "Behzad Ghanbari",
+                "institution": "Department of Engineering Science, Kermanshah University of Technology, Kermanshah, Iran.Department of Mathematics, Faculty of Engineering and Natural Sciences, Bahçeşehir University, 34349 Istanbul, Turkey."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Ghanbari2020.xml",
+                "description": "SBML L3V1 file of model forecasting the COVID-19 second wave in Iran",
+                "fileSize": "39171",
+                "mimeType": "application/xml",
+                "md5sum": "10dbb4d6b7f0c381242e28c1929f5960",
+                "sha1sum": "043d89d298a4d252abe166a3a497c6c253452ff6",
+                "sha256sum": "0dd6084dc5ad5c1f452956190897a4450f454c65dfe6d096c54e8e743fe3a01e"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Ghanbari2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10226",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "31e5706477ad3e57c39796b2f8bb8330",
+                "sha1sum": "a265618262c99abb5e4add3f5788d6babda2be50",
+                "sha256sum": "e33ff26c41d25768a1da86489610fd0c3a377b44ca86fc373ec502c60d4e7897"
+            },
+            {
+                "name": "Ghanbari2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "15515",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "85ded9e92f59db3bad98c606e290cb8f",
+                "sha1sum": "9061b18175bec1fbf2b029cd28588fb48a711354",
+                "sha256sum": "51ad6dbcd48b14ea2ca08775873f2a4ce1a2d334b6944e3a092eb95892c21748"
+            },
+            {
+                "name": "Ghanbari2020-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5004",
+                "mimeType": "text/x-matlab",
+                "md5sum": "c1ffc9956cc4fccf7e8035b62b4227e7",
+                "sha1sum": "fcb2a42c066e1e2c69a8d5af7c41eee2b2a713c3",
+                "sha256sum": "0363851c73d9e688eeeb3932a54759a5a923defe55f1dd8617935cabeda13f2b"
+            },
+            {
+                "name": "Ghanbari2020-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5004",
+                "mimeType": "text/x-matlab",
+                "md5sum": "54367b82452c7f410a0cba2d3acbf267",
+                "sha1sum": "3cc559f1dcc4bc5e6def9fe958d7424ea9ba583b",
+                "sha256sum": "beec48a1c95c6cb5ef6c97f9a7c25bdd193f5b41230e4c9cca6a742b0e648ed3"
+            },
+            {
+                "name": "Ghanbari2020.cps",
+                "description": "COPASI 4.37 (Build 264) file of model forecasting the COVID-19 second wave in Iran",
+                "fileSize": "65301",
+                "mimeType": "application/xml",
+                "md5sum": "ce91161fdf5873eeb37a918705927164",
+                "sha1sum": "c10c28def1c06b8eb06ffc66d88b71b7b6a5dc5f",
+                "sha256sum": "e9e49645daaa5cc334b7980f1727c00b5535ee19938f30b9963d2c091dd25e72"
+            },
+            {
+                "name": "Ghanbari2020.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2979",
+                "mimeType": "text/plain",
+                "md5sum": "39dc1171408ad33ae0bd3be82ff3e199",
+                "sha1sum": "b639b66af2f50e5bda5e634c60d9cbc1876ce76d",
+                "sha256sum": "8052c1a9b751bb8b236df5cce4dcd9ce433f92b83b5d7dbda17f8b60d88795cc"
+            },
+            {
+                "name": "Ghanbari2020.sedml",
+                "description": "SED-ML file of model forecasting the COVID-19 second wave in Iran (additionally CRBM-validated and adjusted).",
+                "fileSize": "12531",
+                "mimeType": "application/xml",
+                "md5sum": "6f799814fb8aedd23fbab04c5741c305",
+                "sha1sum": "82a01d6b8b9e7f875527ba03d7a79e7e8654874f",
+                "sha256sum": "dddf10594a87fbee914032f426ea58dda12f2c08bb646d72b31f6676bd6fedc6"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "85239",
+                "mimeType": "image/png",
+                "md5sum": "19fb00403a210a97733ca9d9f6706f38",
+                "sha1sum": "d25fdcd83ff4c4ca26a2b56da07807bcdc52a4f7",
+                "sha256sum": "a6f826f35b8a574f0788345f93cb2faed3556ced58d9ad75dd5bfb82bb84b9a7"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "232",
+                "mimeType": "text/plain",
+                "md5sum": "71d5527ff00a9df041a3342aa292f08f",
+                "sha1sum": "e2d5f1351b20fd505cb2a61ae314d7f0854a1738",
+                "sha256sum": "9346c917ec0f2d4545c97b1bafe84ea3e7377dd112baf2d3f915039caefc926b"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1427",
+                "mimeType": "application/xml",
+                "md5sum": "9cd8b0de3fea13bba492411163dbf461",
+                "sha1sum": "64340b65c6009cb25a6c082fd1e3ab7949701feb",
+                "sha256sum": "db7d45bbb54434b53c40716f36a0591cc3855d60c2c1cbe311cb8de0dcaf9f9a"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2797",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "030897d620bebeb5d28c4149fc6f296b",
+                "sha1sum": "0384224fa5568b7999a287d6ba4e524eb7600901",
+                "sha256sum": "92dfad2039b5e5c44e70bff274d8b990225f18c52bede1d78b2174331cc029dd"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1606129862,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000976"
+            },
+            {
+                "version": 4,
+                "submitted": 1666004537,
+                "submitter": "Matthias König",
+                "comment": "Species annotation for \"Recovered\" was fixed to http://identifiers.org/ido/0000621 from http://identifiers.org/ncit/0000621."
+            },
+            {
+                "version": 5,
+                "submitted": 1724290747,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281951,
+    "submissionId": "MODEL2011230001",
+    "publicationId": "BIOMD0000000976",
+    "modellingApproach": {
+        "accession": "MAMO_0000028",
+        "name": "population model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "COVID-19"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            },
+            {
+                "name": "Matthias König",
+                "email": "konigmatt@googlemail.com",
+                "affiliation": "Institute of Biochemistry, University Medicine Charité Berlin, 10117 Berlin, Germany. matthias.koenig@charite.de",
+                "orcid": "0000-0003-1725-179X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "2697049",
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/2697049"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000028",
+            "name": "population model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000028"
+        },
+        {
+            "qualifier": "bqbiol:is",
+            "accession": "DOID:0080600",
+            "name": "COVID-19",
+            "resource": "\nHuman Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0080600"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "32834656",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:32834656"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2011230001",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL2011230001"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "32834656",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/32834656"
+        }
+    ]
+}

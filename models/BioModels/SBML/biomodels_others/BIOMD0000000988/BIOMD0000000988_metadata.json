@@ -1,0 +1,266 @@
+{
+    "name": "Westerhoff2020 - systems biology model of the coronavirus pandemic 2020",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>Using standard systems biology methodologies a 14-compartment dynamic model was developed for the Corona virus epidemic. The model predicts that: (i) it will be impossible to limit lockdown intensity such that sufficient herd immunity develops for this epidemic to die down, (ii) the death toll from the SARS-CoV-2 virus decreases very strongly with increasing intensity of the lockdown, but (iii) the duration of the epidemic increases at first with that intensity and then decreases again, such that (iv) it may be best to begin with selecting a lockdown intensity beyond the intensity that leads to the maximum duration, (v) an intermittent lockdown strategy should also work and might be more acceptable socially and economically, (vi) an initially intensive but adaptive lockdown strategy should be most efficient, both in terms of its low number of casualties and shorter duration, (vii) such an adaptive lockdown strategy offers the advantage of being robust to unexpected imports of the virus, e.g. due to international travel, (viii) the eradication strategy may still be superior as it leads to even fewer deaths and a shorter period of economic downturn, but should have the adaptive strategy as backup in case of unexpected infection imports, (ix) earlier detection of infections is the most effective way in which the epidemic can be controlled, whilst waiting for vaccines.</p>  </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32532983",
+        "journal": "NPJ systems biology and applications",
+        "title": "Advice from a systems-biology model of the corona epidemics.",
+        "affiliation": "Infrastructure for Systems Biology Europe - The Netherlands (ISBE.NL), Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.",
+        "synopsis": "Using standard systems biology methodologies a 14-compartment dynamic model was developed for the Corona virus epidemic. The model predicts that: (i) it will be impossible to limit lockdown intensity such that sufficient herd immunity develops for this epidemic to die down, (ii) the death toll from the SARS-CoV-2 virus decreases very strongly with increasing intensity of the lockdown, but (iii) the duration of the epidemic increases at first with that intensity and then decreases again, such that (iv) it may be best to begin with selecting a lockdown intensity beyond the intensity that leads to the maximum duration, (v) an intermittent lockdown strategy should also work and might be more acceptable socially and economically, (vi) an initially intensive but adaptive lockdown strategy should be most efficient, both in terms of its low number of casualties and shorter duration, (vii) such an adaptive lockdown strategy offers the advantage of being robust to unexpected imports of the virus, e.g. due to international travel, (viii) the eradication strategy may still be superior as it leads to even fewer deaths and a shorter period of economic downturn, but should have the adaptive strategy as backup in case of unexpected infection imports, (ix) earlier detection of infections is the most effective way in which the epidemic can be controlled, whilst waiting for vaccines.",
+        "year": 2020,
+        "month": "6",
+        "volume": "6",
+        "issue": "1",
+        "pages": "18",
+        "link": "http://identifiers.org/pubmed/32532983",
+        "authors": [
+            {
+                "name": "Hans V Westerhoff",
+                "institution": "Infrastructure for Systems Biology Europe - The Netherlands (ISBE.NL), Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Molecular Cell Biology, VU University Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Manchester Centre for Integrative Systems Biology, Manchester, UK. H.V.Westerhoff@VU.NL.",
+                "orcid": "0000-0002-0443-6114"
+            },
+            {
+                "name": "Alexey N Kolodkin",
+                "institution": "Molecular Cell Biology, VU University Amsterdam, Amsterdam, The Netherlands.Luxembourg Centre for Systems Biology, Luxembourg City, Luxembourg.",
+                "orcid": "0000-0002-7466-5027"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Westerhoff2020.xml",
+                "description": "SBML L2V4 file of a systems biology model of the coronavirus pandemic 2020",
+                "fileSize": "287632",
+                "mimeType": "application/xml",
+                "md5sum": "93e5a10c5c7855c0cf254927b1ca0318",
+                "sha1sum": "c5d709e159c809b3af73778407d1ba09473d70b1",
+                "sha256sum": "0f3f7ec19cd7b8388ea8045ae2ceac5db8e2c4ee51e773708d70a84902775f7f"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Westerhoff2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "29219",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a7d38240e2ee3054db36ea87841873e3",
+                "sha1sum": "5a94a6d1c0d038e7baa4fa73cf3a8302fca7c85d",
+                "sha256sum": "5ace3e5b23a7cb8eabd87f6d1707257d8e6cc49762e3797dae76a6a1eb206fe2"
+            },
+            {
+                "name": "Westerhoff2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "47660",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "257b9a8b5ab7959fcc281028adf86d6f",
+                "sha1sum": "1f8795d2bc931fb47690d2653de6f223dbccdf7d",
+                "sha256sum": "8a15f7a8e377d95af78ed903af16cfd9f8e954e4fae5c946e0814bfaf2b48ece"
+            },
+            {
+                "name": "Westerhoff2020.cps",
+                "description": "COPASI 4.37 (Build 264) file of a systems biology model of the coronavirus pandemic 2020",
+                "fileSize": "312745",
+                "mimeType": "application/xml",
+                "md5sum": "e7180cb721c8bfc6d7324b09aebbb23b",
+                "sha1sum": "77b9fa323902c7496d1132b83a1d1b76a8c04ae4",
+                "sha256sum": "d198b48df2514ae031b33e93634b01935ca2b236bfab6495547e5868bc06373e"
+            },
+            {
+                "name": "Westerhoff2020.sedml",
+                "description": "SED-ML file of a systems biology model of the coronavirus pandemic 2020 (additionally CRBM-validated and adjusted).",
+                "fileSize": "40711",
+                "mimeType": "application/xml",
+                "md5sum": "5858415e0fe407d5783f02fa460ec18e",
+                "sha1sum": "0dc15f3d0ea9f9cce2d24068051b465a7890f09b",
+                "sha256sum": "c035344f722ccee0bcd655dda9d724a1a9ffa548d26bb9384e3538682e416415"
+            },
+            {
+                "name": "Westerhoff2020___Corona_model_of_extinguishable_epidemic_with_limited_time_incomplete_lockdown.vcml",
+                "description": "VCell file of a systems biology model of the coronavirus pandemic 2020",
+                "fileSize": "177904",
+                "mimeType": "application/xml",
+                "md5sum": "d09c9518bf353cd3ec13f7df89be09da",
+                "sha1sum": "8474a7a20670d3a06efd06d65074379831add192",
+                "sha256sum": "a9892bb1f3b026e981adeb4384961f6c8931ca8f84bbe5b62c72f3b96ce41752"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "46522",
+                "mimeType": "image/jpeg",
+                "md5sum": "201ffbcec3d423631522ba52ffe1ad5f",
+                "sha1sum": "698c5afc249826ac230be93d1492b73f95e93d01",
+                "sha256sum": "affcb53287efb2343d9195d7ea794c00935dd4a93e2d66f3e370cdad5c111edc"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "875",
+                "mimeType": "text/plain",
+                "md5sum": "b4f048427abba2022f7e652a74dc4c8b",
+                "sha1sum": "a0c6b48df136c9f7440aec481f8231c2d03989ff",
+                "sha256sum": "257b0edb25337a3f4337d8d364548261137b8b146f67e3363c5c7ea408d61e63"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1300",
+                "mimeType": "application/xml",
+                "md5sum": "6d254f59b8a0eb197421ee4e3d7f4d7d",
+                "sha1sum": "fdd989d71c022c7c2f3aa08530c271ece3279e4d",
+                "sha256sum": "8d9bee526850cef06e88efbf4be8c29b5c607ee3727da1968705fa7c765d5b57"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2835",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "8c445a77879b3a2ea6668751dc5582bb",
+                "sha1sum": "47ea1ce792c9a61d617816eb4166e8a3f6c0d5df",
+                "sha256sum": "4e18c9048dcdd0d01fdc4d926d492050923b38d4e4008dd853596564633569dd"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1613137202,
+                "submitter": "Paul Jonas Jost",
+                "comment": "updated model name and modelling approach"
+            },
+            {
+                "version": 3,
+                "submitted": 1613471214,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000988"
+            },
+            {
+                "version": 5,
+                "submitted": 1613471513,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000988"
+            },
+            {
+                "version": 6,
+                "submitted": 1666009857,
+                "submitter": "Matthias König",
+                "comment": "Species annotation for \"symptoms_nontested_0\" fixed from http://identifiers.org/ncit/C171133 to http://identifiers.org/ido/C171133"
+            },
+            {
+                "version": 7,
+                "submitted": 1724290990,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281954,
+    "submissionId": "MODEL2102120001",
+    "publicationId": "BIOMD0000000988",
+    "modellingApproach": {
+        "accession": "MAMO_0000028",
+        "name": "population model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "COVID-19"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Paul Jonas Jost",
+                "email": "s6pajost@uni-bonn.de",
+                "affiliation": "University of Bonn",
+                "orcid": "0000-0001-7613-6244",
+                "external": false
+            },
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            },
+            {
+                "name": "Matthias König",
+                "email": "konigmatt@googlemail.com",
+                "affiliation": "Institute of Biochemistry, University Medicine Charité Berlin, 10117 Berlin, Germany. matthias.koenig@charite.de",
+                "orcid": "0000-0003-1725-179X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "2697049",
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/2697049"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000028",
+            "name": "population model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000028"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000988",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000988"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2102120001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2102120001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "32532983",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:32532983"
+        },
+        {
+            "qualifier": "bqbiol:is",
+            "accession": "DOID:0080600",
+            "name": "COVID-19",
+            "resource": "\nHuman Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0080600"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "32532983",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/32532983"
+        }
+    ]
+}
