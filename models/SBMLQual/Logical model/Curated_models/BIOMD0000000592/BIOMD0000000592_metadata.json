@@ -1,0 +1,231 @@
+{
+    "name": "Martinez-Sanchez2015 - T CD4+ lymphocyte transcriptional regulatory network",
+    "description": "Mariana Esther Martinez-Sanchez, Luis Mendoza, Carlos Villarreal & Elena R. Alvarez-Buylla. A Minimal Regulatory Network of Extrinsic and Intrinsic Factors Recovers Observed Patterns of CD4+ T Cell Differentiation and Plasticity. PLOS Computational Biology 11, 6 (2015).<p></p><p></p>CD4+ T cells orchestrate the adaptive immune response in vertebrates. While both experimental and modeling work has been conducted to understand the molecular genetic mechanisms involved in CD4+ T cell responses and fate attainment, the dynamic role of intrinsic (produced by CD4+ T lymphocytes) versus extrinsic (produced by other cells) components remains unclear, and the mechanistic and dynamic understanding of the plastic responses of these cells remains incomplete. In this work, we studied a regulatory network for the core transcription factors involved in CD4+ T cell-fate attainment. We first show that this core is not sufficient to recover common CD4+ T phenotypes. We thus postulate a minimal Boolean regulatory network model derived from a larger and more comprehensive network that is based on experimental data. The minimal network integrates transcriptional regulation, signaling pathways and the micro-environment. This network model recovers reported configurations of most of the characterized cell types (Th0, Th1, Th2, Th17, Tfh, Th9, iTreg, and Foxp3-independent T regulatory cells). This transcriptional-signaling regulatory network is robust and recovers mutant configurations that have been reported experimentally. Additionally, this model recovers many of the plasticity patterns documented for different T CD4+ cell types, as summarized in a cell-fate map. We tested the effects of various micro-environments and transient perturbations on such transitions among CD4+ T cell types. Interestingly, most cell-fate transitions were induced by transient activations, with the opposite behavior associated with transient inhibitions. Finally, we used a novel methodology was used to establish that T-bet, TGF-β and suppressors of cytokine signaling proteins are keys to recovering observed CD4+ T cell plastic responses. In conclusion, the observed CD4+ T cell-types and transition patterns emerge from the feedback between the intrinsic or intracellular regulatory core and the micro-environment. We discuss the broader use of this approach for other plastic systems and possible therapeutic interventions.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "26090929",
+        "journal": "PLoS computational biology",
+        "title": "A Minimal Regulatory Network of Extrinsic and Intrinsic Factors Recovers Observed Patterns of CD4+ T Cell Differentiation and Plasticity.",
+        "affiliation": "Departamento de Ecología Funcional, Instituto de Ecología, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México; Centro de Ciencias de la Complejidad, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México.",
+        "synopsis": "CD4+ T cells orchestrate the adaptive immune response in vertebrates. While both experimental and modeling work has been conducted to understand the molecular genetic mechanisms involved in CD4+ T cell responses and fate attainment, the dynamic role of intrinsic (produced by CD4+ T lymphocytes) versus extrinsic (produced by other cells) components remains unclear, and the mechanistic and dynamic understanding of the plastic responses of these cells remains incomplete. In this work, we studied a regulatory network for the core transcription factors involved in CD4+ T cell-fate attainment. We first show that this core is not sufficient to recover common CD4+ T phenotypes. We thus postulate a minimal Boolean regulatory network model derived from a larger and more comprehensive network that is based on experimental data. The minimal network integrates transcriptional regulation, signaling pathways and the micro-environment. This network model recovers reported configurations of most of the characterized cell types (Th0, Th1, Th2, Th17, Tfh, Th9, iTreg, and Foxp3-independent T regulatory cells). This transcriptional-signaling regulatory network is robust and recovers mutant configurations that have been reported experimentally. Additionally, this model recovers many of the plasticity patterns documented for different T CD4+ cell types, as summarized in a cell-fate map. We tested the effects of various micro-environments and transient perturbations on such transitions among CD4+ T cell types. Interestingly, most cell-fate transitions were induced by transient activations, with the opposite behavior associated with transient inhibitions. Finally, we used a novel methodology was used to establish that T-bet, TGF-β and suppressors of cytokine signaling proteins are keys to recovering observed CD4+ T cell plastic responses. In conclusion, the observed CD4+ T cell-types and transition patterns emerge from the feedback between the intrinsic or intracellular regulatory core and the micro-environment. We discuss the broader use of this approach for other plastic systems and possible therapeutic interventions.",
+        "year": 2015,
+        "month": "6",
+        "volume": "11",
+        "issue": "6",
+        "pages": "e1004324",
+        "link": "http://identifiers.org/pubmed/26090929",
+        "authors": [
+            {
+                "name": "Mariana Esther Martinez-Sanchez",
+                "institution": "Departamento de Ecología Funcional, Instituto de Ecología, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México; Centro de Ciencias de la Complejidad, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México.",
+                "orcid": "0000-0002-6115-1449"
+            },
+            {
+                "name": "Luis Mendoza",
+                "institution": "Departamento de Biología Molecular y Biotecnología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México Distrito Federal, México.",
+                "orcid": "0000-0002-3321-3083"
+            },
+            {
+                "name": "Carlos Villarreal",
+                "orcid": "0000-0003-3569-2820"
+            },
+            {
+                "name": "Elena R Alvarez-Buylla",
+                "institution": "Departamento de Ecología Funcional, Instituto de Ecología, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México; Centro de Ciencias de la Complejidad, Universidad Nacional Autónoma de México, Coyoacán, México Distrito Federal, México."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000592_url.xml",
+                "description": "SBML L3V1 representation of Martinez-Sanchez2015 - T CD4+ lymphocyte transcriptional regulatory network",
+                "fileSize": "21055",
+                "mimeType": "application/xml",
+                "md5sum": "e5f3b3635d419fd55bf1c304beeb5a85",
+                "sha1sum": "3b5197648368509e2e649c41518c69f4e22ab485",
+                "sha256sum": "0e04680e246c5850baa2f0ac6358985c17efdb8af98b2d34bbaeca469f635866"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000592-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "3387",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "106b6bc1bc4f3ada9984d31ede120d99",
+                "sha1sum": "368a64cdff49b494465495fd919d0966eecd71d8",
+                "sha256sum": "b0ed01bfb21f23a2431a308e8d09c4ff44e329242f722ff2275cee2b05a36a2a"
+            },
+            {
+                "name": "BIOMD0000000592-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "3483",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "cfd2506317ddcdc9d0af244b309dd3c4",
+                "sha1sum": "01bed5d0f58f219e92dd244091c181aeb6ed7f1b",
+                "sha256sum": "681c42fae1ebc54c508f475cf4fc6a857160f75db24e975330b06fa70555b84b"
+            },
+            {
+                "name": "BIOMD0000000592.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "106883",
+                "mimeType": "application/pdf",
+                "md5sum": "851c049a6d9c19685676547590431d6e",
+                "sha1sum": "ed4a0faee3b0ca0cdb7002f048da9aa530b2a657",
+                "sha256sum": "ac3964ee9a0474e98ade3deddb7bf90e0c650265001079ad7831ad3af7b93eea"
+            },
+            {
+                "name": "BIOMD0000000592.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "5164",
+                "mimeType": "image/png",
+                "md5sum": "c30b7d56ea47c3843c82b135d7d61387",
+                "sha1sum": "29aaa040058418305071301e82afe443bf2be038",
+                "sha256sum": "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+            },
+            {
+                "name": "BIOMD0000000592.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "868",
+                "mimeType": "image/svg+xml",
+                "md5sum": "24be42d8086ccb62699e8e5aa9319cf0",
+                "sha1sum": "6edffc291715c4657200f33e72e8c453d616a6ed",
+                "sha256sum": "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "10904",
+                "mimeType": "image/png",
+                "md5sum": "57a3aa3e0a50f2ccd71e31f1c00e4d5a",
+                "sha1sum": "f67457d06d017f811953c0edbd89d33ad0148fdb",
+                "sha256sum": "4fe8aa8873456cf55e53ebb390882e6567391cccfe4719b71bb177d574784fcf"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "266",
+                "mimeType": "text/plain",
+                "md5sum": "2b21f3810ec4680034f58e2f86b622c5",
+                "sha1sum": "324ec1b1ee6a2281860769e2b2d9cc58a3203b9e",
+                "sha256sum": "7d673a7f4da33326d42801ba08178020c5b8b42b1ae841bbe5425190dcbe7bc5"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1201",
+                "mimeType": "application/xml",
+                "md5sum": "6434c12d26220de296d113ca14de484c",
+                "sha1sum": "f07e397fe03d3319d348a02322dbc3b4018e0ab7",
+                "sha256sum": "d9f1fab9af8174047a169686e8f3940a399f65603f419a74c521f4e44c7e11c0"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1777",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "74dad80806fccd463e996fdfc3d85b35",
+                "sha1sum": "e4ce9ccfbd9c11cde3a9ef66bacebf2da948985f",
+                "sha256sum": "0262fb5a51aaf69aa06e431e5ce5b5efaacd61f7c23a9dbb6165cf5548c07e76"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1416246945,
+                "submitter": "Mariana Martinez-Sanchez",
+                "comment": "Original import of BIOMD0000000592.xml.origin"
+            },
+            {
+                "version": 2,
+                "submitted": 1461101251,
+                "submitter": "Mariana Martinez-Sanchez",
+                "comment": "Current version of Martinez-Sanchez2015 - T CD4+ lymphocyte transcriptional regulatory network"
+            },
+            {
+                "version": 3,
+                "submitted": 1724279249,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281766,
+    "submissionId": "MODEL1411170000",
+    "publicationId": "BIOMD0000000592",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mariana Martinez-Sanchez",
+                "email": "mar.esther23@gmail.com",
+                "affiliation": "Universidad Nacional Autónoma de México",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1411170000",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1411170000"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000592",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000592"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "26090929",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/26090929"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0030154",
+            "name": "cell differentiation",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0030154"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "7742",
+            "name": "Vertebrata",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/7742"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

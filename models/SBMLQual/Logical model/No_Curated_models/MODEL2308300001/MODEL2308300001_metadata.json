@@ -1,0 +1,132 @@
+{
+    "name": "Tsirvouli2023 - PsoriaSys model: a multiscale psoriasis model",
+    "description": "The PsoriaSys model represent molecular and cellular interactions in the psoriatic microenvironment. The model is able to simulate the dynamics of keratinocyte proliferation in response to psoriatic triggers and perturbations. Dynamic simulations coupled with network graph metrics were used to identify target pairs with high influence on the system's behavior. Two target pairs, namely the combinatorial inhibition of neutrophil activation with PGE2 production or STAT3 activation, were predicted to reduce keratinocyte hyperproliferation at similar levels as IL-17 inhibition, which is the current standard treatment for moderate-to-severe cases.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1016/j.isci.2024.108859",
+        "journal": "iScience",
+        "title": "Dynamic Boolean modeling of molecular and cellular interactions in psoriasis predicts drug target candidates.",
+        "affiliation": "Department of Biology, Norwegian University of Science and Technology, 7034 Trondheim, Norway.",
+        "synopsis": "Psoriasis arises from complex interactions between keratinocytes and immune cells, leading to uncontrolled inflammation, immune hyperactivation, and a perturbed keratinocyte life cycle. Despite the availability of drugs for psoriasis management, the disease remains incurable. Treatment response variability calls for new tools and approaches to comprehend the mechanisms underlying disease development. We present a Boolean multiscale population model that captures the dynamics of cell-specific phenotypes in psoriasis, integrating discrete logical formalism and population dynamics simulations. Through simulations and network analysis, the model predictions suggest that targeting neutrophil activation in conjunction with inhibition of either prostaglandin E2 (PGE2) or STAT3 shows promise comparable to interleukin-17 (IL-17) inhibition, one of the most effective treatment options for moderate and severe cases. Our findings underscore the significance of considering complex intercellular interactions and intracellular signaling in psoriasis and highlight the importance of computational approaches in unraveling complex biological systems for drug target identification.",
+        "year": 2024,
+        "month": "2",
+        "volume": "27",
+        "issue": "2",
+        "pages": "108859",
+        "link": "http://identifiers.org/doi/10.1016/j.isci.2024.108859",
+        "authors": [
+            {
+                "name": "Eirini Tsirvouli"
+            },
+            {
+                "name": "Vincent Noël"
+            },
+            {
+                "name": "Åsmund Flobak"
+            },
+            {
+                "name": "Laurence Calzone"
+            },
+            {
+                "name": "Martin Kuiper"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "PsoriaSys.sbml",
+                "description": "Dynamic Boolean model of psoriasis in SBML format",
+                "fileSize": "327697",
+                "mimeType": "application/xml",
+                "md5sum": "72e9018506020da0232271b94cc28a44",
+                "sha1sum": "01b22fde33b42553673758295e30ca2d83093423",
+                "sha256sum": "93e9cd754f30275cb36ffa19ec6747a31e3439c13e62568ae8c990adad093ea2"
+            }
+        ],
+        "additional": [
+            {
+                "name": "PsoriaSys.bnd",
+                "description": "UPMaBoSS bnd file",
+                "fileSize": "36184",
+                "mimeType": "text/plain",
+                "md5sum": "85b306b84bb6bd52edc60a8dbcfd532d",
+                "sha1sum": "73991c81e3839ff9af0deb5cccf80b7b1524cc0f",
+                "sha256sum": "5dcc97bc03caab433ae36f4b2a6f2fe58539e64783c5c127e6d49efb01bd17a5"
+            },
+            {
+                "name": "PsoriaSys.cfg",
+                "description": "UPMaBoSS cfg file",
+                "fileSize": "6403",
+                "mimeType": "text/plain",
+                "md5sum": "8ac09793efd38b2968da44da607deaa3",
+                "sha1sum": "5a4638886000ae6ef411aa0a7f31c8714d2d6919",
+                "sha256sum": "0c73214a5d2345384f5fbbf63ad0c18e5fc644f2a480b6db147a1e9592da443f"
+            },
+            {
+                "name": "PsoriaSys.upp",
+                "description": "UPMaBoSS upp file",
+                "fileSize": "787",
+                "mimeType": "text/plain",
+                "md5sum": "e6d702beafc3d04e71152f2cced8ed8d",
+                "sha1sum": "99a88eada4e3515d54db502de79565c4e59fe1a7",
+                "sha256sum": "cf2a56df9431ee764e9358c3efcb434154af9b5f7ac22a5b32c67bc3b78898e2"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1707233565,
+                "submitter": "Eirini Tsirvouli",
+                "comment": "Import of Tsirvouli2023 - PsoriaSys model: a multiscale psoriasis model"
+            }
+        ]
+    },
+    "firstPublished": 1718365233,
+    "submissionId": "MODEL2308300001",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Eirini Tsirvouli",
+                "email": "eirini.tsirvouli@ntnu.no",
+                "affiliation": "Norwegian University of Science and Technology",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1016/j.isci.2024.108859",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi:10.1016/j.isci.2024.108859"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2308300001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db:MODEL2308300001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

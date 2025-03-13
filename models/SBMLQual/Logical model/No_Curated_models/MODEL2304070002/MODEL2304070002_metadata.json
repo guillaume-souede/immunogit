@@ -1,0 +1,127 @@
+{
+    "name": "Ruscone2023 - Logical model of Tumor Cell Invasion",
+    "description": "This model builds upon two published models focused on the early steps of metastasis by Cohen et al. and on EMT process by Selvaggio et. al. The initial model of Cohen and colleagues was built with two inputs: the ECMenv, which monitored the status of the extracellular matrix, and DNA_damage, which considered DNA alterations that trigger death signals. Four additional inputs were added to account for the presence of Oxygen, growth factors (as GF), TGFbeta and the contact with other neighboring cells (as Neigh). The phenotypes, or outputs of the model include CellCycleArrest, Apoptosis, EMT, ECM_adh (for cell adhesion), ECM_degrad (for cell degradation), Cell_growth (for the dynamics of the tumor growth) and Cell_freeze (for cell motility ability). New genes and pathways include mechanisms around p63 and SRC. Genes from the Hippo pathway and RhoGTPases, such as YAP1, FAK and RAC1 were also inserted to link external signals (i.e., cell–cell contact, stiffness of the extracellular matrix, and stress signals) and intracellular regulation. The resulting network encompasses 45 nodes, with 6 input nodes, representing the possible interactions of an individual cell with external elements, and 8 output nodes or read-outs describing the possible observed phenotypes.This model was initially developed as a MaBoSS model for a multi-scale model of tumor invasion, developed with PhysiBoSS. As SBML-qual cannot describe fully a MaBoSS model yet, we also include the MaBoSS BND and CFG files.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1093/bioinformatics/btad374",
+        "journal": "Bioinformatics (Oxford, England)",
+        "title": "Multiscale model of the different modes of cancer cell invasion.",
+        "affiliation": "Institut Curie, Université PSL, F-75005, Paris, France.",
+        "synopsis": "<h4>Motivation</h4>Mathematical models of biological processes altered in cancer are built using the knowledge of complex networks of signaling pathways, detailing the molecular regulations inside different cell types, such as tumor cells, immune and other stromal cells. If these models mainly focus on intracellular information, they often omit a description of the spatial organization among cells and their interactions, and with the tumoral microenvironment.<h4>Methods</h4>We present here a model of tumor cell invasion simulated with PhysiBoSS, a multiscale framework which combines agent-based modeling and continuous time Markov processes applied on Boolean network models. With this model, we aim to study the different modes of cell migration and to predict means to block it by considering not only spatial information obtained from the agent-based simulation but also intracellular regulation obtained from the Boolean model.<h4>Results</h4>Our multiscale model integrates the impact of gene mutations with the perturbation of the environmental conditions and allows the visualization of the results with 2D and 3D representations. The model successfully reproduces single and collective migration processes and is validated on published experiments on cell invasion. In silico experiments are suggested to search for possible targets that can block the more invasive tumoral phenotypes.<h4>Supplementary information</h4>https://github.com/sysbio-curie/Invasion_model_PhysiBoSS.",
+        "year": 2023,
+        "month": "6",
+        "pages": "btad374",
+        "link": "http://identifiers.org/doi/10.1093/bioinformatics/btad374",
+        "authors": [
+            {
+                "name": "Ruscone M",
+                "orcid": "0000-0002-7607-0203"
+            },
+            {
+                "name": "Montagud A"
+            },
+            {
+                "name": "Chavrier P"
+            },
+            {
+                "name": "Destaing O"
+            },
+            {
+                "name": "Bonnet I",
+                "orcid": "0000-0003-2343-3784"
+            },
+            {
+                "name": "Zinovyev A",
+                "orcid": "0000-0002-9517-7284"
+            },
+            {
+                "name": "Barillot E"
+            },
+            {
+                "name": "Noël V",
+                "orcid": "0000-0003-3448-291X"
+            },
+            {
+                "name": "Calzone L",
+                "institution": "Institut Curie, Paris, France. Laurence.Calzone@curie.fr",
+                "orcid": "0000-0002-7835-1148"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "intracellular_model.sbml",
+                "description": "Logical model of Tumor Cell Invasion",
+                "fileSize": "151393",
+                "mimeType": "application/xml",
+                "md5sum": "551a8d543db0e6ac3fcef3d9f82037f5",
+                "sha1sum": "5bd2e61572cbf418303ab2d4ac067b2cbf79de1c",
+                "sha256sum": "bdea109b9a8c882cadfc87ae94c5ccb5bdb01e6d1a6180fc4b00585d77bf6447"
+            }
+        ],
+        "additional": [
+            {
+                "name": "intracellular_model.bnd",
+                "description": "MaBoSS CFG of the Logical model of Tumor Cell Invasion",
+                "fileSize": "8148",
+                "mimeType": "text/plain",
+                "md5sum": "a886bb55dac14df931ac514a1a5fa147",
+                "sha1sum": "a5fdf68a5b44d0d0f3e766f774c36e300036af22",
+                "sha256sum": "c35c71294eb19b9f9446df99714ee636dcba362ba1781b2d93e4db6c405422ac"
+            },
+            {
+                "name": "intracellular_model.cfg",
+                "description": "MaBoSS BND of the Logical model of Tumor Cell Invasion",
+                "fileSize": "3558",
+                "mimeType": "text/plain",
+                "md5sum": "59faa8617a21b5fc2b1ff6e6bf9b168c",
+                "sha1sum": "1b37d43fd2b909ba0e4fcf1234dd5dfd5362925c",
+                "sha256sum": "7b09a93fa82bd7e3829bdc58f091c03b7b77e5ba0ca732c21debbd552d85cacb"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1680870376,
+                "submitter": "Noël V",
+                "comment": "Added MaBoSS model, as well as a mention that this model was initially developed for MaBoSS, as a part of a multiscale model developed with PhysiBoSS"
+            }
+        ]
+    },
+    "firstPublished": 1687886829,
+    "submissionId": "MODEL2304070002",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Noël V",
+                "email": "contact@vincent-noel.fr",
+                "orcid": "0000-0003-3448-291X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

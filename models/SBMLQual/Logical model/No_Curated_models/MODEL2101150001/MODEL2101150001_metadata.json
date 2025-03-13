@@ -1,0 +1,103 @@
+{
+    "name": "Corral2021 - Interplay between SMAD2 and STAT5A regulating IL-17A/F expression in Th cells.",
+    "description": "IL-17A and F are critical cytokines in anti-microbial immunity but also contribute to auto-immune pathologies. Recent evidence suggests that they may be differentially produced by T-helper (Th) cells but the underlying mechanisms remain unknown. To address this question, a logical model containing 82 components and 136 regulatory links was developed and calibrated with original flow cytometry data using naive CD4+ T cells in conditions inducing either IL-17A or F. Model analyses led to the identification of the transcription factors NFAT2A, STAT5A and Smad2 as key components explaining the differential expression of IL-17A and IL-17F, with STAT5A controlling IL-17F expression, and an interplay of NFAT2A, STAT5A and Smad2 controlling IL-17A expression.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1186/s43556-021-00034-3",
+        "journal": "Molecular Biomedicine",
+        "title": "Interplay between SMAD2 and STAT5A is a critical determinant of IL-17A/IL-17F differential expression",
+        "affiliation": "Computational Systems Biology Team, Institut de Biologie de l’École Normale Supérieure, CNRS UMR8197, INSERM U1024, École Normale Supérieure, PSL Université, 75005 Paris, France",
+        "year": 2021,
+        "month": "4",
+        "volume": "2",
+        "issue": "1",
+        "link": "http://identifiers.org/doi/10.1186/s43556-021-00034-3",
+        "authors": [
+            {
+                "name": "Karla Fabiola Corral-Jara"
+            },
+            {
+                "name": "Camille Chauvin"
+            },
+            {
+                "name": "Wassim Abou-Jaoud\\'e"
+            },
+            {
+                "name": "Maximilien Grandclaudon"
+            },
+            {
+                "name": "Aur\\'elien Naldi"
+            },
+            {
+                "name": "Vassili Soumelis"
+            },
+            {
+                "name": "Denis Thieffry"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Corral_ThIL17diff_15jan2021.sbml",
+                "description": "SBML-qual",
+                "fileSize": "283960",
+                "mimeType": "application/xml",
+                "md5sum": "811c0b1ee818d860325fa0500f12dff0",
+                "sha1sum": "ee0dc6076e7914c3de907b2d06f0f947c07837fd",
+                "sha256sum": "c9e5f71ea956c96c1f0a6bb2272202d08113427e84f1ea87ffa7eec02db9d8de"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 5,
+                "submitted": 1617714380,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Updated model name as per BioModels format."
+            }
+        ]
+    },
+    "firstPublished": 1617714419,
+    "submissionId": "MODEL2101150001",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Denis Thieffry",
+                "email": "denis.thieffry@ens.fr",
+                "affiliation": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+                "orcid": "0000-0003-0271-1757",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

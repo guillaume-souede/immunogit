@@ -1,0 +1,169 @@
+{
+    "name": "Sanchez2017 -  Inflammatory responses during acute hyperinsulinemia",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    <div class=\"dc:title\">Sanchez2017 -  Inflammatory responses during acute hyperinsulinemia</div><div class=\"dc:description\">  <p style=\"font-size: 12px; margin-left: -1em; padding-bottom: 4px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">    <br />  </p></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/doi/10.1186/s12918-017-0436-y\" title=\"Access to this publication\">The CD4+ T cell regulatory    network mediates inflammatory responses during acute    hyperinsulinemia: a simulation study</a>  </div>  <div class=\"bibo:authorList\">Mariana E. Martinez-Sanchez, Marcia  Hiriart, Elena R. Alvarez-Buylla</div>  <div class=\"bibo:Journal\">BMC Systems Biology</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Obesity is frequently linked to insulin resistance, high    insulin levels, chronic inflammation, and alterations in the    behaviour of CD4+ T cells. Despite the biomedical importance of    this condition, the system-level mechanisms that alter CD4+ T    cell differentiation and plasticity are not well understood. We    model how hyperinsulinemia alters the dynamics of the CD4+ T    regulatory network, and this, in turn, modulates cell    differentiation and plasticity. Different polarizing    microenvironments are simulated under basal and high levels of    insulin to assess impacts on cell-fate attainment and    robustness in response to transient perturbations. In the    presence of high levels of insulin Th1 and Th17 become more    stable to transient perturbations, and their basin sizes are    augmented, Tr1 cells become less stable or disappear, while    TGF? producing cells remain unaltered. Hence, the model    provides a dynamic system-level framework and explanation to    further understand the documented and apparently paradoxical    role of TGF? in both inflammation and regulation of immune    responses, as well as the emergence of the adipose Treg    phenotype. Furthermore, our simulations provide new predictions    on the impact of the microenvironment in the coexistence of the    different cell types, suggesting that in pro-Th1, pro-Th2 and    pro-Th17 environments effector and regulatory cells can    coexist, but that high levels of insulin severely diminish    regulatory cells, especially in a pro-Th17 environment. This    work provides a first step towards a system-level formal and    dynamic framework to integrate further experimental data in the    study of complex inflammatory diseases.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1606020000\">MODEL1606020000</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1186/s12918-017-0436-y",
+        "journal": "BMC Systems Biology",
+        "title": "The CD4+ T cell regulatory network mediates inflammatory responses during acute hyperinsulinemia: a simulation study",
+        "affiliation": "Genética Molecular, Desarrollo y Evolución de Plantas, Departamento de Ecología Funcional, Instituto de EcologíaUniversidad Nacional Autónoma de México,; Centro de Ciencias de la Complejidad Universidad Nacional Autónoma de México; Departamento de Neurociencia Cognitiva, Instituto de Fisiología CelularUniversidad Nacional Autónoma de México",
+        "synopsis": "Obesity is frequently linked to insulin resistance, high insulin levels, chronic inflammation, and alterations in the behaviour of CD4+ T cells. Despite the biomedical importance of this condition, the system-level mechanisms that alter CD4+ T cell differentiation and plasticity are not well understood.\r\n\r\nWe model how hyperinsulinemia alters the dynamics of the CD4+ T regulatory network, and this, in turn, modulates cell differentiation and plasticity. Different polarizing microenvironments are simulated under basal and high levels of insulin to assess impacts on cell-fate attainment and robustness in response to transient perturbations. In the presence of high levels of insulin Th1 and Th17 become more stable to transient perturbations, and their basin sizes are augmented, Tr1 cells become less stable or disappear, while TGF? producing cells remain unaltered. Hence, the model provides a dynamic system-level framework and explanation to further understand the documented and apparently paradoxical role of TGF? in both inflammation and regulation of immune responses, as well as the emergence of the adipose Treg phenotype. Furthermore, our simulations provide new predictions on the impact of the microenvironment in the coexistence of the different cell types, suggesting that in pro-Th1, pro-Th2 and pro-Th17 environments effector and regulatory cells can coexist, but that high levels of insulin severely diminish regulatory cells, especially in a pro-Th17 environment.\r\n\r\nThis work provides a first step towards a system-level formal and dynamic framework to integrate further experimental data in the study of complex inflammatory diseases.",
+        "link": "http://identifiers.org/doi/10.1186/s12918-017-0436-y",
+        "authors": [
+            {
+                "name": "Mariana E. Martinez-Sanchez"
+            },
+            {
+                "name": "Marcia Hiriart"
+            },
+            {
+                "name": "Elena R. Alvarez-Buylla"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "MODEL1606020000_url.xml",
+                "description": "SBML L3V1 representation of Sanchez2017 -  Inflammatory responses during acute hyperinsulinemia",
+                "fileSize": "50427",
+                "mimeType": "application/xml",
+                "md5sum": "7e1e4e54fb13d321388215fa126ac0d7",
+                "sha1sum": "6ff7561f161659541a46a552860997e89b1204b6",
+                "sha256sum": "775f7d7fe9ab536a6cc0079eceaff3e3ba5331dfb17b093e77d7f7c724f45200"
+            }
+        ],
+        "additional": [
+            {
+                "name": "MODEL1606020000-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "811",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0203b829d678299c88bb0931ab2ddb80",
+                "sha1sum": "4daf440f830d7685ae0d432ff4ebd07d57d329d4",
+                "sha256sum": "ac6a91999ff2969c8dab2e0fd4001f7a38f585277a297329f6010b3b03a9d23f"
+            },
+            {
+                "name": "MODEL1606020000-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "815",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b2ff1e3d8e32120f3e0d630e390ccb24",
+                "sha1sum": "94d048b224c4bbc49638618a478350e17f430e8b",
+                "sha256sum": "0a1260d481c8cef64cdcabcb6bd4fd60c3c5667283915e0d6f8b9355d5ad9976"
+            },
+            {
+                "name": "MODEL1606020000.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "2001",
+                "mimeType": "text/x-matlab",
+                "md5sum": "6555d6b36521b915053f972b62cd986f",
+                "sha1sum": "e40357ff63d900689580c0a0a7d253654aeff67e",
+                "sha256sum": "e88895d091028339c79d8f3b406ece56f5211ef96477b1bfda468bb7cacc520e"
+            },
+            {
+                "name": "MODEL1606020000.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "4370",
+                "mimeType": "image/png",
+                "md5sum": "51a02aeed2d9b25335f3564484b8bb20",
+                "sha1sum": "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+                "sha256sum": "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+            },
+            {
+                "name": "MODEL1606020000.sci",
+                "description": "Auto-generated Scilab file",
+                "fileSize": "380",
+                "mimeType": "text/plain",
+                "md5sum": "d8108a67c3e1285e398b2114b832da84",
+                "sha1sum": "bc00487f436d85a745e6147526a301ac5c861bcb",
+                "sha256sum": "9bfaf664e0afd844d31a7c4fde08b14150ade452ff20c55ca50d8a0b7433609f"
+            },
+            {
+                "name": "MODEL1606020000.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "845",
+                "mimeType": "image/svg+xml",
+                "md5sum": "9b345eba60fb5fb51c1e86515ef1b1cb",
+                "sha1sum": "56a72abee084f689db146a0d1ace6132f483a4d7",
+                "sha256sum": "8a070ba5edcbe7079387c07a50fac9475a04ef6a850294ab749026d911f249c4"
+            },
+            {
+                "name": "MODEL1606020000.vcml",
+                "description": "Auto-generated VCML file",
+                "fileSize": "950",
+                "mimeType": "application/xml",
+                "md5sum": "984966c83dc02464d760af55e553d0d7",
+                "sha1sum": "bd74adaa148cbbc78af271b0b503432f5de37d8e",
+                "sha256sum": "108005e47e9027b7f0e571e8e059f0e55c610bc2bf30a87e515747116fa93c85"
+            },
+            {
+                "name": "MODEL1606020000.xpp",
+                "description": "Auto-generated XPP file",
+                "fileSize": "487",
+                "mimeType": "text/plain",
+                "md5sum": "d61d0294f020024e1442e335d0d013c9",
+                "sha1sum": "45f0c4311a04eff241c2d9004a43b30972d286b1",
+                "sha256sum": "dd7c20e9b44f04deb48f1face26b579aef11676cb9a20a41b250640121ed41fe"
+            },
+            {
+                "name": "MODEL1606020000_urn.xml",
+                "description": "Auto-generated SBML file with URNs",
+                "fileSize": "50451",
+                "mimeType": "application/xml",
+                "md5sum": "20741c60f19f87382839066d49916b8d",
+                "sha1sum": "9fa5c838ca81b84fb91d6b56e1b3c2338daaa098",
+                "sha256sum": "c16d4b0f52643d52ce697bf5fcd23e9e90dc54d1a984c68a98f125d22005e0b1"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1464899604,
+                "submitter": "Mariana Martinez-Sanchez",
+                "comment": "Original import of MODEL1606020000.xml.origin"
+            },
+            {
+                "version": 2,
+                "submitted": 1498588408,
+                "submitter": "Mariana Martinez-Sanchez",
+                "comment": "Current version of Sanchez2017 -  Inflammatory responses during acute hyperinsulinemia"
+            }
+        ]
+    },
+    "firstPublished": 1498584544,
+    "submissionId": "MODEL1606020000",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Mariana Martinez-Sanchez",
+                "email": "mar.esther23@gmail.com",
+                "affiliation": "Universidad Nacional Autónoma de México",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}
