@@ -1,0 +1,312 @@
+{
+    "name": "Makhlouf2020 - No treatment model of the role of CD4 T cells in tumor-immune interactions",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model simulating the interactions between tumor and immune cells is detailed in the publication:Ahmed M. Makhlouf, Lamiaa El-Shennawy, Hesham A. Elkaranshawy, \"Mathematical Modelling for the Role of CD4+T Cells in Tumor-Immune Interactions\", Comput Math Methods Med. 2020 Feb 19;2020:7187602.doi: 10.1155/2020/7187602Comment:This no treatment model is described by equations 1-7 of the publication manuscript. Abstract:Mathematical modelling has been used to study tumor-immune cell interaction. Some models were proposed to examine the effect of circulating lymphocytes, natural killer cells, and CD8+T cells, but they neglected the role of CD4+T cells. Other models were constructed to study the role of CD4+T cells but did not consider the role of other immune cells. In this study, we propose a mathematical model, in the form of a system of nonlinear ordinary differential equations, that predicts the interaction between tumor cells and natural killer cells, CD4+T cells, CD8+T cells, and circulating lymphocytes with or without immunotherapy and/or chemotherapy. This system is stiff, and the Runge–Kutta method failed to solve it. Consequently, the “Adams predictor-corrector” method is used. The results reveal that the patient’s immune system can overcome small tumors; however, if the tumor is large, adoptive therapy with CD4+T cells can be an alternative to both CD8+T cell therapy and cytokines in some cases. Moreover, CD4+T cell therapy could replace chemotherapy depending upon tumor size. Even if a combination of chemotherapy and immunotherapy is necessary, using CD4+T cell therapy can better reduce the dose of the associated chemotherapy compared to using combined CD8+T cells and cytokine therapy. Stability analysis is performed for the studied patients. It has been found that all equilibrium points are unstable, and a condition for preventing tumor recurrence after treatment has been deduced. Finally, a bifurcation analysis is performed to study the effect of varying system parameters on the stability, and bifurcation points are specified. New equilibrium points are created or demolished at some bifurcation points, and stability is changed at some others. Hence, for systems turning to be stable, tumors can be eradicated without the possibility of recurrence. The proposed mathematical model provides a valuable tool for designing patients’ treatment intervention strategies.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32148558",
+        "journal": "Computational and mathematical methods in medicine",
+        "title": "Mathematical Modelling for the Role of CD4<sup>+</sup>T Cells in Tumor-Immune Interactions.",
+        "affiliation": "Department of Engineering Mathematics and Physics, Faculty of Engineering, Alexandria University, Alexandria, Egypt.",
+        "synopsis": "Mathematical modelling has been used to study tumor-immune cell interaction. Some models were proposed to examine the effect of circulating lymphocytes, natural killer cells, and CD8<sup>+</sup>T cells, but they neglected the role of CD4<sup>+</sup>T cells. Other models were constructed to study the role of CD4<sup>+</sup>T cells but did not consider the role of other immune cells. In this study, we propose a mathematical model, in the form of a system of nonlinear ordinary differential equations, that predicts the interaction between tumor cells and natural killer cells, CD4<sup>+</sup>T cells, CD8<sup>+</sup>T cells, and circulating lymphocytes with or without immunotherapy and/or chemotherapy. This system is stiff, and the Runge-Kutta method failed to solve it. Consequently, the \"Adams predictor-corrector\" method is used. The results reveal that the patient's immune system can overcome small tumors; however, if the tumor is large, adoptive therapy with CD4<sup>+</sup>T cells can be an alternative to both CD8<sup>+</sup>T cell therapy and cytokines in some cases. Moreover, CD4<sup>+</sup>T cell therapy could replace chemotherapy depending upon tumor size. Even if a combination of chemotherapy and immunotherapy is necessary, using CD4<sup>+</sup>T cell therapy can better reduce the dose of the associated chemotherapy compared to using combined CD8<sup>+</sup>T cells and cytokine therapy. Stability analysis is performed for the studied patients. It has been found that all equilibrium points are unstable, and a condition for preventing tumor recurrence after treatment has been deduced. Finally, a bifurcation analysis is performed to study the effect of varying system parameters on the stability, and bifurcation points are specified. New equilibrium points are created or demolished at some bifurcation points, and stability is changed at some others. Hence, for systems turning to be stable, tumors can be eradicated without the possibility of recurrence. The proposed mathematical model provides a valuable tool for designing patients' treatment intervention strategies.",
+        "year": 2020,
+        "month": "0",
+        "volume": "2020",
+        "pages": "7187602",
+        "link": "http://identifiers.org/pubmed/32148558",
+        "authors": [
+            {
+                "name": "Ahmed M Makhlouf",
+                "institution": "Department of Engineering Mathematics and Physics, Faculty of Engineering, Alexandria University, Alexandria, Egypt.",
+                "orcid": "0000-0002-5538-3737"
+            },
+            {
+                "name": "Lamiaa El-Shennawy",
+                "institution": "Institute of Graduate Studies and Research, Alexandria University, Alexandria, Egypt."
+            },
+            {
+                "name": "Hesham A Elkaranshawy",
+                "institution": "Department of Engineering Mathematics and Physics, Faculty of Engineering, Alexandria University, Alexandria, Egypt.",
+                "orcid": "0000-0002-0616-1732"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Makhlouf2020.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "71100",
+                "mimeType": "application/xml",
+                "md5sum": "ecf995f49c663b7449812967bec30555",
+                "sha1sum": "7f32e09552b5388d4a0ea0e69a6bd79bf36e9a61",
+                "sha256sum": "897c25d8618d213790b2dce8a4104b3f3ad3b9e9d09fa23e2c4448a8797d35b9"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Fig1(a).png",
+                "description": "PNG file - Fig. 1(a) reproduction",
+                "fileSize": "102311",
+                "mimeType": "image/png",
+                "md5sum": "1312278c2d0978dbe0330260069c5b74",
+                "sha1sum": "6f9cf63a5cece222b84ce16d38e1037b987f2d28",
+                "sha256sum": "62b3c3c5c131742a8d9a831f3a2cef4fb910e432dcd103d85ef1d4e18b867d95"
+            },
+            {
+                "name": "Fig1(b).png",
+                "description": "PNG file - Fig. 1(b) reproduction",
+                "fileSize": "88122",
+                "mimeType": "image/png",
+                "md5sum": "2f05e3a1fe08e8bf123419a2316d9635",
+                "sha1sum": "2e5c2e94eb4dff9eae4fdcaf0da51459cca6a241",
+                "sha256sum": "3fad6b575fefe7559b489769f8281fbbd498c6fa59c1b8a444c8390d2e326b6e"
+            },
+            {
+                "name": "Fig1(c).png",
+                "description": "PNG file - Fig. 1(c) reproduction",
+                "fileSize": "100890",
+                "mimeType": "image/png",
+                "md5sum": "441480a6fcc51db592cb21e48652a59c",
+                "sha1sum": "1c5038320d7e5812ea049d89563bcfb2a0f8756c",
+                "sha256sum": "1b361912bec29a2dbfa4bc02fae1e7e30c01df0b4366c44fcb439a36d30648b6"
+            },
+            {
+                "name": "Makhlouf2020 - Fig1(a).sedml",
+                "description": "SEDML file - Fig. 1(a) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "30150",
+                "mimeType": "application/xml",
+                "md5sum": "b67b41ccaf7c468a8f933a42484eb092",
+                "sha1sum": "4fd8b92c2adf2db9c8fc49efddeaa275016e352a",
+                "sha256sum": "5b7d2c2923c95081ba709f2c71e54452056e4e8876b7abc42e995331dd1e2cca"
+            },
+            {
+                "name": "Makhlouf2020 - Fig1(b).sedml",
+                "description": "SEDML file - Fig. 1(b) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "29784",
+                "mimeType": "application/xml",
+                "md5sum": "e343cb8726e1900dd54a2f458a8fd633",
+                "sha1sum": "1ce3a8a19244b03aac7bd90d88169b6ef97327ac",
+                "sha256sum": "995b32c73a25e7af17b2300597e9f2ae09fdf123a52b08175878298c5a8acae2"
+            },
+            {
+                "name": "Makhlouf2020 - Fig1(c).sedml",
+                "description": "SEDML file - Fig. 1(c) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "29784",
+                "mimeType": "application/xml",
+                "md5sum": "459044de5e65cc563c7da95311db4755",
+                "sha1sum": "a67e870f6627b2e2c7d89990dd615d24b1f25c9f",
+                "sha256sum": "15eae8fc42a5701528070badbd22ad46277a9979542e73fd200dcaf1f8d810cb"
+            },
+            {
+                "name": "Makhlouf2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "17932",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ba0866c37533b2816addeb875ee2fdcc",
+                "sha1sum": "07adbd37d7387f2fa388efb61f068c935eaa9599",
+                "sha256sum": "f642a711a32dcc03b79c3eddc2dd5f3b69d1bcfba32268eb4e59542beddbc73c"
+            },
+            {
+                "name": "Makhlouf2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "24888",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d9984121902333eeceb2a385fe09033e",
+                "sha1sum": "fa92288f5b548f53acc7a5a5194dec1483dc11fa",
+                "sha256sum": "0b32b6d08355fd82d3482fa9f9998213fdc7a0742ca8e4cf957278988b2137dd"
+            },
+            {
+                "name": "Makhlouf2020-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "9008",
+                "mimeType": "text/x-matlab",
+                "md5sum": "2e6f653839948628dfd5fa7e5037f30b",
+                "sha1sum": "e5d49ef88fba12e81a04926620a695c95dc197de",
+                "sha256sum": "bb07382ee750635d29b8b39e953f4745732b11d017a4bae60f67714077d65a1c"
+            },
+            {
+                "name": "Makhlouf2020-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "9008",
+                "mimeType": "text/x-matlab",
+                "md5sum": "aa428bd15dfc898a6038f2cc9251f0fb",
+                "sha1sum": "4740a0fa83f06484371776bc2ed0e49061d2a338",
+                "sha256sum": "5f241d818fffb7fdced2f68eee40fdd47ea6ead5f7fa4ffb7fe3dc83bb8b201d"
+            },
+            {
+                "name": "Makhlouf2020.cps",
+                "description": "COPASI file",
+                "fileSize": "121272",
+                "mimeType": "application/xml",
+                "md5sum": "d15c1ccb6c06bb1105e2e9cc94775ef2",
+                "sha1sum": "e8468f3c5c2a353290609c1bfe69c5d3c8243f5d",
+                "sha256sum": "808bd20b91926c873d2ceb0ad82a3b019bcb8d69277b2af60506e2ec1be10f50"
+            },
+            {
+                "name": "Makhlouf2020.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "7116",
+                "mimeType": "text/plain",
+                "md5sum": "d29bf02bb397c73eec9d36d01f643d73",
+                "sha1sum": "b4baf26e17c6ad67a3e8d7f536f2fc961947269b",
+                "sha256sum": "9437f3b3c66b38d6c94ccb08ecd34d4775f40a92f35d4e6a27f5e2b03cf43984"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "102311",
+                "mimeType": "image/png",
+                "md5sum": "1312278c2d0978dbe0330260069c5b74",
+                "sha1sum": "6f9cf63a5cece222b84ce16d38e1037b987f2d28",
+                "sha256sum": "62b3c3c5c131742a8d9a831f3a2cef4fb910e432dcd103d85ef1d4e18b867d95"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "128",
+                "mimeType": "text/plain",
+                "md5sum": "8a6d47dca10d672301abdbf17ac1d391",
+                "sha1sum": "939099df5b95691243525deea2a52267a06bb604",
+                "sha256sum": "cffde24aff2bbef533cd3701cf4d76ad22df17e6d084156be12cdf3e424dd625"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2005",
+                "mimeType": "application/xml",
+                "md5sum": "5106fffd1d840f759d42ce64e14581d8",
+                "sha1sum": "374ed385fb53da18a58c9c72d75a58c86df874c6",
+                "sha256sum": "5a832e311d70f9aab0fee696c80b395d26332964285e6fe2aa3eb6106d3eba2f"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4600",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "32c16a447764c4ddcc554e31caaeaba6",
+                "sha1sum": "d6004b02932597a967c05eb4d8195be22af6a9bd",
+                "sha256sum": "d49da5e53b529c7883cf7757778e40288e828ba9bee0d5273b3dfef3a3c99467"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1630921794,
+                "submitter": "Emilia Chen",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 3,
+                "submitted": 1630921996,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001042"
+            },
+            {
+                "version": 4,
+                "submitted": 1724292514,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282019,
+    "submissionId": "MODEL2109060001",
+    "publicationId": "BIOMD0000001042",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C18670",
+            "name": "Cancer Immunology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C18670"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "DOID:162",
+            "name": "cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:162"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001042",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001042"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2109060001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2109060001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "32148558",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:32148558"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "32148558",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/32148558"
+        }
+    ]
+}

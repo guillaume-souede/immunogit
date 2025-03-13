@@ -1,0 +1,233 @@
+{
+    "name": "Malinzi2019 - chemovirotherapy",
+    "description": "The paper describes a model of oncolytic virothherapy. Created by COPASI 4.25 (Build 207) This model is described in the article: Mathematical Analysis of a Mathematical Model of Chemovirotherapy: Effect of Drug Infusion Method Joseph Malinzi Computational and Mathematical Methods in Medicine Volume 2019, Article ID 7576591, 16 pages Abstract: IA mathematical model for the treatment of cancer using chemovirotherapy is developed with the aim of determining the efficacy of three drug infusion methods: constant, single bolus, and periodic treatments. The model is in the form of ODEs and is further extended into DDEs to account for delays as a result of the infection of tumor cells by the virus and chemotherapeutic drug responses. Analysis of the model is carried out for each of the three drug infusion methods. Analytic solutions are determined where possible and stability analysis of both steady state solutions for the ODEs and DDEs is presented. The results indicate that constant and periodic drug infusion methods are more efficient compared to a single bolus injection. Numerical simulations show that with a large virus burst size, irrespective of the drug infusion method, chemovirotherapy is highly effective compared to either treatments. The simulations further show that both delays increase the period within which a tumor can be cleared from body tissue.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30984283",
+        "journal": "Computational and mathematical methods in medicine",
+        "title": "Mathematical Analysis of a Mathematical Model of Chemovirotherapy: Effect of Drug Infusion Method.",
+        "affiliation": "Department of Mathematics, University of Eswatini, Private Bag 4, Kwaluseni, Eswatini.",
+        "synopsis": "A mathematical model for the treatment of cancer using chemovirotherapy is developed with the aim of determining the efficacy of three drug infusion methods: constant, single bolus, and periodic treatments. The model is in the form of ODEs and is further extended into DDEs to account for delays as a result of the infection of tumor cells by the virus and chemotherapeutic drug responses. Analysis of the model is carried out for each of the three drug infusion methods. Analytic solutions are determined where possible and stability analysis of both steady state solutions for the ODEs and DDEs is presented. The results indicate that constant and periodic drug infusion methods are more efficient compared to a single bolus injection. Numerical simulations show that with a large virus burst size, irrespective of the drug infusion method, chemovirotherapy is highly effective compared to either treatments. The simulations further show that both delays increase the period within which a tumor can be cleared from body tissue.",
+        "year": 2019,
+        "month": "0",
+        "volume": "2019",
+        "pages": "7576591",
+        "link": "http://identifiers.org/pubmed/30984283",
+        "authors": [
+            {
+                "name": "Joseph Malinzi",
+                "institution": "Department of Mathematics, University of Eswatini, Private Bag 4, Kwaluseni, Eswatini.",
+                "orcid": "0000-0001-9184-8506"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Malinzi2019.xml",
+                "description": "SBML L3V1 representation of cancer chemovirotherapy model",
+                "fileSize": "68514",
+                "mimeType": "application/xml",
+                "md5sum": "cf656456192ecf6a6814c6e5dcb63bda",
+                "sha1sum": "916685c3a0dfd841222eda538170fee981c20f44",
+                "sha256sum": "83c786c0ebf648a645d3f2149e16e54a8e539360d96dc07790f03600f8fd9002"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Malinzi2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "12805",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "10cddb163ae835c1c9035c0908198030",
+                "sha1sum": "875eb81aa84da6c219c4ea6033be5190e36f7636",
+                "sha256sum": "8d429900a824b02494bf60f904ce6575279dc5d22a65bf3d335f871a17eb7904"
+            },
+            {
+                "name": "Malinzi2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "18075",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f32ae7b88a5d410181698294c5f0270f",
+                "sha1sum": "caaa9951a1c5206c888f5420f64cb0d4b129e4c6",
+                "sha256sum": "2d11cce11188d35dc875e04ab6445abb59908ab24aa08143dc9fe624c5d8d9b8"
+            },
+            {
+                "name": "Malinzi2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6673",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0f870dda185f0ddba8ab416978bd2121",
+                "sha1sum": "f27c88d947d717937d76e5f6346b49ec6746bfa7",
+                "sha256sum": "39eabe67ffdb1fa80d5117aa6982fad7e4d9db9a4481ee090fd9d3fefb39e9c9"
+            },
+            {
+                "name": "Malinzi2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6673",
+                "mimeType": "text/x-matlab",
+                "md5sum": "10a8e2cad6a067451e644ea812ce0d62",
+                "sha1sum": "58b3aed91eb3473502b8fc650d6fc11b98350ff7",
+                "sha256sum": "7b27cf727ea748b72abd492fd1b88a38ce3a10e0d11b64bfe3457ae6fdf95b75"
+            },
+            {
+                "name": "Malinzi2019.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "81987",
+                "mimeType": "application/xml",
+                "md5sum": "f13ada4d57f92bc84a54399ede2c8e6a",
+                "sha1sum": "70aa9c7e93d48aaddb9860afe17d0453b29783fa",
+                "sha256sum": "6496766c977ba2956af64ccaf755a20eaf88a0a17c1d9f74755c96ffe659f685"
+            },
+            {
+                "name": "Malinzi2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4759",
+                "mimeType": "text/plain",
+                "md5sum": "872de403f74241b84cc68aa495ccff11",
+                "sha1sum": "df0c2cff786dc27bb299ec7c6c1c56b55d89407a",
+                "sha256sum": "d1185d62f46e0e8ba78382a2d0c3720b747f7e2dc5df8e4c28b5b08bd7a89e01"
+            },
+            {
+                "name": "Malinzi2019.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "22055",
+                "mimeType": "application/xml",
+                "md5sum": "691bc49262a7285dc1e3a5464d9830a6",
+                "sha1sum": "38d4e74daa88ff5961ae91cb1e0f12f6c03b3479",
+                "sha256sum": "5f017dd7e353fe0f6fd2052fa4644e457f72b8040ab80f23e81f6a8527d7166f"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "22419",
+                "mimeType": "image/png",
+                "md5sum": "54de4c8a22330b2767631aec36252ee3",
+                "sha1sum": "fb9e05a5d2df74c2b1877c078926530c263f0b38",
+                "sha256sum": "5bbd59e3f79bb64a0ace8fb6a80bdc3253f6a4df36ec2daea99c2368ee5badf8"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "110",
+                "mimeType": "text/plain",
+                "md5sum": "2639f70a6571edc0f260a00cf3b17977",
+                "sha1sum": "89f401f01e86ba2965366891fa1ec8390030fa43",
+                "sha256sum": "2ae4f3c3bc0db769b25d5584afbfca683fb562c44f0b881a254150e94c806446"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1419",
+                "mimeType": "application/xml",
+                "md5sum": "fe9e5850fd211c83145ef69407a74e19",
+                "sha1sum": "71c837b183db5b65d4c6e73f6cf8a94a6624ff16",
+                "sha256sum": "665a935ba521839d56afa0db6849d89b31be8469507d6b2eada409c56fbbadad"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3427",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "8df92fa42862dda2aba3b9bb22ef8889",
+                "sha1sum": "0569e9d88403e0bfdd298234a5ae8d7a32dee38d",
+                "sha256sum": "283479cc4abcf7424087aa022d049fe96ad1cd2a439e1c87c72d329a1b1cb601"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1564156310,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000764"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285538,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281849,
+    "submissionId": "MODEL1907260017",
+    "publicationId": "BIOMD0000000764",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30984283",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/30984283"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000764",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000764"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907260017",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907260017"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        }
+    ]
+}

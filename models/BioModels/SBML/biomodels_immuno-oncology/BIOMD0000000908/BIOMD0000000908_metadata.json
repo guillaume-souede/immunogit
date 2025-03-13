@@ -1,0 +1,261 @@
+{
+    "name": "dePillis2013 - Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatment",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatmentLisette dePillis 1, , Trevor Caldwell 2, , Elizabeth Sarapata 2, and  Heather Williams 2,1. \tDepartment of Mathematics, Harvey Mudd College, Claremont, CA 917112. \tHarvey Mudd College, Claremont, CA 91711, United States, United States, United States    AbstractWe present a mathematical model to study the effects of the regulatory T cells (Treg) on Renal Cell Carcinoma (RCC) treatment with sunitinib. The drug sunitinib inhibits the natural self-regulation of the immune system, allowing the effector components of the immune system to function for longer periods of time. This mathematical model builds upon our non-linear ODE model by de Pillis et al. (2009) [13] to incorporate sunitinib treatment, regulatory T cell dynamics, and RCC-specific parameters. The model also elucidates the roles of certain RCC-specific parameters in determining key differences between in silico patients whose immune profiles allowed them to respond well to sunitinib treatment, and those whose profiles did not.    Simulations from our model are able to produce results that reflect clinical outcomes to sunitinib treatment such as: (1) sunitinib treatments following standard protocols led to improved tumor control (over no treatment) in about 40% of patients; (2) sunitinib treatments at double the standard dose led to a greater response rate in about 15% the patient population; (3) simulations of patient response indicated improved responses to sunitinib treatment when the patient's immune strength scaling and the immune system strength coefficients parameters were low, allowing for a slightly stronger natural immune response.Keywords: Renal cell carcinoma, mathematical modeling., sunitinib, immune system, regulatory T cells.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.3934/dcdsb.2013.18.915",
+        "journal": "DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES",
+        "title": "Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatment",
+        "affiliation": "Department of Mathematics, Harvey Mudd College\r\nClaremont, CA 91711 USA\r\nHarvey Mudd College\r\nClaremont, CA 91711, USA",
+        "synopsis": "Abstract. \r\nWe present a mathematical model to study the effects of the regu-latory T cells (T reg ) on Renal Cell Carcinoma (RCC) treatment with sunitinib.The drug sunitinib inhibits the natural self-regulation of the immune system,allowing the effector components of the immune system to function for longerperiods of time. This mathematical model builds upon our non-linear ODEmodel by de Pillis et al. (2009) [13] to incorporate sunitinib treatment, regula-tory T cell dynamics, and RCC-specific parameters. The model also elucidatesthe roles of certain RCC-specific parameters in determining key differences be-tween in silico patients whose immune profiles allowed them to respond wellto sunitinib treatment, and those whose profiles did not.Simulations from our model are able to produce results that reflect clinicaloutcomes to sunitinib treatment such as: (1) sunitinib treatments followingstandard protocols led to improved tumor control (over no treatment) in about40% of patients; (2) sunitinib treatments at double the standard dose led to agreater response rate in about 15% the patient population; (3) simulations ofpatient response indicated improved responses to sunitinib treatment when thepatient’s immune strength scaling and the immune system strength coefficientsparameters were low, allowing for a slightly stronger natural immune response",
+        "year": 2013,
+        "month": "6",
+        "volume": "18",
+        "issue": "4",
+        "link": "http://identifiers.org/doi/10.3934/dcdsb.2013.18.915",
+        "authors": [
+            {
+                "name": "Lisette de Pillis"
+            },
+            {
+                "name": "Trevor Caldwell, Elizabeth Sarapata and Heather Williams"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "dePillis2013.xml",
+                "description": "SBML L2V4 dePillis2013 - Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatment",
+                "fileSize": "77066",
+                "mimeType": "application/xml",
+                "md5sum": "5c97b254a51da8f25bbdd7688dbd3580",
+                "sha1sum": "4ff7ea23e81cee4f4727b2988301481bb8e8044c",
+                "sha256sum": "a6ea056b2635bcb299fb34391b340c74015b9b75a28526c890188451a0d80a81"
+            }
+        ],
+        "additional": [
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "25016",
+                "mimeType": "image/png",
+                "md5sum": "32d07ab7ad3669aed15a230cbb06acc4",
+                "sha1sum": "1455706b2775836d557b75658671fcbf224c5949",
+                "sha256sum": "be4a778365f19fd27cf56060c340373d068013d173687ce6a1270ee048914dda"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "123",
+                "mimeType": "text/plain",
+                "md5sum": "651c6fc8bc1be70104eadb188ef19adf",
+                "sha1sum": "71261a43821e4fe954df13b4ecaf7556ed63a402",
+                "sha256sum": "712f81dbad3b8d52baf88a744bfd3481d20d28d69f820ec70cfe8ba8b722cbd8"
+            },
+            {
+                "name": "dePillis2013-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "19278",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "27ddb92b42e036cb666ded9681b78b31",
+                "sha1sum": "93c3c4a56ea1fc754e0c0eea936eecc518e23951",
+                "sha256sum": "b2fc8e982096736f97275556bf3001d61878fb1eb42ff6ad8f39f5cd72783751"
+            },
+            {
+                "name": "dePillis2013-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "28305",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d4a8e9f108205f9e4a571100f984bbf9",
+                "sha1sum": "76559d70741a04159da8daade422d6420f590116",
+                "sha256sum": "28652632aefe859bbd97a24ed6d861b142427c8bb6730a7e9d889e2ff25c6c5c"
+            },
+            {
+                "name": "dePillis2013-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "13405",
+                "mimeType": "text/x-matlab",
+                "md5sum": "915050149e0a292f011e00c33d689a01",
+                "sha1sum": "dcccf03eda6b2b7d78ef591883a2256271f96224",
+                "sha256sum": "646d62b784770b8d7d1646667571d7641d953a007cb914c227c59cd3a779bfae"
+            },
+            {
+                "name": "dePillis2013-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "13405",
+                "mimeType": "text/x-matlab",
+                "md5sum": "04fb1178b9b6460d5af6e05c1f3b6267",
+                "sha1sum": "3f5bbacc214addaf1f4d180d8681c785d92aafa7",
+                "sha256sum": "d1cc3a75c8322e71f1d920c54b12d7c6c274fde834aa6a55f3f1e739c1f08399"
+            },
+            {
+                "name": "dePillis2013.cps",
+                "description": "COPASI version 4.24 (Build 197) dePillis2013 - Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatment",
+                "fileSize": "129109",
+                "mimeType": "application/xml",
+                "md5sum": "3b055c3266fad1397b1fd369559d3694",
+                "sha1sum": "891579096af224480f76f4070ce0a93ff33cd7e2",
+                "sha256sum": "6a1dc4f1677b4afb572e7b04527cc3efd4eb6fc91a0e4ab1b8756a05250e0587"
+            },
+            {
+                "name": "dePillis2013.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "10582",
+                "mimeType": "text/plain",
+                "md5sum": "083bdf8a8694236c0ee4b667fc68b59e",
+                "sha1sum": "8e6f619a4949d31c08224edbe521df50c859b35b",
+                "sha256sum": "6d06d5f7e5dc5adcd887d60120b1af03e22cfa13e96e7f6601ef375abe7308b6"
+            },
+            {
+                "name": "dePillis2013.sedml",
+                "description": "SEDML L1V2 dePillis2013 - Mathematical modeling of regulatory T cell effects on renal cell carcinoma treatment (additionally CRBM-validated and adjusted). (additionally CRBM-validated and adjusted).",
+                "fileSize": "40025",
+                "mimeType": "application/xml",
+                "md5sum": "0857b05d808fd374042172d60ee31925",
+                "sha1sum": "4b86df34df6eea583e26abd0783588835e89f89e",
+                "sha256sum": "d41d5b8c9fccf865671ade2481bfb675edea93f3619b4ae0884ccc9d5c26418c"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1427",
+                "mimeType": "application/xml",
+                "md5sum": "9fff485bbe4184fa9a47de7f922b22dd",
+                "sha1sum": "d461fee771fc5f2213a8c8683c1c4aece2773e56",
+                "sha256sum": "81b8b64a77db169ce95e1c3b3a54fcbc55893ba60c528dff4848f2d7dfc51f77"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4263",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "02a0bb9da15aaa6554c8ee6eb05703a3",
+                "sha1sum": "9db5e665790c8aab77d5a0d329d677526e83ded5",
+                "sha256sum": "7e9ec806f783d98c80568555063b365bdc66faec165449b57f20204a41f21803"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1578321023,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000908"
+            },
+            {
+                "version": 3,
+                "submitted": 1735840511,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281936,
+    "submissionId": "MODEL2001060001",
+    "publicationId": "BIOMD0000000908",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1080/17486700802216301",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1080/17486700802216301"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "NCIT:C17837",
+            "name": "Oncology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C17837"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "NCIT:C17837",
+            "name": "Oncology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C17837"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.3934/dcdsb.2013.18.915",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.3934/dcdsb.2013.18.915"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000908",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000908"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2001060001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2001060001"
+        }
+    ]
+}

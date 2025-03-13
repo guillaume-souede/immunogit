@@ -1,0 +1,235 @@
+{
+    "name": "Garcia2018basic - cancer and immune cell count basic model",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>The paper describes a basic model of immune-tumor cell interactions. Created by COPASI 4.25 (Build 207) This model is described in the article: Cancer-Induced Immunosuppression can enable Effectiveness of Immunotherapy through Bistability Generation: a mathematical and computational Examination Victor Garcia, Sebastian Bonhoeffer and Feng Fu bioRxiv, 2018 Abstract: Cancer immunotherapies rely on how interactions between cancer and immune system cells are constituted. The more essential to the emergence of the dynamical behavior of cancer growth these are, the more effectively they may be used as mechanisms for interventions. Mathematical modeling can help unearth such connections, and help explain how they shape the dynamics of cancer growth. Here, we explored whether there exist simple, consistent properties of cancer-immune system interaction (CISI) models that might be harnessed to devise effective immunotherapy approaches. We did this for a family of three related models of increasing complexity. To this end, we developed a base model of CISI, which captures some essential features of the more complex models built on it. We find that the base model and its derivates can reproduce biologically plausible behavior. This behavior is consistent with situations in which the suppressive effects exerted by cancer cells on immune cells dominate their proliferative effects. Under these circumstances, the model family may display a pattern of bistability, where two distinct, stable states (a cancer-free, and a full-grown cancer state) are possible, consistent with the notion of an immunological barrier. Increasing the effectiveness of immune-caused cancer cell killing may remove the basis for bistability, and abruptly tip the dynamics of the system into cancer-free state. In combination with the administration of immune effector cells, modifications in cancer cell killing may also be harnessed for immunotherapy without resolving the bistability. We use these ideas to test immunotherapeutic interventions in silico in a stochastic version of the base model. This bistability-reliant approach to cancer interventions might offer advantages over those that comprise gradual declines in cancer cell numbers. This model is hosted on BioModels Database and identified by: MODEL1907050005. To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1101/498741",
+        "journal": "bioRxiv",
+        "title": "Cancer-Induced Immunosuppression can enable Effectiveness of Immunotherapy through Bistability Generation: a mathematical and computational Examination",
+        "affiliation": "Correspondence: Victor Garcia\r\nE-mail address: victor.garcia palencia@alumni.ethz.ch\r\nETH Zurich, Universita ̈tsstrasse 16, 8092 Zurich, Switzerland",
+        "synopsis": "Cancer immunotherapies rely on how interactions between cancer and immune system cells are constituted. The more essential to the emergence of the dynamical behavior of cancer growth these are, the more effectively they may be used as mechanisms for interventions. Mathematical modeling can help unearth such connections, and help explain how they shape the dynamics of cancer growth. Here, we explored whether there exist simple, consistent properties of cancer-immune system interaction (CISI) models that might be harnessed to devise effective immunotherapy approaches. We did this for a family of three related models of increasing complexity. To this end, we developed a base model of CISI, which captures some essential features of the more complex models built on it. We find that the base model and its derivates can reproduce biologically plausible behavior. This behavior is consistent with situations in which the suppressive effects exerted by cancer cells on immune cells dominate their proliferative effects. Under these circumstances, the model family may display a pattern of bistability, where two distinct, stable states (a cancer-free, and a full-grown cancer state) are possible, consistent with the notion of an immunological barrier. Increasing the effectiveness of immune-caused cancer cell killing may remove the basis for bistability, and abruptly tip the dynamics of the system into cancer-free state. In combination with the administration of immune effector cells, modifications in cancer cell killing may also be harnessed for immunotherapy without resolving the bistability. We use these ideas to test immunotherapeutic interventions in silico in a stochastic version of the base model. This bistability-reliant approach to cancer interventions might offer advantages over those that comprise gradual declines in cancer cell numbers.",
+        "year": 2018,
+        "month": "12",
+        "link": "http://identifiers.org/doi/10.1101/498741",
+        "authors": [
+            {
+                "name": "Victor Garcia"
+            },
+            {
+                "name": "Sebastian Bonhoeffer"
+            },
+            {
+                "name": "Feng Fu"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Garcia2018basic.xml",
+                "description": "SBML L2V4 representation of tumour and effector cell count basic model",
+                "fileSize": "41412",
+                "mimeType": "application/xml",
+                "md5sum": "58ed036893c81768138f8d8413dbb49c",
+                "sha1sum": "1c04424e0ec15d5a906f8c15e7a7459773ac23b3",
+                "sha256sum": "0eb6f8a59f9918bb3e658114cd7f82cb161bf07c84b1a96d633e5185b7aa1237"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Garcia2018basic-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10097",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d70c5cd44a5dcba6ad270a7f9a67777b",
+                "sha1sum": "ba2199a0c5ac9f246f9216b5f2b6c4e4fd403005",
+                "sha256sum": "df5e59c9404cec88fdb864f51c7fd3b7a9d59c4c7fa46062f23293a4fdb96d72"
+            },
+            {
+                "name": "Garcia2018basic-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "13134",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "da09a97aaa9b34970e33600da96e7a5e",
+                "sha1sum": "f34125dc16f4dcc1fba06aa9b94957cf7ec69a3e",
+                "sha256sum": "04a0b541c56e44ffbeda8a7670b608e1bcbff86e9c4d42482ef7f692b9781eb6"
+            },
+            {
+                "name": "Garcia2018basic-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "3928",
+                "mimeType": "text/x-matlab",
+                "md5sum": "e743467046240258f8aab38d5fbdca57",
+                "sha1sum": "f5446b9f1c196c81af1a8d9eaa3cef0876a06bea",
+                "sha256sum": "34a43e1dbaf5e64d7b4b5d6a1fb7f54739c992f65b3d5713d66a6180585a9773"
+            },
+            {
+                "name": "Garcia2018basic-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "3928",
+                "mimeType": "text/x-matlab",
+                "md5sum": "285655a5cd0f2c9acddca14d745af85e",
+                "sha1sum": "c35579390ec753e4a688eeefae43334c466ed22d",
+                "sha256sum": "4adf5590f720ce63129becb09fb00d84ca55762da9ad40d025e96efcf219094f"
+            },
+            {
+                "name": "Garcia2018basic.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "58375",
+                "mimeType": "application/xml",
+                "md5sum": "089c367b527ce2de72a8d6b97d0c3df3",
+                "sha1sum": "2b96cf77e873d25fae26d3a95c10b2791c66f277",
+                "sha256sum": "a5024aca47995760f485d1a8db0983cbcf15490e13ec2726c23e759a6cd4b56c"
+            },
+            {
+                "name": "Garcia2018basic.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2380",
+                "mimeType": "text/plain",
+                "md5sum": "94a4dd3a08e0ff93e29f90e6d4876d5b",
+                "sha1sum": "a0e01fda7ba6a4c2b4860dfbbb91399e786b30a0",
+                "sha256sum": "afe75c8a5da32ff425b14993068c7dffb205d3d722ba589a69ea031c257c8ba2"
+            },
+            {
+                "name": "Garcia2018basic.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "10330",
+                "mimeType": "application/xml",
+                "md5sum": "6fff67830a511d1981df095c24c9f7e6",
+                "sha1sum": "081d425b5a4d4552b84d19bebcac39e8ddc89760",
+                "sha256sum": "8d8d18e71440d516a0e8c1670f56da01f2e00ab77af912a21c294d3c6cc8a39d"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "16571",
+                "mimeType": "image/png",
+                "md5sum": "a5ba22d39ba004a44071549dbc939d25",
+                "sha1sum": "109296f241388793a141c861273eef70d6d084b0",
+                "sha256sum": "7db659e4028770b341dc8c4263ae328c9c3f3d1ede4bb48e0ee1cd1bb7e9d7f0"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "107",
+                "mimeType": "text/plain",
+                "md5sum": "51852c55220954842020f9838104655c",
+                "sha1sum": "a4b1e1a68c3667b9c0008c867900095dcec1e096",
+                "sha256sum": "54ef4fc81b092d1e8b292caec3e09c1035139c3bcf4165b425578f97b8b8b604"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1451",
+                "mimeType": "application/xml",
+                "md5sum": "ea2761b16aff8aef570299b2ba7efe4d",
+                "sha1sum": "6715266e03a177cd0256344932d93b62b71c6bd5",
+                "sha256sum": "c4b9af35a54b09834297c0027b88a193ea0e28aa19e7d7a0be8b23b6913f0c3d"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4447",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "328c12eac80b64c88ab0fc04afd35791",
+                "sha1sum": "4240cd4d78ef039ee2a56f24ffdea3b5f9ad6706",
+                "sha256sum": "2bbdb130b80b55f8b85ae750e6952bd45d60abec1fb41be3a2b767d9d93f7531"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 12,
+                "submitted": 1562682789,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000742"
+            },
+            {
+                "version": 13,
+                "submitted": 1724284892,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281836,
+    "submissionId": "MODEL1907050005",
+    "publicationId": "BIOMD0000000742",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aah",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000742",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000742"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907050005",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907050005"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1101/498741",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1101/498741"
+        }
+    ]
+}

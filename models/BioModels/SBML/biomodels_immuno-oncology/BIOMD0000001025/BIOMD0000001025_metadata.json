@@ -1,0 +1,379 @@
+{
+    "name": "Chaudhury2020 - EC50 expansion and killing mathematical model of CAR-T cell and tumour kinetics",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model of the cellular kinetics and pharmacodynamics of CAR-T cell therapy is described in the publication:Chaudhury, A., Zhu, X., Chu, L., Goliaei, A., June, C., Kearns, J. and Stein, A., 2020. Chimeric Antigen Receptor T Cell Therapies: A Review of Cellular Kinetic‐Pharmacodynamic Modeling Approaches. The Journal of Clinical Pharmacology, 60(S1).DOI: 10.1002/jcph.1691Comment:This model is based on equations 7-9 from the manuscript.Abstract:Chimeric antigen receptor T cell (CAR-T cell) therapies have shown significant efficacy in CD19+ leukemias and lymphomas. There remain many challenges and questions for improving next-generation CAR-T cell therapies, and mathematical modeling of CAR-T cells may play a role in supporting further development. In this review, we introduce a mathematical modeling taxonomy for a set of relatively simple cellular kinetic-pharmacodynamic models that describe the in vivo dynamics of CAR-T cell and their interactions with cancer cells. We then discuss potential extensions of this model to include target binding, tumor distribution, cytokine-release syndrome, immunophenotype differentiation, and genotypic heterogeneity.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "33205434",
+        "journal": "Journal of clinical pharmacology",
+        "title": "Chimeric Antigen Receptor T Cell Therapies: A Review of Cellular Kinetic-Pharmacodynamic Modeling Approaches.",
+        "affiliation": "Pharmacometrics, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA.",
+        "synopsis": "Chimeric antigen receptor T cell (CAR-T cell) therapies have shown significant efficacy in CD19+ leukemias and lymphomas. There remain many challenges and questions for improving next-generation CAR-T cell therapies, and mathematical modeling of CAR-T cells may play a role in supporting further development. In this review, we introduce a mathematical modeling taxonomy for a set of relatively simple cellular kinetic-pharmacodynamic models that describe the in vivo dynamics of CAR-T cell and their interactions with cancer cells. We then discuss potential extensions of this model to include target binding, tumor distribution, cytokine-release syndrome, immunophenotype differentiation, and genotypic heterogeneity.",
+        "year": 2020,
+        "month": "10",
+        "volume": "60 Suppl 1",
+        "pages": "S147-S159",
+        "link": "http://identifiers.org/pubmed/33205434",
+        "authors": [
+            {
+                "name": "Anwesha Chaudhury",
+                "institution": "Pharmacometrics, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            },
+            {
+                "name": "Xu Zhu",
+                "institution": "PK Sciences Oncology, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            },
+            {
+                "name": "Lulu Chu",
+                "institution": "PK Sciences Modeling & Simulation, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            },
+            {
+                "name": "Ardeshir Goliaei",
+                "institution": "PK Sciences Modeling & Simulation, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            },
+            {
+                "name": "Carl H June",
+                "institution": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+            },
+            {
+                "name": "Jeffrey D Kearns",
+                "institution": "PK Sciences Modeling & Simulation, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            },
+            {
+                "name": "Andrew M Stein",
+                "institution": "Pharmacometrics, Novartis Institutes of BioMedical Research, Cambridge, Massachusetts, USA."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Chaudhury2020 Eq 7-9.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "32314",
+                "mimeType": "application/xml",
+                "md5sum": "4b59ff4209a7ed59ced1a1f8459dfabd",
+                "sha1sum": "97009367582406bc2e75ad085a0ff5fd3f9ba078",
+                "sha256sum": "0dfc8436300c294e39516d1f04fc24634b945ba5085153d207f8dcd9f5639b89"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Chaudhury2020 Eq 7-9 - Fig 3(A) simulation.sedml",
+                "description": "SEDML file - Fig. 3(A) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14634",
+                "mimeType": "application/xml",
+                "md5sum": "59e228ce3ddb4f9e7583ff4ab9e494a6",
+                "sha1sum": "21b2cf0f5c7dd73c5ea921cc7d77fca4f1b05dda",
+                "sha256sum": "50f8a8e27213452bb7c64bda27ce4e37bec6f5cd86793386bb69718a02b6eda4"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9 - Fig 3(B) simulation.sedml",
+                "description": "SEDML file - Fig. 3(B) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14235",
+                "mimeType": "application/xml",
+                "md5sum": "5988d220bfa9c7563fb95d81a70ab1c6",
+                "sha1sum": "c7e201045911a5715e5ce16a40c45eccee4686c0",
+                "sha256sum": "662236de58cfa5e4f884096f195dddc6b92fbffefe1b09095c8dcdb69ffe2449"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9 - Fig 4(A) simulation.sedml",
+                "description": "SEDML file - Fig. 4(A) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14243",
+                "mimeType": "application/xml",
+                "md5sum": "4d6a9b606e8d9ffb1f1713ebd16d22f7",
+                "sha1sum": "0b992e8746661de427a0ba4f309948e3dc6636fa",
+                "sha256sum": "a6da4cf21f8ba9761c0661d8c017728136ebcbe1ed2d5d8e681ee36a05e44f3d"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9 - Fig 4(B) simulation.sedml",
+                "description": "SEDML file - Fig. 4(B) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14235",
+                "mimeType": "application/xml",
+                "md5sum": "cc8cf940cb08c5d0040eedfab12bc1ff",
+                "sha1sum": "bbc8a3455eb0920556c287aefa04b182c8bbbfbc",
+                "sha256sum": "8d8f18341691aa56e0f78006054da2df82d5b68c6066889a8acb20fbbfd307cd"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10651",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "518c691767e16dcb50f99f7d11b94e18",
+                "sha1sum": "9a2e0378e66fd255d7a10c89f8f1a91a58a09e3f",
+                "sha256sum": "bee5f2b58fc67d90a845a7e39c34c1ab5ad5990d48e4a8b423badbf543e134cd"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "12195",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f2ad8bd38f014e4dfaa0aef73aec4b24",
+                "sha1sum": "1d4328d14b157515639bd988871fffc63efe2519",
+                "sha256sum": "c0fe72cfc8f3d0a916db479801931371a345308980aa7873c496d1bab1bcc064"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5016",
+                "mimeType": "text/x-matlab",
+                "md5sum": "31f869af0a62dc284c001c5f6cc9ec1f",
+                "sha1sum": "e9d3b3f3d22a6e4fc80dc26217ea85445dc1b879",
+                "sha256sum": "7c581ed70f84247c5a23afea1283637f4bab7d615bab25ecd863a9711e231e64"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9.cps",
+                "description": "COPASI file",
+                "fileSize": "90942",
+                "mimeType": "application/xml",
+                "md5sum": "274637e3150dbef96fdeb25061ce215c",
+                "sha1sum": "d385cf6c385dd543b4f8bc5f2cc6e5b6cb079226",
+                "sha256sum": "3302f859eca2a69d5589b8ad061e49cb4b43a500dca1d1e91a05e4dcb6095fb8"
+            },
+            {
+                "name": "Chaudhury2020 Eq 7-9.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3360",
+                "mimeType": "text/plain",
+                "md5sum": "2d5cbfbc1568ed6868f6bd01d33502e4",
+                "sha1sum": "60e61b644e3286a44f85780e0e6835daf199759d",
+                "sha256sum": "1cbb1b6c8f1ca1b4f71db2276028ac2739a75354739a250768f73422c3bc68e3"
+            },
+            {
+                "name": "Fig 3(A) - Biphasis CAR-T cell kinetics with cure.png",
+                "description": "PNG file - Fig. 3(A) reproduction",
+                "fileSize": "10550",
+                "mimeType": "image/png",
+                "md5sum": "704bf4ae01bac498e5f78a31f364a311",
+                "sha1sum": "2fe494e48d1fd49e947b38015e7e492b83eb12c0",
+                "sha256sum": "1c0fb1499cee32f07c3e63e12eb2c1377cfaa21ec08d73c2dabb4128028bbb15"
+            },
+            {
+                "name": "Fig 3(B) - Biphasis CAR-T cell kinetics with relapse.png",
+                "description": "PNG file - Fig. 3(B) reproduction",
+                "fileSize": "11076",
+                "mimeType": "image/png",
+                "md5sum": "bba110b95856644ede6fc5baa45c8737",
+                "sha1sum": "1048be7113ff1d695c18b15f91edb7d3af6a0e52",
+                "sha256sum": "c77b830732f4bedc6f61ceeff6c29d2dcf3f0566a63452e3a924ad6590886c67"
+            },
+            {
+                "name": "Fig 4(A) - EC50 expansion B cells.png",
+                "description": "PNG file - Fig. 4(A) B cells reproduction",
+                "fileSize": "11113",
+                "mimeType": "image/png",
+                "md5sum": "79fe2e8fcc0af86ba0297380cce3b087",
+                "sha1sum": "ea82bb6f2dc5a2940c0b550a4599783f0f4243ba",
+                "sha256sum": "946703843f621d9640da207dc8c12b0f42e942960e9ea7a8e146ff9a973adb09"
+            },
+            {
+                "name": "Fig 4(A) - EC50 expansion CAR-T cells.png",
+                "description": "PNG file - Fig. 4(A) CAR-T cells reproduction",
+                "fileSize": "10708",
+                "mimeType": "image/png",
+                "md5sum": "fa0375d0f9260196b9c1d0da119e4b2a",
+                "sha1sum": "c4173f5cd81c5c44ea93bccfebf60106ad354ae9",
+                "sha256sum": "b3ec445ef186c193e628fc707edd089af2e49cc67e7d82378a97cc1d95160a21"
+            },
+            {
+                "name": "Fig 4(B) - EC50 expansion B cells.png",
+                "description": "PNG file - Fig. 4(B) B cells reproduction (N.B. plot is similar, but not exact match of figure from manuscript)",
+                "fileSize": "11725",
+                "mimeType": "image/png",
+                "md5sum": "641c7e345253fbf38880d24f8b3a102f",
+                "sha1sum": "cf83dd91eb188033aef9a187476e1bf778411317",
+                "sha256sum": "63aeefd50c28a333b126048d610f541e5c991ce8d74f1e2d125e312cf5df2b77"
+            },
+            {
+                "name": "Fig 4(B) - EC50 expansion CAR-T cells.png",
+                "description": "PNG file - Fig. 4(B) CAR-T cells reproduction",
+                "fileSize": "13184",
+                "mimeType": "image/png",
+                "md5sum": "41c39dbe67d26ea46cbf0edd9cd2bc59",
+                "sha1sum": "36553da900886193404d2ee401cb33e5400a32d5",
+                "sha256sum": "6ce38c1f756ae9d2d6066be052ec6e9ff474c7f652efc4868e612b4cefd58f8b"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "70115",
+                "mimeType": "image/png",
+                "md5sum": "c0115a6f0e85fc81d888dad8504f955b",
+                "sha1sum": "71f26c135a0ba451f124d0f86258bb8ea5a53693",
+                "sha256sum": "5e8dde1603671ab6e98bd45f0fbeb1ed712b1bb04e6570ffe3150d6ce45919b6"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "127",
+                "mimeType": "text/plain",
+                "md5sum": "fdc3a115f94b390b1d5c2d76c4261804",
+                "sha1sum": "edf98ff61237712b64c26a878c4747744f817c81",
+                "sha256sum": "71290ae57dc7f574ac12f5b44551bcb70f20316b10ccd83ada3c3597b2e54d6d"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2653",
+                "mimeType": "application/xml",
+                "md5sum": "6a91e84e395cda294bbbfa567eec14ba",
+                "sha1sum": "4bdde5166db0759aa6514e4db635eae0b4acfe05",
+                "sha256sum": "72728c83ff07ca3c422284dd3796c7a1e41bb67a2087da155a162a2d73e99923"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4052",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "9bdebfbc0db2a9b34d9100929e9a03a7",
+                "sha1sum": "17ecd6928e0236334d9cb927593f160c7d788ece",
+                "sha256sum": "aaebf87176e395e70cfca72234b9e1f151eed2a7a270f15e05f9f3da3e79a695"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1628164972,
+                "submitter": "Emilia Chen",
+                "comment": "Import of Chaudhury2020 - EC50 expansion and killing mathematical model of CAR-T cell and tumour kinetics"
+            },
+            {
+                "version": 2,
+                "submitted": 1628165177,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001025"
+            },
+            {
+                "version": 4,
+                "submitted": 1628177505,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001025"
+            },
+            {
+                "version": 6,
+                "submitted": 1630505148,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001025"
+            },
+            {
+                "version": 7,
+                "submitted": 1724292021,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282015,
+    "submissionId": "MODEL2108050002",
+    "publicationId": "BIOMD0000001025",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "33205434",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:33205434"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C126102",
+            "name": "Chimeric Antigen Receptor T-Cell Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C126102"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "33205434",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/33205434"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:0060058",
+            "name": "lymphoma",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0060058"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001025",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001025"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2108050002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2108050002"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "DOID:1240",
+            "name": "leukemia",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:1240"
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "name": "Ledzewicz2013 - On optimal chemotherapy with a strongly targeted agent for a model of tumor immune system interactions with generalized logistic growth",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>On optimal chemotherapy with a strongly targeted agent for a model of tumor-immune system interactions with generalized logistic growth.Ledzewicz U1, Olumoye O, Schättler H.1Dept. of Mathematics and Statistics, Southern Illinois University Edwardsville, Edwardsville, Illinois 62026-1653, USA. uledzew@siue.eduAbstractIn this paper, a mathematical model for chemotherapy that takes tumor immune-system interactions into account is considered for a strongly targeted agent. We use a classical model originally formulated by Stepanova, but replace exponential tumor growth with a generalised logistic growth model function depending on a parameter v. This growth function interpolates between a Gompertzian model (in the limit v → 0) and an exponential model (in the limit v → ∞). The dynamics is multi-stable and equilibria and their stability will be investigated depending on the parameter v. Except for small values of v, the system has both an asymptotically stable microscopic (benign) equilibrium point and an asymptotically stable macroscopic (malignant) equilibrium point. The corresponding regions of attraction are separated by the stable manifold of a saddle. The optimal control problem of moving an initial condition that lies in the malignant region into the benign region is formulated and the structure of optimal singular controls is determined</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "23906150",
+        "journal": "Mathematical biosciences and engineering : MBE",
+        "title": "On optimal chemotherapy with a strongly targeted agent for a model of tumor-immune system interactions with generalized logistic growth.",
+        "affiliation": "Dept. of Mathematics and Statistics, Southern Illinois University Edwardsville, Edwardsville, Illinois 62026-1653, USA. uledzew@siue.edu",
+        "synopsis": "In this paper, a mathematical model for chemotherapy that takes tumor immune-system interactions into account is considered for a strongly targeted agent. We use a classical model originally formulated by Stepanova, but replace exponential tumor growth with a generalised logistic growth model function depending on a parameter v. This growth function interpolates between a Gompertzian model (in the limit v → 0) and an exponential model (in the limit v → ∞). The dynamics is multi-stable and equilibria and their stability will be investigated depending on the parameter v. Except for small values of v, the system has both an asymptotically stable microscopic (benign) equilibrium point and an asymptotically stable macroscopic (malignant) equilibrium point. The corresponding regions of attraction are separated by the stable manifold of a saddle. The optimal control problem of moving an initial condition that lies in the malignant region into the benign region is formulated and the structure of optimal singular controls is determined.",
+        "year": 2013,
+        "month": "6",
+        "volume": "10",
+        "issue": "3",
+        "pages": "787-802",
+        "link": "http://identifiers.org/pubmed/23906150",
+        "authors": [
+            {
+                "name": "Urszula Ledzewicz",
+                "institution": "Dept. of Mathematics and Statistics, Southern Illinois University Edwardsville, Edwardsville, Illinois 62026-1653, USA. uledzew@siue.edu",
+                "orcid": "0000-0002-6447-1958"
+            },
+            {
+                "name": "Omeiza Olumoye"
+            },
+            {
+                "name": "Heinz Schättler"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Ledzewicz2013.xml",
+                "description": "SBML L2V4 representation of Ledzewicz2013 - On optimal chemotherapy with a strongly targeted agent for a model of tumor immune system interactions with generalized logistic growth",
+                "fileSize": "32503",
+                "mimeType": "application/xml",
+                "md5sum": "831023a00fc8173583af60736a6947bd",
+                "sha1sum": "bd421676f7609d83c68f125aa9a07b1fdcc8b1f2",
+                "sha256sum": "8d17b79fdadfc0e0ea7aa5e9a5054efee11d9d0fc4f0a066fe4d1fbc1dbbfb2c"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Ledzewicz2013-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "9190",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b28ab98fa7169a2a5cadc1749690353d",
+                "sha1sum": "e2ae572d17b21d31be29fb85f7e251037086cb86",
+                "sha256sum": "c171c90bf2a00d0e64652fe2b440256a07784eb287bd0f8360162b2dee855ff0"
+            },
+            {
+                "name": "Ledzewicz2013-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "12487",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "4131ec0bc6f54d96a297d3b968b81155",
+                "sha1sum": "55873f195ee6dc7ca4e785c334826446b00adf87",
+                "sha256sum": "4b76bd52be35ea1b5b857c06742fc16f0df49d538c2f409930540c6b2e6bbdf4"
+            },
+            {
+                "name": "Ledzewicz2013.cps",
+                "description": "COPASI version 4.27 (Build 197)  representation of Ledzewicz2013 - On optimal chemotherapy with a strongly targeted agent for a model of tumor immune system interactions with generalized logistic growth",
+                "fileSize": "66498",
+                "mimeType": "application/xml",
+                "md5sum": "0f5615327c56360f79a260c110a9fd9b",
+                "sha1sum": "42b66110edfd788e54a00a9c28fe7bb105111134",
+                "sha256sum": "ceccd5110286cd0f85e8ef8baee924735a8bc4acb64d42d40c01862065cc807c"
+            },
+            {
+                "name": "Ledzewicz2013.sedml",
+                "description": "SEDML L1V2   representation of Ledzewicz2013 - On optimal chemotherapy with a strongly targeted agent for a model of tumor immune system interactions with generalized logistic growth (additionally CRBM-validated and adjusted).",
+                "fileSize": "12156",
+                "mimeType": "application/xml",
+                "md5sum": "4efed45f9fa649bbf82bdd53993f4853",
+                "sha1sum": "d7d0f2b9d68e8bc17e74f53eb1f8bea8db365848",
+                "sha256sum": "df336be2f42e525fb876e1fd0f96899f90a5fc9b7f7e9784fca168484de420bc"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "94352",
+                "mimeType": "image/png",
+                "md5sum": "58230857a499071586d09626354df6d3",
+                "sha1sum": "c99c20a2457105fc24ceb3dfb71d2571e6148f25",
+                "sha256sum": "b399e4b16d37b3e260840193a420107c2a68be803e607304232cb303f79c4fbe"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "329",
+                "mimeType": "text/plain",
+                "md5sum": "4fac31431537116e9b006917ae4fbcc1",
+                "sha1sum": "0e6b877dcba0c63cc3d3d6737f21a8d66ffe6cfa",
+                "sha256sum": "bea88de1e9b82cc8820164c3be598e837d99321d47336b29902d316405c52eb0"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1092",
+                "mimeType": "application/xml",
+                "md5sum": "3742da30b08872c694969e486abe86f9",
+                "sha1sum": "69bdccee62900b8ee979f8e9b486591dfca246ec",
+                "sha256sum": "434fa6d1f243b85a59f2efa09f3a98f1cf51459a341d980e0b60a8899da2bb8a"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3133",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1aadbe416d1be511c0594dd18f86fb0a",
+                "sha1sum": "2ebac7ba897b8e5124357a7c657ceec13f53440c",
+                "sha256sum": "03c876672c997d6f63dd4d14c35b3d8bd7fc4bab14e2fd54ebfc066f5ab45b7e"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1583518258,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000919"
+            },
+            {
+                "version": 3,
+                "submitted": 1724289326,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281937,
+    "submissionId": "MODEL2003060003",
+    "publicationId": "BIOMD0000000919",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "m.sharifshohan@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isInstanceOf",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isInstanceOf",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "23906150",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/23906150"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000919",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000919"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2003060003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2003060003"
+        }
+    ]
+}

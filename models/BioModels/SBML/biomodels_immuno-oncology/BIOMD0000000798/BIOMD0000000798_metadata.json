@@ -1,0 +1,250 @@
+{
+    "name": "Sharp2019 - AML",
+    "description": "The paper describes a model of acute myeloid leukaemia. Created by COPASI 4.26 (Build 213) This model is described in the article: Optimal control of acute myeloid leukaemia Jesse A. Sharp, Alexander P Browning, Tarunendu Mapder, Kevin Burrage, Matthew J SimpsonJournal of Theoretical Biology 470 (2019) 30–42 Abstract: Acute myeloid leukaemia (AML) is a blood cancer affecting haematopoietic stem cells. AML is routinely treated with chemotherapy, and so it is of great interest to develop optimal chemotherapy treatment strategies. In this work, we incorporate an immune response into a stem cell model of AML, since we find that previous models lacking an immune response are inappropriate for deriving optimal control strategies. Using optimal control theory, we produce continuous controls and bang-bang controls, corre- sponding to a range of objectives and parameter choices. Through example calculations, we provide a practical approach to applying optimal control using Pontryagin’s Maximum Principle. In particular, we describe and explore factors that have a profound influence on numerical convergence. We find that the convergence behaviour is sensitive to the method of control updating, the nature of the control, and to the relative weighting of terms in the objective function. All codes we use to implement optimal control are made available.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30853393",
+        "journal": "Journal of theoretical biology",
+        "title": "Optimal control of acute myeloid leukaemia.",
+        "affiliation": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia.",
+        "synopsis": "Acute myeloid leukaemia (AML) is a blood cancer affecting haematopoietic stem cells. AML is routinely treated with chemotherapy, and so it is of great interest to develop optimal chemotherapy treatment strategies. In this work, we incorporate an immune response into a stem cell model of AML, since we find that previous models lacking an immune response are inappropriate for deriving optimal control strategies. Using optimal control theory, we produce continuous controls and bang-bang controls, corresponding to a range of objectives and parameter choices. Through example calculations, we provide a practical approach to applying optimal control using Pontryagin's Maximum Principle. In particular, we describe and explore factors that have a profound influence on numerical convergence. We find that the convergence behaviour is sensitive to the method of control updating, the nature of the control, and to the relative weighting of terms in the objective function. All codes we use to implement optimal control are made available.",
+        "year": 2019,
+        "month": "6",
+        "volume": "470",
+        "pages": "30-42",
+        "link": "http://identifiers.org/pubmed/30853393",
+        "authors": [
+            {
+                "name": "Jesse A Sharp",
+                "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia."
+            },
+            {
+                "name": "Alexander P Browning",
+                "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia.",
+                "orcid": "0000-0002-8753-1538"
+            },
+            {
+                "name": "Tarunendu Mapder",
+                "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia.",
+                "orcid": "0000-0002-1630-0716"
+            },
+            {
+                "name": "Kevin Burrage",
+                "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia; Department of Computer Science, University of Oxford, UK."
+            },
+            {
+                "name": "Matthew J Simpson",
+                "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia. Electronic address: matthew.simpson@qut.edu.au."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Sharp2019.xml",
+                "description": "SBML L3V1 representation of AML model",
+                "fileSize": "58404",
+                "mimeType": "application/xml",
+                "md5sum": "1ad151995bdc546b4f60760214f5fb5b",
+                "sha1sum": "15ef69f8d57cc033032081beb3612bf1858e28f6",
+                "sha256sum": "5fc4e5a87c671c826e60aa9c6fa6b7bd962d0437d72da6a777bee3ac7f353b4c"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Sharp2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "13608",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "bfd7f22f48a8f4ef11957151acab16c5",
+                "sha1sum": "696fa2c807eaf0dad8d59412acf63d4b1c8b134b",
+                "sha256sum": "c0a25828a89c3522326cd032eb27fb3cccf1ffe8377e47c4de77cc16b8684cd3"
+            },
+            {
+                "name": "Sharp2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "19503",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2a02b724c4a5fa6ea2982c6b6c998fcd",
+                "sha1sum": "f169423b3ef540df15c8bec7912b30a511378fd9",
+                "sha256sum": "f95824c7857199eaa3ce2f6fd8a964e8744cfc3c9f61dd90e583c04c00602a44"
+            },
+            {
+                "name": "Sharp2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5616",
+                "mimeType": "text/x-matlab",
+                "md5sum": "16b8c00b3e596582980f9bc4a0e11873",
+                "sha1sum": "c7bdc763ebc05e4735e8fc4e00d67b7f84cad050",
+                "sha256sum": "b055a0657beb23c6cf39bdc37e001b243315273f1154eb43a6af0e899feb2251"
+            },
+            {
+                "name": "Sharp2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5616",
+                "mimeType": "text/x-matlab",
+                "md5sum": "66eb2d9163af3bd6091bdeb082c13d7e",
+                "sha1sum": "a3dc08beda96570cca742863df397a9c87256d0b",
+                "sha256sum": "915e2cffd0737dad7f8c3e5031dbe0a1d1c9d8d2d23f83440422987baee25ecf"
+            },
+            {
+                "name": "Sharp2019.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "78271",
+                "mimeType": "application/xml",
+                "md5sum": "90505475840c6f969da7e06af33ea158",
+                "sha1sum": "8b0d41806e018b242cadc336641aafdccae23e90",
+                "sha256sum": "eedc8a4a433ce6e1a70e193b1b8f1bb9ae0bfc2ad8595664eba5d94beed11d67"
+            },
+            {
+                "name": "Sharp2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3437",
+                "mimeType": "text/plain",
+                "md5sum": "297163f527802df67fc07f7aa46a6cd4",
+                "sha1sum": "e5d0e379362b1536d28ff2e18d0ce944f1eae2b9",
+                "sha256sum": "42f1d076ab9011b4968b7e242fb77722f6513b1bcb30e91956a59b26e99df9ac"
+            },
+            {
+                "name": "Sharp2019.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "18449",
+                "mimeType": "application/xml",
+                "md5sum": "d485712c2e10ecd7cc67ae1091bb82e7",
+                "sha1sum": "69e93f9771806d5d70931cf04c448381080a9490",
+                "sha256sum": "544b2a22fe346c4e98d93b996e73aa1532eec5bc295bcc233d199bf4e4c4bd31"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "51510",
+                "mimeType": "image/png",
+                "md5sum": "005343fcb512e847f8b94705716b7b1e",
+                "sha1sum": "a89f2a78ee2a984b4c052ab344e13b80ba08463f",
+                "sha256sum": "946dad2f6d896e3b845a207d2444b7591955a04c6203b999367561717a32eea5"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "106",
+                "mimeType": "text/plain",
+                "md5sum": "f7851459b49edb13e830460a76f61e07",
+                "sha1sum": "3fbcd1b3cae56e23910355bdb21f3aa0faea0a4b",
+                "sha256sum": "421a20c60ac315b9d0938c644d3e6281b7f5d42272b909498a2a1ca978715fc6"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1403",
+                "mimeType": "application/xml",
+                "md5sum": "8a37d401f3ce858433bfb0e910858e86",
+                "sha1sum": "7e486447d33c0547c8effe4bc66e8c8910180499",
+                "sha256sum": "f69debe1991e47098ceca79324550901e0e579a692ae9fc6807ed1407686cd8d"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3370",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "9042b7ba59eef0d645fd0cfbf30763bb",
+                "sha1sum": "8ab27bf8d6c2c49798303473bf9fdc471f02158e",
+                "sha256sum": "358a2e9f503e9c5c8161b4e10bd6582beb13770d9fd8afe02092e922b9b18559"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1566207683,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000798"
+            },
+            {
+                "version": 4,
+                "submitted": 1724286247,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281871,
+    "submissionId": "MODEL1908190001",
+    "publicationId": "BIOMD0000000798",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30853393",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/30853393"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000798",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000798"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1908190001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1908190001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "0000222",
+            "name": "acute myeloid leukemia",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0000222"
+        }
+    ]
+}

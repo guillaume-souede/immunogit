@@ -1,0 +1,249 @@
+{
+    "name": "Feizabadi2011/1 - immunodeficiency in cancer core model",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>The paper describes a basic model of immune-cancer interaction. Created by COPASI 4.25 (Build 207) This model is described in the article: Modeling the Effects of a Simple Immune System and Immunodeficiency on the Dynamics of Conjointly Growing Tumor and Normal CellsMitra Shojania Feizabadi and Tarynn M. WittenInternational Journal of Biological Sciences 2011; 7(6):700-707Abstract: In this paper, we develop a theoretical contribution towards the understanding of the complex behavior of conjoint tumor-normal cell growth under the influence of immuno-chemotheraputic agents under simple immune system response. In particular, we consider a core model for the interaction of tumor cells with the surrounding normal cells. We then add the effects of a simple immune system, and both immune-suppression factors and immuno-chemotherapeutic agents as well. Through a series of numerical simulations, we illustrate that the interdependency of tumor-normal cells, together with choice of drug and the nature of the immunodeficiency, leads to a variety of interesting patterns in the evolution of both the tumor and the normal cell populations.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "21647303",
+        "journal": "International journal of biological sciences",
+        "title": "Modeling the effects of a simple immune system and immunodeficiency on the dynamics of conjointly growing tumor and normal cells.",
+        "affiliation": "Physics Department, Seton Hall University, South Orange, NJ 07079, USA. shojanmi@shu.edu",
+        "synopsis": "In this paper, we develop a theoretical contribution towards the understanding of the complex behavior of conjoint tumor-normal cell growth under the influence of immuno-chemotherapeutic agents under simple immune system response. In particular, we consider a core model for the interaction of tumor cells with the surrounding normal cells. We then add the effects of a simple immune system, and both immune-suppression factors and immuno-chemotherapeutic agents as well. Through a series of numerical simulations, we illustrate that the interdependency of tumor-normal cells, together with choice of drug and the nature of the immunodeficiency, leads to a variety of interesting patterns in the evolution of both the tumor and the normal cell populations.",
+        "year": 2011,
+        "month": "0",
+        "volume": "7",
+        "issue": "6",
+        "pages": "700-707",
+        "link": "http://identifiers.org/pubmed/21647303",
+        "authors": [
+            {
+                "name": "Mitra Shojania Feizabadi",
+                "institution": "Physics Department, Seton Hall University, South Orange, NJ 07079, USA. shojanmi@shu.edu"
+            },
+            {
+                "name": "Tarynn M Witten"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Feizabadi2011_1.xml",
+                "description": "SBML L2V4 representation of tumour-immune interaction core model",
+                "fileSize": "37363",
+                "mimeType": "application/xml",
+                "md5sum": "9e8b4da8a710c775bc5b417e78393b6a",
+                "sha1sum": "5b03ce29faf7684cddaa732034f1899621a3a244",
+                "sha256sum": "9397de16969df6db47ed1cb41550843fd20a20da35654fccf863765ccc95d528"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Feizabadi2011_1-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "6548",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c51e5fab4167dc073676d8c58976a118",
+                "sha1sum": "20d2553ba08542eb5fa51073c0945a2bc99d361c",
+                "sha256sum": "34de7deacb14845b799fe684d19f97d5ed4a2215613d0946f14b32b7fbee05d1"
+            },
+            {
+                "name": "Feizabadi2011_1-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "8683",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "531ec4e38c96d005503e3d9187a50128",
+                "sha1sum": "c5cda7f0482108d26620439058aed4dc07980cac",
+                "sha256sum": "a07951461cafd55d301a9b15e68c3144737e96f70c2c46b8eace1baca3bbbca6"
+            },
+            {
+                "name": "Feizabadi2011_1-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "3983",
+                "mimeType": "text/x-matlab",
+                "md5sum": "17eca3500b2bcedac33e42fcdf3a8aef",
+                "sha1sum": "fb3b7803f6c89037e99dbe2fc86948030701fea3",
+                "sha256sum": "bfbf01c634308221ec5222d6689b0f82a08731af4653c13d06f8a0728236c085"
+            },
+            {
+                "name": "Feizabadi2011_1-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "3983",
+                "mimeType": "text/x-matlab",
+                "md5sum": "fd2ef655eaefc1a4056bd6a395c7f403",
+                "sha1sum": "3889c9620eccead33b21a98566e778106b71e05d",
+                "sha256sum": "42db7c2504ff376b27ea65f7594cd62ebec54fc5afa35044a561e2b0a0a4c1f5"
+            },
+            {
+                "name": "Feizabadi2011_1.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "58761",
+                "mimeType": "application/xml",
+                "md5sum": "1558de18317794d0f5591e9f245eff48",
+                "sha1sum": "2371215769c8b352d71afdeae6e5b28d49daa80e",
+                "sha256sum": "ed7b7772cc9cadfd366837f83fc6b1158282331173d7d544b82e262940d4d741"
+            },
+            {
+                "name": "Feizabadi2011_1.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2200",
+                "mimeType": "text/plain",
+                "md5sum": "f63bb1c56f61e0624711b4861d1f38d7",
+                "sha1sum": "8a6e04c25be2bbd4ad08c16db3983c23252f459d",
+                "sha256sum": "8a3538a08a82d47c43f1f097d1e8ac8ef62478045c94ede1a9005cce1d674aa5"
+            },
+            {
+                "name": "Feizabadi2011_1.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "11212",
+                "mimeType": "application/xml",
+                "md5sum": "e77543abe7ea53aa0993a4acbaaab5bf",
+                "sha1sum": "5d35de0b11bf06b72e55019132953ae1c30cea2b",
+                "sha256sum": "fc2e9747deb3ab015ce97ff2af14f46f83f230d55e0fd2ac939967f51574d664"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "24399",
+                "mimeType": "image/png",
+                "md5sum": "e46f43547b272320e63243d6699dae76",
+                "sha1sum": "f654ba8976549c150f1125714d2973524748f379",
+                "sha256sum": "5c4e25884df6296569ae843403bed884ba288ee006e623935fc2702ff31f5184"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "106",
+                "mimeType": "text/plain",
+                "md5sum": "f2dac5100e594819610c7ec57e77df4c",
+                "sha1sum": "cb5dd0fd8c42dc8f965d6d039f6db43645cf92fe",
+                "sha256sum": "ed6efea797fc1b48bddc41d97fcef832e32b57073af93f167689a8be27daa453"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1451",
+                "mimeType": "application/xml",
+                "md5sum": "5d565a3fcb47f14a2f87af71fe80e19e",
+                "sha1sum": "3e0c1353f4d276f20c6dfd65a42c76a4513893fe",
+                "sha256sum": "12431f6b1e32d8106e9cca8ef3a28979258838d59f12c00d97efba9bc5d38fe9"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3281",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ae9b30141e1bab9a1f0b2c214f65fa6e",
+                "sha1sum": "a4fd388f51141714a6358978e4b02bd469d38846",
+                "sha256sum": "e9f052b3b8cdd9d9cc6a7408afa1455fa17ca220cb6f1f7e5f51af25de0b9ad3"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1564062505,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000760"
+            },
+            {
+                "version": 5,
+                "submitted": 1564065409,
+                "submitter": "Jinghao Men",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 6,
+                "submitted": 1615539341,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Updated FunctionDefinition with id `log` with another name to resolve SBML function overlap"
+            },
+            {
+                "version": 7,
+                "submitted": 1724285433,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281847,
+    "submissionId": "MODEL1907250001",
+    "publicationId": "BIOMD0000000760",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "NON_CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "21647303",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/21647303"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907250001",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL1907250001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        }
+    ]
+}

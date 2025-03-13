@@ -1,0 +1,243 @@
+{
+    "name": "Wilson2012 - tumor vaccine efficacy",
+    "description": "The paper describes a model of antitumor vaccine therapy.Created by COPASI 4.25 (Build 207) This model is described in the article: A Mathematical Model of the Enhancement of Tumor Vaccine Efficacy by ImmunotherapyShelby Wilson and Doron LevyBull Math Biol. 2012 July ; 74(7)Abstract: TGF-β is an immunoregulatory protein that contributes to inadequate antitumor immune responses in cancer patients. Recent experimental data suggests that TGF-β inhibition alone, provides few clinical benefits, yet it can significantly amplify the anti-tumor immune response when combined with a tumor vaccine. We develop a mathematical model in order to gain insight into the cooperative interaction between anti-TGF-β and vaccine treatments. The mathematical model follows the dynamics of the tumor size, TGF-β concentration, activated cytotoxic effector cells, and regulatory T cells. Using numerical simulations and stability analysis, we study the following scenarios: a control case of no treatment, anti-TGF-β treatment, vaccine treatment, and combined anti-TGF-β vaccine treatments. We show that our model is capable of capturing the observed experimental results, and hence can be potentially used in designing future experiments involving this approach to immunotherapy.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "22438084",
+        "journal": "Bulletin of mathematical biology",
+        "title": "A mathematical model of the enhancement of tumor vaccine efficacy by immunotherapy.",
+        "affiliation": "Department of Mathematics and Center for Scientific Computation and Mathematical Modeling (CSCAMM), University of Maryland, College Park, MD 20742, USA. swilson@math.umd.edu",
+        "synopsis": "TGF-β is an immunoregulatory protein that contributes to inadequate antitumor immune responses in cancer patients. Recent experimental data suggests that TGF-β inhibition alone, provides few clinical benefits, yet it can significantly amplify the anti-tumor immune response when combined with a tumor vaccine. We develop a mathematical model in order to gain insight into the cooperative interaction between anti-TGF-β and vaccine treatments. The mathematical model follows the dynamics of the tumor size, TGF-β concentration, activated cytotoxic effector cells, and regulatory T cells. Using numerical simulations and stability analysis, we study the following scenarios: a control case of no treatment, anti-TGF-β treatment, vaccine treatment, and combined anti-TGF-β vaccine treatments. We show that our model is capable of capturing the observed experimental results, and hence can be potentially used in designing future experiments involving this approach to immunotherapy.",
+        "year": 2012,
+        "month": "7",
+        "volume": "74",
+        "issue": "7",
+        "pages": "1485-1500",
+        "link": "http://identifiers.org/pubmed/22438084",
+        "authors": [
+            {
+                "name": "Shelby Wilson",
+                "institution": "Department of Mathematics and Center for Scientific Computation and Mathematical Modeling (CSCAMM), University of Maryland, College Park, MD 20742, USA. swilson@math.umd.edu"
+            },
+            {
+                "name": "Doron Levy"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Wilson2012.xml",
+                "description": "SBML L3V1 representation of tumour vaccine model",
+                "fileSize": "71126",
+                "mimeType": "application/xml",
+                "md5sum": "699b38611038c8883672addc18c88b7a",
+                "sha1sum": "e5566331b86c2503ca4e242b7211f34c649273f3",
+                "sha256sum": "c262a2de5bdda743a31cf2ab21ab72e73e7ea7491785ea378d10af7b27f5a873"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Wilson2012-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "13119",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "513c878e5d2d23c21db1668679249090",
+                "sha1sum": "4a0de158cace666fff0728d7b6021512669b5954",
+                "sha256sum": "eb3f92c3008e131c9e6a194fa016b5d3524284a228eff0d723758b6508b68fe0"
+            },
+            {
+                "name": "Wilson2012-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "19065",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "70c97911bf0940da9e1616a7e11fee33",
+                "sha1sum": "1d3940f1bf9966527575c5abb8f8a689ef57bd91",
+                "sha256sum": "51af997b46b4eb9fd1620a4c3eabed9566f865c2af3df9869e88a7906ece7c9c"
+            },
+            {
+                "name": "Wilson2012-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5807",
+                "mimeType": "text/x-matlab",
+                "md5sum": "262e7a4e810d5593840c309a952abe7b",
+                "sha1sum": "2c023880d717bff624c0092a97ef69b10d46d147",
+                "sha256sum": "d4d0b4e65e52dc2d32acfbe6d0da0525efa5ac4cc3a2948126d1cc41d87e830f"
+            },
+            {
+                "name": "Wilson2012-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5807",
+                "mimeType": "text/x-matlab",
+                "md5sum": "2e669faea36211243660d1d83ea2047d",
+                "sha1sum": "1c17094b61d860b979748d0bff8a2d45fa2c8625",
+                "sha256sum": "cfe2041eeb61b0f23787a74cea5aed2418fe51128cc33079ca3daa59268fcf79"
+            },
+            {
+                "name": "Wilson2012.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "89733",
+                "mimeType": "application/xml",
+                "md5sum": "1d6a9f55dc6bd3e7b700a98589419f17",
+                "sha1sum": "2c763288c694c38b6a3791e234470e92ddee8763",
+                "sha256sum": "189ee46a8a3da0c66b5de8d2c628f09394868b87083fe551aa38a82de38c0f51"
+            },
+            {
+                "name": "Wilson2012.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3759",
+                "mimeType": "text/plain",
+                "md5sum": "afdaccd24319e30b5e1a9659bc50c56f",
+                "sha1sum": "51ff166f1d5e259a0cf55d26e7739a3e581ec8ab",
+                "sha256sum": "7535834136a852c286c59ceee5d7196911ec0f192304d9261996e486c5dc0e88"
+            },
+            {
+                "name": "Wilson2012.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "18660",
+                "mimeType": "application/xml",
+                "md5sum": "678efd25809f88e729c0a4c6649b03ef",
+                "sha1sum": "ea072403195a24209e3e075b87754662e8e1a023",
+                "sha256sum": "7bbf2058a64b52e64621d54015bd6bbbdf5c1af4cc2f0336deaf26b1024f2457"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "50457",
+                "mimeType": "image/png",
+                "md5sum": "504793dccbe31c08aba61dfe703bfa82",
+                "sha1sum": "1aceaf11af932d4a5ef3206d908e4d9924769e41",
+                "sha256sum": "9c504113ac44d4272c1ef22c251d31eae8d8ab490d0c9c444d9be0dd5b53b2b9"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "110",
+                "mimeType": "text/plain",
+                "md5sum": "bfeebb74e586f00e3925835a7e4df501",
+                "sha1sum": "bc356528ea8a96783329f717375f6d0f6f641bad",
+                "sha256sum": "647bc53bde8fd8cbcd620d516b0a20706a5d62ed7d375ce0047c466c2367513e"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "a96649e8838e4d10c5e8013dbecf6ee2",
+                "sha1sum": "f5fff741be04286e9d88977b78ef7495d0efd179",
+                "sha256sum": "4d5cfba0e1cc716dd93ab9a658d89462ed23e0ae81da2e7353c942d723573107"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3296",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "bc883b7679512647c72968a891d5fc13",
+                "sha1sum": "6419ba4b95397eb83d704c5802989123862a1ebd",
+                "sha256sum": "b6ed13f5be6c4930e1eaf2cdd16e67036aac42add171bf8000a9cb90e8a1a826"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1565623938,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000791"
+            },
+            {
+                "version": 4,
+                "submitted": 1615539638,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Updated event definition to resolve SBML L3V1 validation error."
+            },
+            {
+                "version": 5,
+                "submitted": 1724286091,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281867,
+    "submissionId": "MODEL1908120004",
+    "publicationId": "BIOMD0000000791",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "22438084",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/22438084"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1908120004",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL1908120004"
+        }
+    ]
+}

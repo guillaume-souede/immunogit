@@ -1,0 +1,241 @@
+{
+    "name": "Figueredo2013/1 - immunointeraction base model",
+    "description": "The paper describes a basic model of immune-itumor interaction.Created by COPASI 4.25 (Build 207) This model is described in the article: Investigating mathematical models of immuno-interactions with early-stage cancer under an agent-based modelling perspectiveGrazziela P Figueredo, Peer-Olaf Siebers, Uwe Aickelin Kathleen BMC Bioinformatics 2013, 14(Suppl 6):S6Abstract: Many advances in research regarding immuno-interactions with cancer were developed with the help of ordinary differential equation (ODE) models. These models, however, are not effectively capable of representing problems involving individual localisation, memory and emerging properties, which are common characteristics of cells and molecules of the immune system. Agent-based modelling and simulation is an alternative paradigm to ODE models that overcomes these limitations. In this paper we investigate the potential contribution of agent-based modelling and simulation when compared to ODE modelling and simulation. We seek answers to the following questions: Is it possible to obtain an equivalent agent-based model from the ODE formulation? Do the outcomes differ? Are there any benefits of using one method compared to the other? To answer these questions, we have considered three case studies using established mathematical models of immune interactions with early-stage cancer. These case studies were re-conceptualised under an agent-based perspective and the simulation results were then compared with those from the ODE models. Our results show that it is possible to obtain equivalent agent-based models (i.e. implementing the same mechanisms); the simulation output of both types of models however might differ depending on the attributes of the system to be modelled. In some cases, additional insight from using agent-based modelling was obtained. Overall, we can confirm that agent-based modelling is a useful addition to the tool set of immunologists, as it has extra features that allow for simulations with characteristics that are closer to the biological phenomena.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "23734575",
+        "journal": "BMC bioinformatics",
+        "title": "Investigating mathematical models of immuno-interactions with early-stage cancer under an agent-based modelling perspective.",
+        "affiliation": "Intelligent Modelling and Analysis Research Group, School of Computer Science, The University of Nottingham, UK. grazziela.figueredo@nottingham.ac.uk",
+        "synopsis": "Many advances in research regarding immuno-interactions with cancer were developed with the help of ordinary differential equation (ODE) models. These models, however, are not effectively capable of representing problems involving individual localisation, memory and emerging properties, which are common characteristics of cells and molecules of the immune system. Agent-based modelling and simulation is an alternative paradigm to ODE models that overcomes these limitations. In this paper we investigate the potential contribution of agent-based modelling and simulation when compared to ODE modelling and simulation. We seek answers to the following questions: Is it possible to obtain an equivalent agent-based model from the ODE formulation? Do the outcomes differ? Are there any benefits of using one method compared to the other? To answer these questions, we have considered three case studies using established mathematical models of immune interactions with early-stage cancer. These case studies were re-conceptualised under an agent-based perspective and the simulation results were then compared with those from the ODE models. Our results show that it is possible to obtain equivalent agent-based models (i.e. implementing the same mechanisms); the simulation output of both types of models however might differ depending on the attributes of the system to be modelled. In some cases, additional insight from using agent-based modelling was obtained. Overall, we can confirm that agent-based modelling is a useful addition to the tool set of immunologists, as it has extra features that allow for simulations with characteristics that are closer to the biological phenomena.",
+        "year": 2013,
+        "month": "0",
+        "volume": "14 Suppl 6",
+        "pages": "S6",
+        "link": "http://identifiers.org/pubmed/23734575",
+        "authors": [
+            {
+                "name": "Grazziela P Figueredo",
+                "institution": "Intelligent Modelling and Analysis Research Group, School of Computer Science, The University of Nottingham, UK. grazziela.figueredo@nottingham.ac.uk",
+                "orcid": "0000-0003-4094-7680"
+            },
+            {
+                "name": "Peer-Olaf Siebers",
+                "orcid": "0000-0002-0603-5904"
+            },
+            {
+                "name": "Uwe Aickelin",
+                "orcid": "0000-0002-2679-2275"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Figueredo2013_1.xml",
+                "description": "SBML L3V1 representation of the immunointeraction basic model",
+                "fileSize": "46769",
+                "mimeType": "application/xml",
+                "md5sum": "8213ad9fe8309a18579fb8d6ca4b125e",
+                "sha1sum": "fc2038fba970d7f0cd6ac326a671604be6833e97",
+                "sha256sum": "27672f4bd458c6662cc878a0bb696e8510f6e7c57ca198d61e4142c3b97a2b44"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Figueredo2013_1-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10297",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d7a73d2ed15fea4f7a4a22bcfc5b95dd",
+                "sha1sum": "319ffb2f5d8605b77e5265f6e8c14dc1a10608ee",
+                "sha256sum": "eb508c78304b28282385a0bd87cc7e109c3f379692d4def4243f499a44682165"
+            },
+            {
+                "name": "Figueredo2013_1-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "13760",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "43341e6d0955971db35e6a6b2c2b9277",
+                "sha1sum": "19134185596955a2f53a3277161252f0d46e06f2",
+                "sha256sum": "d9672a13ff212826a0ae1959a586a8220ad7607e71a370dd8de95f6739dc5834"
+            },
+            {
+                "name": "Figueredo2013_1-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4401",
+                "mimeType": "text/x-matlab",
+                "md5sum": "9dee94e751a1a8fa3295fc1e560a26c5",
+                "sha1sum": "50e94e2e82082144cd08ed36d5845732985d4c4d",
+                "sha256sum": "026161ee191625638e277c1fa22dd1202e613ffbb39558c68b9ff0495267f376"
+            },
+            {
+                "name": "Figueredo2013_1-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4401",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7300f1ff7b013e7ece40f76353567647",
+                "sha1sum": "ad1a558115b8904f62b49edd90ae95dc0df455e8",
+                "sha256sum": "1f58c8872a2efd22bdcfbb159854f10775947ab0c2403c8fd91e20443e6963ba"
+            },
+            {
+                "name": "Figueredo2013_1.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "62988",
+                "mimeType": "application/xml",
+                "md5sum": "3982fe1376b80bd7c73682c29657999d",
+                "sha1sum": "ae92a4a4ed2aabba6160813f61f8a71361a3ff1c",
+                "sha256sum": "db04869b35b3f356922080ef76aeb7d1ceece52386d762f2d13aa610c4c29f63"
+            },
+            {
+                "name": "Figueredo2013_1.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2697",
+                "mimeType": "text/plain",
+                "md5sum": "c37654d79c380b89184ad1294efce7c9",
+                "sha1sum": "4a03851eba761ea69f22b8b03ca3813061b94dd4",
+                "sha256sum": "848a82fdf683da6314d9bec4ccc25c47bc5057407caf1d3ee0abba772c1d3a82"
+            },
+            {
+                "name": "Figueredo2013_1.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "11985",
+                "mimeType": "application/xml",
+                "md5sum": "4fbc0d4d10ea475d6256cdf69fd71238",
+                "sha1sum": "b1a4231d218a3c79f30ae0eda31fe9b46475a708",
+                "sha256sum": "14424fb6499a2353306533fba9657ea097948652d98e5f26e158ba6ee5ae3837"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "11711",
+                "mimeType": "image/png",
+                "md5sum": "92816588ee4942c2297c321078f911c5",
+                "sha1sum": "fe3b4c899641cec316a9d595b656c7d5c663e696",
+                "sha256sum": "9263dee8f5a475e15ddb9c811b7188c29c51ca2d7e7baa7244544b4527e900f8"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "171",
+                "mimeType": "text/plain",
+                "md5sum": "b1a8e99b9bca496f694a05a3d7848075",
+                "sha1sum": "86208f4b4f73cf59c07e86a61a71b4858ef70651",
+                "sha256sum": "78665782078d8da8025cecafd7779984778620a15219721efa73d4c5a853f565"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1451",
+                "mimeType": "application/xml",
+                "md5sum": "da492158c7492d141da334f439e38083",
+                "sha1sum": "849f810d00daca8bc019acf9d05784ed3d1189c5",
+                "sha256sum": "9e9df7b8826f412d1c55ae60d880db780188f72ec10106ca90dab50744186fb0"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4201",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "3074b45e5f3dbabcfebd71d2d3f78dad",
+                "sha1sum": "ddc426091c4ed09522ce711bb28e741c3ebb4123",
+                "sha256sum": "0004874246eb5f7b77c66895d9309872ee7d7be8d95e053e386de4bfd7119bdf"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1563445328,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000753"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285240,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281843,
+    "submissionId": "MODEL1907180001",
+    "publicationId": "BIOMD0000000753",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aah",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "23734575",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/23734575"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907180001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907180001"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000753",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000753"
+        }
+    ]
+}

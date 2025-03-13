@@ -1,0 +1,290 @@
+{
+    "name": "Bunimovich-Mendrazitsky2007 - Mathematical model of BCG immunotherapy",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model, simulating the tumor-immune interactions involved in BCG immunotherapy to treat superficial bladder cancer, is described by the publication:Bunimovich-Mendrazitsky, S., Shochat, E., Stone, L. \"Mathematical Model of BCG Immunotherapy in Superficial Bladder Cancer\". Bull. Math. Biol. 69, 1847–1870 (2007). DOI: 10.1007/s11538-007-9195-zComment:This model is based on the system of ODEs given in Equation 4 of the publication manuscript.Reproduction of Figure 4 was achieved by setting p4 = 0.085.Abstract:Immunotherapy with Bacillus Calmette-Guérin (BCG)-an attenuated strain of Mycobacterium bovis (M. bovis) used for anti tuberculosis immunization-is a clinically established procedure for the treatment of superficial bladder cancer. However, the mode of action has not yet been fully elucidated, despite much extensive biological experience. The purpose of this paper is to develop a first mathematical model that describes tumor-immune interactions in the bladder as a result of BCG therapy. A mathematical analysis of the ODE model identifies multiple equilibrium points, their stability properties, and bifurcation points. Intriguing regimes of bistability are identified in which treatment has potential to result in a tumor-free equilibrium or a full-blown tumor depending only on initial conditions. Attention is given to estimating parameters and validating the model using published data taken from in vitro, mouse and human studies. The model makes clear that intensity of immunotherapy must be kept in limited bounds. While small treatment levels may fail to clear the tumor, a treatment that is too large can lead to an over-stimulated immune system having dangerous side effects for the patient.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "17457655",
+        "journal": "Bulletin of mathematical biology",
+        "title": "Mathematical model of BCG immunotherapy in superficial bladder cancer.",
+        "affiliation": "Biomathematics Unit, Department of Zoology, Faculty of Life Science, Tel Aviv University, Tel Aviv, 69978, Israel.",
+        "synopsis": "Immunotherapy with Bacillus Calmette-Guérin (BCG)-an attenuated strain of Mycobacterium bovis (M. bovis) used for anti tuberculosis immunization-is a clinically established procedure for the treatment of superficial bladder cancer. However, the mode of action has not yet been fully elucidated, despite much extensive biological experience. The purpose of this paper is to develop a first mathematical model that describes tumor-immune interactions in the bladder as a result of BCG therapy. A mathematical analysis of the ODE model identifies multiple equilibrium points, their stability properties, and bifurcation points. Intriguing regimes of bistability are identified in which treatment has potential to result in a tumor-free equilibrium or a full-blown tumor depending only on initial conditions. Attention is given to estimating parameters and validating the model using published data taken from in vitro, mouse and human studies. The model makes clear that intensity of immunotherapy must be kept in limited bounds. While small treatment levels may fail to clear the tumor, a treatment that is too large can lead to an over-stimulated immune system having dangerous side effects for the patient.",
+        "year": 2007,
+        "month": "8",
+        "volume": "69",
+        "issue": "6",
+        "pages": "1847-1870",
+        "link": "http://identifiers.org/pubmed/17457655",
+        "authors": [
+            {
+                "name": "Svetlana Bunimovich-Mendrazitsky",
+                "institution": "Biomathematics Unit, Department of Zoology, Faculty of Life Science, Tel Aviv University, Tel Aviv, 69978, Israel.",
+                "orcid": "0000-0001-5280-3217"
+            },
+            {
+                "name": "Eliezer Shochat"
+            },
+            {
+                "name": "Lewi Stone",
+                "orcid": "0000-0002-6465-579X"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Bunimovich-Mendrazitsky2007.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "41274",
+                "mimeType": "application/xml",
+                "md5sum": "0a59f558ad9a3ad02b165a14c8eac683",
+                "sha1sum": "48b2c2d1dc399063e3864874299eda924e14e5bb",
+                "sha256sum": "a37e6fe097ac48f109b572ac53c56a807e310a90487c7f84fa7811e5166b8f24"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Bunimovich-Mendrazitsky2007 - Fig4.sedml",
+                "description": "SEDML file - Fig. 4 simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "16417",
+                "mimeType": "application/xml",
+                "md5sum": "ddfaaa6add2fe4dd66f76d0f84b089c3",
+                "sha1sum": "bf61001d5396648c4b94ee57f4cc0c1c9079545b",
+                "sha256sum": "a97b1bc63200ea3f3e3a6a1fb2ba3f5f20eeb74cf2fb7fa0cdf2e63173470109"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "16162",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "54920af6675594fa637da33c79503e08",
+                "sha1sum": "77477aabe90498295bf9ef62a23e5815fdf851cc",
+                "sha256sum": "1a486ad53b93565db904f6e0ca56fc04be2a83e1db9a14471ec92d0091a6c26c"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "21286",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "93a60691289c49803b4fda201eda06cb",
+                "sha1sum": "6604ebf47f6f5014151044369bde77b1addc5dcd",
+                "sha256sum": "68d62435b5d90e304935241236fd6572bb844d8117139a3c35b9100ef56f2abc"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5550",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b771269c3344a6657406b1171549c5cb",
+                "sha1sum": "6aaed044b965c66ff2db70bd717a5e02f123808e",
+                "sha256sum": "06d70afa24a9ab171a9ca4248211896cbb5af87d2ba094498d4ff89d5fc94e75"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5550",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ab83c75dbe5e0bf8dc0068829b33b55d",
+                "sha1sum": "d9b359e4949eb5f62982526ccc6412c166471031",
+                "sha256sum": "aa2797de4dd759f0a0462c906d4b79df6e82f57090173860a5a2046884d637f3"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007.cps",
+                "description": "COPASI file",
+                "fileSize": "72462",
+                "mimeType": "application/xml",
+                "md5sum": "be2074c7b87a5ee0fba6b4282c8e9fd0",
+                "sha1sum": "6cb07d0de2f55fcc82f60382aa97cabc141507d7",
+                "sha256sum": "744fcb1c4bc71a39dbe46bb40e78b3e051b3a8115f6cde54f0050a9db83f832e"
+            },
+            {
+                "name": "Bunimovich-Mendrazitsky2007.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3965",
+                "mimeType": "text/plain",
+                "md5sum": "280a80e545bf6db8167ecb0366bf760c",
+                "sha1sum": "a7e6ed572e79bc72aa3bb30539e2fe700046aaca",
+                "sha256sum": "80cb8740e2abaddabae88c0e4bc92a1f3df2d65f951cd0e0f60b4b44b619e3bf"
+            },
+            {
+                "name": "Fig 4.png",
+                "description": "PNG file - Fig. 4 reproduction",
+                "fileSize": "13112",
+                "mimeType": "image/png",
+                "md5sum": "cc27790676c82f223da14cbf5d1a103e",
+                "sha1sum": "2a242d93a23b33653b14d34e86e8ceabef4e0b43",
+                "sha256sum": "deab37e4be173da93e25c80322296b7d77a138efe1b95564ac26ffeda76ca74e"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "13112",
+                "mimeType": "image/png",
+                "md5sum": "cc27790676c82f223da14cbf5d1a103e",
+                "sha1sum": "2a242d93a23b33653b14d34e86e8ceabef4e0b43",
+                "sha256sum": "deab37e4be173da93e25c80322296b7d77a138efe1b95564ac26ffeda76ca74e"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "197",
+                "mimeType": "text/plain",
+                "md5sum": "288e23d7fd7bca2c5954e3a487fdfade",
+                "sha1sum": "60f8b2eec9d5e320f736550401df4302a6555612",
+                "sha256sum": "9a9d38a918ecc0e75f2997422312341fa2d2171eacedffea34c71a52ee8021a9"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1654",
+                "mimeType": "application/xml",
+                "md5sum": "79a6a2d171a3f43cb8ffc1123de42fba",
+                "sha1sum": "e3546635d905b1a6805201b093766f296b8f3853",
+                "sha256sum": "24d11136ee5248cd902cf5ea6e1018f7c575addbc7b6816b8f67ae1707933690"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3575",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "231cb35d75226ac2bf773b26179fd446",
+                "sha1sum": "231cc66d8b81101cc9bd30600576396a86653543",
+                "sha256sum": "d51d169c9f81fa49fadea93c70efd8f1d4ca99438b6bfe67c0ba9bf50fcf84d7"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1629380189,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001034"
+            },
+            {
+                "version": 3,
+                "submitted": 1724292292,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282017,
+    "submissionId": "MODEL2108190003",
+    "publicationId": "BIOMD0000001034",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2108190003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2108190003"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001034",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001034"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "17457655",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:17457655"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0000123",
+            "name": "bladder",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0000123"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "EFO:0011041",
+            "name": "response to BCG intravesical immunotherapy",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0011041"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "33892",
+            "name": "Mycobacterium tuberculosis variant bovis BCG",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/33892"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "17457655",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/17457655"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:11054",
+            "name": "urinary bladder cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:11054"
+        }
+    ]
+}

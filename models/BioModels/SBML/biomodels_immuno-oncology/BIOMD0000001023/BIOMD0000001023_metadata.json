@@ -1,0 +1,276 @@
+{
+    "name": "Alharbi2020 - An ODE-based model of the dynamics of tumor cell progression and its effects on normal cell growth and immune system functionality",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model of tumor cell growth, called the normal-tumor-immune-unhealthy diet model (NTIUNHDM), is described by the publication:Alharbi, S.A.; Rambely, A.S.\"A New ODE-Based Model for Tumor Cells and Immune System Competition\"Mathematics 2020, 8, 1285.doi:10.3390/math8081285Abstract:Changes in diet are heavily associated with high mortality rates in several types of cancer. In this paper, a new mathematical model of tumor cells growth is established to dynamically demonstrate the effects of abnormal cell progression on the cells affected by the tumor in terms of the immune system’s functionality and normal cells’ dynamic growth. This model is called the normal-tumor-immune-unhealthy diet model (NTIUNHDM) and governed by a system of ordinary differential equations. In the NTIUNHDM, there are three main populations normal cells, tumor cell and immune cells. The model is discussed analytically and numerically by utilizing a fourth-order Runge–Kutta method. The dynamic behavior of the NTIUNHDM is discussed by analyzing the stability of the system at various equilibrium points and the Mathematica software is used to simulate the model. From analysis and simulation of the NTIUNHDM, it can be deduced that instability of the response stage, due to a weak immune system, is classified as one of the main reasons for the coexistence of abnormal cells and normal cells. Additionally, it is obvious that the NTIUNHDM has only one stable case when abnormal cells begin progressing into early stages of tumor cells such that the immune cells are generated once. Thus, early boosting of the immune system might contribute to reducing the risk of cancer.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.3390/math8081285",
+        "journal": "Mathematics",
+        "title": "A New ODE-Based Model for Tumor Cells and Immune System Competition",
+        "affiliation": "Department of Mathematics & Statistics, College of Science, Taibah University, Yanbu 41911, Almadinah Almunawarah, Saudi Arabia\nDepartment of Mathematical Sciences, Faculty of Science & Technology, Universiti Kebangsaan Malaysia, UKM Bangi 43600, Selangor, Malaysia",
+        "synopsis": "Changes in diet are heavily associated with high mortality rates in several types of cancer. In this paper, a new mathematical model of tumor cells growth is established to dynamically demonstrate the effects of abnormal cell progression on the cells affected by the tumor in terms of the immune system’s functionality and normal cells’ dynamic growth. This model is called the normal-tumor-immune-unhealthy diet model (NTIUNHDM) and governed by a system of ordinary differential equations. In the NTIUNHDM, there are three main populations normal cells, tumor cell and immune cells. The model is discussed analytically and numerically by utilizing a fourth-order Runge–Kutta method. The dynamic behavior of the NTIUNHDM is discussed by analyzing the stability of the system at various equilibrium points and the Mathematica software is used to simulate the model. From analysis and simulation of the NTIUNHDM, it can be deduced that instability of the response stage, due to a weak immune system, is classified as one of the main reasons for the coexistence of abnormal cells and normal cells. Additionally, it is obvious that the NTIUNHDM has only one stable case when abnormal cells begin progressing into early stages of tumor cells such that the immune cells are generated once. Thus, early boosting of the immune system might contribute to reducing the risk of cancer.",
+        "year": 2020,
+        "month": "8",
+        "volume": "8",
+        "issue": "8",
+        "pages": "1285",
+        "link": "http://identifiers.org/doi/10.3390/math8081285",
+        "authors": [
+            {
+                "name": "Sana Abdulkream Alharbi"
+            },
+            {
+                "name": "Azmin Sham Rambely"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Alharbi2020.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "41926",
+                "mimeType": "application/xml",
+                "md5sum": "ed0149d67b01c1bf155ff0054be0e0a3",
+                "sha1sum": "6d8f349aa55168fac4fb5a2280846c77f3ca91f1",
+                "sha256sum": "b7614c3bc0a56b53cdc93724314ac147d0c97826c9ed1751f39cf71fc5ea958a"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Alharbi2020 - Fig 5.png",
+                "description": "PNG file - Fig. 5 reproduction",
+                "fileSize": "11784",
+                "mimeType": "image/png",
+                "md5sum": "b232be09a5c918c3cec468e88ae719cd",
+                "sha1sum": "170a27624b58da4376e08d66a41615eab275202e",
+                "sha256sum": "53d59247ae63b3417fdca663730d23222761b19e25cb344a5e32fde7ae5754cd"
+            },
+            {
+                "name": "Alharbi2020 - Fig 5.sedml",
+                "description": "SEDML file - Fig. 5 simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "17019",
+                "mimeType": "application/xml",
+                "md5sum": "5d86fe28f344cce300483c7d858fcff5",
+                "sha1sum": "5dd56ff86a72984fc666733cf78392fa315cfdc0",
+                "sha256sum": "8c7d35a5fb0307e99b805c5b048a3f29758b918ccbf6aadbd974f99c51918cd0"
+            },
+            {
+                "name": "Alharbi2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "12493",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2821e34945d8ea920f330e95d7620dfc",
+                "sha1sum": "3d8fdcad6417ba995d6df7b8baa64983d6576df7",
+                "sha256sum": "447435c221581fd92bb4709f92f140dfb0c540758670a0f69644f7d9528556fb"
+            },
+            {
+                "name": "Alharbi2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "16076",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7c6bb8a8a035b3e3caea9f1dc33f05cc",
+                "sha1sum": "9f15347d7e40fbb4dc4361d465f14f84623dd844",
+                "sha256sum": "be63faa3a6500f0cacf75dae75fc07a8892519348b331b40dee796a518afe6c0"
+            },
+            {
+                "name": "Alharbi2020-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6040",
+                "mimeType": "text/x-matlab",
+                "md5sum": "6fa0eda629a5112650799c4603182d3c",
+                "sha1sum": "cfca3bbe1296db85752f31a1e11925e725c1fa08",
+                "sha256sum": "f1edc0f7564815cb6962bb06c709c7f04c5e726ab600701d321d1bf825c40093"
+            },
+            {
+                "name": "Alharbi2020-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6040",
+                "mimeType": "text/x-matlab",
+                "md5sum": "d6b595c06a86096307e7a6fbcc17f907",
+                "sha1sum": "433eac145e1e28d0b0257edf302d00416e70ec41",
+                "sha256sum": "bb7782cd8c0b554a55b4a1db1baedc154fd1b2b382e1efb70f1573bdaac65415"
+            },
+            {
+                "name": "Alharbi2020.cps",
+                "description": "COPASI file",
+                "fileSize": "80420",
+                "mimeType": "application/xml",
+                "md5sum": "5c58c640d0b84bdd1eb37eb89e22dbf4",
+                "sha1sum": "f7dd89435c5b5fc1b97ea4044890e5babfd156cb",
+                "sha256sum": "6e99118a8bdaf1c100e15d1e615485cfa64e0c35ad982180d8a5fabec3f84e5f"
+            },
+            {
+                "name": "Alharbi2020.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4323",
+                "mimeType": "text/plain",
+                "md5sum": "8fd6749bf8276d2e95dec96f7746f8ca",
+                "sha1sum": "01f341abfb51250459df459a1884ed21850cbf2e",
+                "sha256sum": "4192ffae1f820dd69837eb059c171cf61589cb98583612f17f8cd4234482fbcf"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "11784",
+                "mimeType": "image/png",
+                "md5sum": "b232be09a5c918c3cec468e88ae719cd",
+                "sha1sum": "170a27624b58da4376e08d66a41615eab275202e",
+                "sha256sum": "53d59247ae63b3417fdca663730d23222761b19e25cb344a5e32fde7ae5754cd"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "177",
+                "mimeType": "text/plain",
+                "md5sum": "db25168564c46abdbd49d1e67d83a9cb",
+                "sha1sum": "cb5bd8fd8e6d87fbcba0d6707a23f0188ef74995",
+                "sha256sum": "1c25a6f6ea99a6719e38b0e1d8aeb4c64f175163ad6e7ee75720f6f3c7e16a32"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1541",
+                "mimeType": "application/xml",
+                "md5sum": "5f4d138420961997b4e70f537023a08d",
+                "sha1sum": "91709e3a2b97dc375bf1827ca4679e1904a95698",
+                "sha256sum": "d135e8f0d1db79b91ac32cc5c113422c61dcd01876b3f9c6f5b32f932e2f99cf"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3476",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "24d1aa7033bb9636b88019cee16349e4",
+                "sha1sum": "60999626d1cb462bb08c745a3e59efc97ff2dc68",
+                "sha256sum": "15e51998bff50d59d1b43d75662fd55307277e885a782df0c2433ea046c5c481"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1627569955,
+                "submitter": "Emilia Chen",
+                "comment": "Import of Alharbi2020 - An ODE-based model of the dynamics of tumor cell progression and its effects on normal cell growth and immune system functionality"
+            },
+            {
+                "version": 2,
+                "submitted": 1627570258,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001023"
+            },
+            {
+                "version": 3,
+                "submitted": 1724291970,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282015,
+    "submissionId": "MODEL2107290002",
+    "publicationId": "BIOMD0000001023",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2107290002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2107290002"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001023",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001023"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.3390/math8081285",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.3390/math8081285"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C18670",
+            "name": "Cancer Immunology",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C18670"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "DOID:162",
+            "name": "cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:162"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "GO:0002376",
+            "name": "immune system process",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002376"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.3390/math8081285",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.3390/math8081285"
+        }
+    ]
+}

@@ -1,0 +1,270 @@
+{
+    "name": "Bose2011 - Noise-assisted interactions of tumor and immune cells",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Noise-assisted interactions of tumor and immune cells.Bose T1, Trimper S.Author information1    Institute of Physics, Martin-Luther-University, D-06099 Halle, Germany. thomas.bose@physik.uni-halle.deAbstractWe consider a three-state model comprising tumor cells, effector cells, and tumor-detecting cells under the influence of noises. It is demonstrated that inevitable stochastic forces existing in all three cell species are able to suppress tumor cell growth completely. Whereas the deterministic model does not reveal a stable tumor-free state, the auto-correlated noise combined with cross-correlation functions can either lead to tumor-dormant states, tumor progression, as well as to an elimination of tumor cells. The auto-correlation function exhibits a finite correlation time τ, while the cross-correlation functions shows a white-noise behavior. The evolution of each of the three kinds of cells leads to a multiplicative noise coupling. The model is investigated by means of a multivariate Fokker-Planck equation for small τ. The different behavior of the system is, above all, determined by the variation of the correlation time and the strength of the cross-correlation between tumor and tumor-detecting cells. The theoretical model is based on a biological background discussed in detail, and the results are tested using realistic parameters from experimental observations.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "21929038",
+        "journal": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+        "title": "Noise-assisted interactions of tumor and immune cells.",
+        "affiliation": "Institute of Physics, Martin-Luther-University, D-06099 Halle, Germany. thomas.bose@physik.uni-halle.de",
+        "synopsis": "We consider a three-state model comprising tumor cells, effector cells, and tumor-detecting cells under the influence of noises. It is demonstrated that inevitable stochastic forces existing in all three cell species are able to suppress tumor cell growth completely. Whereas the deterministic model does not reveal a stable tumor-free state, the auto-correlated noise combined with cross-correlation functions can either lead to tumor-dormant states, tumor progression, as well as to an elimination of tumor cells. The auto-correlation function exhibits a finite correlation time τ, while the cross-correlation functions shows a white-noise behavior. The evolution of each of the three kinds of cells leads to a multiplicative noise coupling. The model is investigated by means of a multivariate Fokker-Planck equation for small τ. The different behavior of the system is, above all, determined by the variation of the correlation time and the strength of the cross-correlation between tumor and tumor-detecting cells. The theoretical model is based on a biological background discussed in detail, and the results are tested using realistic parameters from experimental observations.",
+        "year": 2011,
+        "month": "8",
+        "volume": "84",
+        "issue": "2 Pt 1",
+        "pages": "021927",
+        "link": "http://identifiers.org/pubmed/21929038",
+        "authors": [
+            {
+                "name": "Thomas Bose",
+                "institution": "Institute of Physics, Martin-Luther-University, D-06099 Halle, Germany. thomas.bose@physik.uni-halle.de",
+                "orcid": "0000-0003-0014-4090"
+            },
+            {
+                "name": "Steffen Trimper"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Bose2011.xml",
+                "description": "SBML L2V4 representation of Bose2011 - Noise-assisted interactions of tumor and immune cells.",
+                "fileSize": "36639",
+                "mimeType": "application/xml",
+                "md5sum": "e9f0900ab13dbc05c42fea7ea9986848",
+                "sha1sum": "0a340c76f423fd8f68b33025e56a88b7126dda4b",
+                "sha256sum": "b585b1624b576f0c96d9dd766c8ad117566381618babdd4329c025f2340cbc3c"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Bose2011-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10350",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "fe091e6a3be3cec29e808f24f88e95ee",
+                "sha1sum": "2d2d4c98ba98bc98e811667d7bca637a61970921",
+                "sha256sum": "c0a635506102afd5552b83658b88372d98f41536f5569883dd58918dd877d3df"
+            },
+            {
+                "name": "Bose2011-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14039",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "8a0edc3e34c697bc9abe146e73d58056",
+                "sha1sum": "d4d886f30ff5c79e3f37fedec68b4f32878ade78",
+                "sha256sum": "2c2e68cbc6e2af672b82a918ddd36e082fbdcb00dfa831bc866caf918a9567f8"
+            },
+            {
+                "name": "Bose2011-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5939",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4322bb65faf51c7bcbbc0b8c75f68dd2",
+                "sha1sum": "302cb2d6dfc3611d0d6a25fd2111adab5cf335c2",
+                "sha256sum": "60a6ce9c3422d6826ce30dfc48f80b2cf0336579adf8a83f9c9ca8e48bc2da0c"
+            },
+            {
+                "name": "Bose2011-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5939",
+                "mimeType": "text/x-matlab",
+                "md5sum": "19a01b7c9b297be5c41f5b3c09a03c25",
+                "sha1sum": "6a485cd88d9829f00e25b5fba2ade271320f27f0",
+                "sha256sum": "9ad492f9bd1b5085e8322bd3d5060b347b67a6cdfcdfd2c0c4ac256643b7b339"
+            },
+            {
+                "name": "Bose2011.cps",
+                "description": "COPASI version 4.24 (Build 197) Bose2011 - Noise-assisted interactions of tumor and immune cells.",
+                "fileSize": "62451",
+                "mimeType": "application/xml",
+                "md5sum": "ae244c44999b0abd8bf96d2af365065c",
+                "sha1sum": "2ba9a0eedc3d9c676a0dfb57c6263568788ec520",
+                "sha256sum": "0fb575d2ea49b71571f5aee02ad5fdebd8f03f921da4b69da5e13160c647aa61"
+            },
+            {
+                "name": "Bose2011.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3866",
+                "mimeType": "text/plain",
+                "md5sum": "952a63a204d21fcefada874cee8314d6",
+                "sha1sum": "128db91ad01df6f3ea4e8cebecbdf55238ede67e",
+                "sha256sum": "62e88ddbc1f76e4b05c5b152466329cba7738c1d23e9b820b953ac95737cc903"
+            },
+            {
+                "name": "Bose2011.sedml",
+                "description": "SEDML L1V2 Bose2011 - Noise-assisted interactions of tumor and immune cells. (additionally CRBM-validated and adjusted).",
+                "fileSize": "12775",
+                "mimeType": "application/xml",
+                "md5sum": "2a21f55b6ad7910a3ba7a876e4540bf1",
+                "sha1sum": "76b696881a75bf5ffe95375bbc5095f73ec39d37",
+                "sha256sum": "d372d8f8c549c216cfc3b5754c2b5d6d913a81e5e61a28137f964a67c57c9998"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "22356",
+                "mimeType": "image/png",
+                "md5sum": "c2e52594c652c4b61447fdd8c13f8e0f",
+                "sha1sum": "1cf42267342b66c31e9d87f83f42c9d8b5286f23",
+                "sha256sum": "8bc3bda44f400597e76134f9d097893827add84b2e7fbc315c598551695eb1e9"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "323",
+                "mimeType": "text/plain",
+                "md5sum": "8e97113a16c6dab1ef64dab49795edc4",
+                "sha1sum": "968c4479bb4b0aeb8d950f9760e78688c3221dfa",
+                "sha256sum": "8a8a7f158774a2b2161ba83d4ac75f3d52edca05c29189c96d362fc60a8f027a"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1395",
+                "mimeType": "application/xml",
+                "md5sum": "7e60ca2ff1f926a5734ffc5646a50b30",
+                "sha1sum": "d183828c808ab68566be0cbf6d4ce93b2f7d5e41",
+                "sha256sum": "6238de69fc65cd9ea1fc6e31401223467f89d90488973d749832921af84931c3"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3452",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7c0034dff61918e542add16e63bd8059",
+                "sha1sum": "89fd2f50ec685ce7190194c0314ad439e8dc0dd2",
+                "sha256sum": "d005a2621e7be578f5a17590d877ce8f5cbc6987740efc95ffcaa4592c4fffaf"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1576495433,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000894"
+            },
+            {
+                "version": 3,
+                "submitted": 1577961983,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "SBML edited to add isDerivedFrom"
+            },
+            {
+                "version": 4,
+                "submitted": 1724288734,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281925,
+    "submissionId": "MODEL1912160003",
+    "publicationId": "BIOMD0000000894",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "NCIT:C48686",
+            "name": "Tumor Model",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C48686"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "NCIT:C48686",
+            "name": "Tumor Model",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C48686"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "21929038",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/21929038"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1103/PhysRevE.79.051903",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1103/PhysRevE.79.051903"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000894",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000894"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912160003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912160003"
+        }
+    ]
+}

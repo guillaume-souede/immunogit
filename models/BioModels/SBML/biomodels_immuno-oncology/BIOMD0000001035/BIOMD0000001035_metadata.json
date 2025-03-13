@@ -1,0 +1,324 @@
+{
+    "name": "Al-Tuwairqi2020 - Dynamics of cancer virotherapy with immune response",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model of the role of the immune response in cancer virotherapy dynamics is described in the publication:Al-Tuwairqi, S.M., Al-Johani, N.O.,  Simbawa, E.A. \"Modeling dynamics of cancer virotherapy with immune response.\" Adv Differ Equ 2020, 438 (2020).DOI: 10.1186/s13662-020-02893-6Comment:This model is represented by the system described in Equation 2 of the publication manuscript.Abstract:Virotherapy is a therapeutic treatment for cancer. It uses genetically engineered viruses to selectively infect, replicate in, and destroy cancer cells without damaging normal cells. In this paper, we present a modified model to include, within the dynamics of virotherapy, the interaction between uninfected tumor cells and immune response. The model is analyzed qualitatively to produce five equilibrium points. One of these equilibriums demonstrates the effect observed in virotherapy, where the immune system demolishes infected cells as well as viruses. Moreover, the existence and stability of the equilibrium points are established under certain criteria. Numerical simulations are performed to display the agreement with the analytical results. Finally, parameter analysis is carried out to illustrate which parameters in the model affect the outcome of virotherapy.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1186/s13662-020-02893-6",
+        "journal": "Advances in Difference Equations",
+        "title": "Modeling dynamics of cancer virotherapy with immune response",
+        "affiliation": "Mathematics Department, King Abdulaziz University, Jeddah, Saudi Arabia",
+        "synopsis": "Virotherapy is a therapeutic treatment for cancer. It uses genetically engineered viruses to selectively infect, replicate in, and destroy cancer cells without damaging normal cells. In this paper, we present a modified model to include, within the dynamics of virotherapy, the interaction between uninfected tumor cells and immune response. The model is analyzed qualitatively to produce five equilibrium points. One of these equilibriums demonstrates the effect observed in virotherapy, where the immune system demolishes infected cells as well as viruses. Moreover, the existence and stability of the equilibrium points are established under certain criteria. Numerical simulations are performed to display the agreement with the analytical results. Finally, parameter analysis is carried out to illustrate which parameters in the model affect the outcome of virotherapy.",
+        "year": 2020,
+        "month": "8",
+        "volume": "2020",
+        "issue": "1",
+        "link": "http://identifiers.org/doi/10.1186/s13662-020-02893-6",
+        "authors": [
+            {
+                "name": "Salma M. Al-Tuwairqi"
+            },
+            {
+                "name": "Najwa O. Al-Johani"
+            },
+            {
+                "name": "Eman A. Simbawa"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "43365",
+                "mimeType": "application/xml",
+                "md5sum": "7ec13c054d5c903b6d250fda48d94793",
+                "sha1sum": "4991ac1793203edac96ccd8c492ca1b538efb22d",
+                "sha256sum": "06df81936d54b45d8391cdf8b164de2ceff2ac2f1662981fac01e497f039d2b7"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Al-Tuwairqi2020 - Fig2(a) simulation.sedml",
+                "description": "SEDML file - Fig. 2(a) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "17647",
+                "mimeType": "application/xml",
+                "md5sum": "3b9edcc142497a92dbeca1d4b10cd40e",
+                "sha1sum": "fd5c0c1cb8f05a5fbab324b3742c641d59c33b41",
+                "sha256sum": "7df82979f92ed6a82e15b6cdcba7f5e9a70d60dd7a27a5193f99d1eeb4ef8e00"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Fig2(b) simulation.sedml",
+                "description": "SEDML file - Fig. 2(b) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "16208",
+                "mimeType": "application/xml",
+                "md5sum": "be00bd9a87e3af6102d9b3c86a3dff5b",
+                "sha1sum": "afde37d587ce8f203469af1a6346a22c03e27f24",
+                "sha256sum": "ec7277b714990e818c7916ed6e4209962ace0a82e1100a00a890fc4e2e6a448c"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Fig2(c) simulation.sedml",
+                "description": "SEDML file - Fig. 2(c) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "16210",
+                "mimeType": "application/xml",
+                "md5sum": "a2b3775d14ad524cbc6a448259d18416",
+                "sha1sum": "25fa054b0cc0f02fad6d255c385709db9f9ed54d",
+                "sha256sum": "41f693fc74bc28a9e2ee239df1b584f0ba17e35603e0f4a89c51cdeff6315f0a"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Fig7(a) simulation.sedml",
+                "description": "SEDML file - Fig. 7(a) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "19586",
+                "mimeType": "application/xml",
+                "md5sum": "a2025825fba043b9cad44b0a93d25ec5",
+                "sha1sum": "532d5ff863c3a77b8db5bbd2f9f07e7bced25dfc",
+                "sha256sum": "694f9521f8fb115b6a13059b9394ab7c548ad355b04f1c20cc41438417db0d3c"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Fig7(b) simulation.sedml",
+                "description": "SEDML file - Fig. 7(b) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "19586",
+                "mimeType": "application/xml",
+                "md5sum": "323f0524a65ce57c4f39e920f39f771d",
+                "sha1sum": "534b67abd5819174115bfc13162eb559d6bb67b7",
+                "sha256sum": "45e847ad93a2da65c694c3502277fde37fc542274ed2eb08ccea78ab8ee1e210"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "17914",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "477e5564dba3e8abafb1d16400039e75",
+                "sha1sum": "29eab8944bba69a7d14a485a8c5668b89b3c5581",
+                "sha256sum": "47bdeb25f360fc3e27e4fb379de7b06c81c284f80c03c31ff966748f31df95d5"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "23836",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2bc36578afd1f98e02cfe88bd6ed72be",
+                "sha1sum": "1ae6c30ccfea2a69dca3e8892a61a28925e8c358",
+                "sha256sum": "c140b52cae0ff916707560434306dadfef6531b7feb8ff881edfec8a8cac4d57"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6121",
+                "mimeType": "text/x-matlab",
+                "md5sum": "05ff49f176487ac77cedbff5e1f13ea8",
+                "sha1sum": "a1b86aaf96934b50a4e5f8f3f039f8159d8501a3",
+                "sha256sum": "84f117cca5eaf270345168e7600ec25d3882ad45f53a0dd758a495051f797cb5"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6121",
+                "mimeType": "text/x-matlab",
+                "md5sum": "d6b76050b8fa48bfce493eb40c4884bd",
+                "sha1sum": "c3a40a3e4af85daf96ea6cdc9838fc300d4e4d7e",
+                "sha256sum": "f519a0e29f0bab887053f48afb17efd169dd4851a69b5d46cf8f1ccd640ab150"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy.cps",
+                "description": "COPASI file",
+                "fileSize": "74242",
+                "mimeType": "application/xml",
+                "md5sum": "df6ea832b145a6a4b8a4f80760e986b6",
+                "sha1sum": "f859addb309a0a4ec7c357964b13a4093e959602",
+                "sha256sum": "b06bafeb2f2ca1d5c279dda4a032e5df788d32f7273bf19266edbb5d1db04233"
+            },
+            {
+                "name": "Al-Tuwairqi2020 - Virotherapy.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4232",
+                "mimeType": "text/plain",
+                "md5sum": "461e66c5dbca7b6d469e34bb4a4d9d78",
+                "sha1sum": "86bae6c2574a2ff4f4d81394bd8d4611cd8ddd7e",
+                "sha256sum": "ac7edfe2c79942e74470e62edcbc21a46963b3a492ae5e4992716b94210f885f"
+            },
+            {
+                "name": "FIg7.png",
+                "description": "PNG file - Fig. 7 reproduction",
+                "fileSize": "362218",
+                "mimeType": "image/png",
+                "md5sum": "5d3f7232f4d03f0a80112e7c0a78fe4f",
+                "sha1sum": "68e4f9a150c6c6947b38534f10ecb4af779ab6fd",
+                "sha256sum": "23d990b84e0f1abfa5796d681010d921304f8d9a197d9b3077540da718af93c9"
+            },
+            {
+                "name": "Fig2.png",
+                "description": "PNG file - Fig. 2 reproduction",
+                "fileSize": "70872",
+                "mimeType": "image/png",
+                "md5sum": "2d2992822b0e06277f8410969f070a1c",
+                "sha1sum": "33db06671ed9fe08717b83845fe133433676f6be",
+                "sha256sum": "64756f275992ea584d7eeaff08555456a4fbe8372b1b867318b5ee397210e6d8"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "70872",
+                "mimeType": "image/png",
+                "md5sum": "2d2992822b0e06277f8410969f070a1c",
+                "sha1sum": "33db06671ed9fe08717b83845fe133433676f6be",
+                "sha256sum": "64756f275992ea584d7eeaff08555456a4fbe8372b1b867318b5ee397210e6d8"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "136",
+                "mimeType": "text/plain",
+                "md5sum": "385c1a288e55baf1d8c5ab825e1843db",
+                "sha1sum": "e8a35d847a53be74a458ef7ca4f0cdf9a70f85d4",
+                "sha256sum": "6092300c79f277ad3294239e60fb9c8f427f8c87a71c84264c6a63d612e2cfa6"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2348",
+                "mimeType": "application/xml",
+                "md5sum": "57f11ea7ba041f4ce6a30b67afa0eb02",
+                "sha1sum": "2409fa4fc1ef274dfd1bb43a7b449812328e938e",
+                "sha256sum": "db77cacd1ebdf94257956c5198534fe3260a3f41ef467e380aa7076aae08ecda"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3243",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2c2a5f34a92596706fd2cd86adbc5e86",
+                "sha1sum": "f4f4c817f9d248b98f87e0c06ef64b2289e2b917",
+                "sha256sum": "be43fd1098374ab8a45fdc3add29b84bf9719bcfafda8e42835831f874dd424d"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1629397322,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001035"
+            },
+            {
+                "version": 3,
+                "submitted": 1724292321,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282017,
+    "submissionId": "MODEL2108190004",
+    "publicationId": "BIOMD0000001035",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:162",
+            "name": "cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:162"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0046730",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0046730"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2108190004",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2108190004"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001035",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001035"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1186/s13662-020-02893-6",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.1186/s13662-020-02893-6"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.1186/s13662-020-02893-6",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1186/s13662-020-02893-6"
+        }
+    ]
+}

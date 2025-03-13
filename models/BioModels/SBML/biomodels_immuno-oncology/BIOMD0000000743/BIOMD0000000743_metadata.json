@@ -1,0 +1,283 @@
+{
+    "name": "Gallaher2018 - Tumor–Immune dynamics in multiple myeloma",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>The paper describes a model on the key components for tumor–immune dynamics in multiple myeloma.Created by COPASI 4.25 (Build 207)This model is described in the article:Methods for determining key components in a mathematical model for tumor–immune dynamics in multiple myelomaJill Gallaher, Kamila Larripa, Marissa Renardy, Blerta Shtylla, Nessy Tania, Diana White, Karen Wood, Li Zhu, Chaitali Passey, Michael Robbins, Natalie Bezman, Suresh Shelat, Hearn Jay Choo, Helen MooreJournal of Theoretical Biology 458 (2018) 31–46Abstract:In this work, we analyze a mathematical model we introduced previously for the dynamics of multiple myeloma and the immune system. We focus on four main aspects: (1) obtaining and justifying ranges and values for all parameters in the model; (2) determining a subset of parameters to which the model is most sensitive; (3) determining which parameters in this subset can be uniquely estimated given cer- tain types of data; and (4) exploring the model numerically. Using global sensitivity analysis techniques, we found that the model is most sensitive to certain growth, loss, and efficacy parameters. This anal- ysis provides the foundation for a future application of the model: prediction of optimal combination regimens in patients with multiple myeloma.This model is hosted on BioModels Database and identified by: MODEL1907050001To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models .To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.</p>  </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1016/j.jtbi.2018.08.037",
+        "journal": "Journal of Theoretical Biology",
+        "title": "Methods for determining key components in a mathematical model for tumor–immune dynamics in multiple myeloma",
+        "affiliation": "Helen Moore\r\nE-mail address: dr.helen.moore@gmail.com\r\nCurrent affiliation: AstraZeneca, Waltham, MA 02451, USA",
+        "synopsis": "In this work, we analyze a mathematical model we introduced previously for the dynamics of multiple myeloma and the immune system. We focus on four main aspects: (1) obtaining and justifying ranges and values for all parameters in the model; (2) determining a subset of parameters to which the model is most sensitive; (3) determining which parameters in this subset can be uniquely estimated given cer- tain types of data; and (4) exploring the model numerically. Using global sensitivity analysis techniques, we found that the model is most sensitive to certain growth, loss, and efficacy parameters. This anal- ysis provides the foundation for a future application of the model: prediction of optimal combination regimens in patients with multiple myeloma.",
+        "year": 2018,
+        "month": "8",
+        "volume": "458",
+        "pages": "31-46",
+        "link": "http://identifiers.org/doi/10.1016/j.jtbi.2018.08.037",
+        "authors": [
+            {
+                "name": "Jill Gallaher"
+            },
+            {
+                "name": "Kamila Larripa"
+            },
+            {
+                "name": "Marissa Renardy"
+            },
+            {
+                "name": "Blerta Shtylla"
+            },
+            {
+                "name": "Nessy Tania"
+            },
+            {
+                "name": "Diana White"
+            },
+            {
+                "name": "Karen Wood"
+            },
+            {
+                "name": "Li Zhu"
+            },
+            {
+                "name": "Chaitali Passey"
+            },
+            {
+                "name": "Michael Robbins"
+            },
+            {
+                "name": "Natalie Bezman"
+            },
+            {
+                "name": "Suresh Shelat"
+            },
+            {
+                "name": "Hearn Jay Cho"
+            },
+            {
+                "name": "Helen Moore"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Gallaher2018.xml",
+                "description": "SBML L2V4 representation of tumor–immune dynamics in multiple myeloma model",
+                "fileSize": "115864",
+                "mimeType": "application/xml",
+                "md5sum": "5f1a022847231067a741abc9c5b2454f",
+                "sha1sum": "a5b346466690928d279c49bc9f00419aae45e5cd",
+                "sha256sum": "37646ca77773d2305615918db3dbc7855d013536582de750a57c13cc6415e6c3"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Gallaher2018-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "17146",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "4f3532bad47113306fb781005780bb19",
+                "sha1sum": "432bae249f45cefa25c9d54e4c3bfcd439a7750c",
+                "sha256sum": "bd80aeb8af0985e8917500eb0ff8142d0a43a44f107e3d87f838fe06f25b5b57"
+            },
+            {
+                "name": "Gallaher2018-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "23763",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e6fa4af2a32c12da564791126a5cd45d",
+                "sha1sum": "d9a2e9f5cfc64eff775eb1c50dad2552e424e1f4",
+                "sha256sum": "9d91ec5e2965ef3f741ff7eb952a724af5b56800830048af295e5f998246f155"
+            },
+            {
+                "name": "Gallaher2018-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "7959",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0407bd19d8d9a773a2c420fe2858f139",
+                "sha1sum": "1cc47dbf231675b08eacd8f7ed63aec3dbd3e967",
+                "sha256sum": "2a01ddf682476092704f40a875177ef08a4473b92c8b2b0a18ada1710418b6a3"
+            },
+            {
+                "name": "Gallaher2018-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "7959",
+                "mimeType": "text/x-matlab",
+                "md5sum": "a47da3c8e40183bbe55c002c89f062c1",
+                "sha1sum": "632e32351d0f33eb65d173fab8bfd307271cbb30",
+                "sha256sum": "32717148fef761898a3a4050c17b47fba3783ae44d1728b0d32c15edcc82d197"
+            },
+            {
+                "name": "Gallaher2018.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "137853",
+                "mimeType": "application/xml",
+                "md5sum": "1005db73faf28335cffbd05db02db14a",
+                "sha1sum": "d84a12922562c4105b1e47bee1d9c8d3a25d5ffa",
+                "sha256sum": "770bedea276e08190f1d6c4d7337895db010190d7e9103cfabfc9ac40bab0885"
+            },
+            {
+                "name": "Gallaher2018.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "6205",
+                "mimeType": "text/plain",
+                "md5sum": "125b34a95356e5ed57d0437099e9cd9f",
+                "sha1sum": "59e21fc33a6ddbfc757886c57606b0196f826f6c",
+                "sha256sum": "a8dd1ebd98a8fa9a91f84a6e9cf4a344019c342f041a64a3634b2ffa7e61238f"
+            },
+            {
+                "name": "Gallaher2018.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "27520",
+                "mimeType": "application/xml",
+                "md5sum": "d54a6d22d8de28023d17791f25ddd0a7",
+                "sha1sum": "23bfedbed953c7cea3180eeec353514cf17b6a88",
+                "sha256sum": "c880b85c212a65f734c0e275a834c302f4185df7422d810f91e3673ca39a5fe4"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "12598",
+                "mimeType": "image/png",
+                "md5sum": "fd8f973656e1db98342f4aeb6aeb4cf1",
+                "sha1sum": "bbd18c528bb7ea5269e39b9e9dc8a65053fe53a3",
+                "sha256sum": "49dd79c229ca212c2e903aea93472f2b1c2f5acb0434dbe3967f496163888ad2"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "107",
+                "mimeType": "text/plain",
+                "md5sum": "f64a5b812db83c70361d4bc5e96aaf9a",
+                "sha1sum": "eaa6019dd6334978b3043854b19efa0f983ad2e9",
+                "sha256sum": "c6091a77168c9d0324adc02af1792491e5c853b52b939f6f9fbd737d6e145835"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1427",
+                "mimeType": "application/xml",
+                "md5sum": "6272b509ecdf3323f5d1ffcf5074e4a1",
+                "sha1sum": "d70a3c078730b5c5d0e6a875a5d9e952254d8e82",
+                "sha256sum": "078a67a256b083764056e03cd1be058941267f8ff5e6f5d7e5165634c505628c"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3643",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6a3e558f6334fbdcce99c8d33d551e7c",
+                "sha1sum": "d7f6ca6a29ed2a08c7bebe585cc10507e7d088d9",
+                "sha256sum": "f78c390148554eb1a660a8136251e6f4de19ad81e6a724036ef183368807452a"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 6,
+                "submitted": 1562687725,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000743"
+            },
+            {
+                "version": 7,
+                "submitted": 1724284921,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281837,
+    "submissionId": "MODEL1907050001",
+    "publicationId": "BIOMD0000000743",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aah",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000743",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000743"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907050001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907050001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1016/j.jtbi.2018.08.037",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.1016/j.jtbi.2018.08.037"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30172689",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/30172689"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "0001378",
+            "name": "multiple myeloma",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0001378"
+        }
+    ]
+}
