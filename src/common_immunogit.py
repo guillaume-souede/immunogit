@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from bioservices import BioModels
 from bs4 import BeautifulSoup
-from matplotlib_venn import venn3
+# from matplotlib_venn import venn3 # needs to be fixed
 from playwright.async_api import async_playwright
 import requests
 import nest_asyncio
@@ -42,7 +42,7 @@ try:
     repo = git.Repo('.', search_parent_directories=True)
     root_path = Path(repo.working_tree_dir)
 except git.exc.InvalidGitRepositoryError:
-    logger.error("Not inside a valid Git repository. Exiting.")
+    logger.error("Not inside a valid Git. Exiting.")
     sys.exit(1)
 
 logger.info(f"Root path: {root_path}")
