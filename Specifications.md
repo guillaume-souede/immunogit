@@ -24,7 +24,7 @@ This project is led by Professor Anna Niarakis and Engineer Nicolas Ricort-Teixi
 
 The CBI is an international multidisciplinary research structure dedicated to the understanding of how living organisms function, using what are known as integrative and multi-scale approaches. Made up of several laboratories, including the host laboratory Molecular, Cellular and Developmental Biology (MCD), its research themes cover a wide range of fields addressing major health-related societal issues. 
 
-More specifically, in the context of this project, it is involved in CoSysBio [(Computational Systems Biology for complex human diseases)](https://cbi-toulouse.fr/eng/equipe-niarakis), which develops integrative approaches combining mathematics, computer science and bioinformatics to identify new therapeutic targets and model complex pathologies. Immunological digital twins are a major challenge: hybrid models combining artificial intelligence and mechanistic networks could predict the evolution of diseases and refine therapeutic strategies in personalized medicine [[15]](#15). Historically, a digital twin is an organized set of adaptable models that emulate the behaviors of a given physical system (a term derived from “industry”) using data obtained throughout its life cycle. It is therefore a dynamic model, which can have several levels of complexity (known as “digitization”). They help optimize diagnosis and treatment (dose), particularly for diseases involving the immune system. 
+More specifically, in the context of this project, it is involved in CoSysBio (Computational Systems Biology for complex human diseases [^1]), which develops integrative approaches combining mathematics, computer science and bioinformatics to identify new therapeutic targets and model complex pathologies. Immunological digital twins are a major challenge: hybrid models combining artificial intelligence and mechanistic networks could predict the evolution of diseases and refine therapeutic strategies in personalized medicine [[15]](#15). Historically, a digital twin is an organized set of adaptable models that emulate the behaviors of a given physical system (a term derived from “industry”) using data obtained throughout its life cycle. It is therefore a dynamic model, which can have several levels of complexity (known as “digitization”). They help optimize diagnosis and treatment (dose), particularly for diseases involving the immune system. 
 
 The ImmunoGIT initiative will contribute to this by structuring and sharing models dedicated to these immune pathologies.
 
@@ -221,6 +221,8 @@ If a member is unavailable for an extended period, task redistribution will be a
 - Adherence to coding standards and naming conventions. 
 
 ## References
+[^1]: https://cbi-toulouse.fr/eng/equipe-niarakis
+
 <a id="1">[1]</a>
 No Author. (n.d.).
 Sclérose en plaques (SEP) - Troubles neurologiques.
