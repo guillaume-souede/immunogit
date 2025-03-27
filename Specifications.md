@@ -222,91 +222,94 @@ If a member is unavailable for an extended period, task redistribution will be a
 
 ## References
 <a id="1">[1]</a>
-Dijkstra, E. W. (1968).
-Go to statement considered harmful.
-Communications of the ACM, 11(3), 147-148.
+No Author. (n.d.).
+Sclérose en plaques (SEP) - Troubles neurologiques.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-neurologiques/maladies-démyélinisantes/sclérose-en-plaques-sep
 
 <a id="2">[2]</a>
-Polyarthrite, A. (Year not available).
-Study of Polyarthrite.
-Journal of Rheumatology, XX(X), 100-110.
+No Author. (n.d.).
+Polyarthrite rhumatoïde (PR) - Troubles musculosquelettiques et du tissu conjonctif.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-musculosquelettiques-et-du-tissu-conjonctif/troubles-articulaires/polyarthrite-rhumatoïde-pr
 
 <a id="3">[3]</a>
-Lupus, B. (Year not available).
-Research on Lupus.
-Journal of Immunology, XX(X), 200-210.
+No Author. (n.d.).
+Lupus érythémateux disséminé - Troubles musculosquelettiques et du tissu conjonctif.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-musculosquelettiques-et-du-tissu-conjonctif/maladies-rhumatismales-systémiques/lupus-érythémateux-disséminé
 
 <a id="4">[4]</a>
-Maladies, C. (Year not available).
-Impact of Chronic Diseases.
-Journal of Medicine, XX(X), 150-160.
+No Author. (n.d.).
+Maladies auto-immunes · Inserm, La science pour la santé.
+Inserm. Retrieved February 6, 2025, from https://www.inserm.fr/dossier/maladies-auto-immunes/
 
 <a id="5">[5]</a>
-Sanofi, D. (Year not available).
-Development of Therapeutic Strategies.
-Pharmaceutical Reports, XX(X), 300-310.
+No Author. (n.d.).
+Sanofi: Dupixent® (dupilumab) approuvé dans le traitement de l'asthme sévère par la Commission européenne.
+Sanofi. Retrieved February 6, 2025, from https://www.sanofi.com/fr/media-room/communiques-de-presse/2019/2019-05-07-13-00-00-1818457
 
 <a id="6">[6]</a>
-Niarakis, A. (2024).
-Immune Responses in Health and Disease.
-Immunology Research, 18(4), 220-225.
+Niarakis, A., Laubenbacher, R., An, G., et al. (2024).
+Immune digital twins for complex human pathologies: applications, limitations, and challenges.
+npj Systems Biology and Applications, 10(1), 1-14. https://doi.org/10.1038/s41540-024-00450-5
 
 <a id="7">[7]</a>
-Ali, S. (2025).
-Advancements in Cancer Immunotherapy.
-Cancer Journal, 30(2), 130-135.
+Ali, F. S., Nguyen, M. H., Hernaez, R., et al. (2025).
+AGA Clinical Practice Guideline on the Prevention and Treatment of Hepatitis B Virus Reactivation in At-Risk Individuals.
+Gastroenterology, 168(2), 267-284. https://doi.org/10.1053/j.gastro.2024.11.008
 
 <a id="8">[8]</a>
-Niarakis, A. (2024).
-Immune Responses in Health and Disease.
-Immunology Research, 18(4), 220-225.
+Niarakis, A., Laubenbacher, R., An, G., et al. (2024).
+Immune digital twins for complex human pathologies: applications, limitations, and challenges.
+npj Systems Biology and Applications, 10(1), 1-14. https://doi.org/10.1038/s41540-024-00450-5
 
 <a id="9">[9]</a>
-Malik-Sheriff, S. (2020).
-BioModels Database for Systems Biology.
-Nature Reviews, 15(8), 500-505.
+Malik-Sheriff, R. S., Glont, M., Nguyen, T. V. N., et al. (2020).
+BioModels—15 years of sharing computational models in life science.
+Nucleic Acids Research, 48(D1), D407–D415. https://doi.org/10.1093/nar/gkz1055
 
 <a id="10">[10]</a>
-Glont, M. (2018).
-BioModels Database in Systems Biology.
-Biosystems, 8(3), 350-355.
+Glont, M., Nguyen, T. V. N., Graesslin, M., et al. (2018).
+BioModels: expanding horizons to include more modelling approaches and formats.
+Nucleic Acids Research, 46(D1), D1248–D1253. https://doi.org/10.1093/nar/gkx1023
 
 <a id="11">[11]</a>
-Laubenbacher, R. (2024).
-Toward a Unified Computational Model for Systems Biology.
-Bioinformatics Journal, 12(5), 400-410.
+Laubenbacher, R., Adler, F., An, G., et al. (2024).
+Toward mechanistic medical digital twins: some use cases in immunology.
+Frontiers in Digital Health, 6, 1349595. https://doi.org/10.3389/fdgth.2024.1349595
 
 <a id="12">[12]</a>
-Chaouiya, C. (2013).
-SBML and Systems Biology Markup Language.
-Systems Biology Journal, 14(6), 220-225.
+Chaouiya, C., Bérenguier, D., Keating, S. M., et al. (2013).
+SBML qualitative models: a model representation format and infrastructure to foster interactions between qualitative modelling formalisms and tools.
+BMC Systems Biology, 7, 135. https://doi.org/10.1186/1752-0509-7-135
 
 <a id="13">[13]</a>
-Wilkinson, M. (2016).
-FAIR Principles in Data Management.
-Data Science Journal, 5(2), 100-110.
+Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016).
+The FAIR Guiding Principles for scientific data management and stewardship.
+Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
 <a id="14">[14]</a>
-RDA, E. (2024).
-Research Data Alliance and Open Science.
-Open Science Journal, 9(4), 300-305.
+RDA Working Group (2024).
+Building Immune Digital Twins - Case Statement.
+RDA. https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
 
 <a id="15">[15]</a>
-Laubenbacher, R. (2024).
-Toward a Unified Computational Model for Systems Biology.
-Bioinformatics Journal, 12(5), 400-410.
+Laubenbacher, R., Adler, F., & An, G. (2024). 
+Toward mechanistic medical digital twins: Some use cases in immunology. 
+*Frontiers in Digital Health*, 6, 1349595. https://doi.org/10.3389/fdgth.2024.1349595
 
 <a id="16">[16]</a>
-About, F. (Year not available).
-General Study on Data Sharing.
-Data Science Reports, XX(X), 10-20.
+No Author. (n.d.). 
+About the RDA. 
+*Research Data Alliance*. 
+https://www.rd-alliance.org/about-the-rda/
 
 <a id="17">[17]</a>
-Building, G. (Year not available).
-Building Collaborative Networks in Science.
-Collaborative Science Journal, XX(X), 200-210.
+No Author. (n.d.). 
+Building Immune Digital Twins WG Feed. 
+*Research Data Alliance*. 
+https://www.rd-alliance.org/groups/building-immune-digital-twins-wg/activity/
 
 <a id="18">[18]</a>
-RDA, E. (2024).
-Research Data Alliance and Open Science.
-Open Science Journal, 9(4), 300-305.
+No Author. (2024). 
+RDA Working Group: Building Immune Digital Twins - Case Statement. 
+*Research Data Alliance*. 
+https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
