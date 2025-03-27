@@ -23,7 +23,8 @@ To set up the project locally, follow these steps:
 
 1. **Install Python 3**: Ensure that Python 3.x is installed.
 
-## Key Steps & Features
+## Key Steps
+Once the mentioned steps are done, this section will be revamped as "Key Features". 
 
 ### Development of Python3 Notebooks
 - **Objective**: Interface with BioModels API using Python notebooks.
