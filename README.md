@@ -1,5 +1,6 @@
+![image](raw/logo.png)
 
-# Project Title: ImmunoGIT - Building Immune Digital Twins
+# ImmunoGIT: A Repository of Models and Metadata for Human Immune System Responses
 
 ## Description
 ImmunoGIT is a project focused on extracting, enriching, and organizing computational models related to immune system responses. The project interacts with the BioModels platform to retrieve SBML and SBML-QUAL models, enriches their metadata with relevant biological descriptions, and centralizes them in a public GitHub repository with a user-friendly interface via GitHub Pages.
@@ -105,7 +106,7 @@ Visit the GitHub Pages site to:
 
 ## Documentation and User Guide
 
-A detailed user guide is available in the `docs/` folder. The guide includes:
+A detailed user guide will be available in the `docs/` folder. The guide will include:
 - How to use the notebooks.
 - Step-by-step instructions for interacting with models and metadata.
 - Troubleshooting and common errors.
