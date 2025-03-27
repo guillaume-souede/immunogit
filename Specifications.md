@@ -314,4 +314,4 @@ https://www.rd-alliance.org/groups/building-immune-digital-twins-wg/activity/
 No Author. (2024). 
 RDA Working Group: Building Immune Digital Twins - Case Statement. 
 *Research Data Alliance*. 
-https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
+Retrieved February 6, 2025, from https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
