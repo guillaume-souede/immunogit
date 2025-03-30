@@ -61,6 +61,6 @@ logger.info("Directory structure set up successfully.")
 """ 
 METADATA FILES 
 """
-all_md_path = metadata_path / "metadata_all.json"
+md_path = metadata_path / "metadata_all.json"
 bio_md_path = metadata_path / "metadata_BioModels.json"
 rea_md_path = metadata_path / "metadata_Reactome.json"
