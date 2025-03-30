@@ -6,10 +6,9 @@
 ImmunoGIT is a project focused on extracting, enriching, and organizing computational models related to immune system responses. The project interacts with the BioModels platform to retrieve SBML and SBML-QUAL models, enriches their metadata with relevant biological descriptions, and centralizes them in a public GitHub repository with a user-friendly interface via GitHub Pages.
 
 ## Table of Contents
-- [Installation Instructions](#installation-instructions)
-- [Key Steps & Features](#key-steps--features)
+- [Installation and Quick Startup](#installation-and-quick-startup)
+- [Key Features](#key-features)
 - [Folder Structure](#folder-structure)
-- [How to Use](#how-to-use)
 - [Model Verification](#model-verification)
 - [Contributing](#contributing)
 - [GitHub Pages](#github-pages)
@@ -18,13 +17,22 @@ ImmunoGIT is a project focused on extracting, enriching, and organizing computat
 - [Acknowledgments](#acknowledgments)
 - [References](#references)
 
-## Installation Instructions
+## Installation and Quick Startup
 To set up the project locally, follow these steps:
 
-1. **Install Python 3**: Ensure that Python 3.x is installed.
+### Running Python Notebooks
+1. Launch Jupyter notebook:
+    ```bash
+    jupyter notebook
+    ```
+2. Open `GetModelsAndMetadata.ipynb` and run the cells to interact with the BioModels API.
 
-## Key Steps
-Once the mentioned steps are done, this section will be revamped as "Key Features". 
+### Browsing and Downloading Models
+- Access the GitHub Pages interface for viewing and downloading models.
+- Browse through the organized models by source and format.
+- Download metadata in JSON or CSV format.
+
+## Key Features
 
 ### Development of Python3 Notebooks
 - **Objective**: Interface with BioModels API using Python notebooks.
@@ -70,20 +78,6 @@ Here’s the structure of the repository:
     UserGuide.md          # Detailed usage instructions
     ContributionGuide.md  # How to contribute to the project
 ```
-
-## How to Use
-
-### Running Python Notebooks
-1. Launch Jupyter notebook:
-    ```bash
-    jupyter notebook
-    ```
-2. Open `GetModelsAndMetadata.ipynb` and run the cells to interact with the BioModels API.
-
-### Browsing and Downloading Models
-- Access the GitHub Pages interface for viewing and downloading models.
-- Browse through the organized models by source and format.
-- Download metadata in JSON or CSV format.
 
 ## Model Verification
 
