@@ -2,16 +2,16 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../src'))
 
-VERT = '\033[92m'
-FIN_COULEUR = '\033[0m'
+GREEN = '\033[92m'
+END_GREEN = '\033[0m'
 
-print(f"{VERT}[INFO] sys.path:{FIN_COULEUR} {sys.path}")
+print(f"{GREEN}[INFO] sys.path:{END_GREEN} {sys.path}")
 
 src_path = os.path.abspath('../src')
-print(f"{VERT}[INFO] Contenu du répertoire src :{FIN_COULEUR} {os.listdir(src_path)}")
+print(f"{GREEN}[INFO] Contenu du répertoire src :{END_GREEN} {os.listdir(src_path)}")
 
 notebook_path = os.path.join(src_path, 'JsonMerger.ipynb')
-print(f"{VERT}[INFO] Existe-t-il ?{FIN_COULEUR} {os.path.exists(notebook_path)}")
+print(f"{GREEN}[INFO] Existe-t-il ?{END_GREEN} {os.path.exists(notebook_path)}")
 
 
 # Configuration file for the Sphinx documentation builder.
