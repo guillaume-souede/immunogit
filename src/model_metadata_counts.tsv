@@ -1,0 +1,117 @@
+Category	Term	Count
+Cells	T helper cells	0
+Cells	B cells	1
+Cells	Cytotoxic T cells	0
+Cells	Plasma cells	0
+Cells	Tumor cells	10
+Cells	Avascular cancerous cells	0
+Cells	Cancer cells	12
+Cells	CTL	2
+Cells	Infected tumor cells	0
+Cells	Uninfected tumor cells	0
+Cells	Effector cells	0
+Cells	Immune system cells	0
+Cells	Tumor-specific CTL	0
+Cells	Virus-specific CTL	0
+Cells	Immune killer cells	0
+Cells	Tumor-infiltrating lymphocytes	0
+Treatments	Immunotherapy	17
+Treatments	Monoclonal antibody therapy	1
+Treatments	Radiovirotherapy	0
+Treatments	Virotherapy	8
+Treatments	Radiotherapy	0
+Treatments	Cancer therapy	0
+Treatments	Chemotherapy	0
+Treatments	Optimal chemotherapy	0
+Treatments	Strongly targeted agent	0
+Treatments	Cancer immunotherapy	0
+Treatments	Immune checkpoint inhibitors	0
+Treatments	Adoptive cell therapy	0
+Interactions	Cancer-immune system interaction	0
+Interactions	Immune cell killing	0
+Interactions	Tumor remission	0
+Interactions	Tumor growth	9
+Interactions	Virus replication	0
+Interactions	Virus infection	0
+Interactions	Immune suppression	2
+Interactions	Immunostimulatory signals	0
+Interactions	Bistability	1
+Interactions	Antibody-mediated killing	0
+Interactions	Optimal control	0
+Interactions	Tumor immune-system interactions	0
+Interactions	Immune response	17
+Interactions	Immune escape	0
+Interactions	Tumor microenvironment	0
+Interactions	Cytokine signaling	0
+Diseases	Cancer	17
+Diseases	Tumor	14
+Diseases	Head and neck cancer	0
+Diseases	Adenovirus	0
+Diseases	ONYX-015	0
+Diseases	Genetically engineered viruses	0
+Diseases	Malignant tumor	0
+Diseases	Benign tumor	0
+Diseases	Metastatic cancer	0
+Diseases	Solid tumors	0
+Diseases	Hematological malignancies	0
+Immunology	Immune response	17
+Immunology	Immune system cells	0
+Immunology	Virus-specific CTL response	0
+Immunology	Tumor-specific CTL	0
+Immunology	Immune effector cells	0
+Immunology	Immune-induced	0
+Immunology	Monoclonal antibodies	0
+Immunology	Immunosuppressive effects	0
+Immunology	Immunological barrier	0
+Immunology	Immune dynamics	0
+Immunology	Immune stability	0
+Immunology	Innate immunity	0
+Immunology	Adaptive immunity	0
+Biology	Transcritical bifurcation	0
+Biology	Global stability	2
+Biology	Local stability	0
+Biology	Cytotoxic virus	0
+Biology	Non-cytotoxic virus	0
+Biology	Logistic growth	0
+Biology	Generalized logistic growth	0
+Biology	Gompertzian model	0
+Biology	Exponential growth	0
+Biology	Cellular proliferation	0
+Biology	Apoptosis	0
+Biology	Angiogenesis	0
+Mathematics	Ordinary differential equations	10
+Mathematics	Cancer model	0
+Mathematics	Virus model	0
+Mathematics	Cancer-immune system interaction model	0
+Mathematics	Basic CISI model	0
+Mathematics	Radiovirotherapy model	0
+Mathematics	Optimal control	0
+Mathematics	Multi-stable dynamics	0
+Mathematics	Equilibria stability	0
+Mathematics	Stable manifold	0
+Mathematics	Saddle point	0
+Mathematics	Asymptotic stability	0
+Mathematics	Bifurcation analysis	0
+Mathematics	Parameter sensitivity	0
+Pharmacology	Phase I	1
+Pharmacology	Phase II	0
+Pharmacology	Clinical trials	0
+Pharmacology	Drug stability	0
+Pharmacology	Pharmacokinetics	0
+Pharmacology	Pharmacodynamics	0
+Pharmacology	Dose-response relationship	0
+Global	Immuno-oncology	68
+Global	BioModels	25
+Global	Reactome	0
+Global	SBML	36
+Global	SBGN	0
+Global	Mathematical modeling	0
+Global	Computational biology	0
+Global	Numerical analysis	0
+Global	Systems biology	0
+Global	Bioinformatics	0
+Global	Data integration	0
+Title	immune system	0
+Title	immune response	0
+Title	therapy	0
+Title	OTHER	68
