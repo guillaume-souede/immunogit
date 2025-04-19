@@ -1,0 +1,106 @@
+{
+    "name": "Muenzner2019 - Yeast Cell cycle control network",
+    "description": "A mechanistically detailed model of the cell cycle control network of Saccharomyces cerevisiae.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30899000",
+        "journal": "Nature Communications",
+        "title": "A comprehensive, mechanistically detailed, and executable model of the cell division cycle in Saccharomyces cerevisiae",
+        "affiliation": "Osaka University",
+        "synopsis": "Understanding how cellular functions emerge from the underlying molecular mechanisms is a key challenge in biology. This will require computational models, whose predictive power is expected to increase with coverage and precision of formulation. Genome-scale models revolutionised the metabolic field and made the first whole-cell model possible. However, the lack of genome-scale models of signalling networks blocks the development of eukaryotic whole-cell models. Here, we present a comprehensive mechanistic model of the molecular network that controls the cell division cycle in Saccharomyces cerevisiae. We use rxncon, the reaction-contingency language, to neutralise the scalability issues preventing formulation, visualisation and simulation of signalling networks at the genome-scale. We use parameter-free modelling to validate the network and to predict genotype-to-phenotype relationships down to residue resolution. This mechanistic genome-scale model offers a new perspective on eukaryotic cell cycle control, and opens up for similar models—and eventually whole-cell models—of human cells.",
+        "year": 2019,
+        "month": "3",
+        "volume": "10",
+        "link": "http://identifiers.org/pubmed/30899000",
+        "authors": [
+            {
+                "name": "Ulrike Muenzner",
+                "institution": "Osaka University",
+                "orcid": "0000-0002-8939-7643"
+            },
+            {
+                "name": "Edda Klipp",
+                "institution": "Humboldt-Universität zu Berlin"
+            },
+            {
+                "name": "Marcus Krantz",
+                "institution": "Humboldt-Universität zu Berlin"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Muenzner2019_Yeast_Cell_Cycle_Control_Network.sbml",
+                "description": "SBML L3V1",
+                "fileSize": "24942117",
+                "mimeType": "application/xml",
+                "md5sum": "24500d2302812a8a4aaf5c0077606596",
+                "sha1sum": "41a27cd93ab1072c6df2921bd45718032e4e8310",
+                "sha256sum": "075535637ced8d1f2bf18470fdadf6cd93771ce41035cd313f692988cd813060"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Muenzner2019_Yeast_Cell_Cycle_Control_Network_InitialValues_Symbols.csv",
+                "description": "Initial values and symbols",
+                "fileSize": "60541",
+                "mimeType": "application/gzip",
+                "md5sum": "2a6dd117c831ebdace7a45c86f0af3ad",
+                "sha1sum": "d77e3b2c74701d5ae8ca46a22340fa55c39297ab",
+                "sha256sum": "e1a2c4173c7b2c3b4c8b873e4e9bbeccb23a1698a8a728e8157cb40735b3544c"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 5,
+                "submitted": 1604069650,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Edited model metadata online."
+            }
+        ]
+    },
+    "firstPublished": 1604069685,
+    "submissionId": "MODEL2007020001",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Ulrike Muenzner",
+                "email": "ulrike.tatjana.muenzner@gmail.com",
+                "affiliation": "Osaka University",
+                "orcid": "0000-0002-8939-7643",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

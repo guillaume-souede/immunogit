@@ -1,0 +1,133 @@
+{
+    "name": "Afenya2018 - peripheral blodd dynamics in the disease state",
+    "description": "Abstract:The cancer stem cell hypothesis has gained currency in recent times but concerns remain about its scientific foundations because of significant gaps that exist between research findings and comprehensive knowledge about cancer stem cells (CSCs). In this light, a mathematical model that considers hematopoietic dynamics in the diseased state of the bone marrow and peripheral blood is proposed and used to address findings about CSCs. The ensuing model, resulting from a modification and refinement of a recent model, develops out of the position that mathematical models of CSC development, that are few at this time, are needed to provide insightful underpinnings for biomedical findings about CSCs as the CSC idea gains traction. Accordingly, the mathematical challenges brought on by the model that mirror general challenges in dealing with nonlinear phenomena are discussed and placed in context. The proposed model describes the logical occurrence of discrete time delays, that by themselves present mathematical challenges, in the evolving cell populations under consideration. Under the challenging circumstances, the steady state properties of the model system of delay differential equations are obtained, analyzed, and the resulting mathematical predictions arising therefrom are interpreted and placed within the framework of findings regarding CSCs. Simulations of the model are carried out by considering various parameter scenarios that reflect different experimental situations involving disease evolution in human hosts.Model analyses and simulations suggest that the emergence of the cancer stem cell population alongside other malignant cells engenders higher dimensions of complexity in the evolution of malignancy in the bone marrow and peripheral blood at the expense of healthy hematopoietic development. The model predicts the evolution of an aberrant environment in which the malignant population particularly in the bone marrow shows tendencies of reaching an uncontrollable equilibrium state. Essentially, the model shows that a structural relationship exists between CSCs and non-stem malignant cells that confers on CSCs the role of temporally enhancing and stimulating the expansion of non-stem malignant cells while also benefitting from increases in their own population and these CSCs may be the main protagonists that drive the ultimate evolution of the uncontrollable equilibrium state of such malignant cells and these may have implications for treatment.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30296448",
+        "journal": "Journal of theoretical biology",
+        "title": "Mathematical modeling of bone marrow - peripheral blood dynamics in the disease state based on current emerging paradigms, part II.",
+        "affiliation": "Department of Mathematics, Elmhurst College, 190 Prospect Avenue, Elmhurst, IL 60126, USA. Electronic address: evansa@elmhurst.edu.",
+        "synopsis": "The cancer stem cell hypothesis has gained currency in recent times but concerns remain about its scientific foundations because of significant gaps that exist between research findings and comprehensive knowledge about cancer stem cells (CSCs). In this light, a mathematical model that considers hematopoietic dynamics in the diseased state of the bone marrow and peripheral blood is proposed and used to address findings about CSCs. The ensuing model, resulting from a modification and refinement of a recent model, develops out of the position that mathematical models of CSC development, that are few at this time, are needed to provide insightful underpinnings for biomedical findings about CSCs as the CSC idea gains traction. Accordingly, the mathematical challenges brought on by the model that mirror general challenges in dealing with nonlinear phenomena are discussed and placed in context. The proposed model describes the logical occurrence of discrete time delays, that by themselves present mathematical challenges, in the evolving cell populations under consideration. Under the challenging circumstances, the steady state properties of the model system of delay differential equations are obtained, analyzed, and the resulting mathematical predictions arising therefrom are interpreted and placed within the framework of findings regarding CSCs. Simulations of the model are carried out by considering various parameter scenarios that reflect different experimental situations involving disease evolution in human hosts. Model analyses and simulations suggest that the emergence of the cancer stem cell population alongside other malignant cells engenders higher dimensions of complexity in the evolution of malignancy in the bone marrow and peripheral blood at the expense of healthy hematopoietic development. The model predicts the evolution of an aberrant environment in which the malignant population particularly in the bone marrow shows tendencies of reaching an uncontrollable equilibrium state. Essentially, the model shows that a structural relationship exists between CSCs and non-stem malignant cells that confers on CSCs the role of temporally enhancing and stimulating the expansion of non-stem malignant cells while also benefitting from increases in their own population and these CSCs may be the main protagonists that drive the ultimate evolution of the uncontrollable equilibrium state of such malignant cells and these may have implications for treatment.",
+        "year": 2019,
+        "month": "1",
+        "volume": "460",
+        "pages": "37-55",
+        "link": "http://identifiers.org/pubmed/30296448",
+        "authors": [
+            {
+                "name": "Evans K Afenya",
+                "institution": "Department of Mathematics, Elmhurst College, 190 Prospect Avenue, Elmhurst, IL 60126, USA. Electronic address: evansa@elmhurst.edu."
+            },
+            {
+                "name": "Rachid Ouifki",
+                "institution": "DST/NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA), University of Stellenbosch, Stellenbosch, South Africa.",
+                "orcid": "0000-0001-7697-1792"
+            },
+            {
+                "name": "Suneel D Mundle",
+                "institution": "Department of Biochemistry, Rush University Medical Center, 1735 W. Harrison St, Chicago, IL 60612, USA. Electronic address: smundle@its.jnj.com."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Afenya2018 - peripheral blodd dynamics in the disease state.xml",
+                "description": "SBML L2V4 file for the model",
+                "fileSize": "52610",
+                "mimeType": "application/xml",
+                "md5sum": "e0b696c297306127295f3cd0874d22f9",
+                "sha1sum": "f11c0edb0ae60c20c6922d646ce14b6b86b7e3ba",
+                "sha256sum": "f0df39332e3e5ae7bb44b80177eda2392d384766f857b4dcdd256998b2c4b72f"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Afenya2018 - peripheral blodd dynamics in the disease state.cps",
+                "description": "COPASI 4.24 (Build 197) file for the model",
+                "fileSize": "96860",
+                "mimeType": "application/xml",
+                "md5sum": "158246091570cbe935d047999a1d4a5a",
+                "sha1sum": "7b7a5df9f259a89fabe750c805988bc9fd35643a",
+                "sha256sum": "eff0d9a40c33282b5b1f00145a9e3e4b15e4d38148c42fab3731f45aafd77557"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1570015670,
+                "submitter": "Szeyi Ng",
+                "comment": "Edited model metadata online."
+            }
+        ]
+    },
+    "firstPublished": 1570015682,
+    "submissionId": "MODEL1910020002",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Szeyi Ng",
+                "email": "sng@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "0000311",
+            "name": "cancer",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0000311"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C68706",
+            "name": "Cancer Stem Cell",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C68706"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C12431",
+            "name": "Bone Marrow",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C12431"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C14143",
+            "name": "Malignant",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C14143"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "30296448",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed/30296448"
+        }
+    ]
+}

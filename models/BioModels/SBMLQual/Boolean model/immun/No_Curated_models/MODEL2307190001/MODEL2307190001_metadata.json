@@ -1,0 +1,144 @@
+{
+    "name": "Singh2023 - Human rheumatoid arthritis synovial fibroblast signaling model",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1038/s41540-023-00294-5",
+        "journal": "NPJ systems biology and applications",
+        "title": "A large-scale Boolean model of the rheumatoid arthritis fibroblast-like synoviocytes predicts drug synergies in the arthritic joint.",
+        "affiliation": "Université Paris-Saclay, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, Univ Evry, Evry, France.",
+        "synopsis": "Rheumatoid arthritis (RA) is a complex autoimmune disease with an unknown aetiology. However, rheumatoid arthritis fibroblast-like synoviocytes (RA-FLS) play a significant role in initiating and perpetuating destructive joint inflammation by expressing immuno-modulating cytokines, adhesion molecules, and matrix remodelling enzymes. In addition, RA-FLS are primary drivers of inflammation, displaying high proliferative rates and an apoptosis-resistant phenotype. Thus, RA-FLS-directed therapies could become a complementary approach to immune-directed therapies by predicting the optimal conditions that would favour RA-FLS apoptosis, limit inflammation, slow the proliferation rate and minimise bone erosion and cartilage destruction. In this paper, we present a large-scale Boolean model for RA-FLS that consists of five submodels focusing on apoptosis, cell proliferation, matrix degradation, bone erosion and inflammation. The five-phenotype-specific submodels can be simulated independently or as a global model. In silico simulations and perturbations reproduced the expected biological behaviour of the system under defined initial conditions and input values. The model was then used to mimic the effect of mono or combined therapeutic treatments and predict novel targets and drug candidates through drug repurposing analysis.",
+        "year": 2023,
+        "month": "7",
+        "volume": "9",
+        "issue": "1",
+        "pages": "33",
+        "link": "http://identifiers.org/doi/10.1038/s41540-023-00294-5",
+        "authors": [
+            {
+                "name": "Vidisha Singh",
+                "institution": "University of Evry, University of Paris Saclay",
+                "orcid": "0000-0002-3250-6669"
+            },
+            {
+                "name": "Naldi A",
+                "orcid": "0000-0002-6495-2655"
+            },
+            {
+                "name": "Soliman S",
+                "orcid": "0000-0001-5525-7418"
+            },
+            {
+                "name": "Niarakis A",
+                "orcid": "0000-0002-9687-7426"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "RASF_model_5phenotypes.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - 5 phenotypes",
+                "fileSize": "489056",
+                "mimeType": "application/xml",
+                "md5sum": "a8fbaf39dd2d2b37797d352ffc558606",
+                "sha1sum": "fe3944abc295e1737538312e5f2cfb95f3369dc7",
+                "sha256sum": "f8c9d89e184084aea7324c473746db835b786458ab7aa198b8b754209c1eaa61"
+            }
+        ],
+        "additional": [
+            {
+                "name": "RASF_model_apoptosis.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - apoptosis",
+                "fileSize": "340413",
+                "mimeType": "application/xml",
+                "md5sum": "5a81e012daabecbe4b45db690ce5e449",
+                "sha1sum": "0fb119d558717a497c0005447a67e57c25ba3817",
+                "sha256sum": "6d98b717077adb75b6167ccf9521cc27cb3096274eeadcaeb5106c2095241843"
+            },
+            {
+                "name": "RASF_model_bone_erosion.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - bone erosion",
+                "fileSize": "334872",
+                "mimeType": "application/xml",
+                "md5sum": "764fc69f4b5d6e02e8e5e768aa8993d6",
+                "sha1sum": "72b3f1be895bf91ed4861f9526bcc3afc0645760",
+                "sha256sum": "76b29b3da8cc322cc1bcdea92a67badc7261bd3a4530b266fc0bbc8022e7edee"
+            },
+            {
+                "name": "RASF_model_cell_proliferation.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - cell proliferation",
+                "fileSize": "356223",
+                "mimeType": "application/xml",
+                "md5sum": "677dc9779f273879c131fb7d6d1c9d00",
+                "sha1sum": "b5f78c11a317d4ed4ba4c11f8697bb10b1156db6",
+                "sha256sum": "a6c71825bddf301beebe070033f65b6f4ac05cf0c19f0e672e578a7f9913b15e"
+            },
+            {
+                "name": "RASF_model_inflammation.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - inflammation",
+                "fileSize": "364783",
+                "mimeType": "application/xml",
+                "md5sum": "9fe3b85cabca1c326f891843edaa9820",
+                "sha1sum": "65b5315b1f5f43738bd59475cbd74945b708b45b",
+                "sha256sum": "de652141111b928b0453eebdfb3ab242d341f1919b2a0bcd505f6282cf72323d"
+            },
+            {
+                "name": "RASF_model_matrix_degradation.sbml",
+                "description": "SBML L3V1 large-scale Boolean model of human Rheumatoid Arthritis Synovial Fibroblasts - matrix degradation",
+                "fileSize": "280717",
+                "mimeType": "application/xml",
+                "md5sum": "171240ed2a605da424bef70bd01ec53c",
+                "sha1sum": "0b2bc0258d4fc3b879b9b1028bc0fe2c59142da0",
+                "sha256sum": "7a775bd6774d139f67a32ad85f472918559854422a23dbf99172e63b7661c6ba"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1689768472,
+                "submitter": "vidisha singh",
+                "comment": "Import of Singh2023 - Human rheumatoid arthritis synovial fibroblast signaling model"
+            }
+        ]
+    },
+    "firstPublished": 1726043493,
+    "submissionId": "MODEL2307190001",
+    "modellingApproach": {
+        "accession": "MAMO_0000053",
+        "name": "boolean model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000053"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "vidisha singh",
+                "email": "vidishasingh68@gmail.com",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1038/s41540-023-00294-5",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi/10.1038/s41540-023-00294-5"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO:0000053",
+            "name": "boolean model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000053"
+        }
+    ]
+}

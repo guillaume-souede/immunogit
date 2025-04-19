@@ -1,0 +1,130 @@
+{
+    "name": "Sizek2019 - PI3K_growth_CellCycle_Apoptosis",
+    "description": "This 89-node Boolean model of mammalian growth factor signaling can reproduce oscillations in PI3K signaling in cycling cells, and links these oscillations to the regulatory networks that drive each phase of cell cycle progression, as well as apoptosis. It builds on our previous work on modeling cell cycle progression as the interaction of two linked multi-stable switches (Deritei et al, Sci Rep 6:21957, 2016) and extends it to capture the role of Plk1 in cell cycle progression. The resulting model reproduces the following experimentally documented cell behaviors:    — cyclic PI3K/AKT1 activity in dividing cells, which remain in sync with the cell cycle    — apoptosis in response to prolonged mitosis or mitotic catastrophe    — four distinct, experimentally documented cell fates caused by Plk1 inhibition, depending on thetiming of Plk1 loss; namely, G2 arrest, mitotic catastrophe, premature anaphase and chromosome mis-segregation leading to aneuploidy, and failure to complete cytokinesis following telophase, which can lead to genome duplication    — failure of cytokinesis and accumulation of binucleate telophase cells driven by hyperactive PI3K, hyperactive Ak1, or FoxO inhibition.    — the effect of a large number of knockdown / forced activation mutationsTestable predictions:    — PI3K degradation in response to high PI3K activation is driven by the Neddl4 ubiquitin ligase activated by PLCγ, while its re-synthesis requires nuclear re-accumulation of FoxO3.    — The degradation/re-synthesis cycle of PI3K occurs twice per division cycle, synchronized by Plk1-mediated inhibition of FoxO3 during metaphase/anaphase.    — Cells in which PI3K is inhibited after the start of DNA synthesis can nevertheless pre-commit to another cell cycle in the presence of saturating growth stimulation (passing the      restriction point in late metaphase), albeit at lower rates than wild-type cells.    — Cell cycle defects in response to PI3K/Ak1 over-activation or FoxO knockdown are driven by a loss of Plk1 in telophase.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30875364",
+        "journal": "PLoS computational biology",
+        "title": "Boolean model of growth signaling, cell cycle and apoptosis predicts the molecular mechanism of aberrant cell cycle progression driven by hyperactive PI3K.",
+        "affiliation": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+        "synopsis": "The PI3K/AKT signaling pathway plays a role in most cellular functions linked to cancer progression, including cell growth, proliferation, cell survival, tissue invasion and angiogenesis. It is generally recognized that hyperactive PI3K/AKT1 are oncogenic due to their boost to cell survival, cell cycle entry and growth-promoting metabolism. That said, the dynamics of PI3K and AKT1 during cell cycle progression are highly nonlinear. In addition to negative feedback that curtails their activity, protein expression of PI3K subunits has been shown to oscillate in dividing cells. The low-PI3K/low-AKT1 phase of these oscillations is required for cytokinesis, indicating that oncogenic PI3K may directly contribute to genome duplication. To explore this, we construct a Boolean model of growth factor signaling that can reproduce PI3K oscillations and link them to cell cycle progression and apoptosis. The resulting modular model reproduces hyperactive PI3K-driven cytokinesis failure and genome duplication and predicts the molecular drivers responsible for these failures by linking hyperactive PI3K to mis-regulation of Polo-like kinase 1 (Plk1) expression late in G2. To do this, our model captures the role of Plk1 in cell cycle progression and accurately reproduces multiple effects of its loss: G2 arrest, mitotic catastrophe, chromosome mis-segregation / aneuploidy due to premature anaphase, and cytokinesis failure leading to genome duplication, depending on the timing of Plk1 inhibition along the cell cycle. Finally, we offer testable predictions on the molecular drivers of PI3K oscillations, the timing of these oscillations with respect to division, and the role of altered Plk1 and FoxO activity in genome-level defects caused by hyperactive PI3K. Our model is an important starting point for the predictive modeling of cell fate decisions that include AKT1-driven senescence, as well as the non-intuitive effects of drugs that interfere with mitosis.",
+        "year": 2019,
+        "month": "3",
+        "volume": "15",
+        "issue": "3",
+        "pages": "e1006402",
+        "link": "http://identifiers.org/pubmed/30875364",
+        "authors": [
+            {
+                "name": "Herbert Sizek",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0003-0199-6965"
+            },
+            {
+                "name": "Andrew Hamel",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0001-6420-9573"
+            },
+            {
+                "name": "Dávid Deritei",
+                "institution": "Department of Physics, Pennsylvania State University, State College, PA, United States of America.Department of Network and Data Science, Central European University, Budapest, Hungary."
+            },
+            {
+                "name": "Sarah Campbell",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America."
+            },
+            {
+                "name": "Erzsébet Ravasz Regan",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0002-8663-3153"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Sizek_Regan_PI3K_growth_CellCycle_Apoptosis.sbml",
+                "description": "SBML L3V1, Boolean model of dynamic growth signaling, cell cycle and apoptosis",
+                "fileSize": "455388",
+                "mimeType": "application/xml",
+                "md5sum": "0411294480ce28bc81d7ac876976fbdd",
+                "sha1sum": "515329e3146f50fdc6cccbca5ad63cab0fb27cd7",
+                "sha256sum": "367db5628c244497b51a8b55bcb93325ab8edd5c93abf17612064f5b2eff57b9"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Sizek_PI3K_CellCycle_Apoptosis_SM.pdf",
+                "description": "Supplementary Table with biological justification for all nodes and links of the Boolean model",
+                "fileSize": "437339",
+                "mimeType": "application/pdf",
+                "md5sum": "7d9603d82075474a48224f2928ba6786",
+                "sha1sum": "a6c55a09aeb46e57a2e410b3ffbcd13e924df27d",
+                "sha256sum": "3b34cd00a5de8473f74f5e48282584a16b59a3b86929167eb7beed903d1fa9a7"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 4,
+                "submitted": 1592834163,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 5,
+                "submitted": 1702571637,
+                "submitter": "Erzsébet Ravasz Regan",
+                "comment": "Added supplementary table with biological justification for all nodes and links of the Boolean model."
+            }
+        ]
+    },
+    "firstPublished": 1716374866,
+    "submissionId": "MODEL2006170002",
+    "modellingApproach": {
+        "accession": "MAMO_0000053",
+        "name": "boolean model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000053"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Erzsébet Ravasz Regan",
+                "email": "eregan@wooster.edu",
+                "affiliation": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0002-8663-3153",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30875364",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed/30875364"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO:0000053",
+            "name": "boolean model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000053"
+        }
+    ]
+}

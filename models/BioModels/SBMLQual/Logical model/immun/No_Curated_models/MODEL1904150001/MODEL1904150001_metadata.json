@@ -1,0 +1,129 @@
+{
+    "name": "Scheidel2016 - In Silico Knockout Studies of Xenophagy Capturing of Salmonella",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>Xenophagy, also known as antibacterial autophagy, is a process of capturing and eliminating cytosolic pathogens, like Salmonella. Salmonella is the best-studied model organism for xenophagy. We present a Petri net  model of Salmonella xenophagy in epithelial cells. The model is based on functional information derived from literature data and contains all known processes of Salmonella xenophagy in epithelial.  The model comprises the molecular mechanism of galectin-8-dependent and ubiquitin-dependent autophagy, including regulatory processes, like nutrient-dependent regulation of autophagy and TBK1-dependent activation of the autophagy receptor, OPTN. To model the activation of TBK1, we proposed a mechanism of TBK1 activation, suggesting a spatial and temporal regulation of this process.  The Petri net is connected, covered by T-invariants, and each T-invariant has a meaningful biological interpretation. We checked the model structure for consistencies and correctness. We found 16 basic functional modules, which describe different pathways of the autophagic capturing of Salmonella and reflect the basic dynamics of the system. The PN model of Salmonella xenophagy comprises 61 places, including nine logical places, and 69 transitions connected by 184 arcs.</p>  </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "27906974",
+        "journal": "PLoS computational biology",
+        "title": "In Silico Knockout Studies of Xenophagic Capturing of Salmonella.",
+        "affiliation": "Molecular Bioinformatics, Institute of Computer Science, Johann Wolfgang Goethe-University Frankfurt am Main, Frankfurt am Main, Germany.",
+        "synopsis": "The degradation of cytosol-invading pathogens by autophagy, a process known as xenophagy, is an important mechanism of the innate immune system. Inside the host, Salmonella Typhimurium invades epithelial cells and resides within a specialized intracellular compartment, the Salmonella-containing vacuole. A fraction of these bacteria does not persist inside the vacuole and enters the host cytosol. Salmonella Typhimurium that invades the host cytosol becomes a target of the autophagy machinery for degradation. The xenophagy pathway has recently been discovered, and the exact molecular processes are not entirely characterized. Complete kinetic data for each molecular process is not available, so far. We developed a mathematical model of the xenophagy pathway to investigate this key defense mechanism. In this paper, we present a Petri net model of Salmonella xenophagy in epithelial cells. The model is based on functional information derived from literature data. It comprises the molecular mechanism of galectin-8-dependent and ubiquitin-dependent autophagy, including regulatory processes, like nutrient-dependent regulation of autophagy and TBK1-dependent activation of the autophagy receptor, OPTN. To model the activation of TBK1, we proposed a new mechanism of TBK1 activation, suggesting a spatial and temporal regulation of this process. Using standard Petri net analysis techniques, we found basic functional modules, which describe different pathways of the autophagic capture of Salmonella and reflect the basic dynamics of the system. To verify the model, we performed in silico knockout experiments. We introduced a new concept of knockout analysis to systematically compute and visualize the results, using an in silico knockout matrix. The results of the in silico knockout analyses were consistent with published experimental results and provide a basis for future investigations of the Salmonella xenophagy pathway.",
+        "year": 2016,
+        "month": "12",
+        "volume": "12",
+        "issue": "12",
+        "pages": "e1005200",
+        "link": "http://identifiers.org/pubmed/27906974",
+        "authors": [
+            {
+                "name": "Jennifer Scheidel",
+                "institution": "Molecular Bioinformatics, Institute of Computer Science, Johann Wolfgang Goethe-University Frankfurt am Main, Frankfurt am Main, Germany."
+            },
+            {
+                "name": "Leonie Amstein",
+                "institution": "Molecular Bioinformatics, Institute of Computer Science, Johann Wolfgang Goethe-University Frankfurt am Main, Frankfurt am Main, Germany."
+            },
+            {
+                "name": "Jörg Ackermann",
+                "institution": "Molecular Bioinformatics, Institute of Computer Science, Johann Wolfgang Goethe-University Frankfurt am Main, Frankfurt am Main, Germany."
+            },
+            {
+                "name": "Ivan Dikic",
+                "institution": "Institute of Biochemistry II, Johann Wolfgang Goethe-University Hospital Frankfurt am Main, Frankfurt am Main, Germany.Buchmann Institute for Molecular Life Sciences, Frankfurt am Main, Germany.",
+                "orcid": "0000-0001-8156-9511"
+            },
+            {
+                "name": "Koch I",
+                "institution": "Molecular Bioinformatics, Institute of Computer Science, Goethe-University Frankfurt am Main, Robert-Mayer-Straße 11-15, Frankfurt am Main, 60325, Germany. Ina.Koch@bioinformatik.uni-frankfurt.de.",
+                "orcid": "0000-0002-3621-003X"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Scheidel2016_InSilico_Knockout_Studies_Xenophagic_Capturing_Salmonella_PetriNets.xml",
+                "description": "SBML L3V1 model file",
+                "fileSize": "122790",
+                "mimeType": "application/xml",
+                "md5sum": "1ba2a5bb0305804a47930988251acf1a",
+                "sha1sum": "a5c294b28509ed31dcb4d7b0809e3d781f4fa5e1",
+                "sha256sum": "833c0f706d1e54578afda03769311b21c1cc1bbe56aa972ba680474abff63793"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 16,
+                "submitted": 1555413729,
+                "submitter": "Nasrin Alikhani Chamgordani",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 20,
+                "submitted": 1557782574,
+                "submitter": "Tung Nguyen",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 21,
+                "submitted": 1586459136,
+                "submitter": "Tung Nguyen",
+                "comment": "Updated modelling approach to Petri-net and renamed the file"
+            }
+        ]
+    },
+    "firstPublished": 1586459152,
+    "submissionId": "MODEL1904150001",
+    "modellingApproach": {
+        "accession": "MAMO_0000025",
+        "name": "Petri net",
+        "resource": "http://identifiers.org/mamo/MAMO_0000025"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Tung Nguyen",
+                "email": "tnguyen@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-2876-6046",
+                "external": false
+            },
+            {
+                "name": "Rahuman S Malik-Sheriff",
+                "email": "sheriff@ebi.ac.uk",
+                "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0003-0705-9809",
+                "external": false
+            },
+            {
+                "name": "Nasrin Alikhani Chamgordani",
+                "email": "nasrin.alikhani7@gmail.com",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aah",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "27906974",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed/27906974"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000025",
+            "name": "Petri net",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000025"
+        }
+    ]
+}

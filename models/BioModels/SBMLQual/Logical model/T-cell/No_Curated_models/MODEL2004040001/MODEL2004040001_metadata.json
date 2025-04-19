@@ -1,0 +1,104 @@
+{
+    "name": "Selvaggio2020 - Microenvironment control of hybrid Epithelial-Mesenchymal phenotypes",
+    "description": "Epithelial to Mesenchymal Transition (EMT) has been associated with cancer cell heterogeneity, plasticity and metastasis. It has been the subject of several modeling effort. This logical model of the EMT cellular network aims to assess microenvironmental signals controlling cancer-associated phenotypes amid the EMT continuum. Its outcomes relate to the qualitative degrees of cell adhesions by adherent junctions and focal adhesions, two features affected during EMT. Model attractors recover epithelial, mesenchymal and hybrid phenotypes, and simulations show that hybrid phenotypes may arise through independent molecular paths, involving stringent extrinsic signals. Of particular interest, model predictions and their experimental validations indicated that: 1) ECM stiffening is a prerequisite for cells overactivating FAK-SRC to upregulate SNAIL1 and acquire a mesenchymal phenotype, and 2) FAK-SRC inhibition of cell-cell contacts through the Receptor Protein Tyrosine Phosphates kappa leads to the acquisition of a full mesenchymal rather than a hybrid phenotype.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1158/0008-5472.CAN-19-3147",
+        "journal": "Cancer Research",
+        "title": "Hybrid epithelial-mesenchymal phenotypes are controlled by microenvironmental factors",
+        "affiliation": "Instituto Gulbenkian de Ciência",
+        "synopsis": "Epithelial-to-mesenchymal transition (EMT) has been associated with cancer cell heterogeneity, plasticity, and metastasis. However, the extrinsic signals supervising these phenotypic transitions remain elusive. To assess how selected microenvironmental signals control cancer-associated phenotypes along the EMT continuum, we defined a logical model of the EMT cellular network that yields qualitative degrees of cell adhesions by adherens junctions and focal adhesions, two features affected during EMT. The model attractors recovered epithelial, mesenchymal, and hybrid phenotypes. Simulations showed that hybrid phenotypes may arise through independent molecular paths involving stringent extrinsic signals. Of particular interest, model predictions and their experimental validations indicated that: 1) stiffening of the ExtraCellular Matrix (ECM) was a prerequisite for cells overactivating FAK_SRC to upregulate SNAIL and acquire a mesenchymal phenotype, and 2) FAK_SRC inhibition of cell-cell contacts through the Receptor-type tyrosine-protein phosphatases kappa led to acquisition of a full mesenchymal, rather than a hybrid, phenotype. Altogether, these computational and experimental approaches allow assessment of critical microenvironmental signals controlling hybrid EMT phenotypes and indicate that EMT involves multiple molecular programs.",
+        "year": 2020,
+        "month": "3",
+        "link": "http://identifiers.org/doi/10.1158/0008-5472.CAN-19-3147",
+        "authors": [
+            {
+                "name": "Gianluca Selvaggio"
+            },
+            {
+                "name": "Sara Canato"
+            },
+            {
+                "name": "Archana Pawar"
+            },
+            {
+                "name": "Pedro T Monteiro"
+            },
+            {
+                "name": "Patrícia S. Guerreiro"
+            },
+            {
+                "name": "M. Manuela Brás"
+            },
+            {
+                "name": "Florence Janody"
+            },
+            {
+                "name": "Claudine Chaouiya"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Selvaggio_etal_2020.sbml",
+                "description": "SBML L3 file of the Selvaggio2020 model of the microenvironment control of hybrid Epithelial-Mesenchymal phenotypes",
+                "fileSize": "210053",
+                "mimeType": "application/xml",
+                "md5sum": "bf92a99feffa2fadba6f72b02a4ea4b8",
+                "sha1sum": "9852c7bc2b0b9f921b7062879c80c965139d61ef",
+                "sha256sum": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 6,
+                "submitted": 1593525518,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Edited model metadata online."
+            }
+        ]
+    },
+    "firstPublished": 1593525526,
+    "submissionId": "MODEL2004040001",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Claudine Chaouiya",
+                "email": "claudine.chaouiya@univ-amu.fr",
+                "orcid": "0000-0003-2350-0756",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

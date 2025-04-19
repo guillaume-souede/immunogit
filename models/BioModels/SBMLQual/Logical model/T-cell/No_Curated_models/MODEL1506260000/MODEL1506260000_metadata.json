@@ -1,0 +1,215 @@
+{
+    "name": "Terfve2012 - Signalling in liver cancer - logical model",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "23079107",
+        "journal": "BMC systems biology",
+        "title": "CellNOptR: a flexible toolkit to train protein signaling networks to data using multiple logic formalisms.",
+        "affiliation": "European Bioinformatics Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SD, UK.",
+        "synopsis": "<h4>Background</h4>Cells process signals using complex and dynamic networks. Studying how this is performed in a context and cell type specific way is essential to understand signaling both in physiological and diseased situations. Context-specific medium/high throughput proteomic data measured upon perturbation is now relatively easy to obtain but formalisms that can take advantage of these features to build models of signaling are still comparatively scarce.<h4>Results</h4>Here we present CellNOptR, an open-source R software package for building predictive logic models of signaling networks by training networks derived from prior knowledge to signaling (typically phosphoproteomic) data. CellNOptR features different logic formalisms, from Boolean models to differential equations, in a common framework. These different logic model representations accommodate state and time values with increasing levels of detail. We provide in addition an interface via Cytoscape (CytoCopteR) to facilitate use and integration with Cytoscape network-based capabilities.<h4>Conclusions</h4>Models generated with this pipeline have two key features. First, they are constrained by prior knowledge about the network but trained to data. They are therefore context and cell line specific, which results in enhanced predictive and mechanistic insights. Second, they can be built using different logic formalisms depending on the richness of the available data. Models built with CellNOptR are useful tools to understand how signals are processed by cells and how this is altered in disease. They can be used to predict the effect of perturbations (individual or in combinations), and potentially to engineer therapies that have differential effects/side effects depending on the cell type or context.",
+        "year": 2012,
+        "month": "10",
+        "volume": "6",
+        "pages": "133",
+        "link": "http://identifiers.org/pubmed/23079107",
+        "authors": [
+            {
+                "name": "Camille Terfve",
+                "institution": "European Bioinformatics Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0001-7930-280X"
+            },
+            {
+                "name": "Thomas Cokelaer",
+                "orcid": "0000-0001-6286-1138"
+            },
+            {
+                "name": "David Henriques",
+                "orcid": "0000-0002-9477-292X"
+            },
+            {
+                "name": "Aidan MacNamara",
+                "orcid": "0000-0001-5958-2429"
+            },
+            {
+                "name": "Emanuel Gonçalves",
+                "orcid": "0000-0002-9967-5205"
+            },
+            {
+                "name": "Melody K Morris"
+            },
+            {
+                "name": "Martijn van Iersel",
+                "orcid": "0000-0002-5877-4338"
+            },
+            {
+                "name": "Douglas A Lauffenburger"
+            },
+            {
+                "name": "Julio Saez-Rodriguez",
+                "institution": "Heidelberg University, Faculty of Medicine, Institute of Computational Biomedicine, 69120 Heidelberg, Germany; RWTH Aachen University, Faculty of Medicine, Joint Research Centre for Computational Biomedicine (JRC-COMBINE), 52074 Aachen, Germany.",
+                "orcid": "0000-0002-8552-8976"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "MODEL1506260000_url.xml",
+                "description": "SBML L3V1 representation of Terfve2012 - Signalling in liver cancer - logical model",
+                "fileSize": "117441",
+                "mimeType": "application/xml",
+                "md5sum": "e6a07ee5670396d79ba3bf02654fe6f0",
+                "sha1sum": "e63afd57a7b049300c5f9fd888586307ac6e7338",
+                "sha256sum": "e19753b9497f710e14c0b4acae9f2817b7217f98b05dcf1f4b2391f2be1b0ad8"
+            }
+        ],
+        "additional": [
+            {
+                "name": "MODEL1506260000-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "806",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c9ae54ede086774736ef20bd5121f62f",
+                "sha1sum": "b68e76f5521c99074f5a94cce920a51ad437cac2",
+                "sha256sum": "2d8f688b8d863e6f83defc142c410578311cffa99113960f95d2fab9e085996b"
+            },
+            {
+                "name": "MODEL1506260000-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "810",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "9d4fa0aeddaa16827257c348e6aee188",
+                "sha1sum": "52a64a2f21bc271e7ed5f4f218b69fa782afbfa0",
+                "sha256sum": "0c0e5a71c658d980dbc9d7f2d28ef1ad236dca46e5e02d26d86708e03e452dca"
+            },
+            {
+                "name": "MODEL1506260000.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "1238",
+                "mimeType": "text/x-matlab",
+                "md5sum": "8650dda8f76f6f5edc7d9bfbe070163d",
+                "sha1sum": "dd95c1313ef4bd1efb259a50bcd4dcce8bc7410f",
+                "sha256sum": "7f811d006a591880fb0d60919166c7634479d05ca5cf3364c5f025d221b2e8cd"
+            },
+            {
+                "name": "MODEL1506260000.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "103186",
+                "mimeType": "application/pdf",
+                "md5sum": "474f7744009a5b60acdd01a6e7ae3bf9",
+                "sha1sum": "34d7446471aeccacf20c6e0868e7625dd4bbf1b0",
+                "sha256sum": "00dd3fb5d2a7eb476936e8ddefc16743badc9ce3f796209a403dc2718e7db5d9"
+            },
+            {
+                "name": "MODEL1506260000.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "5164",
+                "mimeType": "image/png",
+                "md5sum": "c30b7d56ea47c3843c82b135d7d61387",
+                "sha1sum": "29aaa040058418305071301e82afe443bf2be038",
+                "sha256sum": "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+            },
+            {
+                "name": "MODEL1506260000.sci",
+                "description": "Auto-generated Scilab file",
+                "fileSize": "380",
+                "mimeType": "text/plain",
+                "md5sum": "d8108a67c3e1285e398b2114b832da84",
+                "sha1sum": "bc00487f436d85a745e6147526a301ac5c861bcb",
+                "sha256sum": "9bfaf664e0afd844d31a7c4fde08b14150ade452ff20c55ca50d8a0b7433609f"
+            },
+            {
+                "name": "MODEL1506260000.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "851",
+                "mimeType": "image/svg+xml",
+                "md5sum": "5c70d47755dc4ffe259b047cd597dbac",
+                "sha1sum": "b770ff74a046f17da24ae1c8a2355046bc1e9a00",
+                "sha256sum": "c3ea7c76247734b439bb420cd08d649bb6b0769cb18507bfae950bef1d1123f6"
+            },
+            {
+                "name": "MODEL1506260000.vcml",
+                "description": "Auto-generated VCML file",
+                "fileSize": "947",
+                "mimeType": "application/xml",
+                "md5sum": "d83991e55ca5a341c8da4874a0d581b5",
+                "sha1sum": "15bddbdc87daba23996ab9488be31aa71666632a",
+                "sha256sum": "c95a20abed3d89cfc1daa115758e64b2627bd9190c452d3bfa4ba12d90cd3b70"
+            },
+            {
+                "name": "MODEL1506260000.xpp",
+                "description": "Auto-generated XPP file",
+                "fileSize": "466",
+                "mimeType": "text/plain",
+                "md5sum": "68e054c2f3423d2528479f9b2f66097e",
+                "sha1sum": "5fea2387b19a1790cd2fa2aeb603ed2b20b079e6",
+                "sha256sum": "0f3506a0f1ba2e456ea374a3b1b233f7bedeabc394a4d5fe0adf701723b89a4c"
+            },
+            {
+                "name": "MODEL1506260000_urn.xml",
+                "description": "Auto-generated SBML file with URNs",
+                "fileSize": "114202",
+                "mimeType": "application/xml",
+                "md5sum": "c85c82fa435f5d8a6a6ac2a7e42fab17",
+                "sha1sum": "f39c488c683e9f63f2f5afeca90e3cd6f44e167e",
+                "sha256sum": "5cad6beb1f4aba78cf1e40ecfdf59ea47772324447de3fc0450aab57966a67d9"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1435325606,
+                "submitter": "Vijayalakshmi Chelliah",
+                "comment": "Original import of Terfve2012 - Signalling in liver cancer - logical model"
+            },
+            {
+                "version": 2,
+                "submitted": 1435334246,
+                "submitter": "Vijayalakshmi Chelliah",
+                "comment": "Current version of Terfve2012 - Signalling in liver cancer - logical model"
+            }
+        ]
+    },
+    "firstPublished": 1435330640,
+    "submissionId": "MODEL1506260000",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Vijayalakshmi Chelliah",
+                "email": "viji@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-2618-283X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aab",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1506260000",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db/MODEL1506260000"
+        }
+    ]
+}

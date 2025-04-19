@@ -1,0 +1,131 @@
+{
+    "name": "Rodríguez-Jorge2019 - Boolean model of combined TCR and TLR5 signaling for CD4 + T cell activation",
+    "description": "CD4+ T cells recognize antigens through their T cell receptors (TCRs); however, additional signals involving costimulatory receptors, for example, CD28, are required for proper T cell activation. Alternative costimulatory receptors have been proposed, including members of the Toll-like receptor (TLR) family, such as TLR5 and TLR2. To understand the molecular mechanism underlying a potential costimulatory role for TLR5, we generated detailed molecular maps and logical models for the TCR and TLR5 signaling pathways and a merged model for cross-interactions between the two pathways. Furthermore, we validated the resulting model by analyzing how T cells responded to the activation of these pathways alone or in combination, in terms of the activation of the transcriptional regulators CREB, AP-1 (c-Jun), and NF-κB (p65). Our merged model accurately predicted the experimental results, showing that the activation of TLR5 can play a similar role to that of CD28 activation with respect to AP-1, CREB, and NF-κB activation, thereby providing insights regarding the cross-regulation of these pathways in CD4+ T cells.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30992399",
+        "journal": "Science signaling",
+        "title": "Cooperation between T cell receptor and Toll-like receptor 5 signaling for CD4<sup>+</sup> T cell activation.",
+        "affiliation": "Ecole Normale Supérieure",
+        "synopsis": "CD4<sup>+</sup> T cells recognize antigens through their T cell receptors (TCRs); however, additional signals involving costimulatory receptors, for example, CD28, are required for proper T cell activation. Alternative costimulatory receptors have been proposed, including members of the Toll-like receptor (TLR) family, such as TLR5 and TLR2. To understand the molecular mechanism underlying a potential costimulatory role for TLR5, we generated detailed molecular maps and logical models for the TCR and TLR5 signaling pathways and a merged model for cross-interactions between the two pathways. Furthermore, we validated the resulting model by analyzing how T cells responded to the activation of these pathways alone or in combination, in terms of the activation of the transcriptional regulators CREB, AP-1 (c-Jun), and NF-κB (p65). Our merged model accurately predicted the experimental results, showing that the activation of TLR5 can play a similar role to that of CD28 activation with respect to AP-1, CREB, and NF-κB activation, thereby providing insights regarding the cross-regulation of these pathways in CD4<sup>+</sup> T cells.",
+        "year": 2019,
+        "month": "4",
+        "volume": "12",
+        "issue": "577",
+        "pages": "eaar3641",
+        "link": "http://identifiers.org/pubmed/30992399",
+        "authors": [
+            {
+                "name": "Otoniel Rodríguez-Jorge",
+                "institution": "Centro de Investigación en Dinámica Celular, Instituto de Investigación en Ciencias Básicas y Aplicadas, Universidad Autónoma del Estado de Morelos, 62210 Cuernavaca, México.Escuela de Estudios Superiores de Axochiapan, Universidad Autónoma del Estado de Morelos, 62951 Axochiapan, México.",
+                "orcid": "0000-0001-8715-4405"
+            },
+            {
+                "name": "Linda A Kempis-Calanis",
+                "institution": "Centro de Investigación en Dinámica Celular, Instituto de Investigación en Ciencias Básicas y Aplicadas, Universidad Autónoma del Estado de Morelos, 62210 Cuernavaca, México."
+            },
+            {
+                "name": "Wassim Abou-Jaoudé",
+                "institution": "Computational System Biology Team, Institut de Biologie de l'Ecole Normale Supérieure, CNRS UMR8197, INSERM U1024, École Normale Supérieure, Université PSL, 75005 Paris, France."
+            },
+            {
+                "name": "Darely Y Gutiérrez-Reyna",
+                "institution": "Centro de Investigación en Dinámica Celular, Instituto de Investigación en Ciencias Básicas y Aplicadas, Universidad Autónoma del Estado de Morelos, 62210 Cuernavaca, México.",
+                "orcid": "0000-0002-3257-5445"
+            },
+            {
+                "name": "Céline Hernandez",
+                "institution": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France.",
+                "orcid": "0000-0001-8664-1340"
+            },
+            {
+                "name": "Oscar Ramirez-Pliego",
+                "institution": "Centro de Investigación en Dinámica Celular, Instituto de Investigación en Ciencias Básicas y Aplicadas, Universidad Autónoma del Estado de Morelos, 62210 Cuernavaca, México."
+            },
+            {
+                "name": "Morgane Thomas-Chollier",
+                "institution": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France.Institut Universitaire de France (IUF), 75005 Paris, France.",
+                "orcid": "0000-0003-2608-476X"
+            },
+            {
+                "name": "Salvatore Spicuglia",
+                "institution": "Aix-Marseille University, Inserm, TAGC, UMR1090, 13288 Marseille, France.",
+                "orcid": "0000-0002-8101-7108"
+            },
+            {
+                "name": "Maria A Santana",
+                "institution": "Centro de Investigación en Dinámica Celular, Instituto de Investigación en Ciencias Básicas y Aplicadas, Universidad Autónoma del Estado de Morelos, 62210 Cuernavaca, México. santana@uaem.mx denis.thieffry@ens.fr.",
+                "orcid": "0000-0001-8373-7873"
+            },
+            {
+                "name": "Denis Thieffry",
+                "institution": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+                "orcid": "0000-0003-0271-1757"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "RodriguezJorge_Merged_TCR_TLR5_Signalling_BooleanModel_15Jul2018.sbml",
+                "description": "SBML-Qual",
+                "fileSize": "398808",
+                "mimeType": "application/xml",
+                "md5sum": "ad7bf57078a51357b9db1674a1f72a28",
+                "sha1sum": "4cfdd03486d38dbe3ae0f695549bca646e3dab73",
+                "sha256sum": "582b9098732a4a7aa74f51cc1996230325a13b82ed97bb9c8ad993ff68f08d7f"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 12,
+                "submitted": 1617717022,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Updated submission name and short description as per the BioModels submission guidelines"
+            }
+        ]
+    },
+    "firstPublished": 1617717100,
+    "submissionId": "MODEL1903260003",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Denis Thieffry",
+                "email": "denis.thieffry@ens.fr",
+                "affiliation": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+                "orcid": "0000-0003-0271-1757",
+                "external": false
+            },
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}

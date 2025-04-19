@@ -1,0 +1,172 @@
+{
+    "name": "Sizek2023 - Mitochondrial Dysfunction-Associated Senescence (MiDAS) with cell cycle and apoptosis",
+    "description": "This 133-node Boolean regulatory network model reproduces mitochondrial dynamics during cell cycle progression (hyper-fusion at the G1/S boundary, fission in mitosis), apoptosis (fission and dysfunction) and glucose starvation (reversible hyper-fusion), as well as MiDAS in response to SIRT3 knockdown or oxidative stress and the protective role of NAD+ or external pyruvate. These features are in addition to the cell cycle-related phenotypes reproduced by the Sizek et al model that served as our starting point. Testable predictions (new): a) In cell lines with low basal p21 expression known to pre-commit to the next division in early mitosis of their current cycle, a subset of cells respond to glucose withdrawal by arresting with 4N DNA content but losing their internal G2 state (i.e. Cyclin A/B expression), and undergo endo-reduplication upon glucose re-exposure. b) In a subset of glucose-starved cells that pass the G2/M checkpoint with hyperfused mitochondria, mitotic fragmentation can be sufficiently delayed to cause spindle assembly defects and mitotic catastrophe. c) Quiescent cells are less susceptible to ROS-induced MiDAS due to FoxO-mediated PINK1 expression, which blocks MFN1/2 from inducing hyperfusion. d) Boosting NAD+ levels in MiDAS cells that have not yet established deep senescence (2-3 days post induction) can reverse their fate.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "39163758",
+        "journal": "Translational oncology",
+        "title": "Unlocking mitochondrial dysfunction-associated senescence (MiDAS) with NAD+ - A Boolean model of mitochondrial dynamics and cell cycle control.",
+        "affiliation": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH 44691, USA.",
+        "synopsis": "The steady accumulation of senescent cells with aging creates tissue environments that aid cancer evolution. Aging cell states are highly heterogeneous. 'Deep senescent' cells rely on healthy mitochondria to fuel a strong proinflammatory secretome, including cytokines, growth and transforming signals. Yet, the physiological triggers of senescence such as reactive oxygen species (ROS) can also trigger mitochondrial dysfunction, and sufficient energy deficit to alter their secretome and cause chronic oxidative stress - a state termed Mitochondrial Dysfunction-Associated Senescence (MiDAS). Here, we offer a mechanistic hypothesis for the molecular processes leading to MiDAS, along with testable predictions. To do this we have built a Boolean regulatory network model that qualitatively captures key aspects of mitochondrial dynamics during cell cycle progression (hyper-fusion at the G1/S boundary, fission in mitosis), apoptosis (fission and dysfunction) and glucose starvation (reversible hyper-fusion), as well as MiDAS in response to SIRT3 knockdown or oxidative stress. Our model reaffirms the protective role of NAD+ and external pyruvate. We offer testable predictions about the growth factor- and glucose-dependence of MiDAS and its reversibility at different stages of reactive oxygen species (ROS)-induced senescence. Our model provides mechanistic insights into the distinct stages of DNA-damage induced senescence, the relationship between senescence and epithelial-to-mesenchymal transition in cancer and offers a foundation for building multiscale models of tissue aging.",
+        "year": 2024,
+        "month": "8",
+        "volume": "49",
+        "pages": "102084",
+        "link": "http://identifiers.org/pubmed/39163758",
+        "authors": [
+            {
+                "name": "Herbert Sizek",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH 44691, USA."
+            },
+            {
+                "name": "Dávid Deritei",
+                "institution": "Channing Division of Network Medicine, Brigham and Women's Hospital / Harvard Medical School, Boston, MA 02115, USA."
+            },
+            {
+                "name": "Katherine Fleig",
+                "institution": "Neuroscience, The College of Wooster, Wooster, OH 44691, USA."
+            },
+            {
+                "name": "Marlayna Harris",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH 44691, USA."
+            },
+            {
+                "name": "Peter L Regan",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH 44691, USA."
+            },
+            {
+                "name": "Kimberly Glass",
+                "institution": "Channing Division of Network Medicine, Brigham and Women's Hospital / Harvard Medical School, Boston, MA 02115, USA."
+            },
+            {
+                "name": "Erzsébet Ravasz Regan",
+                "institution": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH 44691, USA. Electronic address: eregan@wooster.edu."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "MiDAS_Cell_Cycle_Arrests_Apoptosis_Fine.XML",
+                "description": "Boolean model of Mitochondrial Dysfunction Associated Senescence (MiDAS) linked to cell cycle and apoptosis",
+                "fileSize": "1760710",
+                "mimeType": "application/xml",
+                "md5sum": "74dd2614504beae9fda172dbe2bb29c1",
+                "sha1sum": "6355cbbbc98f55f9ee08eed829f435bdd4368417",
+                "sha256sum": "f019c0459ba29dc7fc7fe0173720930c56f205458a37fceed624fbee8c4890cf"
+            }
+        ],
+        "additional": [
+            {
+                "name": "MiDAS_Cell_Cycle_Arrests_Apoptosis.dmms",
+                "description": "DMMS version of model, readable by the dynmod software package to directly reproduce results from publication",
+                "fileSize": "989168",
+                "mimeType": "text/plain",
+                "md5sum": "6c1960558675de747595aeb9329d1a0a",
+                "sha1sum": "6ae35d5e2d34e52cebac92882e46a539bcf938fe",
+                "sha256sum": "b4ad661e43aeec895a5a279c8cc8f3365df626cb43c78566da629a8144fab4be"
+            },
+            {
+                "name": "MiDAS_Cell_Cycle_Arrests_Apoptosis_Fine.booleannet",
+                "description": "Booleannet version of model",
+                "fileSize": "10153",
+                "mimeType": "text/plain",
+                "md5sum": "c800a64afc5c05215d897d32b4bfa57f",
+                "sha1sum": "5bd9e4a6537671581f4197d59c7e4d6c04ada48c",
+                "sha256sum": "97080dc9a4577c464389e802a481fb2d7f81d120f456401b80e59509a764d782"
+            },
+            {
+                "name": "MiDAS__Main_Figures.vex",
+                "description": "Virtual experiment file to run supplementary figures in paper (see update nodes)",
+                "fileSize": "16261",
+                "mimeType": "text/plain",
+                "md5sum": "2493411ab3318bc35f20867aa415d715",
+                "sha1sum": "e2a862c427095f24a1369008d12d70947bcfe131",
+                "sha256sum": "ccd369ac2b147f46a61d30a72358426ec1e99fb36ee3b9012e58d327d6ef2429"
+            },
+            {
+                "name": "MiDAS__SM_Figures.vex",
+                "description": "Virtual experiment file to run main figures in paper (see update nodes)",
+                "fileSize": "39736",
+                "mimeType": "text/plain",
+                "md5sum": "e4677b2e017b130d7c466295da7561ce",
+                "sha1sum": "71a6055c5be39fb5492988e4844dc7339c199e22",
+                "sha256sum": "50af80f52d757fa14080cfece13a36735e5c88717925a7ac616c376825f27315"
+            },
+            {
+                "name": "SM Table 1 - MiDAS_Cell_Cycle_Arrests_Apoptosis.pdf",
+                "description": "Supplementary Table with biological justification for all model nodes and links",
+                "fileSize": "645108",
+                "mimeType": "application/pdf",
+                "md5sum": "38ce721a68ecc1f7d489461a5740becf",
+                "sha1sum": "1663835dc3cc182b3774b1d42ec3e96428b45e5f",
+                "sha256sum": "7fdda7314933e970799068da9d1fa6da79ca4a50ebfdbd6f97498ad4373aed5a"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1724679583,
+                "submitter": "Erzsébet Ravasz Regan",
+                "comment": "publication details added"
+            }
+        ]
+    },
+    "firstPublished": 1724685731,
+    "submissionId": "MODEL2312140001",
+    "modellingApproach": {
+        "accession": "MAMO_0000053",
+        "name": "boolean model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000053"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "AnnotationCurator": [
+            {
+                "name": "Erzsébet Ravasz Regan",
+                "email": "eregan@wooster.edu",
+                "affiliation": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0002-8663-3153",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Erzsébet Ravasz Regan",
+                "email": "eregan@wooster.edu",
+                "affiliation": "Biochemistry and Molecular Biology, The College of Wooster, Wooster, OH, United States of America.",
+                "orcid": "0000-0002-8663-3153",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2312140001",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL2312140001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO:0000053",
+            "name": "boolean model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "https://identifiers.org/mamo:MAMO_0000053"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "39163758",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:39163758"
+        }
+    ]
+}

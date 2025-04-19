@@ -1,0 +1,344 @@
+{
+    "name": "Linke2017 - Synchronization of Cyclins' expression by the Fkh2 transcription factor in the budding yeast cell cycle",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>Modeling of the expression of cyclin B2 and B3 in the budding yeast cell cycle</p>  </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V3"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "28649434",
+        "journal": "NPJ systems biology and applications",
+        "title": "A Clb/Cdk1-mediated regulation of Fkh2 synchronizes <i>CLB</i> expression in the budding yeast cell cycle.",
+        "affiliation": "Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, 1098 XH The Netherlands.",
+        "synopsis": "Precise timing of cell division is achieved by coupling waves of cyclin-dependent kinase (Cdk) activity with a transcriptional oscillator throughout cell cycle progression. Although details of transcription of cyclin genes are known, it is unclear which is the transcriptional cascade that modulates their expression in a timely fashion. Here, we demonstrate that a Clb/Cdk1-mediated regulation of the Fkh2 transcription factor synchronizes the temporal mitotic <i>CLB</i> expression in budding yeast. A simplified kinetic model of the cyclin/Cdk network predicts a linear cascade where a Clb/Cdk1-mediated regulation of an activator molecule drives <i>CLB3</i> and <i>CLB2</i> expression. Experimental validation highlights Fkh2 as modulator of <i>CLB3</i> transcript levels, besides its role in regulating <i>CLB2</i> expression. A Boolean model based on the minimal number of interactions needed to capture the information flow of the Clb/Cdk1 network supports the role of an activator molecule in the sequential activation, and oscillatory behavior, of mitotic Clb cyclins. This work illustrates how transcription and phosphorylation networks can be coupled by a Clb/Cdk1-mediated regulation that synchronizes them.",
+        "year": 2017,
+        "month": "0",
+        "volume": "3",
+        "pages": "7",
+        "link": "http://identifiers.org/pubmed/28649434",
+        "authors": [
+            {
+                "name": "Christian Linke",
+                "institution": "Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, 1098 XH The Netherlands.Max Planck Institute for Molecular Genetics, Berlin, 14195 Germany."
+            },
+            {
+                "name": "Anastasia Chasapi",
+                "institution": "Vital-IT group, Swiss Institute of Bioinformatics, University of Lausanne, CH-1015 Lausanne, Switzerland.",
+                "orcid": "0000-0003-1986-5007"
+            },
+            {
+                "name": "Alberto González-Novo",
+                "institution": "Cell Signaling Unit, Departament de Ciències Experimentals i de la Salut, Universitat Pompeu Fabra, Barcelona, 08003 Spain."
+            },
+            {
+                "name": "Istabrak Al Sawad",
+                "institution": "Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, 1098 XH The Netherlands."
+            },
+            {
+                "name": "Silvia Tognetti",
+                "institution": "Cell Signaling Unit, Departament de Ciències Experimentals i de la Salut, Universitat Pompeu Fabra, Barcelona, 08003 Spain.",
+                "orcid": "0000-0002-7331-214X"
+            },
+            {
+                "name": "Edda Klipp",
+                "institution": "Institute for Biology, Theoretical Biophysics, Humboldt University Berlin, Berlin, 10115 Germany."
+            },
+            {
+                "name": "Mart Loog",
+                "institution": "Institute of Technology, University of Tartu, Tartu, 50411 Estonia."
+            },
+            {
+                "name": "Sylvia Krobitsch",
+                "institution": "Max Planck Institute for Molecular Genetics, Berlin, 14195 Germany."
+            },
+            {
+                "name": "Francesc Posas",
+                "institution": "Cell Signaling Unit, Departament de Ciències Experimentals i de la Salut, Universitat Pompeu Fabra, Barcelona, 08003 Spain."
+            },
+            {
+                "name": "Ioannis Xenarios",
+                "institution": "Vital-IT group, Swiss Institute of Bioinformatics, University of Lausanne, CH-1015 Lausanne, Switzerland."
+            },
+            {
+                "name": "Matteo Barberis",
+                "institution": "Systems Biology, School of Biosciences and Medicine, Faculty of Health and Medical Sciences, University of Surrey, Guildford, UK. m.barberis@surrey.ac.uk.Centre for Mathematical and Computational Biology, CMCB, University of Surrey, Guildford, UK. m.barberis@surrey.ac.uk.Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands. m.barberis@surrey.ac.uk.",
+                "orcid": "0000-0001-5640-7422"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Linke2017.xml",
+                "description": "SBML L2V3 representation of Linke2017 - Synchronization of Cyclins&#92; expression by the Fkh2 transcription factor in the budding yeast cell cycle",
+                "fileSize": "82966",
+                "mimeType": "application/xml",
+                "md5sum": "f80f164c84390d61488cf4f9aca4f592",
+                "sha1sum": "79055936230b156fe151655ad51e72454d348e6c",
+                "sha256sum": "94cbde6ddc53d5ad2ab124a173d7ddac55e4c5196a31b6d2dc8027a55328bf09"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Linke2017-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "35739",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0ae37fbd4303409fbfbd1e4e8f2c99a3",
+                "sha1sum": "d4d5ca2339c020d1188ac5200c1ab806bfa268ad",
+                "sha256sum": "3025dc11c92c1e705c79ae78408cf775ff1e2755ad90d81ce06f453168cda78e"
+            },
+            {
+                "name": "Linke2017-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "59155",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e07ce96970ebfdb862d51416acea87d0",
+                "sha1sum": "b9b26e1fc6083a39918cbfbcecc0031e1eb6c818",
+                "sha256sum": "40df0480836cd6edb78fd8243ea7aade068d634d840bbf6f2e780a790ab48ac0"
+            },
+            {
+                "name": "Linke2017-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "12008",
+                "mimeType": "text/x-matlab",
+                "md5sum": "9fbfdfe3c5101974f11d9b81454c27e0",
+                "sha1sum": "f08b3fc3dc2e2fa1c510b7dabd393fc96a754971",
+                "sha256sum": "c2010018f412ff84104275ada276e751e890c01773dd0739975e6e158bd35ad0"
+            },
+            {
+                "name": "Linke2017-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "12008",
+                "mimeType": "text/x-matlab",
+                "md5sum": "3a675f29f02a0b01eead6d60e70473d9",
+                "sha1sum": "ff1203189ebb5158bfce6dc1a44c5c38ac3706f6",
+                "sha256sum": "deb2b1ae1a777d80fd142e5a7bb8eb7d12b11ffc2b082349daea0b8378fe4cb2"
+            },
+            {
+                "name": "Linke2017.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "9142",
+                "mimeType": "text/plain",
+                "md5sum": "0ae14de9d9962158ea8da952e9e948ba",
+                "sha1sum": "cd5bcc0478339ce547b2aead0175049a98f716b0",
+                "sha256sum": "5d3ab1fdd8d63d365de16e06bf73e8b0777ea33d4b14d4a4539166e1cbe3b87b"
+            },
+            {
+                "name": "Linke2017_figure1b.cps",
+                "description": "COPASI version 4.27 (Build 217) for reproducing figure 1b in the reference publication.",
+                "fileSize": "136876",
+                "mimeType": "application/xml",
+                "md5sum": "7f8d5515c2982524ed1c344325e4d861",
+                "sha1sum": "9c05fad68dc1c8217a635eb0722d175bf23a60ce",
+                "sha256sum": "bcbf4dd0fa1e28bb9723da2492370625d5cc20a6e232f6e73dca3fbd4a8e9ea1"
+            },
+            {
+                "name": "Linke2017_figure1c.cps",
+                "description": "COPASI version 4.27 (Build 217) for reproducing figure 1c in the reference publication.",
+                "fileSize": "136868",
+                "mimeType": "application/xml",
+                "md5sum": "820b081721885ec60cb33dadb7540f87",
+                "sha1sum": "88925ebcee3bd048ebc2016400d5a2071419df79",
+                "sha256sum": "1a9a9307a48c6232adc95bab901e2f933766e7d68200afb4e3d5ed4849e83ae6"
+            },
+            {
+                "name": "Linke2017_figure1c.sedml",
+                "description": "SEDML file for reproducing figure 1c in the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "36091",
+                "mimeType": "application/xml",
+                "md5sum": "991b8a3794348aa7f49ede2c4c490093",
+                "sha1sum": "a5f14951c4c5a7477d6d1610eb64008277977abc",
+                "sha256sum": "9a1d4c808e72a6fd78403356c1ea7fec0c1866b6da27ae9d1e0703c5d453c6b1"
+            },
+            {
+                "name": "Linke2017_figure1d.cps",
+                "description": "COPASI version 4.27 (Build 217) for reproducing figure 1d in the reference publication.",
+                "fileSize": "136864",
+                "mimeType": "application/xml",
+                "md5sum": "73b39cdf893dce566be6de7fcb62a8dc",
+                "sha1sum": "d420cb36e617f29e01fae0d8cca47bcf7f1a0c51",
+                "sha256sum": "ea1bdde34dbc3b31df0143c32a033f09b491b2a4c55339cb8f5dc08ea510494d"
+            },
+            {
+                "name": "Linke2017_figure1d.sedml",
+                "description": "SEDML file for reproducing figure 1d in the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "36091",
+                "mimeType": "application/xml",
+                "md5sum": "ef6b7a3dc4d979763c029ad707acf4e3",
+                "sha1sum": "d4664cae3a214462990dfd0f1dc99fd31f7137bf",
+                "sha256sum": "e2475b4d3b4ad4100b57d83cb93decefc02515cea102f247c7cb498072966358"
+            },
+            {
+                "name": "Linke2017_figure1e.cps",
+                "description": "COPASI version 4.27 (Build 217) for reproducing figure 1e in the reference publication.",
+                "fileSize": "136868",
+                "mimeType": "application/xml",
+                "md5sum": "237f311dcfd8f53eb47ec7f6e09701ce",
+                "sha1sum": "26e032854bbfe332b81834fd661163612ed5d2f4",
+                "sha256sum": "ce2a7dae41104ed8dbbab8c9c8da8c451b01ab18433dfe4e93993a99b097e742"
+            },
+            {
+                "name": "Linke2017_figure1e.sedml",
+                "description": "SEDML file for reproducing figure 1e in the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "36091",
+                "mimeType": "application/xml",
+                "md5sum": "565e12a4255e28ef20ce3dd52f9cf06f",
+                "sha1sum": "7042dc01d66a335761ddf3b9f36233d51cd28e36",
+                "sha256sum": "9de1faf6909b1854c22599fba73b929eee2cea115727bd8f6e23ba00f82a54ca"
+            },
+            {
+                "name": "Linke2017f1b.sedml",
+                "description": "SEDML file for reproducing figure 1b in the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "36092",
+                "mimeType": "application/xml",
+                "md5sum": "d6718e455c08c7e0d27bfcb5f1915429",
+                "sha1sum": "4074fa1cc58256ea669085e4b6344182c42a350c",
+                "sha256sum": "d9327473e988fd95c5a287df37aec6ea13059438fe442d994723629e9e55b8a4"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "109158",
+                "mimeType": "image/png",
+                "md5sum": "324cd9dd4dbef59e4b6c10f9bff497d2",
+                "sha1sum": "83c33730f33ad39f2f5e8ab1c2d633d8cdc3463f",
+                "sha256sum": "ff693908e23cbd3676ece3eb556aba2a2b3bccba4512da5dd26f9998a2701ebb"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "140",
+                "mimeType": "text/plain",
+                "md5sum": "f43d8a5e62542b49d63a43e9c570df57",
+                "sha1sum": "4ed6ba6ce1b4319d6f3554d984c34508e7e646dc",
+                "sha256sum": "93b2be51bf33ebee776832f684ebb97ca6d0e88ed6edf45a55da1bf62d928bdd"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2168",
+                "mimeType": "application/xml",
+                "md5sum": "9ac80160257a9153ce419324a911cb13",
+                "sha1sum": "8ce3d36053d846e7ec74a03acc6a4f132a15ac44",
+                "sha256sum": "12aa557f7c066149a2a004dc06ad204e9b4562802b1afd1b8b3ca2485641c662"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1900",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "771d1b91d2f9d45eb73a40b0142937a2",
+                "sha1sum": "1f92eecb29bcc9f48faec8fce07b0ac964ce8cca",
+                "sha256sum": "c23be5f34e71b484bb03db3c9bd09c81beb7649534e434a78aa881685da8233f"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1536161702,
+                "submitter": "Matthieu MAIRE",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 4,
+                "submitted": 1587738720,
+                "submitter": "Ahmad Zyoud",
+                "comment": "Automatically added model identifier BIOMD0000000934"
+            },
+            {
+                "version": 5,
+                "submitted": 1724289763,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281940,
+    "submissionId": "MODEL1809050002",
+    "publicationId": "BIOMD0000000934",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Matthieu MAIRE",
+                "email": "matt.maire@free.fr",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            },
+            {
+                "name": "Ahmad Zyoud",
+                "email": "azyoud@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-5937-8564",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000934",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000934"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1809050002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1809050002"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "28649434",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:28649434"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "GO:0051726",
+            "name": "regulation of cell cycle",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0051726"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "C14271",
+            "name": "Saccharomyces cerevisiae",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C14271"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "28649434",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/28649434"
+        }
+    ]
+}

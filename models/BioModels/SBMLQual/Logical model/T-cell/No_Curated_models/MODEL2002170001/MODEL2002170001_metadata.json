@@ -1,0 +1,104 @@
+{
+    "name": "Cacace2020 - Logical model of the regulatory network controlling T cell commitment",
+    "description": "Boolean approaches and extensions thereof are becoming increasingly popular to model signaling and regulatory networks, including those controlling cell differentiation, pattern formation and embryonic development. Here, we describe a logical modeling framework relying on three steps: the delineation of a regulatory graph, the specification of multilevel components, and the encoding of Boolean rules specifying the behavior of model components depending on the levels or activities of their regulators. Referring to a non-deterministic, asynchronous updating scheme, we present several complementary methods and tools enabling the computation of stable activity patterns, the verification of the reachability of such patterns, as well as the generation of mean temporal evolution curves and the computation of the probabilities to reach distinct activity patterns. We apply this logical framework to the regulatory network controlling T lymphocyte specification. This process involves cross-regulations between specific T cell regulatory factors and factors driving alternative differentiation pathways, which remain accessible during the early steps of thymocyte development. Many transcription factors needed for T cell specification are required in other hematopoietic differentiation pathways and are combined in a fine-tuned, time-dependent fashion to achieve T cell commitment. Using the software GINsim, we integrated current knowledge into a dynamical model, which recapitulates the main developmental steps from early progenitors entering the thymus up to T cell commitment, as well as the impact of various documented environmental and genetic perturbations. Our model analysis further enabled the identification of several knowledge gaps. The model, software and whole analysis workflow are provided in computer-readable and executable form to ensure reproducibility and ease extensions.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32450961",
+        "journal": "Current topics in developmental biology",
+        "title": "Logical modeling of cell fate specification-Application to T cell commitment.",
+        "affiliation": "European Molecular Biology Laboratory, Genome Biology Unit, Heidelberg, Germany.",
+        "synopsis": "Boolean approaches and extensions thereof are becoming increasingly popular to model signaling and regulatory networks, including those controlling cell differentiation, pattern formation and embryonic development. Here, we describe a logical modeling framework relying on three steps: the delineation of a regulatory graph, the specification of multilevel components, and the encoding of Boolean rules specifying the behavior of model components depending on the levels or activities of their regulators. Referring to a non-deterministic, asynchronous updating scheme, we present several complementary methods and tools enabling the computation of stable activity patterns, the verification of the reachability of such patterns, as well as the generation of mean temporal evolution curves and the computation of the probabilities to reach distinct activity patterns. We apply this logical framework to the regulatory network controlling T lymphocyte specification. This process involves cross-regulations between specific T cell regulatory factors and factors driving alternative differentiation pathways, which remain accessible during the early steps of thymocyte development. Many transcription factors needed for T cell specification are required in other hematopoietic differentiation pathways and are combined in a fine-tuned, time-dependent fashion to achieve T cell commitment. Using the software GINsim, we integrated current knowledge into a dynamical model, which recapitulates the main developmental steps from early progenitors entering the thymus up to T cell commitment, as well as the impact of various documented environmental and genetic perturbations. Our model analysis further enabled the identification of several knowledge gaps. The model, software and whole analysis workflow are provided in computer-readable and executable form to ensure reproducibility and ease extensions.",
+        "year": 2020,
+        "month": "0",
+        "volume": "139",
+        "pages": "205-238",
+        "link": "http://identifiers.org/pubmed/32450961",
+        "authors": [
+            {
+                "name": "Elisabetta Cacace",
+                "institution": "European Molecular Biology Laboratory, Genome Biology Unit, Heidelberg, Germany.",
+                "orcid": "0000-0001-8239-0353"
+            },
+            {
+                "name": "Samuel Collombet",
+                "institution": "European Molecular Biology Laboratory, Genome Biology Unit, Heidelberg, Germany.; Computational Systems Biology Team, Institut de Biologie de l'École Normale Supérieure (IBENS), CNRS, INSERM, École Normale Supérieure, Université PSL, Paris, France."
+            },
+            {
+                "name": "Denis Thieffry",
+                "institution": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+                "orcid": "0000-0003-0271-1757"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Cacace_TdevModel_2nov2020.sbml",
+                "description": "Logical model of the regulatory network controlling T cell commitment (SBML L3VI qual).",
+                "fileSize": "246674",
+                "mimeType": "application/xml",
+                "md5sum": "b98bd2f10223c4718a241bc0138a9baa",
+                "sha1sum": "1b4b27eda81760e561abae380a5783c37bb1825e",
+                "sha256sum": "fd4baa63924efd07af5d4eaa476201bbf737bfcd3100f464b4d6b4c259f4de41"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 4,
+                "submitted": 1617717372,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Updated submission name and short description as per the BioModels submission guidelines"
+            }
+        ]
+    },
+    "firstPublished": 1617717420,
+    "submissionId": "MODEL2002170001",
+    "modellingApproach": {
+        "accession": "MAMO_0000030",
+        "name": "logical model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000030"
+    },
+    "curationStatus": "NON_CURATED",
+    "contributors": {
+        "Modeller": [
+            {
+                "name": "Denis Thieffry",
+                "email": "denis.thieffry@ens.fr",
+                "affiliation": "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+                "orcid": "0000-0003-0271-1757",
+                "external": false
+            },
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:isRelatedTo",
+            "accession": "1833",
+            "name": "CCAAT enhancer binding protein alpha",
+            "resource": "HGNC",
+            "uri": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1833"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000030",
+            "name": "Logical model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000030"
+        }
+    ]
+}
