@@ -5,17 +5,17 @@
 ## Biological introduction
 This project lies at the interface between computational biology and immunology. By bridging these two fields, the construction of Immune Digital Twins (IDTs) representing dynamic virtual representations of the human immune system will enable us to understand and predict how the immune system responds to a variety of situations.
 
-As the science that studies the immune system and its regulation, immunology represents a real stake in the treatment of autoimmune diseases (AIDs) such as multiple sclerosis [@noauthor_sclerose_nodate], rheumatoid arthritis [@noauthor_polyarthrite_nodate], or systemic lupus erythematosus [@noauthor_lupus_nodate], which affect millions of people worldwide, often with severe complications. Both public and private laboratories (INSERM [@noauthor_maladies_nodate] and Sanofi [@noauthor_sanofi_nodate]) are working in this area, offering complex treatments such as biotherapies and immunosuppressants. DDDTs (Digital Drug Development Twins) could accelerate this pharmaceutical development process while reducing costs, as DTs enable the impact of treatments to be modeled at various levels, including the identification of therapeutic targets and drug validation [@niarakis_immune_2024].
+As the science that studies the immune system and its regulation, immunology represents a real stake in the treatment of autoimmune diseases (AIDs) such as multiple sclerosis [[1]](#1), rheumatoid arthritis [[2]](#2), or systemic lupus erythematosus [[3]](#3), which affect millions of people worldwide, often with severe complications. Both public and private laboratories (INSERM [[4]](#4) and Sanofi [[5]](#5)) are working in this area, offering complex treatments such as biotherapies and immunosuppressants. DDDTs (Digital Drug Development Twins) could accelerate this pharmaceutical development process while reducing costs, as DTs enable the impact of treatments to be modeled at various levels, including the identification of therapeutic targets and drug validation [[6]](#6).
 
 The wide diversity of actors involved in the immune system and the resulting pathologies (which vary in severity) call for the use of omics approaches, which enable in-depth analysis of the underlying molecular mechanisms. These novel approaches to medicine are paving the way for targeted and personalized therapies.
-However, the use of immunosuppressants is not a harmless practice: for instance, according to the American Gastroenterology Association (AGA), reactivation of hepatitis B is a major risk for some patients [@ali_aga_2025]. The AGA has updated its recommendations: the decision between antiviral prophylaxis or clinical follow-up depends on the level of risk and the type of treatment. In addition, the regulatory and ethical aspects associated with the use of DTs in healthcare settings are crucial: Food and Drug Administration (FDA) and European Medicines Agency (EMA) require rigorous standards to be met in order to be considered as medical devices. Ethical issues, notably relating to data protection, will also need to be swept under the carpet [@niarakis_immune_2024].
+However, the use of immunosuppressants is not a harmless practice: for instance, according to the American Gastroenterology Association (AGA), reactivation of hepatitis B is a major risk for some patients [[7]](#7). The AGA has updated its recommendations: the decision between antiviral prophylaxis or clinical follow-up depends on the level of risk and the type of treatment. In addition, the regulatory and ethical aspects associated with the use of DTs in healthcare settings are crucial: Food and Drug Administration (FDA) and European Medicines Agency (EMA) require rigorous standards to be met in order to be considered as medical devices. Ethical issues, notably relating to data protection, will also need to be swept under the carpet [[8]](#8).
 
 A wide range of actors in fields such as proteomics, metabolomics and (spatial) transcriptomics are involved, such as the study of gene expression regulation and spatial transcriptomics, which maps the expression of genes involved in a tissue, and could help prevent these IAMs. 
 
-Computational models are essential tools for simulating and analyzing the complex mechanisms of the immune system. These models enable molecular and cellular interactions to be reproduced, making it easier to optimize therapeutic strategies. However, their development is often hampered by the absence of well-structured repositories to organize and share these resources. Databases such as BioModels [@malik-sheriff_biomodels15_2020][@glont_biomodels_2018] host biological models in Systems Biology Markup Language [@laubenbacher_toward_2024] (SBML) format, designed to represent and exchange models of biochemical reactions.
-We'll also be using files in Systems Biology Marked Up Language-qualitative [@chaouiya_sbml_2013] ie SBML-qual, an extension of SBML that enables biological systems to be modeled qualitatively using a Boolean and logical approach. It allows systems to be modeled without the need for precise quantitative data, making it particularly well suited to the study of regulatory and signaling networks. Thanks to its interoperability with different software packages, SBML-QUAL facilitates the collaborative exchange, analysis and development of models, thus contributing to a better standardization of qualitative approaches in systems biology.
+Computational models are essential tools for simulating and analyzing the complex mechanisms of the immune system. These models enable molecular and cellular interactions to be reproduced, making it easier to optimize therapeutic strategies. However, their development is often hampered by the absence of well-structured repositories to organize and share these resources. Databases such as BioModels [[[9]](#19) [[10]](#10) host biological models in Systems Biology Markup Language [[11]](#11) (SBML) format, designed to represent and exchange models of biochemical reactions.
+We'll also be using files in Systems Biology Marked Up Language-qualitative [[12]](#12) ie SBML-qual, an extension of SBML that enables biological systems to be modeled qualitatively using a Boolean and logical approach. It allows systems to be modeled without the need for precise quantitative data, making it particularly well suited to the study of regulatory and signaling networks. Thanks to its interoperability with different software packages, SBML-QUAL facilitates the collaborative exchange, analysis and development of models, thus contributing to a better standardization of qualitative approaches in systems biology.
 
-But models specific to the immune system remain scattered and insufficiently organized. This project aims to fill this gap by creating a dedicated repository, in line with a roadmap derived from the state of the art [@wilkinson_fair_2016]. In accordance with the FAIR [@noauthor_rda_2024] principles (Findable, Accessible, Interoperable, Reusable), the repository will be modular, practical for group work, and have a robust infrastructure.
+But models specific to the immune system remain scattered and insufficiently organized. This project aims to fill this gap by creating a dedicated repository, in line with a roadmap derived from the state of the art [[13]](#13) In accordance with the FAIR [[14]](#14) principles (Findable, Accessible, Interoperable, Reusable), the repository will be modular, practical for group work, and have a robust infrastructure.
 
 This repository will centralize and annotate relevant computational models, while making them accessible for applications such as the construction of immune digital twins. By building on existing resources and integrating with the short-term goals of international collaborative efforts, this project will help lay the foundations for a scalable digital infrastructure, essential for meeting the challenges of precision medicine.
 
@@ -24,13 +24,13 @@ This project is led by Professor Anna Niarakis and Engineer Nicolas Ricort-Teixi
 
 The CBI is an international multidisciplinary research structure dedicated to the understanding of how living organisms function, using what are known as integrative and multi-scale approaches. Made up of several laboratories, including the host laboratory Molecular, Cellular and Developmental Biology (MCD), its research themes cover a wide range of fields addressing major health-related societal issues. 
 
-More specifically, in the context of this project, it is involved in CoSysBio [(Computational Systems Biology for complex human diseases)](https://cbi-toulouse.fr/eng/equipe-niarakis), which develops integrative approaches combining mathematics, computer science and bioinformatics to identify new therapeutic targets and model complex pathologies. Immunological digital twins are a major challenge: hybrid models combining artificial intelligence and mechanistic networks could predict the evolution of diseases and refine therapeutic strategies in personalized medicine [@laubenbacher_toward_2024]. Historically, a digital twin is an organized set of adaptable models that emulate the behaviors of a given physical system (a term derived from “industry”) using data obtained throughout its life cycle. It is therefore a dynamic model, which can have several levels of complexity (known as “digitization”). They help optimize diagnosis and treatment (dose), particularly for diseases involving the immune system. 
+More specifically, in the context of this project, it is involved in CoSysBio (Computational Systems Biology for complex human diseases [^1]), which develops integrative approaches combining mathematics, computer science and bioinformatics to identify new therapeutic targets and model complex pathologies. Immunological digital twins are a major challenge: hybrid models combining artificial intelligence and mechanistic networks could predict the evolution of diseases and refine therapeutic strategies in personalized medicine [[15]](#15). Historically, a digital twin is an organized set of adaptable models that emulate the behaviors of a given physical system (a term derived from “industry”) using data obtained throughout its life cycle. It is therefore a dynamic model, which can have several levels of complexity (known as “digitization”). They help optimize diagnosis and treatment (dose), particularly for diseases involving the immune system. 
 
 The ImmunoGIT initiative will contribute to this by structuring and sharing models dedicated to these immune pathologies.
 
-More broadly, the project will benefit from the support of the Research Data Alliance [@noauthor_about_nodate] (RDA). Created in 2013, this international organization is dedicated to the creation of standards and the interoperability of biological data. It acts as a bridge between researchers and clinicians from a variety of backgrounds. 
+More broadly, the project will benefit from the support of the Research Data Alliance [[16]](#16) (RDA). Created in 2013, this international organization is dedicated to the creation of standards and the interoperability of biological data. It acts as a bridge between researchers and clinicians from a variety of backgrounds. 
 
-Each working group within the organization carries out an 18-month collaborative project with the aim of meeting a specific need in the scientific community, through the development of tools, best practices and specifications. The work carried out is in line with the short-term objectives of the Building Immune Digital Twins working group [@noauthor_building_nodate] (WG BIDT), namely the development of a repository [@noauthor_rda_2024]. Because of the difficulty of measuring the state of the immune system, their development is complex. This calls for strong initiatives, made possible by the WG BIDT.
+Each working group within the organization carries out an 18-month collaborative project with the aim of meeting a specific need in the scientific community, through the development of tools, best practices and specifications. The work carried out is in line with the short-term objectives of the Building Immune Digital Twins working group [[17]](#17) (WG BIDT), namely the development of a repository [[18]](#18). Because of the difficulty of measuring the state of the immune system, their development is complex. This calls for strong initiatives, made possible by the WG BIDT.
 
 The main objective is to create a repository using reproducible approaches, in particular by means of Python3 Notebooks enabling :  
 - **Retrieval** of `SBML` and `SBML-QUAL` models from the BioModels platform.  
@@ -221,5 +221,97 @@ If a member is unavailable for an extended period, task redistribution will be a
 - Adherence to coding standards and naming conventions. 
 
 ## References
-::: {#refs}
-:::
+[^1]: https://cbi-toulouse.fr/eng/equipe-niarakis
+
+<a id="1">[1]</a>
+No Author. (n.d.).
+Sclérose en plaques (SEP) - Troubles neurologiques.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-neurologiques/maladies-démyélinisantes/sclérose-en-plaques-sep
+
+<a id="2">[2]</a>
+No Author. (n.d.).
+Polyarthrite rhumatoïde (PR) - Troubles musculosquelettiques et du tissu conjonctif.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-musculosquelettiques-et-du-tissu-conjonctif/troubles-articulaires/polyarthrite-rhumatoïde-pr
+
+<a id="3">[3]</a>
+No Author. (n.d.).
+Lupus érythémateux disséminé - Troubles musculosquelettiques et du tissu conjonctif.
+Édition professionnelle du Manuel MSD. Retrieved February 6, 2025, from https://www.msdmanuals.com/fr/professional/troubles-musculosquelettiques-et-du-tissu-conjonctif/maladies-rhumatismales-systémiques/lupus-érythémateux-disséminé
+
+<a id="4">[4]</a>
+No Author. (n.d.).
+Maladies auto-immunes · Inserm, La science pour la santé.
+Inserm. Retrieved February 6, 2025, from https://www.inserm.fr/dossier/maladies-auto-immunes/
+
+<a id="5">[5]</a>
+No Author. (n.d.).
+Sanofi: Dupixent® (dupilumab) approuvé dans le traitement de l'asthme sévère par la Commission européenne.
+Sanofi. Retrieved February 6, 2025, from https://www.sanofi.com/fr/media-room/communiques-de-presse/2019/2019-05-07-13-00-00-1818457
+
+<a id="6">[6]</a>
+Niarakis, A., Laubenbacher, R., An, G., et al. (2024).
+Immune digital twins for complex human pathologies: applications, limitations, and challenges.
+npj Systems Biology and Applications, 10(1), 1-14. https://doi.org/10.1038/s41540-024-00450-5
+
+<a id="7">[7]</a>
+Ali, F. S., Nguyen, M. H., Hernaez, R., et al. (2025).
+AGA Clinical Practice Guideline on the Prevention and Treatment of Hepatitis B Virus Reactivation in At-Risk Individuals.
+Gastroenterology, 168(2), 267-284. https://doi.org/10.1053/j.gastro.2024.11.008
+
+<a id="8">[8]</a>
+Niarakis, A., Laubenbacher, R., An, G., et al. (2024).
+Immune digital twins for complex human pathologies: applications, limitations, and challenges.
+npj Systems Biology and Applications, 10(1), 1-14. https://doi.org/10.1038/s41540-024-00450-5
+
+<a id="9">[9]</a>
+Malik-Sheriff, R. S., Glont, M., Nguyen, T. V. N., et al. (2020).
+BioModels—15 years of sharing computational models in life science.
+Nucleic Acids Research, 48(D1), D407–D415. https://doi.org/10.1093/nar/gkz1055
+
+<a id="10">[10]</a>
+Glont, M., Nguyen, T. V. N., Graesslin, M., et al. (2018).
+BioModels: expanding horizons to include more modelling approaches and formats.
+Nucleic Acids Research, 46(D1), D1248–D1253. https://doi.org/10.1093/nar/gkx1023
+
+<a id="11">[11]</a>
+Laubenbacher, R., Adler, F., An, G., et al. (2024).
+Toward mechanistic medical digital twins: some use cases in immunology.
+Frontiers in Digital Health, 6, 1349595. https://doi.org/10.3389/fdgth.2024.1349595
+
+<a id="12">[12]</a>
+Chaouiya, C., Bérenguier, D., Keating, S. M., et al. (2013).
+SBML qualitative models: a model representation format and infrastructure to foster interactions between qualitative modelling formalisms and tools.
+BMC Systems Biology, 7, 135. https://doi.org/10.1186/1752-0509-7-135
+
+<a id="13">[13]</a>
+Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016).
+The FAIR Guiding Principles for scientific data management and stewardship.
+Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
+
+<a id="14">[14]</a>
+RDA Working Group (2024).
+Building Immune Digital Twins - Case Statement.
+RDA. https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
+
+<a id="15">[15]</a>
+Laubenbacher, R., Adler, F., & An, G. (2024). 
+Toward mechanistic medical digital twins: Some use cases in immunology. 
+*Frontiers in Digital Health*, 6, 1349595. https://doi.org/10.3389/fdgth.2024.1349595
+
+<a id="16">[16]</a>
+No Author. (n.d.). 
+About the RDA. 
+*Research Data Alliance*. 
+https://www.rd-alliance.org/about-the-rda/
+
+<a id="17">[17]</a>
+No Author. (n.d.). 
+Building Immune Digital Twins WG Feed. 
+*Research Data Alliance*. 
+https://www.rd-alliance.org/groups/building-immune-digital-twins-wg/activity/
+
+<a id="18">[18]</a>
+No Author. (2024). 
+RDA Working Group: Building Immune Digital Twins - Case Statement. 
+*Research Data Alliance*. 
+Retrieved February 6, 2025, from https://www.rd-alliance.org/wp-content/uploads/2024/03/Building-Immunge-Digital-Twins-WG_Case_Statement_Revised.pdf
