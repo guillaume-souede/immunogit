@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Fer 27 22:35:34 2025
+Created on Thu Feb 20 20:35:34 2025
 
 @author: issakerimakhalil
 """
@@ -151,11 +151,11 @@ def download_model_with_metadata(model_data, base_directory):
 def main():
     # Requête mise à jour
     query = (
-        'logical AND modelformat:"SBML"'
+        'boolean AND modelformat:"SBML" AND NOT modellingapproach:"logical model"'
     )
 
     # Répertoire principal
-    base_directory = "downloaded_models_logical"
+    base_directory = "downloaded_models_boolean"
     os.makedirs(base_directory, exist_ok=True)
 
     # Obtenir tous les modèles
