@@ -64,18 +64,18 @@ Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégori
   - **Fonctionnement** : pagination automatique via l’API BioModels    
 
 **2. download_model_file(model_id, sbml_url, directory)**  
-	**- But** : Télécharge le fichier SBML du modèle  
-  **- Paramètres** :  
-    **- model_id** : ID du modèle  
-    **- sbml_url** : URL de téléchargement  
-    **- directory** : répertoire de destination  
-  **- Retour** : chemin du fichier local téléchargé  
-  **- Gestion des erreurs** : retourne None si échec  
+  - **But** : Télécharge le fichier SBML du modèle  
+  - **Paramètres** :  
+    - **model_id** : ID du modèle  
+    - **sbml_url** : URL de téléchargement  
+    - **directory** : répertoire de destination  
+  - **Retour** : chemin du fichier local téléchargé  
+  - **Gestion des erreurs** : retourne None si échec  
 
 **3. download_model_with_metadata(model_data, base_directory)**  
   - **But** : Télécharge le fichier SBML et les métadonnées, et les archive  
   - **Paramètres** :  
-    - **model_data** : dictionnaire avec infos du modèle  
+- **model_data** : dictionnaire avec infos du modèle  
     - **base_directory** : répertoire principal de stockage  
   - **Étapes** :  
     - Vérifie l’URL du modèle  
@@ -115,10 +115,10 @@ python SMBLGetmodelandmetadata.py
 - Messages affichés en console pour suivre la progression.  
 
 ## Dépendances  
-**- bioservices** : interaction avec l’API BioModels  
-**- requests** : téléchargement de fichiers  
-**- json** : traitement des métadonnées  
-**- zipfile** : création des fichiers ZIP  
-**- os** : gestion des fichiers et répertoires  
+- **bioservices** : interaction avec l’API BioModels  
+- **requests** : téléchargement de fichiers  
+- **json** : traitement des métadonnées  
+- **zipfile** : création des fichiers ZIP  
+- **os** : gestion des fichiers et répertoires  
 
 
