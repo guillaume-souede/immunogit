@@ -13,10 +13,10 @@ Après exécution du script sur les modèles liés à l’immunité humaine (tax
 - 68 modèles tagués "immuno-oncology"       
 - 63 modèles non tagués "immuno-oncology", parmi lesquels :     
   - Certains sont classés selon leur titre en :      
-    - Biomodels_therapy (modèles contenant "therapy"),      
-    - Biomodels_response-immun (modèles contenant "response"),        
-    - Biomodels_system-immun (modèle contenant "system"),      
-  - Les modèles restants sont classés dans le répertoire Biomodels_others.      
+    - Immun-therapy (3 modèles contenant "therapy),      
+    - Response-immun (6 modèles contenant "response"),        
+    - System-immun (5 modèle contenant "system"),      
+  - Les 49 modèles restants sont classés dans le répertoire "others".      
 
 L'ensemble des résultats est organisé dans le répertoire :      
 models/BioModels/SBML/      
