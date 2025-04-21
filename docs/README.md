@@ -13,9 +13,9 @@ Après exécution du script sur les modèles liés à l’immunité humaine (tax
 - 68 modèles tagués "immuno-oncology"       
 - 63 modèles non tagués "immuno-oncology", parmi lesquels :     
   - Certains sont classés selon leur titre en :      
-      Biomodels_therapy (modèles contenant "therapy"),      
-      Biomodels_response-immun (modèles contenant "response"),        
-      Biomodels_system-immun (modèle contenant "system"),      
+    - Biomodels_therapy (modèles contenant "therapy"),      
+    - Biomodels_response-immun (modèles contenant "response"),        
+    - Biomodels_system-immun (modèle contenant "system"),      
   - Les modèles restants sont classés dans le répertoire Biomodels_others.      
 
 L'ensemble des résultats est organisé dans le répertoire :      
@@ -75,7 +75,7 @@ Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégori
 **3. download_model_with_metadata(model_data, base_directory)**  
   - **But** : Télécharge le fichier SBML et les métadonnées, et les archive  
   - **Paramètres** :  
-- **model_data** : dictionnaire avec infos du modèle  
+    - **model_data** : dictionnaire avec infos du modèle  
     - **base_directory** : répertoire principal de stockage  
   - **Étapes** :  
     - Vérifie l’URL du modèle  
