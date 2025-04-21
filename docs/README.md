@@ -5,7 +5,8 @@ Ce script permet de récupérer automatiquement des modèles SBML (Systems Biolo
 - le fichier SBML (.xml),  
 - les métadonnées associées (.json),    
 et archive les deux fichiers dans un fichier ZIP.      
-Les modèles sont ensuite classés dans des répertoires selon des catégories biologiques pertinentes (immuno-oncology, immuno-thérapie, réponse immunitaire, etc.), afin de faciliter l'organisation et l'analyse.    
+
+Les modèles sont ensuite classés dans des répertoires selon des catégories biologiques pertinentes (immuno-oncology, immuno-thérapie, réponse immunitaire, etc.), afin de faciliter l'organisation et l'analyse.      
 
 ## Résultats obtenus    
 Après exécution du script sur les modèles liés à l’immunité humaine (taxonomie 9606), nous avons obtenu 131 modèles SBML manuellement curés :
