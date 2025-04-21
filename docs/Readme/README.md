@@ -7,15 +7,15 @@ Ce script permet de récupérer automatiquement des modèles SBML (Systems Biolo
 et archive les deux fichiers dans un fichier ZIP.  
 Les modèles sont ensuite classés dans des répertoires selon des catégories biologiques pertinentes (immuno-oncology, immuno-thérapie, réponse immunitaire, etc.), afin de faciliter l'organisation et l'analyse.
 
-##Résultats obtenus    
+## Résultats obtenus    
 Après exécution du script sur les modèles liés à l’immunité humaine (taxonomie 9606), nous avons obtenu 131 modèles SBML manuellement curés :
 •	68 modèles tagués "immuno-oncology"   
 •	63 modèles non tagués "immuno-oncology", parmi lesquels :  
-o	Certains sont classés selon leur titre en :  
-	Biomodels_therapy (modèles contenant "therapy"),  
-	Biomodels_response-immun (modèles contenant "response"),  
-	Biomodels_system-immun (modèle contenant "system"),  
-o	Les modèles restants sont classés dans le répertoire Biomodels_others.  
+  o	Certains sont classés selon leur titre en :  
+    Biomodels_therapy (modèles contenant "therapy"),  
+    Biomodels_response-immun (modèles contenant "response"),  
+    Biomodels_system-immun (modèle contenant "system"),  
+  o	Les modèles restants sont classés dans le répertoire Biomodels_others.  
 L'ensemble des résultats est organisé dans le répertoire :  
 models/BioModels/SBML/  
 Avec les sous-répertoires suivants :  
