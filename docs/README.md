@@ -8,26 +8,28 @@ et archive les deux fichiers dans un fichier ZIP.
 
 Les modèles sont ensuite classés dans des répertoires selon des catégories biologiques pertinentes (immuno-oncology, immuno-thérapie, réponse immunitaire, etc.), afin de faciliter l'organisation et l'analyse.      
 
-## Résultats obtenus    
-Après exécution du script sur les modèles liés à l’immunité humaine (taxonomie 9606), nous avons obtenu 131 modèles SBML manuellement curés :
-•	68 modèles tagués "immuno-oncology"   
-•	63 modèles non tagués "immuno-oncology", parmi lesquels :  
-  o	Certains sont classés selon leur titre en :  
-    Biomodels_therapy (modèles contenant "therapy"),  
-    Biomodels_response-immun (modèles contenant "response"),  
-    Biomodels_system-immun (modèle contenant "system"),  
-  o	Les modèles restants sont classés dans le répertoire Biomodels_others.  
-L'ensemble des résultats est organisé dans le répertoire :  
-models/BioModels/SBML/  
-Avec les sous-répertoires suivants :  
-•	Biomodels_immuno_oncology/  
-•	Biomodels_therapy/  
-•	Biomodels_response-immun/  
-•	Biomodels_system-immun/  
-•	Biomodels_others/  
-Chaque modèle est stocké sous forme d’archive ZIP contenant :  
-•	le fichier .xml (SBML),  
-•	et le fichier .json (métadonnées).  
+## Résultats obtenus      
+Après exécution du script sur les modèles liés à l’immunité humaine (taxonomie 9606), nous avons obtenu 131 modèles SBML manuellement curés :    
+- 68 modèles tagués "immuno-oncology"     
+- 63 modèles non tagués "immuno-oncology", parmi lesquels :   
+  - Certains sont classés selon leur titre en :    
+    Biomodels_therapy (modèles contenant "therapy"),    
+    Biomodels_response-immun (modèles contenant "response"),    
+    Biomodels_system-immun (modèle contenant "system"),    
+  - Les modèles restants sont classés dans le répertoire Biomodels_others.    
+
+L'ensemble des résultats est organisé dans le répertoire :    
+models/BioModels/SBML/    
+Avec les sous-répertoires suivants :    
+•	Biomodels_immuno_oncology/    
+•	Biomodels_therapy/    
+•	Biomodels_response-immun/    
+•	Biomodels_system-immun/    
+•	Biomodels_others/    
+
+Chaque modèle est stocké sous forme d’archive ZIP contenant :    
+- le fichier .xml (SBML),    
+- et le fichier .json (métadonnées).    
 
 ## Requêtes utilisées  
 Le comportement du script dépend de la requête passée à l’API BioModels. Voici les différentes requêtes utilisées :  
