@@ -33,11 +33,11 @@ Chaque modèle est stocké sous forme d’archive ZIP contenant :
 
 ## Requêtes utilisées    
 Le comportement du script dépend de la requête passée à l’API BioModels. Voici les différentes requêtes utilisées :    
-**- Tous les modèles liés à l’immunité humaine :**    
+- **Tous les modèles liés à l’immunité humaine :**      
 immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606    
-**- Modèles tagués "immuno-oncology" :**    
+- **Modèles tagués "immuno-oncology" :**      
 immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND submitter_keywords:"Immuno-oncology"    
-**- Modèles non tagués "immuno-oncology" :**    
+- **Modèles non tagués "immuno-oncology" :**      
 immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND NOT submitter_keywords:"Immuno-oncology"    
 
 ## Flux de travail du script    
@@ -56,12 +56,13 @@ Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégori
 
 ## Fonctions principales du script    
 **1. get_all_models(query, page_size=10)**      
-  **- But** : Récupère tous les modèles correspondant à une requête.    
-  **- Paramètres** :    
+  - **But** : Récupère tous les modèles correspondant à une requête.    
+  - **Paramètres** :    
     - **query (str)** : requête de recherche    
     - **page_size (int)** : nombre de modèles par page (par défaut 10)    
-  **- Retour** : Liste complète des modèles    
-  **- Fonctionnement** : pagination automatique via l’API BioModels    
+  - **Retour** : Liste complète des modèles    
+  - **Fonctionnement** : pagination automatique via l’API BioModels    
+
 **2. download_model_file(model_id, sbml_url, directory)**  
 	**- But** : Télécharge le fichier SBML du modèle  
   **- Paramètres** :  
@@ -70,12 +71,13 @@ Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégori
     **- directory** : répertoire de destination  
   **- Retour** : chemin du fichier local téléchargé  
   **- Gestion des erreurs** : retourne None si échec  
+
 **3. download_model_with_metadata(model_data, base_directory)**  
-  **- But** : Télécharge le fichier SBML et les métadonnées, et les archive  
-  **- Paramètres** :  
-    **- model_data** : dictionnaire avec infos du modèle  
-    **- base_directory** : répertoire principal de stockage  
-  **- Étapes** :  
+  - **But** : Télécharge le fichier SBML et les métadonnées, et les archive  
+  - **Paramètres** :  
+    - **model_data** : dictionnaire avec infos du modèle  
+    - **base_directory** : répertoire principal de stockage  
+  - **Étapes** :  
     - Vérifie l’URL du modèle  
     - Classe le modèle selon des mots-clés dans le titre  
     - Télécharge le SBML  
@@ -83,9 +85,10 @@ Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégori
     - Sauvegarde en .json  
     - Archive .xml + .json dans un .zip  
     - Nettoie les fichiers temporaires  
+
 **4. main()**  
-  **- But** : Fonction principale  
-  **- Étapes** :  
+  - **But** : Fonction principale  
+  - **Étapes** :  
       - Définit la requête  
       - Crée les répertoires de sortie  
       - Récupère tous les modèles  
@@ -99,6 +102,7 @@ models/BioModels/SBML/
   - Biomodels_response-immun/  
   - Biomodels_system-immun/  
   - Biomodels_others/  
+
 **2. Fichiers ZIP par modèle**  
 Chaque .zip contient :  
   - modelID.xml (le modèle SBML)  
