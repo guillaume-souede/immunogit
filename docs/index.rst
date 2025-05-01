@@ -17,15 +17,6 @@ ImmunoGIT’s core functionalities :
 
 By centralizing and annotating immunological models, ImmunoGIT's aim is to lay the groundwork for a scalable digital infrastructure.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Notebooks
-
-   notebooks/JsonMerger.ipynb
-   notebooks/DoBasicStats.ipynb
-   notebooks/GetModelsAndMetadata.ipynb
-
-
 Jupyter Notebooks
 =================
 
@@ -33,6 +24,6 @@ Jupyter Notebooks
    :maxdepth: 2
    :caption: Notebooks
 
-   Json Merger <notebooks/JsonMerger.ipynb>
-   Basic Stats <notebooks/DoBasicStats.ipynb>
-   Model Extraction <notebooks/GetModelsAndMetadata.ipynb>
+   notebooks/JsonMerger.ipynb
+   notebooks/DoBasicStats.ipynb
+   notebooks/GetModelsAndMetadata.ipynb
