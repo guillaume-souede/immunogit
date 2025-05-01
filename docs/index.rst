@@ -6,14 +6,15 @@
 ImmunoGit Documentation
 =====================================
 
+Test.
 
 Jupyter Notebooks
 =================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Main Files
+   :caption: Notebooks
 
-   ../src/DoBasicStats
-   ../src/GetModelsAndMetadata
-   ../src/JsonMerger
+   notebooks/JsonMerger.ipynb
+   notebooks/DoBasicStats.ipynb
+   notebooks/GetModelsAndMetadata.ipynb
