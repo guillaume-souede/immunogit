@@ -3,13 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ImmunoGit Documentation
-=====================================
+Welcome to ImmunoGIT documentation!
+===================================
 
-Test.
+ImmunoGIT is a project dedicated to creating a centralized repository of computational models and metadata related to human immune system responses. Positioned at the intersection of computational biology and immunology, ImmunoGIT addresses a need for structured, annotated and shareable resources that enable the proper analysis of complex immune mechanisms, particularly in the context of immune diseases.
 
-Jupyter Notebooks
-=================
+The initiative supports the construction of Immune Digital Twins (IDTs)—dynamic virtual representations of the human immune system by giving a proper framework to integrate these to other projects.
+
+ImmunoGIT’s core functionalities :
+
+- Retrieval of SBML and SBML-QUAL models from the BioModels platform using Python scripts and the bioservices library.
+- Extraction of associated metadata.
+
+By centralizing and annotating immunological models, ImmunoGIT's aim is to lay the groundwork for a scalable digital infrastructure.
 
 .. toctree::
    :maxdepth: 2
@@ -18,3 +24,15 @@ Jupyter Notebooks
    notebooks/JsonMerger.ipynb
    notebooks/DoBasicStats.ipynb
    notebooks/GetModelsAndMetadata.ipynb
+
+
+Jupyter Notebooks
+=================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Notebooks
+
+   Json Merger <notebooks/JsonMerger.ipynb>
+   Basic Stats <notebooks/DoBasicStats.ipynb>
+   Model Extraction <notebooks/GetModelsAndMetadata.ipynb>
