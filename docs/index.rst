@@ -19,10 +19,6 @@ By centralizing and annotating immunological models, ImmunoGIT's aim is to lay t
 
 Jupyter Notebooks
 =================
-
-.. automodule:: wrapper
-    :members:
-    :undoc-members:
     
 .. toctree::
    :maxdepth: 2

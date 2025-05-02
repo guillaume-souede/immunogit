@@ -45,7 +45,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # nbsphinx 
-nbsphinx_execute = 'always' # 'always' : runs notebooks BUT does not give errors; 'off' : does not (obvious)
+nbsphinx_execute = 'force' # 'force' better than 'always'
 nbsphinx_timeout = 60
 nbsphinx_kernel_name = 'python3'
 nbsphinx_allow_errors = True
