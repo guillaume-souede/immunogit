@@ -5,6 +5,8 @@ import sys
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 src_path = os.path.join(project_root, 'src')
 sys.path.insert(0, src_path)
+docs_path = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, docs_path)
 
 # debug (run file to see output)
 GREEN = '\033[92m'
@@ -43,7 +45,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # nbsphinx 
-nbsphinx_execute = 'off' # 'always' : runs notebooks ; 'off' : does not (obvious)
+nbsphinx_execute = 'always' # 'always' : runs notebooks BUT does not give errors; 'off' : does not (obvious)
 nbsphinx_timeout = 60
 nbsphinx_kernel_name = 'python3'
 nbsphinx_allow_errors = True
