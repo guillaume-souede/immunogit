@@ -1,52 +1,51 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../src'))
 
+# paths
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+src_path = os.path.join(project_root, 'src')
+sys.path.insert(0, src_path)
+docs_path = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, docs_path)
+
+# debug (run file to see output)
 GREEN = '\033[92m'
-END_GREEN = '\033[0m'
+END = '\033[0m'
 
-print(f"{GREEN}[INFO] sys.path:{END_GREEN} {sys.path}")
+print(f"{GREEN}[INFO] Current working dir :{END} {os.getcwd()}")
+print(f"{GREEN}[INFO] sys.path :{END} {sys.path}")
+print(f"{GREEN}[INFO] src content :{END} {os.listdir(src_path)}")
 
-src_path = os.path.abspath('../src')
-print(f"{GREEN}[INFO] Contenu du répertoire src :{END_GREEN} {os.listdir(src_path)}")
+for root, dirs, files in os.walk(src_path):
+    notebooks = [f for f in files if f.endswith('.ipynb')]
+    if notebooks:
+        print(f"{GREEN}[INFO] Notebooks found in {root}:{END} {notebooks}")
 
-notebook_path = os.path.join(src_path, 'JsonMerger.ipynb')
-print(f"{GREEN}[INFO] Existe-t-il ?{END_GREEN} {os.path.exists(notebook_path)}")
-
-
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
+# Sphinx labels
 project = 'ImmunoGit'
 copyright = '2025, SDG'
 author = 'SDG'
-release = '0.1-dev'
+release = '0.2-dev'
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
+# Sphinx
 extensions = [
     'nbsphinx',
+    'myst_nb',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
 ]
 
-nbsphinx_allow_errors = True
-
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
+# HTML
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-nbsphinx_execute = 'never'
+# nbsphinx 
+nbsphinx_execute = 'always' # 'always' : runs notebooks BUT does not give errors; 'off' : does not (obvious)
+nbsphinx_timeout = 60
+nbsphinx_kernel_name = 'python3'
+nbsphinx_allow_errors = True
