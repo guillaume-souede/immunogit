@@ -23,11 +23,12 @@ for root, dirs, files in os.walk(src_path):
 project = 'ImmunoGit'
 copyright = '2025, SDG'
 author = 'SDG'
-release = '0.1-dev'
+release = '0.2-dev'
 
 # Sphinx
 extensions = [
     'nbsphinx',
+    'myst_nb',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
@@ -42,7 +43,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # nbsphinx 
-nbsphinx_execute = 'always'
+nbsphinx_execute = 'off' # 'always' : runs notebooks ; 'off' : does not (obvious)
 nbsphinx_timeout = 60
 nbsphinx_kernel_name = 'python3'
 nbsphinx_allow_errors = True
