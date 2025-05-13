@@ -451,9 +451,7 @@ for details of how to do this -->
                 href="/biomodels/parameterSearch/index">BioModels Parameters Search</a>
             </li>
             <li><a href="/biomodels/covid-19">COVID-19</a></li>
-            <li><a
-                href="/biomodels/goChart/index">GO categories</a>
-            </li>
+            
             <li><a href="/biomodels/agedbrain">Neurodegeneration models</a></li>
             <li><a href="/biomodels/path2models">Path2Models models</a></li>
             <li>
@@ -494,12 +492,16 @@ for details of how to do this -->
     <li class="main-menu-item"role="menuitem">
         <a><i class="icon icon-common icon-info"></i> About us</a>
         <ul class="menu">
+            <li><a href="/biomodels/privacy">Privacy Policy</a></li>
+
             <li><a href="/biomodels/termsofuse">Terms of Use</a></li>
+            <li class="divider"></li>
             <li><a href="/biomodels/citation">Citation</a></li>
             <li><a href="https://www.ebi.ac.uk/biomodels/content/news">News</a></li>
             <li><a href="/biomodels/acknowledgements">Acknowledgements</a></li>
             <li><a href="/biomodels/jobs">Jobs</a></li>
             <li><a href="/biomodels/jummp/curators">Curators</a></li>
+            <li class="divider"></li>
             <li><a>Model of the Year</a>
                 <ul class="menu">
                     <li><a href="https://www.ebi.ac.uk/biomodels/competition/model-of-the-year-2025">MOY2025</a></li>
@@ -608,7 +610,7 @@ for details of how to do this -->
     <div  id="footer" class="row">
         <div>
             <div class="small-12 medium-6 large-6 columns">
-                <span style="font-size: small">Build: <a href="//bitbucket.org/biomodels/jummp-biomodels/commits/all?search=12840b3">12840b3</a> | Thu, 20 Feb 2025 16:33:08 +0000</span>
+                <span style="font-size: small">Build: <a href="//bitbucket.org/biomodels/jummp-biomodels/commits/all?search=66102bd">66102bd</a> | Thu, 1 May 2025 12:37:56 +0100</span>
             </div>
             <div class="small-12 medium-6 large-6 columns" style="text-align: right">
                 <span style="font-size: small">
@@ -728,9 +730,9 @@ for details of how to do this -->
             Example: the misspelled terms like <a href="/biomodels/search?query=CelCycle" class="secondary label" title="Search by CelCycle term" target="_blank">CelCycle</a> (missing "l") will not find any results.</li>
             <li>Search for the phrase "Glucose" in the name field. Example: <a href="/biomodels/search?query=name%3AGlucose" class="secondary label" title="Search by Glucose term in the &#39;name&#39; field" target="_blank">name:"Glucose"</a></li>
             <li>Matches all models having model elements that were annotated with Gene Ontology term cell growth. Example:
-                <a href="/biomodels/search?query=GO%3AGO%3A0016049" class="secondary label" title="Search by Gene Ontology term cell growth" target="_blank">GO:GO:0016049</a></li>
+                <a href="/biomodels/search?query=GO%3A0016049" class="secondary label" title="Search by Gene Ontology term cell growth" target="_blank">GO:0016049</a></li>
         </ul>
-        <p><a href="https://www.ebi.ac.uk/biomodels/user-guide/model_display.html"
+        <p><a href="https://www.ebi.ac.uk/biomodels/user-guide/model_search.html"
               target="_blank">Learn more about searching models</a></p>
     </div>
 </div>

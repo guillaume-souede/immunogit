@@ -1,0 +1,319 @@
+{
+    "name": "Coggins2014 - CXCL12 dependent recruitment of beta arrestin",
+    "description": "Nathaniel L. Coggins, Danielle Trakimas, S. Laura Chang, Anna Ehrlich, Paramita Ray, Kathryn E. Luker, Jennifer J. Linderman & Gary D. Luker. CXCR7 controls competition for recruitment of β-arrestin 2 in cells expressing both CXCR4 and CXCR7. PLoS ONE 9, 6 (2014).<p></p><p></p>Chemokine CXCL12 promotes growth and metastasis of more than 20 different human cancers, as well as pathogenesis of other common diseases. CXCL12 binds two different receptors, CXCR4 and CXCR7, both of which recruit and signal through the cytosolic adapter protein β-arrestin 2. Differences in CXCL12-dependent recruitment of β-arrestin 2 in cells expressing one or both receptors remain poorly defined. To quantitatively investigate parameters controlling association of β-arrestin 2 with CXCR4 or CXCR7 in cells co-expressing both receptors, we used a systems biology approach combining real-time, multi-spectral luciferase complementation imaging with computational modeling. Cells expressing only CXCR4 maintain low basal association with β-arrestin 2, and CXCL12 induces a rapid, transient increase in this interaction. In contrast, cells expressing only CXCR7 have higher basal association with β-arrestin 2 and exhibit more gradual, prolonged recruitment of β-arrestin 2 in response to CXCL12. We developed and fit a data-driven computational model for association of either CXCR4 or CXCR7 with β-arrestin 2 in cells expressing only one type of receptor. We then experimentally validated model predictions that co-expression of CXCR4 and CXCR7 on the same cell substantially decreases both the magnitude and duration of CXCL12-regulated recruitment of β-arrestin 2 to CXCR4. Co-expression of both receptors on the same cell only minimally alters recruitment of β-arrestin 2 to CXCR7. In silico experiments also identified β-arrestin 2 as a limiting factor in cells expressing both receptors, establishing that CXCR7 wins the \"competition\" with CXCR4 for CXCL12 and recruitment of β-arrestin 2. These results reveal how competition for β-arrestin 2 controls integrated responses to CXCL12 in cells expressing both CXCR4 and CXCR7. These results advance understanding of normal and pathologic functions of CXCL12, which is critical for developing effective strategies to target these pathways therapeutically.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "24896823",
+        "journal": "PloS one",
+        "title": "CXCR7 controls competition for recruitment of β-arrestin 2 in cells expressing both CXCR4 and CXCR7.",
+        "affiliation": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "synopsis": "Chemokine CXCL12 promotes growth and metastasis of more than 20 different human cancers, as well as pathogenesis of other common diseases. CXCL12 binds two different receptors, CXCR4 and CXCR7, both of which recruit and signal through the cytosolic adapter protein β-arrestin 2. Differences in CXCL12-dependent recruitment of β-arrestin 2 in cells expressing one or both receptors remain poorly defined. To quantitatively investigate parameters controlling association of β-arrestin 2 with CXCR4 or CXCR7 in cells co-expressing both receptors, we used a systems biology approach combining real-time, multi-spectral luciferase complementation imaging with computational modeling. Cells expressing only CXCR4 maintain low basal association with β-arrestin 2, and CXCL12 induces a rapid, transient increase in this interaction. In contrast, cells expressing only CXCR7 have higher basal association with β-arrestin 2 and exhibit more gradual, prolonged recruitment of β-arrestin 2 in response to CXCL12. We developed and fit a data-driven computational model for association of either CXCR4 or CXCR7 with β-arrestin 2 in cells expressing only one type of receptor. We then experimentally validated model predictions that co-expression of CXCR4 and CXCR7 on the same cell substantially decreases both the magnitude and duration of CXCL12-regulated recruitment of β-arrestin 2 to CXCR4. Co-expression of both receptors on the same cell only minimally alters recruitment of β-arrestin 2 to CXCR7. In silico experiments also identified β-arrestin 2 as a limiting factor in cells expressing both receptors, establishing that CXCR7 wins the \"competition\" with CXCR4 for CXCL12 and recruitment of β-arrestin 2. These results reveal how competition for β-arrestin 2 controls integrated responses to CXCL12 in cells expressing both CXCR4 and CXCR7. These results advance understanding of normal and pathologic functions of CXCL12, which is critical for developing effective strategies to target these pathways therapeutically.",
+        "year": 2014,
+        "month": "0",
+        "volume": "9",
+        "issue": "6",
+        "pages": "e98328",
+        "link": "http://identifiers.org/pubmed/24896823",
+        "authors": [
+            {
+                "name": "Nathaniel L Coggins",
+                "institution": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Danielle Trakimas",
+                "institution": "Department of Chemical Engineering, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+                "orcid": "0000-0003-1974-1880"
+            },
+            {
+                "name": "S Laura Chang",
+                "institution": "Department of Chemical Engineering, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Anna Ehrlich",
+                "institution": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Paramita Ray",
+                "institution": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Kathryn E Luker",
+                "institution": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Jennifer J Linderman",
+                "institution": "Department of Chemical Engineering, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America; Department of Biomedical Engineering, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            },
+            {
+                "name": "Gary D Luker",
+                "institution": "Center for Molecular Imaging, Department of Radiology, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America; Department of Biomedical Engineering, Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America; Department of Microbiology and Immunology, University of Michigan, Ann Arbor, Michigan, United States of America."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000599_url.xml",
+                "description": "SBML L2V4 representation of Coggins2014 - CXCL12 dependent recruitment of beta arrestin",
+                "fileSize": "208858",
+                "mimeType": "application/xml",
+                "md5sum": "83d6e52bef596db595534c59b34b83a2",
+                "sha1sum": "7f51b9ed2fea6363659238637b2050404bb99b74",
+                "sha256sum": "946e15ebbd163a29ea794cc67e94a94a08a12ca79b55fdaa71524699bc907981"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000599-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "70858",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6a893e172de312fe7081462f5968f91e",
+                "sha1sum": "42b2ea5a7e4f85a4a47652365d4a27abb83be706",
+                "sha256sum": "7f787f6a6bfd6877ea36991f5a3d27e9334fb24bc231a523cae788179cdad05b"
+            },
+            {
+                "name": "BIOMD0000000599-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "115599",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1312b18f454269ec721e9f8c8c546183",
+                "sha1sum": "b21f6ea915e8aa6ebc5a1d8be2f4e3c78622900a",
+                "sha256sum": "d36725385b445cc77100c197ed563d7beade6844ca40ca9b6659e41b29624f5d"
+            },
+            {
+                "name": "BIOMD0000000599-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "22787",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4e77c9403af526e1cfa96dc679cb03a2",
+                "sha1sum": "232db1163299a18eecd2a720e2e54ed778d35e2d",
+                "sha256sum": "5af5bfa49a1cac3dd49b8448f00914f6ecd194a0aae3e7636e9d6d40d1bec652"
+            },
+            {
+                "name": "BIOMD0000000599-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "22787",
+                "mimeType": "text/x-matlab",
+                "md5sum": "11ca845bc639dbdf48510f680a789a9d",
+                "sha1sum": "de0348a0dda7ee8b7ac6591803dfb86db214fe7c",
+                "sha256sum": "ca087505242120add63a7202c37ae304440a55dcee2790cf3f2c693538ddccac"
+            },
+            {
+                "name": "BIOMD0000000599.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "22787",
+                "mimeType": "text/x-matlab",
+                "md5sum": "11ca845bc639dbdf48510f680a789a9d",
+                "sha1sum": "de0348a0dda7ee8b7ac6591803dfb86db214fe7c",
+                "sha256sum": "ca087505242120add63a7202c37ae304440a55dcee2790cf3f2c693538ddccac"
+            },
+            {
+                "name": "BIOMD0000000599.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "19655",
+                "mimeType": "text/plain",
+                "md5sum": "848b1031c3958f74e0aab4860c10e409",
+                "sha1sum": "fb46ef5a5d9b3f59ae8462c3976fe6b5914b79f4",
+                "sha256sum": "6ce51a1233737851430ff95b455e5179f9cbfe7f2b1a2a965dabd10f0a40e7fc"
+            },
+            {
+                "name": "BIOMD0000000599.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "407911",
+                "mimeType": "application/pdf",
+                "md5sum": "c6ec24b666c3fb33467236416a76bbcc",
+                "sha1sum": "30dfca7d7e2c2ed1d686a095cdf1790c99851cc7",
+                "sha256sum": "0d56af5589937976b63c3a633e3c2cc3982da4df2843ed351e6bf953dd464f50"
+            },
+            {
+                "name": "BIOMD0000000599.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "778184",
+                "mimeType": "image/png",
+                "md5sum": "642a923cbc289804c0baee8f1552aaa5",
+                "sha1sum": "d961d02c41b96f9502b183ff9bb0e5dec45f7083",
+                "sha256sum": "8d801d4fc8c63ba90b7271ddac86054e94ef5c90ee3021e3126ed0bbabe5a295"
+            },
+            {
+                "name": "BIOMD0000000599.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "127483",
+                "mimeType": "image/svg+xml",
+                "md5sum": "1c3b377b120bd71bc7c2d6ea8a3d73c9",
+                "sha1sum": "9b04cac2898fb2479f24acb8304090c53c51063f",
+                "sha256sum": "39838780f34efc576d2b5b71680f4aa1a146b39f31edca6c4188360408013b5e"
+            },
+            {
+                "name": "MODEL1408060000.cps",
+                "description": "The COPASI file reproduces all plots described in the curation tab.",
+                "fileSize": "254420",
+                "mimeType": "application/xml",
+                "md5sum": "3cf4e0d2887fc5c903e320344c05ae47",
+                "sha1sum": "cb21d1582846be2db82104fcbc498cee5237c353",
+                "sha256sum": "eb427136fa35d2cc4a739f43a09dde08c66de9d627b2929daca2c0ce172f9344"
+            },
+            {
+                "name": "MODEL1408060000.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "63422",
+                "mimeType": "application/xml",
+                "md5sum": "e31009894c289feaa6af41e90581bbde",
+                "sha1sum": "1d627b4c81793c574bd1b17be0b78eecc7e44d80",
+                "sha256sum": "ac0938f6ab471e139f757c272f5ad2f310ee7a7ad533941cf122876657cd6ebf"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "126576",
+                "mimeType": "image/png",
+                "md5sum": "8b2198960508557bb339997aa90569d2",
+                "sha1sum": "75e8f2f24161119fadcbb80840961c048abf13ea",
+                "sha256sum": "938551c0775ba03bf0d2c513521bf5f96c76051b9f68c6f0aa7e41f4131f49ae"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "387",
+                "mimeType": "text/plain",
+                "md5sum": "c3c78fbdd1baff1d60f1d469d33b55fc",
+                "sha1sum": "edcf0056bb70a0f10500839e20eb9c5ecbfb2eea",
+                "sha256sum": "c1bdb1b07c12ab5b26ac8f074df168a50e66c0d5798b1aaf37b557bbb6733470"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1907",
+                "mimeType": "application/xml",
+                "md5sum": "d7effa3634465fd5bfed2a212f337f94",
+                "sha1sum": "6be6b2166f28e9200d06c6ef9cdb24cda015a3b6",
+                "sha256sum": "59637b73dda5ac6d05cf9bf888f4cdc9eeb6b614eec376f26fcf15a49c2f988c"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1736",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "8f801fba9d51a82f5d18075c58b9c864",
+                "sha1sum": "bd41df016f02e8d0a05cd51efd972b4baf43d8f6",
+                "sha256sum": "abb40aeb815ee5105e15059d7ccee4dc97a8bfe3e6c17c8ffd6cabb1b97f6440"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1407330700,
+                "submitter": "Jennifer Linderman",
+                "comment": "Original import of New Model"
+            },
+            {
+                "version": 2,
+                "submitted": 1460991505,
+                "submitter": "Jennifer Linderman",
+                "comment": "Current version of Coggins2014 - CXCL12 dependent recruitment of beta arrestin"
+            },
+            {
+                "version": 3,
+                "submitted": 1545416161,
+                "submitter": "administrator",
+                "comment": "Include the additional files provided by the submitter in the original submission: MODEL1408060000.cps"
+            },
+            {
+                "version": 4,
+                "submitted": 1724279484,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281768,
+    "submissionId": "MODEL1408060000",
+    "publicationId": "BIOMD0000000599",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jennifer Linderman",
+                "email": "linderma@umich.edu",
+                "affiliation": "University of Michigan",
+                "external": false
+            },
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1408060000",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1408060000"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000599",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000599"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "24896823",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/24896823"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0038146",
+            "name": "chemokine (C-X-C motif) ligand 12 signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0038146"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0038160",
+            "name": "CXCL12-activated CXCR4 signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0038160"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        }
+    ]
+}
