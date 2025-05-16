@@ -22,14 +22,13 @@ for root, dirs, files in os.walk(src_path):
         print(f"{GREEN}[INFO] Notebooks found in {root}:{END} {notebooks}")
 
 # Sphinx labels
-project = 'ImmunoGit'
+project = 'ImmunoGIT'
 copyright = '2025, SDG'
-author = 'SDG'
-release = '0.2-dev'
+author = 'ImmunoGIT'
+release = '0.3-dev'
 
 # Sphinx
 extensions = [
-    'nbsphinx',
     'myst_nb',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',

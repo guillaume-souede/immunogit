@@ -24,6 +24,6 @@ Jupyter Notebooks
    :maxdepth: 2
    :caption: Notebooks
 
-   notebooks/JsonMerger.ipynb
-   notebooks/DoBasicStats.ipynb
-   notebooks/GetModelsAndMetadata.ipynb
+   notebooks/JsonMerger
+   notebooks/DoBasicStats
+   notebooks/GetModelsAndMetadata
