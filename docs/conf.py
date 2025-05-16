@@ -43,6 +43,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
+#myst_nb
+nb_render_docstring = "both"
+
+
 # nbsphinx 
 nbsphinx_execute = 'force' # 'force' better than 'always'
 nbsphinx_timeout = 60
