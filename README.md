@@ -108,7 +108,7 @@ A detailed user guide will be available in the `docs/` folder. The guide will in
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed. See the [LICENSE](LICENSE) file for more details.
 
 ## Additional assistance
 - To view the technical specifications, see [Specifications.md](Specifications.md).
