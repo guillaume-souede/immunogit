@@ -1,0 +1,301 @@
+{
+    "name": "Reynolds2006 - Reduced model of the acute inflammatory response",
+    "description": "Angela Reynolds, Jonathan Rubin, Gilles Clermont, Judy Day, Yoram Vodovotz & G. Bard Ermentrout. A reduced mathematical model of the acute inflammatory response: I. Derivation of model and analysis of anti-inflammation. Journal of Theoretical Biology 242, 1 (2006).<p></p><p></p>The acute inflammatory response, triggered by a variety of biological or physical stresses on an organism, is a delicate system of checks and balances that, although aimed at promoting healing and restoring homeostasis, can result in undesired and occasionally lethal physiological responses. In this work, we derive a reduced conceptual model for the acute inflammatory response to infection, built up from consideration of direct interactions of fundamental effectors. We harness this model to explore the importance of dynamic anti-inflammation in promoting resolution of infection and homeostasis. Further, we offer a clinical correlation between model predictions and potential therapeutic interventions based on modulation of immunity by anti-inflammatory agents.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "16584750",
+        "journal": "Journal of theoretical biology",
+        "title": "A reduced mathematical model of the acute inflammatory response: I. Derivation of model and analysis of anti-inflammation.",
+        "affiliation": "Department of Mathematics, 301 Thackeray, University of Pittsburgh, Pittsburgh, PA 15260, USA.",
+        "synopsis": "The acute inflammatory response, triggered by a variety of biological or physical stresses on an organism, is a delicate system of checks and balances that, although aimed at promoting healing and restoring homeostasis, can result in undesired and occasionally lethal physiological responses. In this work, we derive a reduced conceptual model for the acute inflammatory response to infection, built up from consideration of direct interactions of fundamental effectors. We harness this model to explore the importance of dynamic anti-inflammation in promoting resolution of infection and homeostasis. Further, we offer a clinical correlation between model predictions and potential therapeutic interventions based on modulation of immunity by anti-inflammatory agents.",
+        "year": 2006,
+        "month": "9",
+        "volume": "242",
+        "issue": "1",
+        "pages": "220-236",
+        "link": "http://identifiers.org/pubmed/16584750",
+        "authors": [
+            {
+                "name": "Angela Reynolds",
+                "institution": "Department of Mathematics, 301 Thackeray, University of Pittsburgh, Pittsburgh, PA 15260, USA."
+            },
+            {
+                "name": "Jonathan Rubin",
+                "orcid": "0000-0002-1513-1551"
+            },
+            {
+                "name": "Gilles Clermont"
+            },
+            {
+                "name": "Judy Day",
+                "orcid": "0000-0002-6544-1355"
+            },
+            {
+                "name": "Yoram Vodovotz"
+            },
+            {
+                "name": "G Bard Ermentrout"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "HealthyOutcome.xml",
+                "description": "SBML L2V4 representation of Reynolds2006 - Reduced model of the acute inflammatory response",
+                "fileSize": "41814",
+                "mimeType": "application/xml",
+                "md5sum": "7dbef7ad887b4b28f2865f6278630127",
+                "sha1sum": "be52dcf0cc1b5ade9cd898ab3d0adcb4414ceee9",
+                "sha256sum": "fa4ceb4ab7c9a38e1897ea56413b46cf883615e58b93d8645f5abee705f1cdb6"
+            }
+        ],
+        "additional": [
+            {
+                "name": "AsepticDeath.cps",
+                "description": "Copasi file for Aseptic Death",
+                "fileSize": "89628",
+                "mimeType": "application/xml",
+                "md5sum": "532f862a8ecab802e701b08a00d7a5df",
+                "sha1sum": "7f078de1c62d4739d3002e7b36a3da7934660e35",
+                "sha256sum": "d5dfb875ef98f21f395a7ba9e74c9f129d7a57fdeceeba7607078582b2c65274"
+            },
+            {
+                "name": "AsepticDeath.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "24213",
+                "mimeType": "application/xml",
+                "md5sum": "60919c3226c349e621776ab733c49353",
+                "sha1sum": "4f8111a3bbcb6918d48f79b6d3ed642af3fe099d",
+                "sha256sum": "a16f27e0b98abb3af18992a368c78ee77c940c0a53cd842d22855ded48bc4838"
+            },
+            {
+                "name": "HealthyOutcome-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11081",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c4a7a06abfa343a49d0a341fbb232cf4",
+                "sha1sum": "2e6967765a7a31b73889bc348cade1d0a1e1ca19",
+                "sha256sum": "3ade64e33e3b2fb5a8c667a9753647f112a63cd3e511bac972a4916e8bc23001"
+            },
+            {
+                "name": "HealthyOutcome-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "16404",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c6cd34f6890365d755b7aa27f6e0b13b",
+                "sha1sum": "1d28ee9d5e04001c8f0a075570d4480a39a08365",
+                "sha256sum": "19e866257fdf8c3f62d391f8b190467c5b4a72bdbf327bfb6526498722bb6a1d"
+            },
+            {
+                "name": "HealthyOutcome-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "7344",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4b82b72be1d16a4598bd5cd4b92a7105",
+                "sha1sum": "503296f639ee6d26c5cc332b6035db2d17d8b5cf",
+                "sha256sum": "3811694912cd08665a34d743c5802f022a4cbda95501d888e36996a0041c4a92"
+            },
+            {
+                "name": "HealthyOutcome-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "7344",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7a43b92a97a004d7bb222ae846800e7c",
+                "sha1sum": "0043f9756ce2535da99b0f588c31c337370f85f4",
+                "sha256sum": "73e44c967e6c82a9dc5084a5f9c9adca1dcbf2f77c4a8d3dedd841a4a6e40720"
+            },
+            {
+                "name": "HealthyOutcome.cps",
+                "description": "Copasi file for Healthy Outcome",
+                "fileSize": "89679",
+                "mimeType": "application/xml",
+                "md5sum": "0d663246aaf4c1135d44fb79a15c5819",
+                "sha1sum": "dcdfb4f9ecfc6249d0559e3d99f89d947bfe14d4",
+                "sha256sum": "d4d197edf55c14eaa92008d73ae0a6de7ce50fc74235e4c6933e1c42da819c11"
+            },
+            {
+                "name": "HealthyOutcome.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "5645",
+                "mimeType": "text/plain",
+                "md5sum": "01c21617e9a6569f569ca89029b58b8e",
+                "sha1sum": "c6f179a074fa9bdd1021464e2e912f1667c59c28",
+                "sha256sum": "0a906a77916d7c4b1823d8bcc6df60d65c75bde197a445ac981352075f098a93"
+            },
+            {
+                "name": "HealthyOutcome.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "24213",
+                "mimeType": "application/xml",
+                "md5sum": "60919c3226c349e621776ab733c49353",
+                "sha1sum": "4f8111a3bbcb6918d48f79b6d3ed642af3fe099d",
+                "sha256sum": "a16f27e0b98abb3af18992a368c78ee77c940c0a53cd842d22855ded48bc4838"
+            },
+            {
+                "name": "SepticDeath.cps",
+                "description": "Copasi file for Septic Death",
+                "fileSize": "89774",
+                "mimeType": "application/xml",
+                "md5sum": "9c96506f6d2422f9f8d527fb06974d1b",
+                "sha1sum": "313cf69973b04e7c8c763503ebf9e215cacbf552",
+                "sha256sum": "6b084ea2b6d6c552e93e5d2d8f73071bbb7cb52a70b6814362c2372552a299ec"
+            },
+            {
+                "name": "SepticDeath.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "24213",
+                "mimeType": "application/xml",
+                "md5sum": "60919c3226c349e621776ab733c49353",
+                "sha1sum": "4f8111a3bbcb6918d48f79b6d3ed642af3fe099d",
+                "sha256sum": "a16f27e0b98abb3af18992a368c78ee77c940c0a53cd842d22855ded48bc4838"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "41788",
+                "mimeType": "image/png",
+                "md5sum": "f31e6ee63594b139ee25c5457a78b610",
+                "sha1sum": "34bf3f471c365635bff4f67fc34323f6dc4397f8",
+                "sha256sum": "19891385a01b17e7d6ceb3b531616f52adefce21bea604279fad0fc25f5f0413"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "282",
+                "mimeType": "text/plain",
+                "md5sum": "b6ad19899677c4023348c37b39c93545",
+                "sha1sum": "9c0f497b2ec6148297f4701df98e666def6b19bb",
+                "sha256sum": "f590c8090b63412554c87e424be16550388b62b4e224a6e1c0f906f25c150e1f"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1919",
+                "mimeType": "application/xml",
+                "md5sum": "f62b77e504b7654b2502f7881d14aff1",
+                "sha1sum": "6b30fbe173c31a1a5d25172d6d311ecb88be8196",
+                "sha256sum": "58e9d9e5b93c7291bafb12cc7872bd79d215b27923a46f3490a3ca78821cf177"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1603",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "269009910cc5615010c7080e0391faeb",
+                "sha1sum": "2a69502d89ac22f5b7a1088ca55082818266553e",
+                "sha256sum": "f9f5fecbeba9dc3489116baea94537d2dd8c54b4211c97c5c601b9cd1a725880"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 4,
+                "submitted": 1535447367,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 6,
+                "submitted": 1539769314,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Automatically added model identifier BIOMD0000000714"
+            },
+            {
+                "version": 7,
+                "submitted": 1724283975,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281822,
+    "submissionId": "MODEL1808280003",
+    "publicationId": "BIOMD0000000714",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Sarubini Kananathan",
+                "email": "skananathan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0006955",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0006955"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000714",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000714"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1808280003",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1808280003"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "16584750",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:16584750"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002526",
+            "name": "acute inflammatory response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002526"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "16584750",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/16584750"
+        }
+    ]
+}

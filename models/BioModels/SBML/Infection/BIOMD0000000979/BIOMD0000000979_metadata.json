@@ -1,0 +1,244 @@
+{
+    "name": "Malkov2020 - SEIRS model of COVID-19 transmission with reinfection",
+    "description": "Epidemiological models of COVID-19 transmission assume that recovered individuals have a fully protected immunity. To date, there is no definite answer about whether people who recover from COVID-19 can be reinfected with the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). In the absence of a clear answer about the risk of reinfection, it is instructive to consider the possible scenarios. To study the epidemiological dynamics with the possibility of reinfection, I use a Susceptible-Exposed-Infectious-Resistant-Susceptible model with the time-varying transmission rate. I consider three different ways of modeling reinfection. The crucial feature of this study is that I explore both the difference between the reinfection and no-reinfection scenarios and how the mitigation measures affect this difference. The principal results are the following. First, the dynamics of the reinfection and no-reinfection scenarios are indistinguishable before the infection peak. Second, the mitigation measures delay not only the infection peak, but also the moment when the difference between the reinfection and no-reinfection scenarios becomes prominent. These results are robust to various modeling assumptions.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "32982082",
+        "journal": "Chaos, solitons, and fractals",
+        "title": "Simulation of coronavirus disease 2019 (COVID-19) scenarios with possibility of reinfection.",
+        "affiliation": "Department of Economics, University of Minnesota, 1925 Fourth Street South, Minneapolis, MN 55455, USA.",
+        "synopsis": "Epidemiological models of COVID-19 transmission assume that recovered individuals have a fully protected immunity. To date, there is no definite answer about whether people who recover from COVID-19 can be reinfected with the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). In the absence of a clear answer about the risk of reinfection, it is instructive to consider the possible scenarios. To study the epidemiological dynamics with the possibility of reinfection, I use a Susceptible-Exposed-Infectious-Resistant-Susceptible model with the time-varying transmission rate. I consider three different ways of modeling reinfection. The crucial feature of this study is that I explore both the difference between the reinfection and no-reinfection scenarios and how the mitigation measures affect this difference. The principal results are the following. First, the dynamics of the reinfection and no-reinfection scenarios are indistinguishable before the infection peak. Second, the mitigation measures delay not only the infection peak, but also the moment when the difference between the reinfection and no-reinfection scenarios becomes prominent. These results are robust to various modeling assumptions.",
+        "year": 2020,
+        "month": "10",
+        "volume": "139",
+        "pages": "110296",
+        "link": "http://identifiers.org/pubmed/32982082",
+        "authors": [
+            {
+                "name": "Egor Malkov",
+                "institution": "Department of Economics, University of Minnesota, 1925 Fourth Street South, Minneapolis, MN 55455, USA.Federal Reserve Bank of Minneapolis, 90 Hennepin Ave, Minneapolis, MN 55401, USA.",
+                "orcid": "0000-0002-4566-5853"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Malkov2020.xml",
+                "description": "SBML L3V1 file of SEIRS model of COVID-19 transmission with reinfection",
+                "fileSize": "32844",
+                "mimeType": "application/xml",
+                "md5sum": "4df793fb2ba62bc2015bc6ed4ca163bb",
+                "sha1sum": "1aba3743ccc298491723161be932c873e7e5335a",
+                "sha256sum": "b7c852cc698ad04c11de7b49a7e292cfa2e5729d858220da6b7ff775e447e4a1"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Malkov2020-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "9095",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "fe7e71adfa73668022542a08109ceab2",
+                "sha1sum": "c9eb8998aebea94e12b5ad2af889c78eec9293d7",
+                "sha256sum": "5727bf80444e71c5b09273f20caefa6b1c429559b1da5bc5c7d329486a2a23dd"
+            },
+            {
+                "name": "Malkov2020-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "13524",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7bdfba3e13bcf68e1fceafa31da547ad",
+                "sha1sum": "66d5a4e00c126a290cd61f4e85eb0fd8c98a409f",
+                "sha256sum": "ed9351039439b8bddccbfaba3414d198afbaece7f36768d9885260fbf882207f"
+            },
+            {
+                "name": "Malkov2020-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4413",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0f32b09d1466c3c7a545f9f0c51f128b",
+                "sha1sum": "ffc58df6c6245b06955c356e22b3d9aabd4cd45b",
+                "sha256sum": "891ddc26590e8f757a3242f1a2ca1a8d866c4d307ce7f22027cb1995767f7f7f"
+            },
+            {
+                "name": "Malkov2020.cps",
+                "description": "COPASI 4.37 (Build 264) file of SEIRS model of COVID-19 transmission with reinfection",
+                "fileSize": "58218",
+                "mimeType": "application/xml",
+                "md5sum": "14aebdea17fa5f99052ac808e8b0c298",
+                "sha1sum": "13b90b8040cf089e4d5d204911d04a89eba62ca9",
+                "sha256sum": "2e90f75ea5f5328e4df54552c66b09e72b634717c9874e1ac2abebf6702af22b"
+            },
+            {
+                "name": "Malkov2020.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2587",
+                "mimeType": "text/plain",
+                "md5sum": "0aebdd7d9191b7a58583bd3634e8cde5",
+                "sha1sum": "53c292f2f170019fac07712fe785a51208c2501c",
+                "sha256sum": "145ab36301c3d29e07c62590eb64ceb1539e4983b8b468080e3d8c9063d8c20a"
+            },
+            {
+                "name": "Malkov2020.sedml",
+                "description": "SED-ML file of SEIRS model of COVID-19 transmission with reinfection (additionally CRBM-validated and adjusted).",
+                "fileSize": "12813",
+                "mimeType": "application/xml",
+                "md5sum": "b23ff03c1c4117d886ee6c6456d0de52",
+                "sha1sum": "7dc016cd9c2c4d9012be361eb910e6a9b4c8e514",
+                "sha256sum": "787ac2ec4163c89f244d388962f983a15364a766b80b45ebaf2ab7889a3a4497"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "94011",
+                "mimeType": "image/png",
+                "md5sum": "410b6bfc8bfb1a393fe6c029e4907734",
+                "sha1sum": "77c9957ed1ece9bbc9ab5e2dac03186dfc208481",
+                "sha256sum": "98c0bc3906cbbf197cdb01ab2ce053171311cad20fedf185bc68d1f22e363918"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "139",
+                "mimeType": "text/plain",
+                "md5sum": "92bdcd356a065a2df781fece86a77421",
+                "sha1sum": "3bdf6d442822015a6b0f91ac01df9103b46ab234",
+                "sha256sum": "cbe0c43f93511930847437f39b805567818db5c1386b8a255e192bcc7da5e752"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1297",
+                "mimeType": "application/xml",
+                "md5sum": "b463a872013b3ae3328d40f6684ba636",
+                "sha1sum": "dd66882a785c3218b33054491dcd531253e77496",
+                "sha256sum": "41eb96f9fc20640f68fc4c7716dbd76263840d49e1d80aa82d030fe022163d97"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2851",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b9a4d3bfb81948e94caf8baef8d033b7",
+                "sha1sum": "a297af6b5f42f78057f7e588ca430ddf52f15646",
+                "sha256sum": "3e72d3dc102ecb7c107ba48495de0337174f4f46547c7560a9de498c303ec961"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1607056831,
+                "submitter": "Kausthubh Ramachandran",
+                "comment": "Automatically added model identifier BIOMD0000000979"
+            },
+            {
+                "version": 4,
+                "submitted": 1666005255,
+                "submitter": "Matthias König",
+                "comment": "Species annotation for \"Exposed\" was fixed to http://identifiers.org/ido/0000514 instead of http://identifiers.org/ncit/0000514, and  http://identifiers.org/ido/0000597 instead of http://identifiers.org/ncit/0000597."
+            },
+            {
+                "version": 5,
+                "submitted": 1724290806,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281951,
+    "submissionId": "MODEL2012040001",
+    "publicationId": "BIOMD0000000979",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "COVID-19"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Kausthubh Ramachandran",
+                "email": "rkausthubh@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-6221-8166",
+                "external": false
+            },
+            {
+                "name": "Matthias König",
+                "email": "konigmatt@googlemail.com",
+                "affiliation": "Institute of Biochemistry, University Medicine Charité Berlin, 10117 Berlin, Germany. matthias.koenig@charite.de",
+                "orcid": "0000-0003-1725-179X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "2697049",
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/2697049"
+        },
+        {
+            "qualifier": "bqbiol:is",
+            "accession": "DOID:0080600",
+            "name": "COVID-19",
+            "resource": "\nHuman Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0080600"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "32982082",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:32982082"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2012040001",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL2012040001"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "32982082",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/32982082"
+        }
+    ]
+}

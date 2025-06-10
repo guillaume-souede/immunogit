@@ -1,0 +1,332 @@
+{
+    "name": "Bianconi2012 - EGFR and IGF1R pathway in lung cancer",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Bianconi2012 - EGFR and IGF1R pathway in lung cancer</div>            <div class=\"dc:description\">      <p>EGFR and IGF1R pathways play a key role in various human cancers and are crucial for tumour transformation and survival of malignant cells. High EGFR and IGF1R expression  and activity has been associated with multiple aspects of cancer progression including tumourigenesis, metastasis, resistance to chemotherapeutics and other molecularly targeted drugs. Here, the biological relationship between the proteins involved in EGFR and IGF1R pathways and the downstream MAPK and PIK3 networks has been modelled to study the time behaviour of the overall system, and the functional interdependencies among the receptors, the proteins and kinases involved.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/21620944\" title=\"Access to this publication\">Computational model of EGFR and IGF1R pathways in lung cancer: a Systems Biology approach for Translational Oncology.</a>                    </div>                <div class=\"bibo:authorList\">Bianconi F, Baldelli E, Ludovini V, Crinò L, Flacco A, Valigi P.</div>                <div class=\"bibo:Journal\">Biotechnol Adv. 2012 Jan-Feb;30(1):142-53.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>In this paper we propose a Systems Biology approach to understand the molecular biology of the Epidermal Growth Factor Receptor (EGFR, also known as ErbB1/HER1) and type 1 Insulin-like Growth Factor (IGF1R) pathways in non-small cell lung cancer (NSCLC). This approach, combined with Translational Oncology methodologies, is used to address the experimental evidence of a close relationship among EGFR and IGF1R protein expression, by immunohistochemistry (IHC) and gene amplification, by in situ hybridization (FISH) and the corresponding ability to develop a more aggressive behavior. We develop a detailed in silico model, based on ordinary differential equations, of the pathways and study the dynamic implications of receptor alterations on the time behavior of the MAPK cascade down to ERK, which in turn governs proliferation and cell migration. In addition, an extensive sensitivity analysis of the proposed model is carried out and a simplified model is proposed which allows us to infer a similar relationship among EGFR and IGF1R activities and disease outcome.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL1209230000\">MODEL1209230000</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "21620944",
+        "journal": "Biotechnology advances",
+        "title": "Computational model of EGFR and IGF1R pathways in lung cancer: a Systems Biology approach for Translational Oncology.",
+        "affiliation": "Department of Electronic and Information Engineering, Perugia University, Italy. fortunato.bianconi@diei.unipg.it",
+        "synopsis": "In this paper we propose a Systems Biology approach to understand the molecular biology of the Epidermal Growth Factor Receptor (EGFR, also known as ErbB1/HER1) and type 1 Insulin-like Growth Factor (IGF1R) pathways in non-small cell lung cancer (NSCLC). This approach, combined with Translational Oncology methodologies, is used to address the experimental evidence of a close relationship among EGFR and IGF1R protein expression, by immunohistochemistry (IHC) and gene amplification, by in situ hybridization (FISH) and the corresponding ability to develop a more aggressive behavior. We develop a detailed in silico model, based on ordinary differential equations, of the pathways and study the dynamic implications of receptor alterations on the time behavior of the MAPK cascade down to ERK, which in turn governs proliferation and cell migration. In addition, an extensive sensitivity analysis of the proposed model is carried out and a simplified model is proposed which allows us to infer a similar relationship among EGFR and IGF1R activities and disease outcome.",
+        "year": 2012,
+        "month": "0",
+        "volume": "30",
+        "issue": "1",
+        "pages": "142-153",
+        "link": "http://identifiers.org/pubmed/21620944",
+        "authors": [
+            {
+                "name": "Fortunato Bianconi",
+                "institution": "Department of Electronic and Information Engineering, Perugia University, Italy. fortunato.bianconi@diei.unipg.it",
+                "orcid": "0000-0002-3132-0061"
+            },
+            {
+                "name": "Elisa Baldelli"
+            },
+            {
+                "name": "Vienna Ludovini"
+            },
+            {
+                "name": "Lucio Crinò"
+            },
+            {
+                "name": "Antonella Flacco"
+            },
+            {
+                "name": "Paolo Valigi",
+                "orcid": "0000-0002-0486-7678"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000427_url.xml",
+                "description": "SBML L2V4 representation of Bianconi2012 - EGFR and IGF1R pathway in lung cancer",
+                "fileSize": "56296",
+                "mimeType": "application/xml",
+                "md5sum": "7457a90869b25461f3a4e5aa3cd125ab",
+                "sha1sum": "05b953d4eedabe2f5a60ece95eacfef02563c52c",
+                "sha256sum": "92f9cb0fd26dc6911d2e50fe611f948ea28d93442d5965a6826b16f1a4fa4c5d"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000427-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "52027",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "53381b5fe71d38ebeac139c9512cce03",
+                "sha1sum": "c1273b0a97c1fe47141c7ad06ff12dbdac858769",
+                "sha256sum": "80a5575569d0a8775563abcc4fa8d0a37fdc674e7c911c72bec34caeba21f704"
+            },
+            {
+                "name": "BIOMD0000000427-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "87128",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ae9a61749ca5ec78771af9c50b9465d2",
+                "sha1sum": "b1523b1f9e3b5dbc271ac528ed98830d4e7fe855",
+                "sha256sum": "ff707bad8cac86be2b65b5b941fbd357bab4b75803ed8419b10b81421536dacb"
+            },
+            {
+                "name": "BIOMD0000000427-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "20574",
+                "mimeType": "text/x-matlab",
+                "md5sum": "6665c09062ac9052df416a843f723d77",
+                "sha1sum": "99e95c63c66250be0bf96974fe0ab9e5d95d139d",
+                "sha256sum": "ef04c5f6259f0cf0f9adca7d190cf9337a50b1754017d76e9d1a6055a5362e21"
+            },
+            {
+                "name": "BIOMD0000000427-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "20574",
+                "mimeType": "text/x-matlab",
+                "md5sum": "18ca0ac4be64c103bf8ea113fdafbcc3",
+                "sha1sum": "39553b79ac58704a58b59f5edf777db6f58e2e7b",
+                "sha256sum": "08587d5ded802c5b9a1a5fa85b68790fc2ee0995fff26f7fc50e4b6257f849c2"
+            },
+            {
+                "name": "BIOMD0000000427.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "20574",
+                "mimeType": "text/x-matlab",
+                "md5sum": "18ca0ac4be64c103bf8ea113fdafbcc3",
+                "sha1sum": "39553b79ac58704a58b59f5edf777db6f58e2e7b",
+                "sha256sum": "08587d5ded802c5b9a1a5fa85b68790fc2ee0995fff26f7fc50e4b6257f849c2"
+            },
+            {
+                "name": "BIOMD0000000427.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "12923",
+                "mimeType": "text/plain",
+                "md5sum": "0573172f2ace6c57b4feb6a8a00737c2",
+                "sha1sum": "f0123fd018f63708008421f16a7441077a7541fb",
+                "sha256sum": "61b7b13f36c8ab6cea7d1192714929b321f923bfe3b1c947fa06c9d5981e0dab"
+            },
+            {
+                "name": "BIOMD0000000427.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "299918",
+                "mimeType": "application/pdf",
+                "md5sum": "50ccc2a8d44690f121142b1fc92260cb",
+                "sha1sum": "99c46513649ae10b2b1aec6692067da156ed4f57",
+                "sha256sum": "40427e31c5dd0a391e01f69f1e14e9fcb3eabdaa8da125a194a7a951a01717a8"
+            },
+            {
+                "name": "BIOMD0000000427.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "494305",
+                "mimeType": "image/png",
+                "md5sum": "6435798617b6038becfd0ca52dc23afb",
+                "sha1sum": "70edcdff7ff079476700b4d9a96b7283ab06f978",
+                "sha256sum": "1ae4410bb52357ecab14dee83e09878523337a13ae9d1477e57f2767b49d4846"
+            },
+            {
+                "name": "BIOMD0000000427.sci",
+                "description": "Auto-generated Scilab file",
+                "fileSize": "26101",
+                "mimeType": "text/plain",
+                "md5sum": "0e54413e07d2ee34c1773b0cdda962d5",
+                "sha1sum": "3ed6399f2e6b37c9b776fd7f7d259c390b47b278",
+                "sha256sum": "8f2893793e25a581ab67b3b142cd6a253c66f3116e8227a03ff02c5de7dea9dd"
+            },
+            {
+                "name": "BIOMD0000000427.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "89168",
+                "mimeType": "image/svg+xml",
+                "md5sum": "f70b36acd9da8e8c9c677b8cde1188ab",
+                "sha1sum": "ca5f5d0f13b706537d647f4fcb48c175a9dc7b47",
+                "sha256sum": "e51998d8f43015ee2602af741f513669875260c019f08f7eb68df80b56be6a1a"
+            },
+            {
+                "name": "BIOMD0000000427.vcml",
+                "description": "Auto-generated VCML file",
+                "fileSize": "71695",
+                "mimeType": "application/xml",
+                "md5sum": "f3788098e1758d439b4ae37a1d216bba",
+                "sha1sum": "ec9288a8db40e82bd7e34d1109c630bb57442e77",
+                "sha256sum": "1ee19d88a72d7fc2167aedcca0eac0dbecdc100635a1fbc107380951457b5737"
+            },
+            {
+                "name": "BIOMD0000000427_url.sedml",
+                "description": "CRBM auto-generated \"template\" SED-ML file.",
+                "fileSize": "33184",
+                "mimeType": "application/xml",
+                "md5sum": "458ddbb2fa1e697762dc35009d09eff2",
+                "sha1sum": "86a6e2083f4ef2bffad5a452c5d63344722b6cbe",
+                "sha256sum": "01e53cfabacb2f5df8862872a32d011bbcf0968e5b7513127cc5e667dd9d8670"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "19896",
+                "mimeType": "image/png",
+                "md5sum": "53f03feaf09510008780eb5bc24a045e",
+                "sha1sum": "060b2914910417968778ce5279b4326991d31067",
+                "sha256sum": "b361002a07ceb20afc693c521371a04c631d10056cee55eb0cb812ff66279e15"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "367",
+                "mimeType": "text/plain",
+                "md5sum": "300333ef11cf215c776450c7ec8dfce4",
+                "sha1sum": "62c166300dc0bdd5bdd8a5f53738454f483a0589",
+                "sha256sum": "138ebf570433be9ac8fcb60549cccaf35a1adf54e2899ccab7cef2814cdbb228"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2033",
+                "mimeType": "application/xml",
+                "md5sum": "614f66f59af286550caf7826094d7cdc",
+                "sha1sum": "372c9fa16a2a77e53639ed15e7aa80653a9ee6cb",
+                "sha256sum": "eea23de54bf3a9dda49338f8adc129e02570934784bd3b6040bc947b4d63bf4f"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5653",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6df1c5ca8483cdf3f6ee63d1bc926e33",
+                "sha1sum": "7371eaccfb40386d4cbb1df06a4554ac7654b77a",
+                "sha256sum": "d2ee02fc12f861f2003f714e6e00a7c2051ce8181af56a82da0b204a40d54bc7"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1348396478,
+                "submitter": "Fortunato Bianconi",
+                "comment": "Original import of EGFR_IGF1R"
+            },
+            {
+                "version": 2,
+                "submitted": 1495535400,
+                "submitter": "Fortunato Bianconi",
+                "comment": "Current version of Bianconi2012 - EGFR and IGF1R pathway in lung cancer"
+            },
+            {
+                "version": 3,
+                "submitted": 1724273068,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281559,
+    "submissionId": "MODEL1209230000",
+    "publicationId": "BIOMD0000000427",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Fortunato Bianconi",
+                "email": "fortunato.bianconi@gmail.com",
+                "affiliation": "Univeristy of Perugia",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1209230000",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1209230000"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000427",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000427"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "21620944",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/21620944"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:isPartOf",
+            "accession": "GO:0048009",
+            "name": "insulin-like growth factor receptor signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0048009"
+        },
+        {
+            "qualifier": "bqbiol:isPartOf",
+            "accession": "PW:0000703",
+            "name": "lung cancer pathway",
+            "resource": "Pathway Ontology",
+            "uri": "http://identifiers.org/pw/PW:0000703"
+        },
+        {
+            "qualifier": "bqbiol:isPartOf",
+            "accession": "GO:0007173",
+            "name": "epidermal growth factor receptor signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0007173"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0070372",
+            "name": "regulation of ERK1 and ERK2 cascade",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0070372"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0014066",
+            "name": "regulation of phosphatidylinositol 3-kinase signaling",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0014066"
+        },
+        {
+            "qualifier": "bqbiol:hasVersion",
+            "accession": "DOID:3908",
+            "name": "non-small cell lung carcinoma",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:3908"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        }
+    ]
+}

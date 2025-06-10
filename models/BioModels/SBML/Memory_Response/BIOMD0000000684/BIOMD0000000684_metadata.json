@@ -1,0 +1,281 @@
+{
+    "name": "Wodarz2003 - Immunological Memory",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Evolution of immunological memory and the regulation of competition betweenpathogens.</strong>        <br />          Wodarz D.      <em>Curr Biol</em>          2003 Sep 16;13(18):1648-52      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/13678598\">13678598</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Memory is a central characteristic of immune responses. It is defined as anelevated number of specific immune cells that remain after resolution ofinfection and can protect the host against reinfection. The evolution ofimmunological memory is subject to debate. The advantages of memory discussed sofar include protection from reinfection, control of chronic infection, and thetransfer of immune function to the next generation. Mathematical models are usedto identify a new force that can drive the evolution of immunological memory:the duration of memory can regulate the degree of competition between differentpathogens. While a long duration of memory provides lasting protection againstreinfection, it may also allow an inferior pathogen species to persist. This canbe detrimental for the host if the inferior pathogen is more virulent. On theother hand, a shorter duration of memory ensures that an inferior pathogenspecies is excluded. This can be beneficial for the host if the inferiorpathogen is more virulent. Thus, while in the absence of pathogen diversitymemory is always expected to evolve to a long duration, under specificcircumstances, memory can evolve toward shorter durations in the presence ofpathogen diversity.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/0fbec879c60f5a3005da0ea829e1ff3e\">          <strong>Wodarz D. (2003) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "13678598",
+        "journal": "Current biology : CB",
+        "title": "Evolution of immunological memory and the regulation of competition between pathogens.",
+        "affiliation": "Fred Hutchison Cancer Research Center, 1100 Fairview Avenue North, MP-665, Seattle, WA 98109, USA. wodarz@fhcrc.org",
+        "synopsis": "Memory is a central characteristic of immune responses. It is defined as an elevated number of specific immune cells that remain after resolution of infection and can protect the host against reinfection. The evolution of immunological memory is subject to debate. The advantages of memory discussed so far include protection from reinfection, control of chronic infection, and the transfer of immune function to the next generation. Mathematical models are used to identify a new force that can drive the evolution of immunological memory: the duration of memory can regulate the degree of competition between different pathogens. While a long duration of memory provides lasting protection against reinfection, it may also allow an inferior pathogen species to persist. This can be detrimental for the host if the inferior pathogen is more virulent. On the other hand, a shorter duration of memory ensures that an inferior pathogen species is excluded. This can be beneficial for the host if the inferior pathogen is more virulent. Thus, while in the absence of pathogen diversity memory is always expected to evolve to a long duration, under specific circumstances, memory can evolve toward shorter durations in the presence of pathogen diversity.",
+        "year": 2003,
+        "month": "9",
+        "volume": "13",
+        "issue": "18",
+        "pages": "1648-1652",
+        "link": "http://identifiers.org/pubmed/13678598",
+        "authors": [
+            {
+                "name": "Dominik Wodarz",
+                "institution": "Fred Hutchison Cancer Research Center, 1100 Fairview Avenue North, MP-665, Seattle, WA 98109, USA. wodarz@fhcrc.org"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000684_url.xml",
+                "description": "SBML L2V4 representation of Wodarz2003 - Immunological Memory",
+                "fileSize": "57871",
+                "mimeType": "application/xml",
+                "md5sum": "ee4b4ccb02fb05f87a0d5323b10e4c5a",
+                "sha1sum": "a7b5c2651286a571c420fa94ba176de06b04f761",
+                "sha256sum": "7dd9f8bcd3a4b6bb1e882bfa17db23de825d8b3db6b7f6454d42096c37886ae7"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000684-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "3424",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "32ddcb44f3d42976adcc79dd49ed3aba",
+                "sha1sum": "868616de4305a9a82e224486661d8eb664f2351e",
+                "sha256sum": "f5fa1227feabe15c203254ba43445df7a73726ba4acdfe5e88d7be81ae8a0dfe"
+            },
+            {
+                "name": "BIOMD0000000684-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "3520",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c4a911cf8ae07670222619d51feb849e",
+                "sha1sum": "5dc108c5242f799871a5d4bdf8215cf8fe97762b",
+                "sha256sum": "e673cb252acfa4a89e54c770403ce2e2247a8605c1a5dd2d72ad672f0e0dafa9"
+            },
+            {
+                "name": "BIOMD0000000684-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6459",
+                "mimeType": "text/x-matlab",
+                "md5sum": "95a55c8df8b8817cf6863bb49318abbe",
+                "sha1sum": "3e3f6d75fd9a27a575f1a6b56c0a818ebe8119bb",
+                "sha256sum": "3f0af0b19837826824fa289975fabe32b24b1cedabed2f54904e43e0f63a8f73"
+            },
+            {
+                "name": "BIOMD0000000684-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6459",
+                "mimeType": "text/x-matlab",
+                "md5sum": "cadc79b8d91eeb43b3f0a7ae7000ba75",
+                "sha1sum": "a03b33d036a832a643013d4f2c73a65c6e41ce58",
+                "sha256sum": "4cf553c4ed639eaf7ecdbdb161ac2c4c37c8776508ebee1e4dedba5e674dd333"
+            },
+            {
+                "name": "BIOMD0000000684.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "6485",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b9330fb5f2ab34a387b39ef30da0bdfe",
+                "sha1sum": "a40d20a5a3027ba42f8fc302cab006f23740980b",
+                "sha256sum": "a6e4251f534100b6750b473ac39a221bd2859bd3ba0e26d56f0a0188cd8244a3"
+            },
+            {
+                "name": "BIOMD0000000684.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "134840",
+                "mimeType": "application/pdf",
+                "md5sum": "f657302cef4800a30bd1b3dbd8614cee",
+                "sha1sum": "42be36769e9eba5cd578da93b132b10fa7dec850",
+                "sha256sum": "876a163b6c60f6cc283ef519f361547bc8ad13d3605b2aaa8857841dc5f5eb52"
+            },
+            {
+                "name": "BIOMD0000000684.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "4370",
+                "mimeType": "image/png",
+                "md5sum": "51a02aeed2d9b25335f3564484b8bb20",
+                "sha1sum": "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+                "sha256sum": "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+            },
+            {
+                "name": "BIOMD0000000684.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "862",
+                "mimeType": "image/svg+xml",
+                "md5sum": "48b7bcfdf9b324fa2420125f14d79265",
+                "sha1sum": "6724e0820c4d158cf2cad34dc41073cd396751b7",
+                "sha256sum": "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+            },
+            {
+                "name": "MODEL1006230061.cps",
+                "description": "Curated and annotated COPASI file.",
+                "fileSize": "65132",
+                "mimeType": "application/xml",
+                "md5sum": "9a2d6caa290ac6a3cc20652c03fc8936",
+                "sha1sum": "4239428f9bf61601758ec24231511f0e4e08cbe2",
+                "sha256sum": "3b880ea1eeda2cf0d6f262965046537ea543042552204b79560315c6cee6f10a"
+            },
+            {
+                "name": "MODEL1006230061.sedml",
+                "description": "SED-ML file for figure 2 of the reference publication. The value of k has been changed from 1 to 0.1. (additionally CRBM-validated and adjusted).",
+                "fileSize": "17601",
+                "mimeType": "application/xml",
+                "md5sum": "4661bb73a41c3cc2c976d19040244b6e",
+                "sha1sum": "5a2fb2804b484bd0f946d68c499908f71313893d",
+                "sha256sum": "db4618850f29b563cd21727189420af5f2e42ffc19592c520560479ec30124b2"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "22643",
+                "mimeType": "image/jpeg",
+                "md5sum": "b9c4f4e5e6b357d352903fb79a4f3fe1",
+                "sha1sum": "d29fbb845b79a7da5671929115d951bb5c98c74c",
+                "sha256sum": "340f4b463efdbfc0156bac51510769cc78d9d30274855cdb8638f385135fbbba"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "331",
+                "mimeType": "text/plain",
+                "md5sum": "58de7b4b17cf722d33e70fda82f05833",
+                "sha1sum": "c7dd1451dd5a4d0a41f91bc7d24a7cb3f31739b0",
+                "sha256sum": "16e83beb797f04f167a21b4f66b04c5f610b301ec4f8c48f68afdce78ac2dde4"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1798",
+                "mimeType": "application/xml",
+                "md5sum": "6acfcddfdaecd11e784d3096a2f6083b",
+                "sha1sum": "d93dc28d959bda0710d2ad1a9218befd57f2b634",
+                "sha256sum": "1f01afa75dff355339a8c10cc0fe5f6a25a0428aeb530686927e1722e6ce5f21"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5276",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a5e3f598bd3922240c4bbc9ca7955daa",
+                "sha1sum": "7756a20aaaa2589fe9d0ce65c0ca4959097c5f13",
+                "sha256sum": "d066408cb193b4ae9c584ec84f3604cf26c58252b874c176a2976c7e8395ff06"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1277284339,
+                "submitter": "Camille Laibe",
+                "comment": "Original import of Wodarz2003_ImmunologicalMemory"
+            },
+            {
+                "version": 2,
+                "submitted": 1277472180,
+                "submitter": "Camille Laibe",
+                "comment": "Current version of Wodarz2003_ImmunologicalMemory"
+            },
+            {
+                "version": 3,
+                "submitted": 1520527081,
+                "submitter": "administrator",
+                "comment": "Model name updated using online editor."
+            },
+            {
+                "version": 4,
+                "submitted": 1724282897,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281809,
+    "submissionId": "MODEL1006230061",
+    "publicationId": "BIOMD0000000684",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            },
+            {
+                "name": "Camille Laibe",
+                "email": "laibe@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-4625-743X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aab",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1006230061",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1006230061"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "13678598",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/13678598"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000684",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000684"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002250",
+            "name": "adaptive immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002250"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "13678598",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/13678598"
+        }
+    ]
+}

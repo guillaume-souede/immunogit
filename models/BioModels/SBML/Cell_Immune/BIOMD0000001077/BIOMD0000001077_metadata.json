@@ -1,0 +1,332 @@
+{
+    "name": "Adlung2021 - Cell-to-cell variability in JAK2/STAT5 pathway",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>A mathematical model for cell-to-cell variability in JAK2/STAT5 pathway components and cytoplasmic volumes defines survival threshold in erythroid progenitor cells</p>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "34380040",
+        "journal": "Cell reports",
+        "title": "Cell-to-cell variability in JAK2/STAT5 pathway components and cytoplasmic volumes defines survival threshold in erythroid progenitor cells.",
+        "affiliation": "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany; Department of Medicine, University Medical Center Hamburg-Eppendorf, 20246 Hamburg, Germany; Hamburg Center for Translational Immunology (HCTI), University Medical Center Hamburg-Eppendorf, 20246 Hamburg, Germany.",
+        "synopsis": "Survival or apoptosis is a binary decision in individual cells. However, at the cell-population level, a graded increase in survival of colony-forming unit-erythroid (CFU-E) cells is observed upon stimulation with erythropoietin (Epo). To identify components of Janus kinase 2/signal transducer and activator of transcription 5 (JAK2/STAT5) signal transduction that contribute to the graded population response, we extended a cell-population-level model calibrated with experimental data to study the behavior in single cells. The single-cell model shows that the high cell-to-cell variability in nuclear phosphorylated STAT5 is caused by variability in the amount of Epo receptor (EpoR):JAK2 complexes and of SHP1, as well as the extent of nuclear import because of the large variance in the cytoplasmic volume of CFU-E cells. 24-118 pSTAT5 molecules in the nucleus for 120 min are sufficient to ensure cell survival. Thus, variability in membrane-associated processes is sufficient to convert a switch-like behavior at the single-cell level to a graded population-level response.",
+        "year": 2021,
+        "month": "8",
+        "volume": "36",
+        "issue": "6",
+        "pages": "109507",
+        "link": "http://identifiers.org/pubmed/34380040",
+        "authors": [
+            {
+                "name": "Lorenz Adlung",
+                "orcid": "0000-0002-0971-2309"
+            },
+            {
+                "name": "Paul Stapor",
+                "institution": "Helmholtz Zentrum München - German Research Center for Environmental Health, Institute of Computational Biology, 85764 Neuherberg, Germany; Technische Universität München, Center for Mathematics, Chair of Mathematical Modeling of Biological Systems, 85748 Garching, Germany."
+            },
+            {
+                "name": "Christian Tönsing",
+                "institution": "Institute of Physics and Freiburg Center for Data Analysis and Modelling (FDM), University of Freiburg, 79104 Freiburg, Germany; CIBSS-Centre for Integrative Biological Signalling Studies, University of Freiburg, 79104 Freiburg, Germany.",
+                "orcid": "0000-0003-2822-5191"
+            },
+            {
+                "name": "Leonard Schmiester",
+                "institution": "Helmholtz Zentrum München - German Research Center for Environmental Health, Institute of Computational Biology, 85764 Neuherberg, Germany; Technische Universität München, Center for Mathematics, Chair of Mathematical Modeling of Biological Systems, 85748 Garching, Germany.",
+                "orcid": "0000-0001-7946-3232"
+            },
+            {
+                "name": "Luisa E Schwarzmüller",
+                "institution": "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+            },
+            {
+                "name": "Lena Postawa",
+                "institution": "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+            },
+            {
+                "name": "Dantong Wang",
+                "institution": "Helmholtz Zentrum München - German Research Center for Environmental Health, Institute of Computational Biology, 85764 Neuherberg, Germany; Technische Universität München, Center for Mathematics, Chair of Mathematical Modeling of Biological Systems, 85748 Garching, Germany.",
+                "orcid": "0000-0002-3277-5033"
+            },
+            {
+                "name": "Jens Timmer",
+                "institution": "Institute of Physics, University of Freiburg, 79104 Freiburg, Germany.FDM-Freiburg Center for Data Analysis and Modeling, University of Freiburg, 79104 Freiburg, Germany.Signalling Research Centres BIOSS and CIBSS, University of Freiburg, 79104 Freiburg, Germany.",
+                "orcid": "0000-0003-4517-1383"
+            },
+            {
+                "name": "Ursula Klingmüller",
+                "institution": "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany; Translational Lung Research Center (TLRC), Member of the German Center for Lung Research (DZL), 69120 Heidelberg, Germany. Electronic address: u.klingmueller@dkfz.de."
+            },
+            {
+                "name": "J Hasenauer",
+                "orcid": "0000-0002-4935-3312"
+            },
+            {
+                "name": "Marcel Schilling",
+                "institution": "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+                "orcid": "0000-0002-9517-5166"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Adlung2021 _model_jakstat_pa.xml",
+                "description": "SBML L2V4 file for the curated model",
+                "fileSize": "103775",
+                "mimeType": "application/xml",
+                "md5sum": "6f0d7830e21ecd3a4a49e194e74cc5f9",
+                "sha1sum": "4fb4f1cdc1aa601ff3552699467090d93420122b",
+                "sha256sum": "4b606ecf37164e6b335bbae745ae641f3b33485fd313884c44c8cdd71dfbb772"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Adlung2021 _model_jakstat_pa-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "34134",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "eea49b5cbb5c3fe3911e53e8bb549ed3",
+                "sha1sum": "c1aa9dd6a639f127363b75f231a5f92c4ceb0103",
+                "sha256sum": "7a9326e01e041770b402cfd62908b5c29191229c55c4934886a66d5d8a041965"
+            },
+            {
+                "name": "Adlung2021 _model_jakstat_pa-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "51931",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "3d6927c9c176ad91cf7e0cbbb6f5a235",
+                "sha1sum": "d31931bc3b12f0edc5306973714b925cce34a4a2",
+                "sha256sum": "3e74767e245f537806a95208da20e5e375b828f937f641d0be16b7edabd037ac"
+            },
+            {
+                "name": "Adlung2021 _model_jakstat_pa-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "14456",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4cd2e9f1daa12ad9ea01784011974977",
+                "sha1sum": "ce2e3553698be2be488611275550cabcab452dbb",
+                "sha256sum": "a28e0fc1651f2c1c5d5d8fedc5fa4ce8fae71c755bfddf74950bb89303ce7549"
+            },
+            {
+                "name": "Adlung2021 _model_jakstat_pa.cps",
+                "description": "COPASI file for the curated model",
+                "fileSize": "171513",
+                "mimeType": "application/xml",
+                "md5sum": "8889e6d0d06544976a7cdbe3241d149b",
+                "sha1sum": "edc6b696858c80d57ff5a540cb675dc9dfad6bd4",
+                "sha256sum": "b875a6b822b00b8fa3c3a7fb14c62f1fba4689ad51a727acfb616e09b8e53091"
+            },
+            {
+                "name": "Adlung2021 _model_jakstat_pa.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "12315",
+                "mimeType": "text/plain",
+                "md5sum": "e312e99cda968e173fb68717c881ca81",
+                "sha1sum": "b3ef9cb9801dae58922d0236ff4583654f8d6b89",
+                "sha256sum": "a37896bc502c305588e13e9d7f3d972b27e15e7078e013545072389683425201"
+            },
+            {
+                "name": "Adlung2021 _model_jakstat_pa.sedml",
+                "description": "SEDML file for the curated model (additionally CRBM-validated and adjusted).",
+                "fileSize": "40345",
+                "mimeType": "application/xml",
+                "md5sum": "61afdc3491bfe2eabb6eda6c4dd15a46",
+                "sha1sum": "c8706bbfa773a4756e20fe6f7c37205cfad5a046",
+                "sha256sum": "90c17f39cc19419475d376553a12c72607a5b9e1cd2ef736cf3cab055d99135b"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1815",
+                "mimeType": "application/xml",
+                "md5sum": "f31552f472942ba128bdbd51c81a0048",
+                "sha1sum": "3bcafe6cf3ba864bf91e8e16ff3cff38ffb42c3e",
+                "sha256sum": "6ac24e61f1dc564bc326bda65cfdaff8bd6f7823937c0d7216a23e5bd4124650"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1897",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6d85d0b52b34f1fb2794ab91a99f10b7",
+                "sha1sum": "e907289c3b8dc5dc7d0a1c331e2faaff76e0419f",
+                "sha256sum": "d0950ff1f4448c787d04e923594eac1f099202aaef116823c5ac5d5338cd6f31"
+            },
+            {
+                "name": "model_jakstat_pa-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "23554",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "17a25e4a594ac1d09ac19d06589e72fb",
+                "sha1sum": "b8f51a1ad13fac09de8e3469518f9d61b88d78ce",
+                "sha256sum": "953c3b371d21938ac106b2034b80d5275ba0891548cc9628544f393121766738"
+            },
+            {
+                "name": "model_jakstat_pa-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "41259",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "dcff247c11e1826235d142e5338ad609",
+                "sha1sum": "c351790db62dd7f562bd9bd4561e43986759a9d2",
+                "sha256sum": "b17b0755fd9082e2119a6d447116b2503458bdd5429cd476555953c8ae6798ab"
+            },
+            {
+                "name": "model_jakstat_pa-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "11013",
+                "mimeType": "text/x-matlab",
+                "md5sum": "17e269ac3e0a0ab83b537d2b608f1edc",
+                "sha1sum": "da543ee89b7d656055d79be0bc1dead5c8a23725",
+                "sha256sum": "c558a1bfa898720be30d169f43f832dc66a63e45a195292d6f1c8892975afb70"
+            },
+            {
+                "name": "model_jakstat_pa.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "8030",
+                "mimeType": "text/plain",
+                "md5sum": "be24c96407408aeaaac4be8bfa6517b3",
+                "sha1sum": "c2b41b5a90e07ed9c894ea9dcc8c581bc2c3535c",
+                "sha256sum": "bfcf1ee8460976a9efa747e2a0d394182c7f23e306eeeee1677581c5e626fa1d"
+            },
+            {
+                "name": "model_jakstat_pa.xml",
+                "description": "Population-average mathematical model of Epo-induced JAK2/STAT5 signal transduction in CFU-E cells",
+                "fileSize": "34073",
+                "mimeType": "application/xml",
+                "md5sum": "b34aa901149577b66c57a7727d434c4b",
+                "sha1sum": "a3df0ea735b05249aa4af892ab1c08c39600167f",
+                "sha256sum": "0df8d0cde206e77c94bf81ea55e89ca98e9481bc2fc260f3cefa5486f6cfb435"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1628861621,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Updated model description and publication id."
+            },
+            {
+                "version": 4,
+                "submitted": 1706292876,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Automatically added model identifier BIOMD0000001077"
+            },
+            {
+                "version": 5,
+                "submitted": 1724293734,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282024,
+    "submissionId": "MODEL2103080001",
+    "publicationId": "BIOMD0000001077",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Marcel Schilling",
+                "email": "m.schilling@dkfz.de",
+                "affiliation": "German Cancer Research Center",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:unknownQualifier",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "34380040",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed:34380040"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001077",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001077"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2103080001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2103080001"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0004911",
+            "name": "erythroid progenitor cell",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/BTO:0004911"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "34380040",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/34380040"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0046427",
+            "name": "positive regulation of receptor signaling pathway via JAK-STAT",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0046427"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0038162",
+            "name": "erythropoietin-mediated signaling pathway",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0038162"
+        }
+    ]
+}

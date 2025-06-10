@@ -1,0 +1,264 @@
+{
+    "name": "Chulian2021 - feedback signalling in B lymphopoeisis",
+    "description": "Salvador Chulián, Álvaro Martínez-Rubio, Anna Marciniak-Czochra, Thomas Stiehl, Cristina Blázquez Goñi, Juan Francisco Rodríguez Gutiérrez, Manuel Ramírez Orellana, Ana Castillo Robleda, Víctor M. Pérez-García & María Rosa. Dynamical properties of feedback signalling in B lymphopoiesis: A mathematical modelling approach. Journal of Theoretical Biology 522 (2021).<p></p><p></p>Haematopoiesis is the process of generation of blood cells. Lymphopoiesis generates lymphocytes, the cells in charge of the adaptive immune response. Disruptions of this process are associated with diseases like leukaemia, which is especially incident in children. The characteristics of self-regulation of this process make them suitable for a mathematical study.<p></p><p></p>In this paper we develop mathematical models of lymphopoiesis using currently available data. We do this by drawing inspiration from existing structured models of cell lineage development and integrating them with paediatric bone marrow data, with special focus on regulatory mechanisms. A formal analysis of the models is carried out, giving steady states and their stability conditions. We use this analysis to obtain biologically relevant regions of the parameter space and to understand the dynamical behaviour of B-cell renovation. Finally, we use numerical simulations to obtain further insight into the influence of proliferation and maturation rates on the reconstitution of the cells in the B line. We conclude that a model including feedback regulation of cell proliferation represents a biologically plausible depiction for B-cell reconstitution in bone marrow. Research into haematological disorders could benefit from a precise dynamical description of B lymphopoiesis.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1016/j.jtbi.2021.110685",
+        "journal": "Journal of theoretical biology",
+        "title": "Dynamical properties of feedback signalling in B lymphopoiesis: A mathematical modelling approach.",
+        "affiliation": "Department of Mathematics, Universidad de Cádiz, Puerto Real, Cádiz, Spain; Biomedical Research and Innovation Institute of Cádiz (INiBICA), Hospital Universitario Puerta del Mar, Cádiz, Spain. Electronic address: salvador.chulian@uca.es.",
+        "synopsis": "Haematopoiesis is the process of generation of blood cells. Lymphopoiesis generates lymphocytes, the cells in charge of the adaptive immune response. Disruptions of this process are associated with diseases like leukaemia, which is especially incident in children. The characteristics of self-regulation of this process make them suitable for a mathematical study. In this paper we develop mathematical models of lymphopoiesis using currently available data. We do this by drawing inspiration from existing structured models of cell lineage development and integrating them with paediatric bone marrow data, with special focus on regulatory mechanisms. A formal analysis of the models is carried out, giving steady states and their stability conditions. We use this analysis to obtain biologically relevant regions of the parameter space and to understand the dynamical behaviour of B-cell renovation. Finally, we use numerical simulations to obtain further insight into the influence of proliferation and maturation rates on the reconstitution of the cells in the B line. We conclude that a model including feedback regulation of cell proliferation represents a biologically plausible depiction for B-cell reconstitution in bone marrow. Research into haematological disorders could benefit from a precise dynamical description of B lymphopoiesis.",
+        "year": 2021,
+        "month": "8",
+        "volume": "522",
+        "pages": "110685",
+        "link": "http://identifiers.org/doi/10.1016/j.jtbi.2021.110685",
+        "authors": [
+            {
+                "name": "Chulián S"
+            },
+            {
+                "name": "Martínez-Rubio Á"
+            },
+            {
+                "name": "Marciniak-Czochra A"
+            },
+            {
+                "name": "Stiehl T"
+            },
+            {
+                "name": "Goñi CB"
+            },
+            {
+                "name": "Rodríguez Gutiérrez JF"
+            },
+            {
+                "name": "Ramírez Orellana M"
+            },
+            {
+                "name": "Castillo Robleda A"
+            },
+            {
+                "name": "Pérez-García VM",
+                "institution": "Mathematical Oncology Laboratory (MOLAB), Department of Mathematics, Instituto de Matemática Aplicada a la Ciencia y la Ingeniería, Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+                "orcid": "0000-0002-6575-495X"
+            },
+            {
+                "name": "Rosa M"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "chulian2021.xml",
+                "description": "SBML L2V4 representation of Chulian2021 - Feedback signalling in B-lymphopoiesis",
+                "fileSize": "29851",
+                "mimeType": "application/xml",
+                "md5sum": "e6d282cf456e07097af54029166ea220",
+                "sha1sum": "ce6faf3e7787c3b5fc4140d80ca26bcf6e663bbb",
+                "sha256sum": "6120bea9ec9196ea628ee167e53aeb95b1f9f8c14702b76a0e9b18336c374125"
+            }
+        ],
+        "additional": [
+            {
+                "name": "chulian2021-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "9848",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c476f0d92f118e3850a4af242336831b",
+                "sha1sum": "3781f6f58283a6fd483e0fd5c9a167dc2bd663e2",
+                "sha256sum": "e224bc19dd9740741baa4bba2e40da574e0a3c47200b62ba202adf393f1923d5"
+            },
+            {
+                "name": "chulian2021-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "13990",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6701d5cbbb6361d2f6ea55f98acf79c7",
+                "sha1sum": "9d6f3bad577793a4222ec2a0443d249427344784",
+                "sha256sum": "7169dd15493cf13f548c81a22cafdfe881c0368e2bfb144425c70ec9ea0519ca"
+            },
+            {
+                "name": "chulian2021-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4920",
+                "mimeType": "text/x-matlab",
+                "md5sum": "13eb60a659166d1fd9766550c219dd1a",
+                "sha1sum": "c2c11cf96d0979929d09893a46be16dc35107d73",
+                "sha256sum": "3e61891e3233527a871071b01e1e5d2d389d733ff93a056f64e958b614a951a7"
+            },
+            {
+                "name": "chulian2021-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4920",
+                "mimeType": "text/x-matlab",
+                "md5sum": "aef0dd290774cfd0eeff8f78d5e88ea9",
+                "sha1sum": "0c97b3790cdb23395be7894b5922a5a5defae15e",
+                "sha256sum": "13959f1c618705d58a32b9f0b22f507d3da078cc65e78488db4c831f49772093"
+            },
+            {
+                "name": "chulian2021.cps",
+                "description": "Copasi representation of Chulian2021 - Feedback signalling in B-lymphopoiesis",
+                "fileSize": "53831",
+                "mimeType": "application/xml",
+                "md5sum": "54c7ca02b9758820ca9a233277136916",
+                "sha1sum": "89448c08b8d3675a97cb051f38446516813321ec",
+                "sha256sum": "8b70ce1ff5c529a9f3399107ff8bc7911b02a010705ad8ff067dbb34a04f0dd4"
+            },
+            {
+                "name": "chulian2021.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2682",
+                "mimeType": "text/plain",
+                "md5sum": "35a8b8da71f26948a92c6aaf0aaf6635",
+                "sha1sum": "ff0cfabbf6d4d6dfe9aaea6104dcaaf7c4814e94",
+                "sha256sum": "ae3834ea03774fb98060d1faf63c157345ecdd604ee412c8f9e35de6428e64ec"
+            },
+            {
+                "name": "chulian2021.sedml",
+                "description": "SED-ML representation of Chulian2021 - Feedback signalling in B-lymphopoiesis (additionally CRBM-validated and adjusted).",
+                "fileSize": "12999",
+                "mimeType": "application/xml",
+                "md5sum": "943abd53a9698ef54e2c9e10cfcd5af3",
+                "sha1sum": "33ae0d2db131a4d66edb951670f5f3141c5bfaed",
+                "sha256sum": "4dd6acd3c5748628abc5768524382e81027bfe311ab7c528cdc2b664937018f9"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1200",
+                "mimeType": "application/xml",
+                "md5sum": "71c18599542489cbadde35b00ce46a58",
+                "sha1sum": "f9b2fb88930ff8d85a808f831c53629b15544eb8",
+                "sha256sum": "a6617fa3741c0820994fd8fbc2dbbf6c9802351610865fbdd24a55c7cbaac311"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1540",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "93ee9ccc7b40253fb1f3da8f32448c90",
+                "sha1sum": "ddf1400d6713f2571b4eedc016600d5bf6a716de",
+                "sha256sum": "f9a354e84f4036feb1f995544558f7effef4971933841296e2f83f9ade3c5c69"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1652797583,
+                "submitter": "Mikal Daou",
+                "comment": "Import of Chulian2021 - feedback signalling in B lymphopoeisis"
+            },
+            {
+                "version": 2,
+                "submitted": 1652798037,
+                "submitter": "Mikal Daou",
+                "comment": "Automatically added model identifier BIOMD0000001056"
+            },
+            {
+                "version": 4,
+                "submitted": 1724293344,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282021,
+    "submissionId": "MODEL2205170001",
+    "publicationId": "BIOMD0000001056",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mikal Daou",
+                "email": "mdaou@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0006955",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0006955"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001056",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001056"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2205170001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2205170001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1016/j.jtbi.2021.110685",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.1016/j.jtbi.2021.110685"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0000141",
+            "name": "bone marrow",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0000141"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.1016/j.jtbi.2021.110685",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1016/j.jtbi.2021.110685"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0030097",
+            "name": "hemopoiesis",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0030097"
+        }
+    ]
+}

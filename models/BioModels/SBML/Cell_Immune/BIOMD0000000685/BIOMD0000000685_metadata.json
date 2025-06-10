@@ -1,0 +1,317 @@
+{
+    "name": "Wodarz2003 - Cytotoxic T lymphocyte cross-priming",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>A dynamical perspective of CTL cross-priming and regulation: implications forcancer immunology.</strong>        <br />          Wodarz D, Jansen VA.      <em>Immunol Lett</em>          2003 May 1;86(3):213-27      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12706524\">12706524</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Cytotoxic T lymphocytes (CTL) responses are required to fight many diseases suchas viral infections and tumors. At the same time, they can cause disease wheninduced inappropriately. Which factors regulate CTL and decide whether theyshould remain silent or react is open to debate. The phenomenon calledcross-priming has received attention in this respect. That is, CTL expansionoccurs if antigen is recognized on the surface of professional antigenpresenting cells (APCs). This is in contrast to direct presentation whereantigen is seen on the surface of the target cells (e.g. infected cells or tumorcells). Here we introduce a mathematical model, which takes the phenomenon ofcross-priming into account. We propose a new mechanism of regulation which isimplicit in the dynamics of the CTL: According to the model, the ability of aCTL response to become established depends on the ratio of cross-presentation todirect presentation of the antigen. If this ratio is relatively high, CTLresponses are likely to become established. If this ratio is relatively low,tolerance is the likely outcome. The behavior of the model includes a parameterregion where the outcome depends on the initial conditions. We discuss ourresults with respect to the idea of self/non-self discrimination and the dangersignal hypothesis. We apply the model to study the role of CTL in cancerinitiation, cancer evolution/progression, and therapeutic vaccination againstcancers.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/7113cad8414646c526728e1a7d68e13b\">          <strong>Wodarz D, Jansen VA. (2003) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "12706524",
+        "journal": "Immunology letters",
+        "title": "A dynamical perspective of CTL cross-priming and regulation: implications for cancer immunology.",
+        "affiliation": "Fred Hutchinson Cancer Research Center, 1100 Fairview Avenue North, MP-665 Seattle, WA 98109, USA. wodarz@fhcrc.org",
+        "synopsis": "Cytotoxic T lymphocytes (CTL) responses are required to fight many diseases such as viral infections and tumors. At the same time, they can cause disease when induced inappropriately. Which factors regulate CTL and decide whether they should remain silent or react is open to debate. The phenomenon called cross-priming has received attention in this respect. That is, CTL expansion occurs if antigen is recognized on the surface of professional antigen presenting cells (APCs). This is in contrast to direct presentation where antigen is seen on the surface of the target cells (e.g. infected cells or tumor cells). Here we introduce a mathematical model, which takes the phenomenon of cross-priming into account. We propose a new mechanism of regulation which is implicit in the dynamics of the CTL: According to the model, the ability of a CTL response to become established depends on the ratio of cross-presentation to direct presentation of the antigen. If this ratio is relatively high, CTL responses are likely to become established. If this ratio is relatively low, tolerance is the likely outcome. The behavior of the model includes a parameter region where the outcome depends on the initial conditions. We discuss our results with respect to the idea of self/non-self discrimination and the danger signal hypothesis. We apply the model to study the role of CTL in cancer initiation, cancer evolution/progression, and therapeutic vaccination against cancers.",
+        "year": 2003,
+        "month": "5",
+        "volume": "86",
+        "issue": "3",
+        "pages": "213-227",
+        "link": "http://identifiers.org/pubmed/12706524",
+        "authors": [
+            {
+                "name": "Dominik Wodarz",
+                "institution": "Fred Hutchinson Cancer Research Center, 1100 Fairview Avenue North, MP-665 Seattle, WA 98109, USA. wodarz@fhcrc.org"
+            },
+            {
+                "name": "Vincent A A Jansen",
+                "orcid": "0000-0002-6518-2090"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000685_url.xml",
+                "description": "SBML L2V4 representation of Wodarz2003 - Cytotoxic T lymphocyte cross-priming",
+                "fileSize": "37932",
+                "mimeType": "application/xml",
+                "md5sum": "e3918692e8d39401fbe0375873ca8d0e",
+                "sha1sum": "9b10c609b2c8241997fd65c06327ea3c30ffde0d",
+                "sha256sum": "0b29e7aa6138706950ae59c8337d6e57e7325882584aa15c21fe0bc6c8ae8b8b"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000685-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "4400",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0e02b6f8b5b45447bc7b508fe7a141ad",
+                "sha1sum": "26a46cce504b50a2938ab0b36eb7da649a7b91ce",
+                "sha256sum": "6736658f4beef9b15162e3be98bb3e178debb1d941417c01e0023f85e58d072e"
+            },
+            {
+                "name": "BIOMD0000000685-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "4509",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "5cd7d1159efab8976bf491db283be776",
+                "sha1sum": "18df0649d6c885d0781d9ca533cf9944f925172d",
+                "sha256sum": "c9d853e0360748455a9c6266fc2ea5bf437504c402e0f34f96f8fb3adbcf111c"
+            },
+            {
+                "name": "BIOMD0000000685-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4219",
+                "mimeType": "text/x-matlab",
+                "md5sum": "a0565bdfceb5c9ea1407844c36fd2385",
+                "sha1sum": "864deda94fa553a028e123cb0479b03fcc9ffa21",
+                "sha256sum": "9eb724bafb0ad8e1c3d4245a26b1e740546ca473898fe9a78616bf51965187ec"
+            },
+            {
+                "name": "BIOMD0000000685-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4219",
+                "mimeType": "text/x-matlab",
+                "md5sum": "5962368f4de06697d67e255e0b6328e5",
+                "sha1sum": "6c57b0ad18f279a65e0315c59cba0d0226c9e23b",
+                "sha256sum": "cbe3cf7e97187877a3f7d3e005ae3f81ec8ffcb17dcd918ea0dcbb4a339d9cdf"
+            },
+            {
+                "name": "BIOMD0000000685.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "4225",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0a1b9466c6c297f224890003101fe314",
+                "sha1sum": "05e0a8d1e5e8a10616ce06e4b9e744e8222efb08",
+                "sha256sum": "615d3e2ad7b715763510075da9b1c3abe5ee845d3d01cbdd1acf89b9daf16418"
+            },
+            {
+                "name": "BIOMD0000000685.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2273",
+                "mimeType": "text/plain",
+                "md5sum": "5cb12f12ad190592872b8813ef3e10eb",
+                "sha1sum": "3e2d46751272b7383c6a49046b2e8b16ea211864",
+                "sha256sum": "92d890d0c259fad7c096f18fb7687b87449d223c5b0111c76ae9845e1a92147d"
+            },
+            {
+                "name": "BIOMD0000000685.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "134881",
+                "mimeType": "application/pdf",
+                "md5sum": "1aef86c4bbcd252c9366f98114037fba",
+                "sha1sum": "dcd036ef68129b28dc28a42f517dbe75999c5e43",
+                "sha256sum": "88c6e3eac0fa42c098b073f9cd3aad0b5f0d8bb2c6779155f1ee4d0d3c3441f6"
+            },
+            {
+                "name": "BIOMD0000000685.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "4370",
+                "mimeType": "image/png",
+                "md5sum": "51a02aeed2d9b25335f3564484b8bb20",
+                "sha1sum": "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+                "sha256sum": "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+            },
+            {
+                "name": "BIOMD0000000685.sci",
+                "description": "Auto-generated Scilab file",
+                "fileSize": "1726",
+                "mimeType": "text/plain",
+                "md5sum": "f9ca7261279b0e4f1acef9946d4d8024",
+                "sha1sum": "6f13c7c6e8aecf197a506b26b0737958e422fdb3",
+                "sha256sum": "8301b373b60176f76f2defbf0db60fd9ad44fe9e76f40a1bb589e7817547b13a"
+            },
+            {
+                "name": "BIOMD0000000685.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "862",
+                "mimeType": "image/svg+xml",
+                "md5sum": "48b7bcfdf9b324fa2420125f14d79265",
+                "sha1sum": "6724e0820c4d158cf2cad34dc41073cd396751b7",
+                "sha256sum": "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+            },
+            {
+                "name": "MODEL1006230094.cps",
+                "description": "Curated and annotated COPASI file.",
+                "fileSize": "48635",
+                "mimeType": "application/xml",
+                "md5sum": "e6a76b3c7f389b3fd203b82484beaf07",
+                "sha1sum": "6f45124381b7590481e382cdc968fc8ee0881ab9",
+                "sha256sum": "3a9c174aab84957bf79667559fb5f9cdd81c798cec7a5d851576d642df371350"
+            },
+            {
+                "name": "MODEL1006230094.sedml",
+                "description": "SED-ML file with initial conditions and parameter values set to produce figure 4B of the reference publication. (additionally CRBM-validated and adjusted).",
+                "fileSize": "11458",
+                "mimeType": "application/xml",
+                "md5sum": "8120f77d9ff6690ac1a573003060a2f1",
+                "sha1sum": "6024a81ae885a399989b470a5e4233ce1543075e",
+                "sha256sum": "0c422dda62c4f5f02cfd98cf42602c5bf8d1831f72c5db49219adb78c4651865"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "32298",
+                "mimeType": "image/jpeg",
+                "md5sum": "ae84581a5d882dfbe319ad992574f731",
+                "sha1sum": "5ebf31d10443fdaf00d87e300bd01bd58f981410",
+                "sha256sum": "9d3b8c3e4a7e9e3586c66f3efeebcaa576a8dd7631e7328ade1945a47d4508d9"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "523",
+                "mimeType": "text/plain",
+                "md5sum": "9a252b28ed3a3a4de9810c3268ea89ca",
+                "sha1sum": "361a03273d004717a609f2e181fb229c4934d15f",
+                "sha256sum": "8999a8b1765d612c6baa77484f1ae7e1f3152deb03a54038f42f4c0e1824f269"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "2030",
+                "mimeType": "application/xml",
+                "md5sum": "ceb49a9524e7aa44b86fe37c6a61bdfb",
+                "sha1sum": "673b0b368cea97cfb2a37f425299e124624c104b",
+                "sha256sum": "1e1f4913af5b3b229a3f5a040ecdb838d5d428f32a78bf3e1132972dd90788d2"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5581",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "4a3360afd603ac26cf86f214cfb2f37e",
+                "sha1sum": "484895a4af21ab04de25c620ed352ab2ae2bc8df",
+                "sha256sum": "f72127e1d58f8b9066265bee5e8b902ae5e873d11d1c9b27b5ef7739cf9be2ad"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1277284356,
+                "submitter": "Camille Laibe",
+                "comment": "Original import of Wodarz2003_CTLcrosspriming"
+            },
+            {
+                "version": 2,
+                "submitted": 1277473600,
+                "submitter": "Camille Laibe",
+                "comment": "Current version of Wodarz2003_CTLcrosspriming"
+            },
+            {
+                "version": 3,
+                "submitted": 1521018672,
+                "submitter": "administrator",
+                "comment": "Model name updated using online editor."
+            },
+            {
+                "version": 4,
+                "submitted": 1724282931,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281809,
+    "submissionId": "MODEL1006230094",
+    "publicationId": "BIOMD0000000685",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            },
+            {
+                "name": "Camille Laibe",
+                "email": "laibe@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-4625-743X",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaa",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1006230094",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1006230094"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000685",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000685"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "12706524",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/12706524"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "BTO:0000289",
+            "name": "cytotoxic T-lymphocyte",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0000289"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002250",
+            "name": "adaptive immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002250"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "12706524",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/12706524"
+        },
+        {
+            "qualifier": "bqbiol:hasPart",
+            "accession": "CL:0000145",
+            "name": "professional antigen presenting cell",
+            "resource": "Cell Type Ontology",
+            "uri": "http://identifiers.org/cl/CL:0000145"
+        }
+    ]
+}

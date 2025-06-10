@@ -1,0 +1,240 @@
+{
+    "name": "Alharbi2020 - Tumor and immune system competition",
+    "description": "Sana Abdulkream Alharbi & Azmin Sham Rambely. A New ODE-Based Model for Tumor Cells and Immune System Competition. Mathematics 8, 8 (2020).<p></p><p></p>Changes in diet are heavily associated with high mortality rates in several types of cancer. In this paper, a new mathematical model of tumor cells growth is established to dynamically demonstrate the effects of abnormal cell progression on the cells affected by the tumor in terms of the immune system’s functionality and normal cells’ dynamic growth. This model is called the normal-tumor-immune-unhealthy diet model (NTIUNHDM) and governed by a system of ordinary differential equations. In the NTIUNHDM, there are three main populations normal cells, tumor cell and immune cells. The model is discussed analytically and numerically by utilizing a fourth-order Runge–Kutta method. The dynamic behavior of the NTIUNHDM is discussed by analyzing the stability of the system at various equilibrium points and the Mathematica software is used to simulate the model. From analysis and simulation of the NTIUNHDM, it can be deduced that instability of the response stage, due to a weak immune system, is classified as one of the main reasons for the coexistence of abnormal cells and normal cells. Additionally, it is obvious that the NTIUNHDM has only one stable case when abnormal cells begin progressing into early stages of tumor cells such that the immune cells are generated once. Thus, early boosting of the immune system might contribute to reducing the risk of cancer.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.3390/math8081285",
+        "journal": "Mathematics",
+        "title": "A New ODE-Based Model for Tumor Cells and Immune System Competition",
+        "affiliation": "Department of Mathematics & Statistics, College of Science, Taibah University, Yanbu 41911, Almadinah Almunawarah, Saudi Arabia\nDepartment of Mathematical Sciences, Faculty of Science & Technology, Universiti Kebangsaan Malaysia, UKM Bangi 43600, Selangor, Malaysia",
+        "synopsis": "Changes in diet are heavily associated with high mortality rates in several types of cancer. In this paper, a new mathematical model of tumor cells growth is established to dynamically demonstrate the effects of abnormal cell progression on the cells affected by the tumor in terms of the immune system’s functionality and normal cells’ dynamic growth. This model is called the normal-tumor-immune-unhealthy diet model (NTIUNHDM) and governed by a system of ordinary differential equations. In the NTIUNHDM, there are three main populations normal cells, tumor cell and immune cells. The model is discussed analytically and numerically by utilizing a fourth-order Runge–Kutta method. The dynamic behavior of the NTIUNHDM is discussed by analyzing the stability of the system at various equilibrium points and the Mathematica software is used to simulate the model. From analysis and simulation of the NTIUNHDM, it can be deduced that instability of the response stage, due to a weak immune system, is classified as one of the main reasons for the coexistence of abnormal cells and normal cells. Additionally, it is obvious that the NTIUNHDM has only one stable case when abnormal cells begin progressing into early stages of tumor cells such that the immune cells are generated once. Thus, early boosting of the immune system might contribute to reducing the risk of cancer.",
+        "year": 2020,
+        "month": "8",
+        "volume": "8",
+        "issue": "8",
+        "pages": "1285",
+        "link": "http://identifiers.org/doi/10.3390/math8081285",
+        "authors": [
+            {
+                "name": "Sana Abdulkream Alharbi"
+            },
+            {
+                "name": "Azmin Sham Rambely"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Tumor_cells_immune_system_competition.xml",
+                "description": "SBML L2V4 representation of Alharbi2020 - Tumor cells and immune system competition",
+                "fileSize": "65843",
+                "mimeType": "application/xml",
+                "md5sum": "923de20c315db9407996b1691e2eca5f",
+                "sha1sum": "c6dd37be2099e40284af8f37117368667d54d77a",
+                "sha256sum": "9617adaa43d5b274ce9c30953cf1b112c3e04d81c51059535448b1783956e976"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Tumor_cells_immune_system_competition-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "17626",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d4471975bb6d3ffb3e9b828e96b8e1b4",
+                "sha1sum": "b396a15c2994f1b97e9228ec3876e0400962e9d1",
+                "sha256sum": "0f2433190832fb6e32e0a0eb6cf625e6390b836e62364088b29d360410caa257"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "25936",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7e90785e2347feadcfa101fb8e00a447",
+                "sha1sum": "0fe03474dfe4dbd1b90239108bd7228f125624ec",
+                "sha256sum": "88c0d350c36e66a148e7db5055912a7c5af821c77e9fab58b9f0575b96f980e0"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "8465",
+                "mimeType": "text/x-matlab",
+                "md5sum": "dc6e8b24639efdc63153f32839f65ad5",
+                "sha1sum": "43544186e170afc184a28a17b2ba668fa6e70719",
+                "sha256sum": "77b6046274e006880be480da8ad627d0024f1fe4bfb17cbaad429cfc2ab0d293"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "8465",
+                "mimeType": "text/x-matlab",
+                "md5sum": "3f7a59595003a3c27f5340fa9659b6b2",
+                "sha1sum": "57a2d337462b3c73de6ca0023094adb1edd58238",
+                "sha256sum": "edc64fc9b814e6475da01d89408934398205b589b62a715717fd5bd46bcc648b"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition.cps",
+                "description": "Copasi representation of Alharbi2020 - Tumor cells and immune system competition",
+                "fileSize": "88748",
+                "mimeType": "application/xml",
+                "md5sum": "6b31a24f2d9f1f1162b7c5865e96d598",
+                "sha1sum": "a6d19199b4684d048a836992a90c6b38648acfd6",
+                "sha256sum": "adeeccd47c941bd5cc493378e9a4afe9602a680acea6e3b0f28f7f1d5d06f7aa"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "6168",
+                "mimeType": "text/plain",
+                "md5sum": "2a53dadd0a7dff7ccc77ce5fa64c64fb",
+                "sha1sum": "868b2d33a802344f701013b9346f9952d59be0d3",
+                "sha256sum": "0d883465c6d08a44fdb1b802b5cc3ca96a3506b5d604ac8ead40fddf7399d684"
+            },
+            {
+                "name": "Tumor_cells_immune_system_competition.sedml",
+                "description": "SED-ML representation of Alharbi2020 - Tumor cells and immune system competition (additionally CRBM-validated and adjusted).",
+                "fileSize": "23329",
+                "mimeType": "application/xml",
+                "md5sum": "0a4a43912793b9a146b06b4ae0e98f90",
+                "sha1sum": "abbfcd7d79fa104d6244d0ba703ea72e9453d147",
+                "sha256sum": "cc198fecd71b24a2583878510debb35407654ebbd748697a4c87d720c3805b9c"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1408",
+                "mimeType": "application/xml",
+                "md5sum": "ff01936ffb09d518c14442fc68a2840b",
+                "sha1sum": "fea02ea940b634ebb4d64cd759f0ecca5032d8b3",
+                "sha256sum": "7f3b4c87e7c767b410015d05433bbbba0f4885452435d3853dff22ef20e05278"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1265",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f28885e70b80f59644387f4bfaa5024a",
+                "sha1sum": "ab8832e9afe14aaf92c4f73db1932288a5b6be9b",
+                "sha256sum": "deb90fd1bfe436254b19f6fffa9c88648e8eab102769f985a5ab23c3fafaf214"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1649945001,
+                "submitter": "Mikal Daou",
+                "comment": "Automatically added model identifier BIOMD0000001052"
+            },
+            {
+                "version": 3,
+                "submitted": 1650297898,
+                "submitter": "Mikal Daou",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 5,
+                "submitted": 1724293273,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282020,
+    "submissionId": "MODEL2204140001",
+    "publicationId": "BIOMD0000001052",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mikal Daou",
+                "email": "mdaou@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.3390/math8081285",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.3390/math8081285"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.3390/math8081285",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.3390/math8081285"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "C98275",
+            "name": "Tumor Mass",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C98275"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2204140001",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL2204140001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C20187",
+            "name": "Cancer Science",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C20187"
+        }
+    ]
+}

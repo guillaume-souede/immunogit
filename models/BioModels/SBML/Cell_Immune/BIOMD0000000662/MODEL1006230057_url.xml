@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="_461032" level="2" version="4">
+  <model metaid="metaid_0000002" id="Moore2004_CML_TcellInteration" name="Moore2004_CML_TcellInteration">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This a model from the article:      <br/>
+        <strong>A mathematical model for chronic myelogenous leukemia (CML) and T cell
+interaction.</strong>
+        <br/>
+          Moore H, Li NK.      <em>J Theor Biol</em>
+          2004 Apr 21;227(4):513-23      <a href="http://www.ncbi.nlm.nih.gov/pubmed/15038986">15038986</a>
+          ,      <br/>
+        <strong>Abstract:</strong>
+        <br/>
+          In this paper, we propose and analyse a mathematical model for chronic
+myelogenous leukemia (CML), a cancer of the blood. We model the interaction
+between naive T cells, effector T cells, and CML cancer cells in the body, using
+a system of ordinary differential equations which gives rates of change of the
+three cell populations. One of the difficulties in modeling CML is the scarcity
+of experimental data which can be used to estimate parameters values. To
+compensate for the resulting uncertainties, we use Latin hypercube sampling
+(LHS) on large ranges of possible parameter values in our analysis. A major goal
+of this work is the determination of parameters which play a critical role in
+remission or clearance of the cancer in the model. Our analysis examines 12
+parameters, and identifies two of these, the growth and death rates of CML, as
+critical to the outcome of the system. Our results indicate that the most
+promising research avenues for treatments of CML should be those that affect
+these two significant parameters (CML growth and death rates), while altering
+the other parameters should have little effect on the outcome.      </p>
+      <p>This model was taken from the      <a href="http://www.cellml.org/models">CellML repository</a>
+          and automatically converted to SBML.      <br/>
+          The original model was:      <a href="http://models.cellml.org/exposure/f1aaa04a7e0de5bf974d296a1ff9dd25">
+        <strong>Moore H, Li NK. (2004) - version=1.0</strong>
+      </a>
+      <br/>
+          The original CellML model was created by:      <br/>
+      <strong>Catherine Lloyd</strong>
+      <br/>
+          c.lloyd@auckland.ac.nz      <br/>
+          The University of Auckland      <br/></p>
+    <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br/>
+          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons CC0">CC0 Public Domain Dedication</a>
+          for more information.      </p>
+  <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br/>
+  <br/>
+          To cite BioModels Database, please use:      <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+</p>
+</body>
+</notes><annotation>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+    <rdf:Description rdf:about="#metaid_0000002">
+      <dc:creator>
+        <rdf:Bag>
+          <rdf:li rdf:parseType="Resource">
+            <vCard:N rdf:parseType="Resource">
+              <vCard:Family>Lloyd</vCard:Family>
+              <vCard:Given>Catherine</vCard:Given>
+            </vCard:N>
+            <vCard:EMAIL>c.lloyd@auckland.ac.nz</vCard:EMAIL>
+            <vCard:ORG rdf:parseType="Resource">
+              <vCard:Orgname>University of Auckland</vCard:Orgname>
+            </vCard:ORG>
+          </rdf:li>
+          <rdf:li rdf:parseType="Resource">
+            <vCard:N rdf:parseType="Resource">
+              <vCard:Family>Lloyd</vCard:Family>
+              <vCard:Given>Catherine</vCard:Given>
+            </vCard:N>
+            <vCard:EMAIL>c.lloyd@auckland.ac.nz</vCard:EMAIL>
+            <vCard:ORG rdf:parseType="Resource">
+              <vCard:Orgname>University of Auckland</vCard:Orgname>
+            </vCard:ORG>
+          </rdf:li>
+          <rdf:li rdf:parseType="Resource">
+            <vCard:N rdf:parseType="Resource">
+              <vCard:Family>Lloyd</vCard:Family>
+              <vCard:Given>Catherine</vCard:Given>
+            </vCard:N>
+            <vCard:EMAIL>c.lloyd@auckland.ac.nz</vCard:EMAIL>
+            <vCard:ORG rdf:parseType="Resource">
+              <vCard:Orgname>University of Auckland</vCard:Orgname>
+            </vCard:ORG>
+          </rdf:li>
+        </rdf:Bag>
+      </dc:creator>
+      <dcterms:created rdf:parseType="Resource">
+        <dcterms:W3CDTF>2010-06-25T13:18:54Z</dcterms:W3CDTF>
+      </dcterms:created>
+      <dcterms:modified rdf:parseType="Resource">
+        <dcterms:W3CDTF>2010-06-25T13:18:54Z</dcterms:W3CDTF>
+      </dcterms:modified>
+      <dcterms:modified rdf:parseType="Resource">
+        <dcterms:W3CDTF>2010-06-25T13:18:54Z</dcterms:W3CDTF>
+      </dcterms:modified>
+      <dcterms:modified rdf:parseType="Resource">
+        <dcterms:W3CDTF>2010-06-25T13:18:54Z</dcterms:W3CDTF>
+      </dcterms:modified>
+      <bqmodel:is>
+        <rdf:Bag>
+          <rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL1006230057"/>
+        </rdf:Bag>
+      </bqmodel:is>
+      <bqmodel:isDescribedBy>
+        <rdf:Bag>
+          <rdf:li rdf:resource="http://identifiers.org/pubmed/15038986"/>
+        </rdf:Bag>
+      </bqmodel:isDescribedBy>
+      <bqbiol:hasTaxon>
+        <rdf:Bag>
+          <rdf:li rdf:resource="http://identifiers.org/taxonomy/9606"/>
+        </rdf:Bag>
+      </bqbiol:hasTaxon>
+      <bqbiol:isVersionOf>
+        <rdf:Bag>
+          <rdf:li rdf:resource="http://identifiers.org/efo/0000339"/>
+          <rdf:li rdf:resource="http://identifiers.org/go/GO:0002262"/>
+        </rdf:Bag>
+      </bqbiol:isVersionOf>
+      <bqbiol:occursIn>
+        <rdf:Bag>
+          <rdf:li rdf:resource="http://identifiers.org/bto/BTO:0000782"/>
+        </rdf:Bag>
+      </bqbiol:occursIn>
+    </rdf:Description>
+  </rdf:RDF>
+</annotation><listOfUnitDefinitions>
+  <unitDefinition metaid="_461044" id="day" name="day">
+    <listOfUnits>
+      <unit metaid="_461056" kind="second" multiplier="86400"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition metaid="_461069" id="first_order_rate_constant" name="first_order_rate_constant">
+    <listOfUnits>
+      <unit metaid="_461081" kind="second" exponent="-1" multiplier="86400"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition metaid="_461093" id="cells_per_microlitre" name="cells_per_microlitre">
+    <listOfUnits>
+      <unit metaid="_461105" kind="litre" exponent="-1" scale="-6"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition metaid="_461117" id="flux" name="flux">
+    <listOfUnits>
+      <unit metaid="_461129" kind="litre" exponent="-1" scale="-6"/>
+      <unit metaid="_461141" kind="second" exponent="-1" multiplier="86400"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition metaid="_461153" id="microlitre_per_cells_day" name="microlitre_per_cells_day">
+    <listOfUnits>
+      <unit metaid="_461166" kind="litre" scale="-6"/>
+      <unit metaid="_461178" kind="second" exponent="-1" multiplier="86400"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition metaid="_461191" id="time" name="time">
+    <listOfUnits>
+      <unit metaid="_461203" kind="second" multiplier="86400"/>
+    </listOfUnits>
+  </unitDefinition>
+</listOfUnitDefinitions><listOfCompartments>
+  <compartment metaid="_333861" id="COMpartment" size="1" units="litre"/>
+</listOfCompartments><listOfParameters>
+  <parameter metaid="_333871" id="time_environment" name="time" units="day"/>
+  <parameter metaid="_333872" id="Tn" name="Tn" value="1510" units="cells_per_microlitre" constant="false"/>
+  <parameter metaid="_333873" id="sn" name="sn" value="0.37" units="flux"/>
+  <parameter metaid="_333876" id="dn" name="dn" value="0.23" units="first_order_rate_constant"/>
+  <parameter metaid="_333877" id="Te" name="Te" value="20" units="cells_per_microlitre" constant="false"/>
+  <parameter metaid="_333878" id="alpha_n" name="alpha_n" value="0.14" units="dimensionless"/>
+  <parameter metaid="_333881" id="alpha_e" name="alpha_e" value="0.98" units="first_order_rate_constant"/>
+  <parameter metaid="_333882" id="de" name="de" value="0.3" units="first_order_rate_constant"/>
+  <parameter metaid="_333883" id="gamma_e" name="gamma_e" value="0.057" units="microlitre_per_cells_day"/>
+  <parameter metaid="_333886" id="C" name="C" value="10000" units="cells_per_microlitre" constant="false"/>
+  <parameter metaid="_333887" id="Cmax" name="Cmax" value="230000" units="cells_per_microlitre"/>
+  <parameter metaid="_333888" id="rc" name="rc" value="0.0057" units="first_order_rate_constant"/>
+  <parameter metaid="_333891" id="dc" name="dc" value="0.024" units="first_order_rate_constant"/>
+  <parameter metaid="_333892" id="gamma_c" name="gamma_c" value="0.0034" units="microlitre_per_cells_day"/>
+  <parameter metaid="_333893" id="kn" name="kn" value="0.062" units="first_order_rate_constant"/>
+  <parameter metaid="_333896" id="eta" name="eta" value="720" units="cells_per_microlitre"/>
+</listOfParameters><listOfRules>
+  <rateRule metaid="_333865" variable="Tn">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <minus/>
+        <ci> sn </ci>
+        <apply>
+          <plus/>
+          <apply>
+            <times/>
+            <ci> dn </ci>
+            <ci> Tn </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> kn </ci>
+            <ci> Tn </ci>
+            <apply>
+              <divide/>
+              <ci> C </ci>
+              <apply>
+                <plus/>
+                <ci> C </ci>
+                <ci> eta </ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </rateRule>
+  <rateRule metaid="_333868" variable="Te">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <minus/>
+        <apply>
+          <plus/>
+          <apply>
+            <times/>
+            <ci> alpha_n </ci>
+            <ci> kn </ci>
+            <ci> Tn </ci>
+            <apply>
+              <divide/>
+              <ci> C </ci>
+              <apply>
+                <plus/>
+                <ci> C </ci>
+                <ci> eta </ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times/>
+            <ci> alpha_e </ci>
+            <ci> Te </ci>
+            <apply>
+              <divide/>
+              <ci> C </ci>
+              <apply>
+                <plus/>
+                <ci> C </ci>
+                <ci> eta </ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus/>
+          <apply>
+            <times/>
+            <ci> de </ci>
+            <ci> Te </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> gamma_e </ci>
+            <ci> C </ci>
+            <ci> Te </ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </rateRule>
+  <rateRule metaid="_333869" variable="C">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <minus/>
+        <apply>
+          <times/>
+          <ci> rc </ci>
+          <ci> C </ci>
+          <apply>
+            <ln/>
+            <apply>
+              <divide/>
+              <ci> Cmax </ci>
+              <ci> C </ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus/>
+          <apply>
+            <times/>
+            <ci> dc </ci>
+            <ci> C </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> gamma_c </ci>
+            <ci> C </ci>
+            <ci> Te </ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </rateRule>
+</listOfRules>
+</model>
+</sbml>

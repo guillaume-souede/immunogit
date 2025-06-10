@@ -1,0 +1,326 @@
+{
+    "name": "Wodarz1999 CTL memory response HIV",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Specific therapy regimes could lead to long-term immunological control of HIV.</strong>        <br />          Wodarz D, Nowak MA.      <em>Proc Natl Acad Sci U S A</em>          1999 Dec 7;96(25):14464-9      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10588728\">10588728</a>          ,      <br />        <strong>Abstract:</strong>        <br />          We use mathematical models to study the relationship between HIV and the immunesystem during the natural course of infection and in the context of differentantiviral treatment regimes. The models suggest that an efficient cytotoxic Tlymphocyte (CTL) memory response is required to control the virus. We define CTLmemory as long-term persistence of CTL precursors in the absence of antigen.Infection and depletion of CD4(+) T helper cells interfere with CTL memorygeneration, resulting in persistent viral replication and disease progression.We find that antiviral drug therapy during primary infection can enable thedevelopment of CTL memory. In chronically infected patients, specific treatmentschedules, either including deliberate drug holidays or antigenic boosts of theimmune system, can lead to a re-establishment of CTL memory. Whether suchtreatment regimes would lead to long-term immunologic control deservesinvestigation under carefully controlled conditions.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/2ce81f8abff72fcd37f9b8ed21133b99\">          <strong>Wodarz D, Nowak MA. (1999) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "10588728",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "title": "Specific therapy regimes could lead to long-term immunological control of HIV.",
+        "affiliation": "Institute for Advanced Study, Olden Lane, Princeton, NJ 08540, USA. wodarz@ias.edu",
+        "synopsis": "We use mathematical models to study the relationship between HIV and the immune system during the natural course of infection and in the context of different antiviral treatment regimes. The models suggest that an efficient cytotoxic T lymphocyte (CTL) memory response is required to control the virus. We define CTL memory as long-term persistence of CTL precursors in the absence of antigen. Infection and depletion of CD4(+) T helper cells interfere with CTL memory generation, resulting in persistent viral replication and disease progression. We find that antiviral drug therapy during primary infection can enable the development of CTL memory. In chronically infected patients, specific treatment schedules, either including deliberate drug holidays or antigenic boosts of the immune system, can lead to a re-establishment of CTL memory. Whether such treatment regimes would lead to long-term immunologic control deserves investigation under carefully controlled conditions.",
+        "year": 1999,
+        "month": "12",
+        "volume": "96",
+        "issue": "25",
+        "pages": "14464-14469",
+        "link": "http://identifiers.org/pubmed/10588728",
+        "authors": [
+            {
+                "name": "D Wodarz",
+                "institution": "Institute for Advanced Study, Olden Lane, Princeton, NJ 08540, USA. wodarz@ias.edu"
+            },
+            {
+                "name": "M A Nowak"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "BIOMD0000000683.xml",
+                "description": "Curated and annotated COPASI file.",
+                "fileSize": "51613",
+                "mimeType": "application/xml",
+                "md5sum": "b31c0ac7ee05eb320f431113667d9c70",
+                "sha1sum": "93be242b9de39f7b3d2ac68107eafc51bdfca5df",
+                "sha256sum": "0ad4825ae7cb8b0f60fc79e423fa2052e37b7834b1f4a045e14aef2ca1fa84f3"
+            }
+        ],
+        "additional": [
+            {
+                "name": "BIOMD0000000683-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2)",
+                "fileSize": "12272",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "2bf381c32e59822e310c7d8b95de488e",
+                "sha1sum": "1b6f1fe031c6e6884151d9cdeeb1a5056262239d",
+                "sha256sum": "daf8457fc541f3b0db1734d76fb0db0a7c2e1d9560e4d928ef339e02528d70cd"
+            },
+            {
+                "name": "BIOMD0000000683-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3)",
+                "fileSize": "17738",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7f7fb939889901618bf3a12d89ed72b3",
+                "sha1sum": "181838ad8152083aefb7b5078833566ce67242be",
+                "sha256sum": "432bad3efab934fb21a1f287b8b8b17a45c2543bfc0d71c3703fb3a4013251ec"
+            },
+            {
+                "name": "BIOMD0000000683-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5623",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0b24b4629a62eeb24a6653900ffc4195",
+                "sha1sum": "10ea41849566982ad9531b1596b1d6b44faa90b5",
+                "sha256sum": "0057e1a9f63014fcda9c84967d40b0588b3e7d65757bebac4e5817074289dc98"
+            },
+            {
+                "name": "BIOMD0000000683-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5623",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7837b59ac1110097923f38990fd2a4f7",
+                "sha1sum": "f2092e5e98ae0d6d67abf5a745731129673dee70",
+                "sha256sum": "8334c690c1e5de4425b1905788680ee18a71970f656acac41136ae4454efc310"
+            },
+            {
+                "name": "BIOMD0000000683.cps",
+                "description": "Curated and annotated COPASI file.",
+                "fileSize": "48332",
+                "mimeType": "application/xml",
+                "md5sum": "eadb14cc342959e0caf4994b11d5f127",
+                "sha1sum": "7aed432fed4cbdaf81e265f9278dc6dcd841fff9",
+                "sha256sum": "603fc97671aa5f3e1467bb51c03c50cd30e8be9b24e99bfdef0414d462fc6587"
+            },
+            {
+                "name": "BIOMD0000000683.m",
+                "description": "Auto-generated Octave file",
+                "fileSize": "4220",
+                "mimeType": "text/x-matlab",
+                "md5sum": "6a9f52a24857cd4a201a02026f1607f0",
+                "sha1sum": "37947ee930f16b577243cacf7b863c32b2820adc",
+                "sha256sum": "21c80f0687ae8561fd5f7b86e8016c46a25144363f48ff7d8795305425e683f4"
+            },
+            {
+                "name": "BIOMD0000000683.pdf",
+                "description": "Auto-generated PDF file",
+                "fileSize": "143755",
+                "mimeType": "application/pdf",
+                "md5sum": "a12ebda542b26c56eea6a2fe8f75417a",
+                "sha1sum": "4afe2393e8dc34ea1e4fdc7cbcef9afc067d9afa",
+                "sha256sum": "ff759a24a0868bc61b707558b540ff788336e407835c1b4a5ffab51cd1eb7a5d"
+            },
+            {
+                "name": "BIOMD0000000683.png",
+                "description": "Auto-generated Reaction graph (PNG)",
+                "fileSize": "4370",
+                "mimeType": "image/png",
+                "md5sum": "51a02aeed2d9b25335f3564484b8bb20",
+                "sha1sum": "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+                "sha256sum": "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+            },
+            {
+                "name": "BIOMD0000000683.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "16199",
+                "mimeType": "application/xml",
+                "md5sum": "d3956e087569974706a8ec8dc2d42ded",
+                "sha1sum": "17374b536bafcc953819c4a226de4ff179667ed3",
+                "sha256sum": "17bb879e684d506e02b3049129db9ce70afb9f3a81ce69db2c5c0ea910cc9e14"
+            },
+            {
+                "name": "BIOMD0000000683.svg",
+                "description": "Auto-generated Reaction graph (SVG)",
+                "fileSize": "862",
+                "mimeType": "image/svg+xml",
+                "md5sum": "48b7bcfdf9b324fa2420125f14d79265",
+                "sha1sum": "6724e0820c4d158cf2cad34dc41073cd396751b7",
+                "sha256sum": "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+            },
+            {
+                "name": "BIOMD0000000683_urn.xml",
+                "description": "Auto-generated SBML file with URNs",
+                "fileSize": "37509",
+                "mimeType": "application/xml",
+                "md5sum": "150c1a239325d684ef6249f7ff6604ef",
+                "sha1sum": "a679e2ca7eb68d960156e2011e77e935644bb0bb",
+                "sha256sum": "3b6ab9dbd642e5329b5ff2c0d953472d2c683adb7ca5e26a76bf940f724faa57"
+            },
+            {
+                "name": "curation_image.jpeg",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "20711",
+                "mimeType": "image/jpeg",
+                "md5sum": "37a2abb353ad25ccbab2859947982ec8",
+                "sha1sum": "9c0c0c344dc988d36c287ab861516854f3ec4472",
+                "sha256sum": "36dfa7e103b350557a396a25c2b2994dee066055cea5fb3d60eec3c7accd5a16"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "657",
+                "mimeType": "text/plain",
+                "md5sum": "f8a040a1829127091b64c42b1e0676ed",
+                "sha1sum": "07fca56d283a8daaaf0700e119a8e60fdbc16b77",
+                "sha256sum": "6f6d9ffdc4c5226b55fe980f1e8b7e6ec19e28ae53e0bbb0c1566ca5b4511baa"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1918",
+                "mimeType": "application/xml",
+                "md5sum": "4ce29d9cc8f76da3dfccb18f69f80c53",
+                "sha1sum": "42b53ce67b13b06a558dd22b430e1e16e16bb4ff",
+                "sha256sum": "3d7aba894cbad9b0419a0a6abd2c5865f4fae0f9795e3b5cf6c1f923c4c5174f"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "5065",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7d4b32d5a1c19219729d91deef349422",
+                "sha1sum": "7fa2713d42913179553dab4ac566dd0c594b0066",
+                "sha256sum": "7ecc0417ed65698e7b4f55234ae6c10113bcf2360964a705814de200ccc74b4e"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1277284339,
+                "submitter": "Camille Laibe",
+                "comment": "Original import of Wodarz1999_CTLmemoryresponse_HIV"
+            },
+            {
+                "version": 2,
+                "submitted": 1277472204,
+                "submitter": "Camille Laibe",
+                "comment": "Current version of Wodarz1999_CTLmemoryresponse_HIV"
+            },
+            {
+                "version": 3,
+                "submitted": 1521019362,
+                "submitter": "administrator",
+                "comment": "Model name updated using online editor."
+            },
+            {
+                "version": 5,
+                "submitted": 1566479823,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Automatically added model identifier BIOMD0000000683"
+            },
+            {
+                "version": 6,
+                "submitted": 1724282865,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281808,
+    "submissionId": "MODEL1006230062",
+    "publicationId": "BIOMD0000000683",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "administrator",
+                "email": "biomodels-developers@ebi.ac.uk",
+                "affiliation": "EMBL - European Bioinformatics Institute (EBI)",
+                "external": false
+            },
+            {
+                "name": "Camille Laibe",
+                "email": "laibe@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-4625-743X",
+                "external": false
+            },
+            {
+                "name": "Sarubini Kananathan",
+                "email": "skananathan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aab",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "0000764",
+            "name": "HIV infection",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0000764"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0046718",
+            "name": "viral entry into host cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0046718"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1006230062",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1006230062"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000683",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000683"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10588728",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:10588728"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0002417",
+            "name": "helper T-lymphocyte",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0002417"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10588728",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/10588728"
+        }
+    ]
+}

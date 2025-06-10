@@ -1,0 +1,252 @@
+{
+    "name": "Jenner2018 - treatment of oncolytic virus",
+    "description": "The paper describes a model of oncolytic virotherapy. Created by COPASI 4.26 (Build 213) This model is described in the article: Mathematical Modelling of the Interaction Between Cancer Cells and an Oncolytic Virus: Insights into the Effects of Treatment ProtocolsAdrianne L. Jenner, Chae-Ok Yun, Peter S. Kim, Adelle C. F. CosterBull Math Biol (2018) 80:1615–1629Abstract: Oncolyticvirotherapyisanexperimentalcancertreatmentthatusesgenet- ically engineered viruses to target and kill cancer cells. One major limitation of this treatment is that virus particles are rapidly cleared by the immune system, preventing them from arriving at the tumour site. To improve virus survival and infectivity Kim et al. (Biomaterials 32(9):2314–2326, 2011) modified virus particles with the polymer polyethylene glycol (PEG) and the monoclonal antibody herceptin. Whilst PEG mod- ification appeared to improve plasma retention and initial infectivity, it also increased the virus particle arrival time. We derive a mathematical model that describes the inter- action between tumour cells and an oncolytic virus. We tune our model to represent the experimental data by Kim et al. (2011) and obtain optimised parameters. Our model provides a platform from which predictions may be made about the response of cancer growth to other treatment protocols beyond those in the experiments. Through model simulations, we find that the treatment protocol affects the outcome dramatically. We quantify the effects of dosage strategy as a function of tumour cell replication and tumour carrying capacity on the outcome of oncolytic virotherapy as a treatment. The relative significance of the modification of the virus and the crucial role it plays in optimising treatment efficacy are explored.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "29644518",
+        "journal": "Bulletin of mathematical biology",
+        "title": "Mathematical Modelling of the Interaction Between Cancer Cells and an Oncolytic Virus: Insights into the Effects of Treatment Protocols.",
+        "affiliation": "School of Mathematics and Statistics, The University of Sydney, Sydney, NSW, 2006, Australia.",
+        "synopsis": "Oncolytic virotherapy is an experimental cancer treatment that uses genetically engineered viruses to target and kill cancer cells. One major limitation of this treatment is that virus particles are rapidly cleared by the immune system, preventing them from arriving at the tumour site. To improve virus survival and infectivity Kim et al. (Biomaterials 32(9):2314-2326, 2011) modified virus particles with the polymer polyethylene glycol (PEG) and the monoclonal antibody herceptin. Whilst PEG modification appeared to improve plasma retention and initial infectivity, it also increased the virus particle arrival time. We derive a mathematical model that describes the interaction between tumour cells and an oncolytic virus. We tune our model to represent the experimental data by Kim et al. (2011) and obtain optimised parameters. Our model provides a platform from which predictions may be made about the response of cancer growth to other treatment protocols beyond those in the experiments. Through model simulations, we find that the treatment protocol affects the outcome dramatically. We quantify the effects of dosage strategy as a function of tumour cell replication and tumour carrying capacity on the outcome of oncolytic virotherapy as a treatment. The relative significance of the modification of the virus and the crucial role it plays in optimising treatment efficacy are explored.",
+        "year": 2018,
+        "month": "6",
+        "volume": "80",
+        "issue": "6",
+        "pages": "1615-1629",
+        "link": "http://identifiers.org/pubmed/29644518",
+        "authors": [
+            {
+                "name": "Adrianne L Jenner",
+                "institution": "School of Mathematics and Statistics, The University of Sydney, Sydney, NSW, 2006, Australia.",
+                "orcid": "0000-0001-9103-7092"
+            },
+            {
+                "name": "Chae-Ok Yun",
+                "institution": "Department of Bioengineering, Hanyang University, 17 Haengdang-Dong, Seongdong-Gu, Seoul, Korea."
+            },
+            {
+                "name": "Peter S Kim",
+                "institution": "School of Mathematics and Statistics, University of Sydney, Sydney, NSW, Australia.",
+                "orcid": "0000-0002-1492-4744"
+            },
+            {
+                "name": "Adelle C F Coster",
+                "institution": "School of Mathematics and Statistics, University of New South Wales, Sydney, NSW, 2052, Australia. a.coster@unsw.edu.au.",
+                "orcid": "0000-0002-5572-6832"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Jenner2018.xml",
+                "description": "SBML L3V1 representation of virotherapy model",
+                "fileSize": "46616",
+                "mimeType": "application/xml",
+                "md5sum": "ac9bd6a33e81823859e05c378efcb8b1",
+                "sha1sum": "d7fcb64b199122f38926616d44f48884feab047e",
+                "sha256sum": "d153c5f80dc60eb498b201651c974f403b1d45a5f9a3854bbe9327689ff89848"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Jenner2018-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "7469",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e5b3a3085dd2825cd68978593558e794",
+                "sha1sum": "eabb4fb9911c6b5383780bb1d566c037147c2d91",
+                "sha256sum": "65efc761883dddd5ea8847dd4f356e0c385f80bee3debef090afebab14ba6dc8"
+            },
+            {
+                "name": "Jenner2018-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "10542",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a7758a71a69b98fbfc91b7ee4dd2af2a",
+                "sha1sum": "8689aeeec4e676006d2440e60a4f72288777144e",
+                "sha256sum": "eecc07d20e60e9c9f72360da1422ffe16c2584a9599c9bec6ab699656c760e12"
+            },
+            {
+                "name": "Jenner2018-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4280",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ba25c74dc75bb41507ccf63efad5db04",
+                "sha1sum": "b23b4303967fa70efd6c86f29020e87ee257e9d3",
+                "sha256sum": "93c8ce7e69274ac84bcc66b1073e07f7762714e4e1b80fa9bbe5d320e7d00955"
+            },
+            {
+                "name": "Jenner2018-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4280",
+                "mimeType": "text/x-matlab",
+                "md5sum": "a6718b3a172c799b6e7a7275689f08c9",
+                "sha1sum": "d7f305f771ef75532f59e6340212dc61e7282e76",
+                "sha256sum": "6daea7aefa99cb5d28931718c7bcd316509d9e0b8ea25f831e1cbaf23f2a8d73"
+            },
+            {
+                "name": "Jenner2018.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "64093",
+                "mimeType": "application/xml",
+                "md5sum": "9ddba43d071408b382943a7e22369ce5",
+                "sha1sum": "5baa117e08dae743d093057a17c4571d4de500e9",
+                "sha256sum": "e4a0aef6ad5f26a7961e90b259408f93a61e928681206860f69451b6052bb246"
+            },
+            {
+                "name": "Jenner2018.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "2436",
+                "mimeType": "text/plain",
+                "md5sum": "fb4f4fe92b8460a0727746bc5a430579",
+                "sha1sum": "17c147e7e0a4095a7f7525d8b93ba4e569cabf79",
+                "sha256sum": "046be50c0e8f8a89e13464b12277027f4cf3f165bed73ceea28d975bdb580e8a"
+            },
+            {
+                "name": "Jenner2018.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "11426",
+                "mimeType": "application/xml",
+                "md5sum": "0f27f1a0a0156396870c8d2a8b484a99",
+                "sha1sum": "e2f77901a6dd2791610c329f326329537f800acb",
+                "sha256sum": "22e3f1a04723d88de330c473b89287857842503f3dfd5f3dd5a70223beb91b06"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "14355",
+                "mimeType": "image/png",
+                "md5sum": "97a65abd95e174d56f8b8df42eb5eec4",
+                "sha1sum": "0cc9f67b2e95909bfcfe31389f693dee54bcb3a9",
+                "sha256sum": "fade6445eb418710c625d2ae309d6281e5326f5f19ab4e31385c8bc08cb8a454"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "107",
+                "mimeType": "text/plain",
+                "md5sum": "242d8e78dc8e3d2ce48f282abf740e42",
+                "sha1sum": "d246776009a8ef965116eb6bc0a56d78926ce3a7",
+                "sha256sum": "e7bf9d94f1d6226b6f26c0673215b11de22e4d5cf53d539f9318ee5327704712"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "7bf7cded286e327073b4cef4dc6774bf",
+                "sha1sum": "51710e4443280b41f48d481f6d3225bed2a8c099",
+                "sha256sum": "a5197df1a13f6bfadc9d25132c4de5f3d129d2ebe48f43965bc3ca66f32bcc3c"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3947",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "4bd890d2af2c59171edc575b6f80454b",
+                "sha1sum": "c4bde675fee48f9fec4907a64fe925af0fad8ee6",
+                "sha256sum": "08ed28a3ee7ea387a6b1d35ad38102862f259082c229c2de9a346b7a22a6214f"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1565604703,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000789"
+            },
+            {
+                "version": 4,
+                "submitted": 1615539484,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Updating model events to resolve L3V1 validation error."
+            },
+            {
+                "version": 5,
+                "submitted": 1724286051,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281866,
+    "submissionId": "MODEL1908120002",
+    "publicationId": "BIOMD0000000789",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            },
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "29644518",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/29644518"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1908120002",
+            "resource": "BioModels Database",
+            "uri": "https://identifiers.org/biomodels.db:MODEL1908120002"
+        }
+    ]
+}

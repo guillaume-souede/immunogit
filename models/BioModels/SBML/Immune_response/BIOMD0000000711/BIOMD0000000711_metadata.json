@@ -1,0 +1,268 @@
+{
+    "name": "Hancioglu2007 - Human Immune Response to Influenza A virus Infection",
+    "description": "Baris Hancioglu, David Swigon & Gilles Clermont. A dynamical model of human immune response to influenza A virus infection. Journal of Theoretical Biology 246, 1 (2007).<p></p><p></p>We present a simplified dynamical model of immune response to uncomplicated influenza A virus (IAV) infection, which focuses on the control of the infection by the innate and adaptive immunity. Innate immunity is represented by interferon-induced resistance to infection of respiratory epithelial cells and by removal of infected cells by effector cells (cytotoxic T-cells and natural killer cells). Adaptive immunity is represented by virus-specific antibodies. Similar in spirit to the recent model of Bocharov and Romanyukha [1994. Mathematical model of antiviral immune response. III. Influenza A virus infection. J. Theor. Biol. 167, 323-360], the model is constructed as a system of 10 ordinary differential equations with 27 parameters characterizing the rates of various processes contributing to the course of disease. The parameters are derived from published experimental data or estimated so as to reproduce available data about the time course of IAV infection in a naïve host. We explore the effect of initial viral load on the severity and duration of the disease, construct a phase diagram that sheds insight into the dynamics of the disease, and perform sensitivity analysis on the model parameters to explore which ones influence the most the onset, duration and severity of infection. To account for the variability and speed of adaptation of the adaptive response to a particular virus strain, we introduce a variable that quantifies the antigenic compatibility between the virus and the antibodies currently produced by the organism. We find that for small initial viral load the disease progresses through an asymptomatic course, for intermediate value it takes a typical course with constant duration and severity of infection but variable onset, and for large initial viral load the disease becomes severe. This behavior is robust to a wide range of parameter values. The absence of antibody response leads to recurrence of disease and appearance of a chronic state with nontrivial constant viral load.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "17266989",
+        "journal": "Journal of theoretical biology",
+        "title": "A dynamical model of human immune response to influenza A virus infection.",
+        "affiliation": "Department of Mathematics, 301 Thackeray, University of Pittsburgh, Pittsburgh, PA 15260, USA.",
+        "synopsis": "We present a simplified dynamical model of immune response to uncomplicated influenza A virus (IAV) infection, which focuses on the control of the infection by the innate and adaptive immunity. Innate immunity is represented by interferon-induced resistance to infection of respiratory epithelial cells and by removal of infected cells by effector cells (cytotoxic T-cells and natural killer cells). Adaptive immunity is represented by virus-specific antibodies. Similar in spirit to the recent model of Bocharov and Romanyukha [1994. Mathematical model of antiviral immune response. III. Influenza A virus infection. J. Theor. Biol. 167, 323-360], the model is constructed as a system of 10 ordinary differential equations with 27 parameters characterizing the rates of various processes contributing to the course of disease. The parameters are derived from published experimental data or estimated so as to reproduce available data about the time course of IAV infection in a naïve host. We explore the effect of initial viral load on the severity and duration of the disease, construct a phase diagram that sheds insight into the dynamics of the disease, and perform sensitivity analysis on the model parameters to explore which ones influence the most the onset, duration and severity of infection. To account for the variability and speed of adaptation of the adaptive response to a particular virus strain, we introduce a variable that quantifies the antigenic compatibility between the virus and the antibodies currently produced by the organism. We find that for small initial viral load the disease progresses through an asymptomatic course, for intermediate value it takes a typical course with constant duration and severity of infection but variable onset, and for large initial viral load the disease becomes severe. This behavior is robust to a wide range of parameter values. The absence of antibody response leads to recurrence of disease and appearance of a chronic state with nontrivial constant viral load.",
+        "year": 2007,
+        "month": "5",
+        "volume": "246",
+        "issue": "1",
+        "pages": "70-86",
+        "link": "http://identifiers.org/pubmed/17266989",
+        "authors": [
+            {
+                "name": "Baris Hancioglu",
+                "institution": "Department of Mathematics, 301 Thackeray, University of Pittsburgh, Pittsburgh, PA 15260, USA."
+            },
+            {
+                "name": "David Swigon"
+            },
+            {
+                "name": "Gilles Clermont"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus.xml",
+                "description": "SBML L2V4 representation of Hancioglu2007 - Human Immune Response to Influnza A virus Infection",
+                "fileSize": "110491",
+                "mimeType": "application/xml",
+                "md5sum": "b64d5bfcbba725fdbc067be5f01a3b39",
+                "sha1sum": "78f1858333ed7fce2a05c7244f75f2cbaa8b0be3",
+                "sha256sum": "ecdf30593a6ddbb613379151697ddee91380043e7d561eb46c349f7c45f5fe03"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "34048",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0db75df89e8f4268885cd17aa7e9f9f9",
+                "sha1sum": "5b2c3cad0a95cf0c0deec4043d37dd2552bab583",
+                "sha256sum": "33891bf7e028ec69247107b8f46a2cb766c1c0a772611668793a4e7560ac9ed2"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "53168",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "cd0e3dfeeb1124df5213a2e552ffb63e",
+                "sha1sum": "d8475ce7cdac94025dd407b438b324428a3981cd",
+                "sha256sum": "ee37e0aeb755e3bb336248eab1914b0bd83409842b4fec362ac950c477ef9c58"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "15666",
+                "mimeType": "text/x-matlab",
+                "md5sum": "49ec505e7e99d5ee1370121d6efaa91e",
+                "sha1sum": "9295683d0f2892cf54361a88f24388d1f4a5f258",
+                "sha256sum": "5b27e4c371a4e6326b355a5216f7dbc7c308a3169ee883471186dbad7fe20971"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "15666",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ab70ffcb924b370d7256dcbb63f902f4",
+                "sha1sum": "16975879d498e1613b9db564e33ad4e13ef0433d",
+                "sha256sum": "1ac8678232808c44f02160f3a99515641787fb2e58bc1be3968c632b5c8846de"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus.cps",
+                "description": "Copasi file for the model",
+                "fileSize": "158262",
+                "mimeType": "application/xml",
+                "md5sum": "625ac42777501a69b2e892a1574bfc99",
+                "sha1sum": "875f2c74e448c1fd83db38a82d09cfb25b08e0fc",
+                "sha256sum": "f0e0fe50e7a4025b44f8b0bfb3e399db9e28f0312493766afda8a104c82c33ef"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "11977",
+                "mimeType": "text/plain",
+                "md5sum": "ef1c0e340588ba7b78c180cb924da1fb",
+                "sha1sum": "f695ba33a1103250b35cbfb3a4d58ed8a655c5da",
+                "sha256sum": "eaf8f49c5b5bd336a042d5a801fd433453c1963b06d1ca14d236e7fdc77a8584"
+            },
+            {
+                "name": "Hancioglu2007 - Human Immune Response to Influenza A virus.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "44908",
+                "mimeType": "application/xml",
+                "md5sum": "faea7afe3de9435146b7132892872b0c",
+                "sha1sum": "89f179fd97a32a0923dca5c5030f59f974fa65ea",
+                "sha256sum": "3409fc93b43aa389b00522f04d1b0bd510ae510da881519fd6522200390afc6f"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "38534",
+                "mimeType": "image/png",
+                "md5sum": "e7c7ff34799c3e0e8efea072572f0234",
+                "sha1sum": "2c299d26776d2cb2922055d1165035ae97e43553",
+                "sha256sum": "32a3389561a0425a3cc49421490d99fa4a4d85ffdb13bc131ba74ef4fd80fca8"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "263",
+                "mimeType": "text/plain",
+                "md5sum": "88528cc3521be260d98f923f710a048e",
+                "sha1sum": "a1c7c353a3776359351ffd61d44b4fd890a6f4d1",
+                "sha256sum": "1df646d72dcbe4bf7dcb5668920126f2f3118d55e501147478bb834510c6a26f"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1795",
+                "mimeType": "application/xml",
+                "md5sum": "069fbb1c33da62e464bcd470822ea878",
+                "sha1sum": "35e53351b3d7399720354c67873427ea25a7b846",
+                "sha256sum": "55480a0dc7d40ab936c64e87b0fe6145e5fce4e251de93778051c2f09a22ca82"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1459",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "fdf5ec7478367d9f7aa1e71cae8c0b52",
+                "sha1sum": "d98f4140c929289ea46a7a1df795cd1b136c625f",
+                "sha256sum": "2dd5e24a792419c0925aa6dcf9ac5b0891b8955166916b60ae2c3830552401f6"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 5,
+                "submitted": 1536243866,
+                "submitter": "Sarubini Kananathan",
+                "comment": "PubMed ID Updated"
+            },
+            {
+                "version": 7,
+                "submitted": 1539686275,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Automatically added model identifier BIOMD0000000711"
+            },
+            {
+                "version": 8,
+                "submitted": 1724283864,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281820,
+    "submissionId": "MODEL1808280004",
+    "publicationId": "BIOMD0000000711",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Sarubini Kananathan",
+                "email": "skananathan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "11320",
+            "name": "Influenza A virus",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/11320"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1808280004",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1808280004"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000711",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000711"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "17266989",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:17266989"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0006955",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0006955"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002250",
+            "name": "adaptive immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002250"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0045087",
+            "name": "innate immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0045087"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "17266989",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/17266989"
+        }
+    ]
+}

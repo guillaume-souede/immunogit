@@ -1,0 +1,242 @@
+{
+    "name": "Khajanchi2015 - The combined effects of optimal control in cancer remission",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>The combined effects of optimal control in cancer remissionSubhasKhajanchiDibakarGhoshAbstractWe investigate a mathematical model depicting the nonlinear dynamics of immunogenic tumors as envisioned by Kuznetsov et al. [1]. To understand the dynamics under what circumstances the cancer cells can be eliminated, we implement the theory of optimal control. We design two types of external treatment strategies, one is Adoptive Cellular Immunotherapy and another is interleukin-2. Our aim is to establish the treatment regimens that maximize the effector cell count and minimize the tumor cell burden and the deleterious effects of the total amount of drugs. We derive the existence of an optimal control by using the boundedness of solutions. We characterize the optimality system, in which the state system is coupled with co-states. The uniqueness of an optimal control of our problem is also analyzed. Finally, we demonstrate the numerical illustrations that the optimal regimens reduce the tumor burden under different scenarios.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1016/j.amc.2015.09.012",
+        "journal": "Applied Mathematics and Computation",
+        "title": "The combined effects of optimal control in cancer remission",
+        "affiliation": "a    Department of Mathematics, Indian Institute of Technology Roorkee, Uttaranchal - 247667, India\r\n\r\nb\r\n    Department of Mathematics, Bankura University, Bankura - 722146, India\r\nc\r\n    Physics and Applied Mathematics Unit, Indian Statistical Institute, Kolkata - 700108, India",
+        "synopsis": "We investigate a mathematical model depicting the nonlinear dynamics of immunogenic tumors as envisioned by Kuznetsov et al. [1]. To understand the dynamics under what circumstances the cancer cells can be eliminated, we implement the theory of optimal control. We design two types of external treatment strategies, one is Adoptive Cellular Immunotherapy and another is interleukin-2. Our aim is to establish the treatment regimens that maximize the effector cell count and minimize the tumor cell burden and the deleterious effects of the total amount of drugs. We derive the existence of an optimal control by using the boundedness of solutions. We characterize the optimality system, in which the state system is coupled with co-states. The uniqueness of an optimal control of our problem is also analyzed. Finally, we demonstrate the numerical illustrations that the optimal regimens reduce the tumor burden under different scenarios.",
+        "year": 2015,
+        "month": "11",
+        "volume": "271",
+        "pages": "375-388",
+        "link": "http://identifiers.org/doi/10.1016/j.amc.2015.09.012",
+        "authors": [
+            {
+                "name": "SubhasKhajanchi a,b"
+            },
+            {
+                "name": "DibakarGhosh c"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Khajanchi2015.xml",
+                "description": "SBML L2V4 representation of Khajanchi2015 - The combined effects of optimal control in cancer remission",
+                "fileSize": "24482",
+                "mimeType": "application/xml",
+                "md5sum": "86aff549bad607d94174a29bba56fe84",
+                "sha1sum": "2f2c80aa18be713537bd8daa6fbfec83287d7a77",
+                "sha256sum": "0cfdf1d2bdfb8a2f9161785b1ffb39360ce514e0bec75caf472bfc093e7163e6"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Khajanchi2015-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "8379",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "fc3e4913e1f18e53b71929a42ceb579b",
+                "sha1sum": "67bce599d17fb5c615190db254b9974e19affc85",
+                "sha256sum": "39baab7c28f72904001257e1045413c7d9dc74febd09411fc3026cda07af8146"
+            },
+            {
+                "name": "Khajanchi2015-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "10757",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "42307902f8b21895113c94f2ee146832",
+                "sha1sum": "1c8a36f477d8876eb8fecc91dba08ac82d28cb95",
+                "sha256sum": "890da7fc61f6c3d13f7b0a5e2871b015a5160d35fac9315beeabc8c4ca4f783c"
+            },
+            {
+                "name": "Khajanchi2015-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4802",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b217d978d186e54523867292a609f9e0",
+                "sha1sum": "1a89237377fb9ac958678914a80636f3b3751893",
+                "sha256sum": "dd5aff26dc4d8e74ec9d442b1d8737a91ff5b15c5ae6ad15de2da55129b59b14"
+            },
+            {
+                "name": "Khajanchi2015-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4802",
+                "mimeType": "text/x-matlab",
+                "md5sum": "a15cd4dc45d46f5daf6105a4db19b4fe",
+                "sha1sum": "da4d3e82a0a8fee57da1fde5a15d35242154c10e",
+                "sha256sum": "856da8256a0fe1f4447f96b375ac5549d6febdb662fcba50d2d4525b59f6ed39"
+            },
+            {
+                "name": "Khajanchi2015.cps",
+                "description": "COPASI version 4.24 (Build 197) representation of Khajanchi2015 - The combined effects of optimal control in cancer remission",
+                "fileSize": "52983",
+                "mimeType": "application/xml",
+                "md5sum": "1c5839729141745626c4c928c47e9fa6",
+                "sha1sum": "85b60d32102bfa858e1730c8c01e85a812a80e58",
+                "sha256sum": "cf5b8d6441d4dcbcb069e3331cf32052dc645f1ff1734774be7143f61efb910f"
+            },
+            {
+                "name": "Khajanchi2015.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3008",
+                "mimeType": "text/plain",
+                "md5sum": "8c5ff1fea51f4c318adb07a564d4691e",
+                "sha1sum": "78b57937fbad52c0d40f7f826a6a19b55312ed96",
+                "sha256sum": "f1e0e7585a1bdb93068b94227d6901f487fbd771958b3c3e4722d77092ac60a1"
+            },
+            {
+                "name": "Khajanchi2015.sedml",
+                "description": "SEDML L1V2 representation of Khajanchi2015 - The combined effects of optimal control in cancer remission (additionally CRBM-validated and adjusted).",
+                "fileSize": "11543",
+                "mimeType": "application/xml",
+                "md5sum": "34c9109206c636eaced70b03c3566199",
+                "sha1sum": "f9847fc1358ed122596125dbeea42862bed8d288",
+                "sha256sum": "b3e077b23968c1fa984732b1ebab7a602127a822f4a3e2284724ddd8bef9de5d"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "385444",
+                "mimeType": "image/png",
+                "md5sum": "6cb65ffaf59f98cffb65c6f099e3ccb9",
+                "sha1sum": "f68ed9e925c2a5ad98600fc12658e2fc7a0ac19c",
+                "sha256sum": "4dd187faed82b3f58910317ecf9ceecdd65dc29109289502509bd073e848787e"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "139",
+                "mimeType": "text/plain",
+                "md5sum": "b70c4c0a1e91084c5066f01203b549df",
+                "sha1sum": "ac065d4f117f3be7d37deba03215517f80ee7099",
+                "sha256sum": "02e1421264a6fcfab6d0669d5cf8c3128daefbfec54be0e79b34cea0f0407133"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1435",
+                "mimeType": "application/xml",
+                "md5sum": "7edebadaee61a59ed7907da72000621d",
+                "sha1sum": "e4d32ea29897e64a556497fe6fe6dd72c58620ec",
+                "sha256sum": "aa038ef14e68ee86c73d1215a34d065a6fcc8a9b07698174180510243d6f7ce9"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3784",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c3b1b54c8ce24cf5e930bb454eb47784",
+                "sha1sum": "a67484992e4f87d9ab9b663b864e2ea16e72455b",
+                "sha256sum": "9724f9d236c7cd9ef9fe6c336c7523058b5d6f551cbf6c1d3b6c5c6bf589a2b5"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1576577352,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000897"
+            },
+            {
+                "version": 4,
+                "submitted": 1577961254,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "SBML edited to add isDerivedFrom"
+            },
+            {
+                "version": 5,
+                "submitted": 1724288800,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281926,
+    "submissionId": "MODEL1912170001",
+    "publicationId": "BIOMD0000000897",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1080/10273660108833067",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1080/10273660108833067"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1016/j.amc.2015.09.012",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1016/j.amc.2015.09.012"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.3934/mbe.2005.2.499",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.3934/mbe.2005.2.499"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000897",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000897"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912170001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912170001"
+        }
+    ]
+}

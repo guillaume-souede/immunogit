@@ -1,0 +1,262 @@
+{
+    "name": "Theinmozhi2018 - Mechanism of PD1 inhibiting TCR signaling in Tumor immune regulation",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Its a Deterministic ODE model showcasing mechanism of PDL1 induced TCR and CD38 signalling inhibition. The model also contains the LCK activation and inactivation phenomenon dependent on the particular phosphorylation site. This model is relevant in immunotherapy. </pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "30356330",
+        "journal": "PloS one",
+        "title": "Mathematical modeling identifies Lck as a potential mediator for PD-1 induced inhibition of early TCR signaling.",
+        "affiliation": "Centre for Systems Biology, School of Life Sciences, University of Hyderabad, Central University P.O., Hyderabad, Telangana, India.",
+        "synopsis": "Programmed cell death-1 (PD-1) is an inhibitory immune checkpoint receptor that negatively regulates the functioning of T cell. Although the direct targets of PD-1 were not identified, its inhibitory action on the TCR signaling pathway was known much earlier. Recent experiments suggest that the PD-1 inhibits the TCR and CD28 signaling pathways at a very early stage ─ at the level of phosphorylation of the cytoplasmic domain of TCR and CD28 receptors. Here, we develop a mathematical model to investigate the influence of inhibitory effect of PD-1 on the activation of early TCR and CD28 signaling molecules. Proposed model recaptures several quantitative experimental observations of PD-1 mediated inhibition. Model simulations show that PD-1 imposes a net inhibitory effect on the Lck kinase. Further, the inhibitory effect of PD-1 on the activation of TCR signaling molecules such as Zap70 and SLP76 is significantly enhanced by the PD-1 mediated inhibition of Lck. These results suggest a critical role for Lck as a mediator for PD-1 induced inhibition of TCR signaling network. Multi parametric sensitivity analysis explores the effect of parameter uncertainty on model simulations.",
+        "year": 2018,
+        "month": "0",
+        "volume": "13",
+        "issue": "10",
+        "pages": "e0206232",
+        "link": "http://identifiers.org/pubmed/30356330",
+        "authors": [
+            {
+                "name": "Theinmozhi Arulraj",
+                "institution": "Centre for Systems Biology, School of Life Sciences, University of Hyderabad, Central University P.O., Hyderabad, Telangana, India.",
+                "orcid": "0000-0002-7258-7512"
+            },
+            {
+                "name": "Debashis Barik",
+                "institution": "School of Chemistry, University of Hyderabad, Central University P.O., Hyderabad, Telangana, India.",
+                "orcid": "0000-0003-1681-1273"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Theinmozhi_2018.xml",
+                "description": "SBML Level 2 version 4",
+                "fileSize": "185560",
+                "mimeType": "application/xml",
+                "md5sum": "9f9429150f9701496e23d61f4b8e962c",
+                "sha1sum": "00e642c16e70a59d146d6fcf620f2de7a4c81d8c",
+                "sha256sum": "89b2e8b1359071ac11f8fc870b318b9dabf789a60149ced9add68ca2bd378cae"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Theinmozhi_2018-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "48292",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "32d6e0321300a94f90aba54e98301a64",
+                "sha1sum": "b0356e12bf0e16c22b46ff3e42b278c25cb1ddd4",
+                "sha256sum": "2372e3b08c597d15f06a66105f51179293e5fc852065c763d09e48584f8c388d"
+            },
+            {
+                "name": "Theinmozhi_2018-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "79614",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a2cd0bbff8a1acbad3e436e048007ab1",
+                "sha1sum": "7715292807a728454f50eabac55de966f612a100",
+                "sha256sum": "db1e8ea9f10cef375fdc755003c7db09134bfdee584585d2fcf532db07c5bfd7"
+            },
+            {
+                "name": "Theinmozhi_2018-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "19739",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0dfdad6dd7ff5bc54a3a460957d1c4f7",
+                "sha1sum": "d9942f87a1c609c9abb8a0cfff87ba4c46ce53af",
+                "sha256sum": "de16903deb4c8f894657a6e9a8382ce959d995da77c9168c1fa9aa0ec0f63e9c"
+            },
+            {
+                "name": "Theinmozhi_2018-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "19739",
+                "mimeType": "text/x-matlab",
+                "md5sum": "441c0a74c020dcaf74702c0ed4c0f3a9",
+                "sha1sum": "34e0a46d37d9d85ec18d8b33adcf7dd32f3da77d",
+                "sha256sum": "b63b7b722c129333f76fabd8649ad9d578f008bcb1636a2f7399ecc3c828a07f"
+            },
+            {
+                "name": "Theinmozhi_2018.cps",
+                "description": "COPASI version 4.23 (Build 184) file for figure 7C, 7D of reference publication.",
+                "fileSize": "267252",
+                "mimeType": "application/xml",
+                "md5sum": "455b690ed1ae2512f352f2a56d7cbc07",
+                "sha1sum": "1200850779261d23788ea8a7690a096213ac69ec",
+                "sha256sum": "95a81b01922d5ad5b7c3f8b8a5dc4b7618fe6767520ca95858f72e4323020297"
+            },
+            {
+                "name": "Theinmozhi_2018.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "16015",
+                "mimeType": "text/plain",
+                "md5sum": "e92b2e453415a09394ce04b3f5b4d7eb",
+                "sha1sum": "2b02ea617f3db66004498cd30ec03fc7720ddd4d",
+                "sha256sum": "20ae76bca55f4ff647c62a3a04a438de1fed1b9268fd2b1b1aa03d16b4ef9cc5"
+            },
+            {
+                "name": "Theinmozhi_2018.sedml",
+                "description": "SEDML file for figure 7C, 7D of reference publication (additionally CRBM-validated and adjusted).",
+                "fileSize": "67881",
+                "mimeType": "application/xml",
+                "md5sum": "d47b8e970a05d1a4d3357665197087ec",
+                "sha1sum": "72247b4c4294d4ed9eb91b20b524d4afa9271dab",
+                "sha256sum": "a257073f0c443d9f67e6434df20e5e90bde489f96335029e650f695e6f70c1ec"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "176689",
+                "mimeType": "image/png",
+                "md5sum": "7ff6b5963e32c90d7b3aaee6acbffa28",
+                "sha1sum": "650a41c151d53cf1d3b9f3cef2e6840404bd1895",
+                "sha256sum": "1c109fe95f96c98cf4d4f9c6d5a3ac74d1334e7cf7fb1d1daecc58ddd5d9117a"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "197",
+                "mimeType": "text/plain",
+                "md5sum": "fadcbef93481aa193dc9522ba5feefad",
+                "sha1sum": "41c7da11fb308fa2eb09cdcc4272355c094cbc53",
+                "sha256sum": "c417a08e882ca901782de4201a6f2628ca9e886e8a1b5c14207ddaba966f1adf"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1451",
+                "mimeType": "application/xml",
+                "md5sum": "4bffa023aad9f0d703a613a4663c4a7c",
+                "sha1sum": "e56906c2454e65811fcbef5920d4c48da00f3dc5",
+                "sha256sum": "38c0df663c9aa4f43a90e671ae2ad83d9e46f1cf059d471b1b648083baafc37c"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1947",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c1428c0e82640f90ae6b8c639482605e",
+                "sha1sum": "b3fd79ae97ebab21ded419e97e701bf49d077f9b",
+                "sha256sum": "7ab60a3b165439394c3952ab562acc5b90d0089779c176e153663e92c32e9d81"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1543942284,
+                "submitter": "Krishna Kumar Tiwari",
+                "comment": "Automatically added model identifier BIOMD0000000724"
+            },
+            {
+                "version": 5,
+                "submitted": 1544032510,
+                "submitter": "Rahuman S Malik-Sheriff",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 6,
+                "submitted": 1724284263,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281827,
+    "submissionId": "MODEL1812040008",
+    "publicationId": "BIOMD0000000724",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Krishna Kumar Tiwari",
+                "email": "ktiwari@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0002-3699-0937",
+                "external": false
+            },
+            {
+                "name": "Rahuman S Malik-Sheriff",
+                "email": "sheriff@ebi.ac.uk",
+                "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0003-0705-9809",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "BTO:0000782",
+            "name": "T-lymphocyte",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0000782"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000724",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000724"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1812040008",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1812040008"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "30356330",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:30356330"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "30356330",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/30356330"
+        }
+    ]
+}

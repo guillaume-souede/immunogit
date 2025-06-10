@@ -1,0 +1,263 @@
+{
+    "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus",
+    "description": "A. Esteban Hernandez-Vargas & Michael Meyer-Hermann. Innate Immune System Dynamics to Influenza Virus. IFAC Proceedings Volumes 45, 18 (2012).<p></p><p></p>The understanding of how influenza virus infection activates the immune system is crucial to designing prophylactic and therapeutic strategies against the infection. Nevertheless, the immune response to influenza virus infection is complex and remains largely unknown. In this paper we focus in the innate immune response to influenza virus using a mathematical model, based on interferon-induced resistance to infection of respiratory epithelial cells and the clearance of infected cells by natural killers. Simulation results show the importance of IFN-I to prevent new infections in epithelial cells and to stop the viral explosion during the first two days after infection. Nevertheless, natural killers response might be the most relevant for the first depletion in viral load due to the elimination of infected cells. Based on the reproductive number, the innate immune response is important to control the infection, although it would not be enough to clear completely the virus. The effective coordination between innate and adaptive immune response is essential for the virus eradication.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.3182/20120829-3-hu-2029.00029",
+        "journal": "Elsevier BV",
+        "title": "Innate Immune System Dynamics to Influenza Virus",
+        "affiliation": "Systems Immunology Department, Helmholtz-Zentrum für Infektionsforschung, Inhoffenstraβe 7, D-38124, Braunschweig, Germany\r\n\r\nBio Center for Life Sciences, University of Technology Braunschweig, Spielmannstr. 7, 38106 Braunschweig, Germany",
+        "synopsis": "The understanding of how influenza virus infection activates the immune system is crucial to designing prophylactic and therapeutic strategies against the infection. Nevertheless, the immune response to influenza virus infection is complex and remains largely unknown. In this paper we focus in the innate immune response to influenza virus using a mathematical model, based on interferon-induced resistance to infection of respiratory epithelial cells and the clearance of infected cells by natural killers. Simulation results show the importance of IFN-I to prevent new infections in epithelial cells and to stop the viral explosion during the first two days after infection. Nevertheless, natural killers response might be the most relevant for the first depletion in viral load due to the elimination of infected cells. Based on the reproductive number, the innate immune response is important to control the infection, although it would not be enough to clear completely the virus. The effective coordination between innate and adaptive immune response is essential for the virus eradication.",
+        "year": 2012,
+        "month": "8",
+        "volume": "45",
+        "issue": "18",
+        "pages": "260-265",
+        "link": "http://identifiers.org/doi/10.3182/20120829-3-hu-2029.00029",
+        "authors": [
+            {
+                "name": "A. Esteban Hernandez-Vargas"
+            },
+            {
+                "name": "Michael Meyer-Hermann"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus.xml",
+                "description": "SBML L2V4 representation of Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus",
+                "fileSize": "61297",
+                "mimeType": "application/xml",
+                "md5sum": "91b5cb45cd9688acf8d53589dbf91c06",
+                "sha1sum": "82a2b45105e64a7738e5c005d75898688618fd37",
+                "sha256sum": "1ca63eafa9cfd2960fd67423eff3338c4c55354df0b99bf36ad81e13a0e18b4f"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "18896",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ee20231d79eb10fa6542cfbc02c197b3",
+                "sha1sum": "0ef6dc3dea7686813f991f860bacf90dcaeaac76",
+                "sha256sum": "9aacc661bbf1225568d8ecf2111564eab5d06c501f92c5c87a5ae4a367d8b4d5"
+            },
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "28550",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b80fc69b675b36f6fea44877924eabb8",
+                "sha1sum": "33156e2a98ab43b311bd12f960a1b3469c3bec2f",
+                "sha256sum": "1daf872f08898eb19cb8c059e93adc80c94143e898c9840acec33c9a2158f3fe"
+            },
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "8045",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0e8510ae44d670e66ddb7659d1165671",
+                "sha1sum": "ad13c0df6143b38ac0726aebf582a29c7c91efd8",
+                "sha256sum": "b1093646e5ac19df87c6689bd0e2b46411898aeab09110a0f71921e031e3f176"
+            },
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "8045",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ce8780f43b69100c0cb53970af7b8099",
+                "sha1sum": "7cfdc0fdce5c894e7b22a56fcad50ced71d9f88c",
+                "sha256sum": "78feca6edd1c49f7ea9de7e022693f4ccdc15bbddc71da64ce3d64765d7f96fe"
+            },
+            {
+                "name": "Hernandez-Vargas2012 - Innate immune system dynamics to Influenza virus.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "6221",
+                "mimeType": "text/plain",
+                "md5sum": "3fb0a9d12f7708d63c5476e5ec749982",
+                "sha1sum": "cfd2e23808eba997a633c5c57f2923ccddfbba7f",
+                "sha256sum": "60aede85e6d7171960344fcdf40156647a1676b4465b86cdc52509aa9b19c303"
+            },
+            {
+                "name": "Innate Immune System Dynamics to Influenza Virus.cps",
+                "description": "Copasi file for the model",
+                "fileSize": "80002",
+                "mimeType": "application/xml",
+                "md5sum": "ece67d597d6e0a8727f67bc8f9f4b633",
+                "sha1sum": "139086a91e538a365180131a81abbaffeedb5151",
+                "sha256sum": "f5a5c37e0650d21279ac44309a51982edff4090262355bddd292804d874ac09c"
+            },
+            {
+                "name": "Innate Immune System Dynamics to Influenza Virus.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "24982",
+                "mimeType": "application/xml",
+                "md5sum": "769027672ba416812e015e5a2438eb6c",
+                "sha1sum": "c582887bac84372caca8534cb354aeac470f3fe9",
+                "sha256sum": "f987926927ba60b1901542f516b5b6acd48b2186a338372eb1a44002cdbe0e92"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "35034",
+                "mimeType": "image/png",
+                "md5sum": "740b689425586b3422fd6b9ca60d1078",
+                "sha1sum": "fcde81c13cfbadbf67a2625d1673dd133c8cfc9b",
+                "sha256sum": "652c70de70a46813e3fb744766821be6dbb58d05ac23711fd4be84b8ddca8020"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "244",
+                "mimeType": "text/plain",
+                "md5sum": "2db1cd23fbad7ea6b4e64d292ea431d0",
+                "sha1sum": "a386afa524a36dc421561db5e364731999d5b5fb",
+                "sha256sum": "c669334b040117b23f0d6f3da8e6479717dc11906c5a625dffedc99250116ae9"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1853",
+                "mimeType": "application/xml",
+                "md5sum": "63ab15026f2adf405f7f72126d7a000c",
+                "sha1sum": "aab10c823088224e8e365949f9b9557150a2268d",
+                "sha256sum": "de084d328c4a0e7d372bb9c63df9e8eefe6016e1a601f8ba6c3c9f74f8f9a8f0"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "1413",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "83a577d6bc592be3c7c7a8898c90df53",
+                "sha1sum": "346c663962196983de93726d64e448e13374cd06",
+                "sha256sum": "eadada7317d0d1baf22326ad3de3cfff3775217d102b9d0e18426e7844a7a5d5"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 4,
+                "submitted": 1535453875,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 6,
+                "submitted": 1539004411,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Automatically added model identifier BIOMD0000000710"
+            },
+            {
+                "version": 9,
+                "submitted": 1539005323,
+                "submitter": "Sarubini Kananathan",
+                "comment": "Automatically added model identifier BIOMD0000000710"
+            },
+            {
+                "version": 10,
+                "submitted": 1724283836,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281820,
+    "submissionId": "MODEL1808280005",
+    "publicationId": "BIOMD0000000710",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Sarubini Kananathan",
+                "email": "skananathan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aag",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1808280005",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1808280005"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000710",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000710"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.3182/20120829-3-hu-2029.00029",
+            "resource": "DOI",
+            "uri": "https://identifiers.org/doi:10.3182/20120829-3-hu-2029.00029"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "0001669",
+            "name": "influenza infection",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0001669"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "PW:0000234",
+            "name": "innate immune response pathway",
+            "resource": "Pathway Ontology",
+            "uri": "http://identifiers.org/pw/PW:0000234"
+        },
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "11320",
+            "name": "Influenza A virus",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/11320"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "10.3182/20120829-3-hu-2029.00029",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.3182/20120829-3-hu-2029.00029"
+        }
+    ]
+}

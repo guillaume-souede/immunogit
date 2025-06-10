@@ -1,0 +1,250 @@
+{
+    "name": "Dubey2007 - A mathematical model for the effect of toxicant on the immune system (without toxicant effect) Model1",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>In this paper, a nonlinear mathematical model is proposed and analyzed to study theeffect of environmental toxicant on the immune response of the body. Criteria for localstability, instability and global stability are obtained. It is shown that the immuneresponse of the body decreases as the concentration of environmental toxicant increases,and certain criteria are obtained under which it settles down at its equilibrium level.In the absence of toxicant, an oscillatory behavior of immune system and pathogenicgrowth is observed. However, in the presence of toxicant, oscillatory behavior is notobserved. These studies show that the toxicant may have a grave effect on our body’sdefense mechanism.Keywords: Pathogen; Immune Response; Toxicant; Stability.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1142/S0218339007002301",
+        "journal": "Journal of Biological Systems",
+        "title": "A mathematical model for the effect of toxicant on the immune system",
+        "affiliation": "Department of Biological Sciences\r\nDepartment of Mathematics\r\nBITS, Pilani – 333 031, India",
+        "synopsis": "In this paper, a nonlinear mathematical model is proposed and analyzed to study the effect of environmental toxicant on the immune response of the body. Criteria for local stability, instability and global stability are obtained. It is shown that the immune response of the body decreases as the concentration of environmental toxicant increases, and certain criteria are obtained under which it settles down at its equilibrium level. In the absence of toxicant, an oscillatory behavior of immune system and pathogenic growth is observed. However, in the presence of toxicant, oscillatory behavior is not observed. These studies show that the toxicant may have a grave effect on our body's defense mechanism.",
+        "year": 2007,
+        "month": "7",
+        "volume": "15",
+        "issue": "4",
+        "pages": "473-493",
+        "link": "http://identifiers.org/doi/10.1142/S0218339007002301",
+        "authors": [
+            {
+                "name": "UMA S. DUBEY and BALRAM DUBEY"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Dubey2007_model1.xml",
+                "description": "SBML L2V4 representation of Dubey2007 - A mathematical model for the effect of toxicant on the immune system (without toxicant effect) Model1",
+                "fileSize": "31714",
+                "mimeType": "application/xml",
+                "md5sum": "3a268ad5f8ba2b0b98e43b2a5addd282",
+                "sha1sum": "cf0e5dc1edcf4decd04d23282688519b33d64f18",
+                "sha256sum": "dc37e8cca6606e37fbfeb930f8a69fe3aa7046a87a11bb0f997257919dbc5cac"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Dubey2007_model1-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10248",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "73a41d72459757650c1671571718a2ea",
+                "sha1sum": "36dc8ef790bcaf3e481e25f349cf0bfe5aaef86a",
+                "sha256sum": "2d9b1d57e0e014a531bbe5e493d52b99520a6cd6bb3c7f2ad86d993f2c0c8e5e"
+            },
+            {
+                "name": "Dubey2007_model1-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14421",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d9ef6b884dd5d6572cee32934573944a",
+                "sha1sum": "a4810ec138e936678533be3a3e2360aeb5a48b0b",
+                "sha256sum": "e362e9c0b613b71bfa5614b220a8d7f98313072539c124aeda8bf45cf8ce4d76"
+            },
+            {
+                "name": "Dubey2007_model1-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6580",
+                "mimeType": "text/x-matlab",
+                "md5sum": "78630c66fc42843055fa24f40c547339",
+                "sha1sum": "b994a8a4234876e29494648a8752d525ca26e416",
+                "sha256sum": "556ad5f985b8ee9db55ae79023e2cc7cad010921ae3879202329fc6325498be9"
+            },
+            {
+                "name": "Dubey2007_model1-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6580",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7e4f9dcb562234ff713473dd462b2b5c",
+                "sha1sum": "daffa2f997da456e41171e62798363667552651f",
+                "sha256sum": "8e324e8c125b69a4c5f9a1ca765f15ed8ffe5c4071e9805eae6b48a6a411c0c4"
+            },
+            {
+                "name": "Dubey2007_model1.cps",
+                "description": "COPASI version 4.24 (Build 197) Dubey2007 - A mathematical model for the effect of toxicant on the immune system (without toxicant effect) Model1",
+                "fileSize": "60927",
+                "mimeType": "application/xml",
+                "md5sum": "176cff5a5541c574b3a38137bce60354",
+                "sha1sum": "69f3ebc0d68dd1b40031d1f3a40c8461062503f0",
+                "sha256sum": "0a379d1e19a4b070353a0e7d9d56247f46149867a4fa2b187cfba5d83265b4c3"
+            },
+            {
+                "name": "Dubey2007_model1.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4315",
+                "mimeType": "text/plain",
+                "md5sum": "0f6c83ecf1b9d75b64f1d11fa711ab94",
+                "sha1sum": "dd5173601a637c19e0a5c08689c4aaf780156b90",
+                "sha256sum": "a9d44c463be89b0bf5a6bef4e643a236460a8640feb731fcf17f1bc0b16dce48"
+            },
+            {
+                "name": "Dubey2007_model1.sedml",
+                "description": "SEDML L1V2 Dubey2007 - A mathematical model for the effect of toxicant on the immune system (without toxicant effect) Model1 (additionally CRBM-validated and adjusted).",
+                "fileSize": "14212",
+                "mimeType": "application/xml",
+                "md5sum": "22fdde0b2c28522f19b7e3935d95f246",
+                "sha1sum": "94127b2f1befd41db062be7e48c108d481331378",
+                "sha256sum": "532dabd67f263279e54948f170dc60b87fde22dd5a5358a29d51869c35bc236d"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "347321",
+                "mimeType": "image/png",
+                "md5sum": "8e13d46bb84dca333a4184a6a396f08a",
+                "sha1sum": "97c86a9c165b1a2397d3d523d586b87873c9e354",
+                "sha256sum": "b5636ef55c9035debd72b4522089fa2900268c2b2968ae31c683026a49c0173c"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "211",
+                "mimeType": "text/plain",
+                "md5sum": "a32552d5ca1c63d2b1a837db344e60ac",
+                "sha1sum": "395649616997c3c417edfe1786d4f4152fa8d09c",
+                "sha256sum": "c8cc10a5d0cb90e4cea9e5bdebc2f68eeb21c52627a303826227dccd0d1d23a5"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1459",
+                "mimeType": "application/xml",
+                "md5sum": "93ccd1af2a6626bdaf0456abf002dcd3",
+                "sha1sum": "f869c91390189a405a10b1e822d90c830d2ae6f7",
+                "sha256sum": "ecf795e8ee0a541fd18816336db40a3030b673eb1fd43c5be118a149b351272e"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2381",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "32501d7ffee578c4e900f6b9cebf5fb3",
+                "sha1sum": "d1c08abd08839d16d5dcca7718a3f366dffbc7cf",
+                "sha256sum": "3ddc6be46ff9d460372b1ff6a32ce3b669c8a185d68cb9d5259938661b670e39"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1576772929,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000906"
+            },
+            {
+                "version": 3,
+                "submitted": 1724289009,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281936,
+    "submissionId": "MODEL1912190002",
+    "publicationId": "BIOMD0000000906",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "BTO:0005810",
+            "name": "immune system",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0005810"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1142/S0218339007002301",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1142/S0218339007002301"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "BTO:0005810",
+            "name": "immune system",
+            "resource": "Brenda Tissue Ontology",
+            "uri": "http://identifiers.org/bto/BTO:0005810"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000906",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000906"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912190002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912190002"
+        }
+    ]
+}
