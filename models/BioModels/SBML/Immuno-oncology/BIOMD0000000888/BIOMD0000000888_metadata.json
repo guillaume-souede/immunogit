@@ -1,0 +1,252 @@
+{
+    "name": "Unni2019 - Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug Interventions",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug InterventionsPranav Unni 1 and Padmanabhan SeshaiyerAbstractOver the last few decades, there have been significant developments in theoretical, experimental, and clinical approaches to understand the dynamics of cancer cells and their interactions with the immune system. These have led to the development of important methods for cancer therapy including virotherapy, immunotherapy, chemotherapy, targeted drug therapy, and many others. Along with this, there have also been some developments on analytical and computational models to help provide insights into clinical observations. This work develops a new mathematical model that combines important interactions between tumor cells and cells in the immune systems including natural killer cells, dendritic cells, and cytotoxic CD8+ T cells combined with drug delivery to these cell sites. These interactions are described via a system of ordinary differential equations that are solved numerically. A stability analysis of this model is also performed to determine conditions for tumor-free equilibrium to be stable. We also study the influence of proliferation rates and drug interventions in the dynamics of all the cells involved. Another contribution is the development of a novel parameter estimation methodology to determine optimal parameters in the model that can reproduce a given dataset. Our results seem to suggest that the model employed is a robust candidate for studying the dynamics of tumor cells and it helps to provide the dynamic interactions between the tumor cells, immune system, and drug-response systems.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "31687042",
+        "journal": "Computational and mathematical methods in medicine",
+        "title": "Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug Interventions.",
+        "affiliation": "American International School Chennai, Chennai, Tamilnadu, India.",
+        "synopsis": "Over the last few decades, there have been significant developments in theoretical, experimental, and clinical approaches to understand the dynamics of cancer cells and their interactions with the immune system. These have led to the development of important methods for cancer therapy including virotherapy, immunotherapy, chemotherapy, targeted drug therapy, and many others. Along with this, there have also been some developments on analytical and computational models to help provide insights into clinical observations. This work develops a new mathematical model that combines important interactions between tumor cells and cells in the immune systems including natural killer cells, dendritic cells, and cytotoxic CD8<sup>+</sup> T cells combined with drug delivery to these cell sites. These interactions are described via a system of ordinary differential equations that are solved numerically. A stability analysis of this model is also performed to determine conditions for tumor-free equilibrium to be stable. We also study the influence of proliferation rates and drug interventions in the dynamics of all the cells involved. Another contribution is the development of a novel parameter estimation methodology to determine optimal parameters in the model that can reproduce a given dataset. Our results seem to suggest that the model employed is a robust candidate for studying the dynamics of tumor cells and it helps to provide the dynamic interactions between the tumor cells, immune system, and drug-response systems.",
+        "year": 2019,
+        "month": "0",
+        "volume": "2019",
+        "pages": "4079298",
+        "link": "http://identifiers.org/pubmed/31687042",
+        "authors": [
+            {
+                "name": "Pranav Unni",
+                "institution": "American International School Chennai, Chennai, Tamilnadu, India.",
+                "orcid": "0000-0003-3425-9048"
+            },
+            {
+                "name": "Padmanabhan Seshaiyer",
+                "institution": "George Mason University, Fairfax, Virginia, USA.",
+                "orcid": "0000-0002-4303-4636"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "unni2019.xml",
+                "description": "SBML L2V4 Representation of Unni2019 - Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug Interventions",
+                "fileSize": "57340",
+                "mimeType": "application/xml",
+                "md5sum": "61ae788929876a0f0e41e376f073a0c3",
+                "sha1sum": "5a00382831ae0e10a78ad9c7b4297ed408aebb90",
+                "sha256sum": "57bcce12425a4efc4b2f27f5de9bfe3b9e6be98d64bcdda0dc86129e6a860ddf"
+            }
+        ],
+        "additional": [
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "279369",
+                "mimeType": "image/png",
+                "md5sum": "294164fcc75b22cc37ea79c2c66e66db",
+                "sha1sum": "345312137243ededa65ad8877ef4cfc438aedbab",
+                "sha256sum": "341e3df664393cae998fbb7259643be2c98a3bdfd9effdee9f3b70eae4ff1620"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "342",
+                "mimeType": "text/plain",
+                "md5sum": "5c3e4d9cd984a8f7c27509f61d9c98ff",
+                "sha1sum": "bf601a46f79aad3705147e2fd0e1f4f9579f8e7e",
+                "sha256sum": "9000f4fe2bcbe2c2024297b8008325cadde6e1e8273f5e72a71793b289387f8c"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1395",
+                "mimeType": "application/xml",
+                "md5sum": "d20bfdfc3ee137906938c73bf5f001ff",
+                "sha1sum": "1c612cf3788ff4a653081d304cae02b8d459ac2a",
+                "sha256sum": "30ca8a0822bf4e43d1b734e332e45e275da98f3b0c51d6b5867b3f70cca994e2"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3336",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "bc662b2f261da16a6d314a10b3b1298c",
+                "sha1sum": "2e87e68c7c1d8534d77ee140d98138b1ddabcc16",
+                "sha256sum": "4d478eb30f2ec5cc4ee86e8e81c1150e3dc56a84fced06cfddd33751204a3e66"
+            },
+            {
+                "name": "unni2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "13098",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7b9a2a6ae3408d5fbdf51175d53ea52a",
+                "sha1sum": "6c8c61e0baafc5b39b14b5afa918cb6050afadfd",
+                "sha256sum": "fb045566761649f37ee81bbb94c06f278c5ddf4da69f70d8624290586366614d"
+            },
+            {
+                "name": "unni2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "18036",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "662540c22777565f4b75e13691aa623e",
+                "sha1sum": "4294daabc47dd6b4ae6435e95591eb3474463c03",
+                "sha256sum": "a97d92e301fac099ebbfe1a9b972928d4a3d88d87ccd8805e33dab25df973646"
+            },
+            {
+                "name": "unni2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "7523",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4db355d2dad7c29980db77fcc3fc75c8",
+                "sha1sum": "2217fac78c08ce2c35b66425342693a816a2c4e5",
+                "sha256sum": "bb49793ec655d9b70b7e20452a39ecf7e41030b3cc771cc96b6c6f5192d9a303"
+            },
+            {
+                "name": "unni2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "7523",
+                "mimeType": "text/x-matlab",
+                "md5sum": "e2534b62b2e3302308f152324da12ac9",
+                "sha1sum": "f61d490582987405989da172c639acf1bcb7855a",
+                "sha256sum": "7cfc42c68200a2a02ca6cae4e42f6902216c3a1c1ebf2f8adc44ce017da9b3cf"
+            },
+            {
+                "name": "unni2019.cps",
+                "description": "COPASI 4.24 (Build 197)  representation of Unni2019 - Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug Interventions",
+                "fileSize": "90711",
+                "mimeType": "application/xml",
+                "md5sum": "8e7dc95cf75fca0504c1edcbb8282121",
+                "sha1sum": "475107cc2f1403b12da7db74e4144860d328064f",
+                "sha256sum": "bebcab295ad3781b243b71517b0137ed4dbcd8b552001ad12c2090e001e7262d"
+            },
+            {
+                "name": "unni2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "5533",
+                "mimeType": "text/plain",
+                "md5sum": "ca0b6cc2f79fcd9c0b627cfc22778285",
+                "sha1sum": "e22355c9d71ad85df6730207297766fa21943bc4",
+                "sha256sum": "15d27b9cfc81d90f070416cd8fdfa131d6a6fcb3642896adf915e48a8b17c5c0"
+            },
+            {
+                "name": "unni2019.sedml",
+                "description": "SEDML L1V2 Representation of Unni2019 - Mathematical Modeling, Analysis, and Simulation of Tumor Dynamics with Drug Interventions (additionally CRBM-validated and adjusted).",
+                "fileSize": "21325",
+                "mimeType": "application/xml",
+                "md5sum": "55a056aee7ad3335ec3ce0072d609c03",
+                "sha1sum": "2085b4c20693bfff5aec93045692fec8614a41bc",
+                "sha256sum": "569d0688df1cab04f08614a381ffc5be3b922f0c5259093a2eaf21e32de399aa"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1576016879,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000888"
+            },
+            {
+                "version": 4,
+                "submitted": 1724288603,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281923,
+    "submissionId": "MODEL1912100006",
+    "publicationId": "BIOMD0000000888",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "NCIT:C25218",
+            "name": "Intervention or Procedure",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C25218"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "31687042",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/31687042"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000888",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000888"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912100006",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912100006"
+        }
+    ]
+}

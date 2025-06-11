@@ -1,0 +1,241 @@
+{
+    "name": "Wei2017 - tumor, T cell and cytokine interaction",
+    "description": "The paper describes a model of tumor-immune interaction. Created by COPASI 4.25 (Build 207) This model is described in the article: Periodically Pulsed Immunotherapy in a Mathematical Model of Tumor, CD4+ T Cells, and Antitumor Cytokine InteractionsHsiu-Chuan Wei, Jui-Ling Yu, Chia-Yu Hsu Computational and Mathematical Methods in Medicine Volume 2017, Article ID 2906282, 12 pages Abstract: Immunotherapy is one of the most recent approaches for controlling and curing malignant tumors. In this paper, we consider a mathematical model of periodically pulsed immunotherapy using CD4+ T cells and an antitumor cytokine. Mathematical analyses are performed to determine the threshold of a successful treatment. The interindividual variability is explored by one-, two-, and three-parameter bifurcation diagrams for a nontreatment case. Numerical simulation conducted in this paper shows that (i) the tumor can be regulated by administering CD4+ T cells alone in a patient with a strong immune system or who has been diagnosed at an early stage, (ii) immunotherapy with a large amount of an antitumor cytokine can boost the immune system to remit or even to suppress tumor cells completely, and (iii) through polytherapy the tumor can be kept at a smaller size with reduced dosages.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "29250133",
+        "journal": "Computational and mathematical methods in medicine",
+        "title": "Periodically Pulsed Immunotherapy in a Mathematical Model of Tumor, CD4<sup>+</sup> T Cells, and Antitumor Cytokine Interactions.",
+        "affiliation": "Department of Applied Mathematics, Feng Chia University, Seatwen, Taichung 40724, Taiwan.",
+        "synopsis": "Immunotherapy is one of the most recent approaches for controlling and curing malignant tumors. In this paper, we consider a mathematical model of periodically pulsed immunotherapy using CD4<sup>+</sup> T cells and an antitumor cytokine. Mathematical analyses are performed to determine the threshold of a successful treatment. The interindividual variability is explored by one-, two-, and three-parameter bifurcation diagrams for a nontreatment case. Numerical simulation conducted in this paper shows that (i) the tumor can be regulated by administering CD4<sup>+</sup> T cells alone in a patient with a strong immune system or who has been diagnosed at an early stage, (ii) immunotherapy with a large amount of an antitumor cytokine can boost the immune system to remit or even to suppress tumor cells completely, and (iii) through polytherapy the tumor can be kept at a smaller size with reduced dosages.",
+        "year": 2017,
+        "month": "0",
+        "volume": "2017",
+        "pages": "2906282",
+        "link": "http://identifiers.org/pubmed/29250133",
+        "authors": [
+            {
+                "name": "Hsiu-Chuan Wei",
+                "institution": "Department of Applied Mathematics, Feng Chia University, Seatwen, Taichung 40724, Taiwan."
+            },
+            {
+                "name": "Jui-Ling Yu",
+                "institution": "Department of Financial and Computational Mathematics, Providence University, Shalu Dist., Taichung 43301, Taiwan.",
+                "orcid": "0000-0002-0674-3556"
+            },
+            {
+                "name": "Chia-Yu Hsu",
+                "institution": "Department of Applied Mathematics, Feng Chia University, Seatwen, Taichung 40724, Taiwan."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Wei2017.xml",
+                "description": "SBML L2V4 representation of cancer-immune interaction model",
+                "fileSize": "61745",
+                "mimeType": "application/xml",
+                "md5sum": "5cdfcdf202115b6f0872a5321fed8715",
+                "sha1sum": "3ddc56cef35bbbbc8e8405f180bac98d83f68751",
+                "sha256sum": "1afd6c4891c5f98c91b5a4e7ce3ae9ddd4acfffc4e1bec0a02ec2c817774a1cc"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Wei2017-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "12291",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c65b1192bc10acb6caafcb27e3b8f341",
+                "sha1sum": "e6fd2273141ce9a66d6daca2db0ec654f85180a3",
+                "sha256sum": "cc33b3ad22073b54fb63de2c25cae451a7f98654833a67c8890adc386d0113bd"
+            },
+            {
+                "name": "Wei2017-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "16340",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "06e6a3e1e70985387814e2029203a7c9",
+                "sha1sum": "cc733b34d83b8ce39dac0296a767a512240a360c",
+                "sha256sum": "06532c7d9d87b9185ccd75b1b3fa738715d8064c38b70df61f3b3bda4c3b0f7d"
+            },
+            {
+                "name": "Wei2017-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4843",
+                "mimeType": "text/x-matlab",
+                "md5sum": "8b46e675df3a968afd99e8839c9d7463",
+                "sha1sum": "7e6cf267f95e63bdd045541868eedc3f7cb1832c",
+                "sha256sum": "ba4eeb880d49e8eef2bf36d015a4ebcc28fe11cf4876b0b47215d688900c22b0"
+            },
+            {
+                "name": "Wei2017-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4843",
+                "mimeType": "text/x-matlab",
+                "md5sum": "bf75f8e8be9212fbb3e7dd7893e391dd",
+                "sha1sum": "a222c09090de02965aa293fd1d9a6c38cde1e481",
+                "sha256sum": "06bf948dcc698238b42231ee9bdb28c1d26d519409eb047504fc15be7a8acbbf"
+            },
+            {
+                "name": "Wei2017.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "74721",
+                "mimeType": "application/xml",
+                "md5sum": "961659e1e5b40a203a77d855115d2583",
+                "sha1sum": "dbd080b97dda88d17feba5472a4fea7282d55207",
+                "sha256sum": "20a12affd88f18c557ca3e9f15bd287c3a5d7a6cb148eb1554aa40b14da8f4ed"
+            },
+            {
+                "name": "Wei2017.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3298",
+                "mimeType": "text/plain",
+                "md5sum": "d1602732d88990199cb8a3017ffb8f65",
+                "sha1sum": "51a4dd4b208c995dbab5ca1281d9c0e14d9bc5d7",
+                "sha256sum": "f1f8389d83868ed576f194870c33f275bff188dccd1bf3caa5c4a014778fe51f"
+            },
+            {
+                "name": "Wei2017.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "15988",
+                "mimeType": "application/xml",
+                "md5sum": "3e6d8e6bdd9a9451cd1af8042110e499",
+                "sha1sum": "42879eaec829c8785805f81dba018d8d7938d3eb",
+                "sha256sum": "60ad312522b46e6c0d7d19547a23ce0bb4b3412fa375471e66b4716040f33dec"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "28475",
+                "mimeType": "image/png",
+                "md5sum": "ea4312e31e8a0a26027fd5b78ea7f015",
+                "sha1sum": "65a9eed0c5d2f7fd6efa2bab9876f92ca6c84811",
+                "sha256sum": "644ebf436f2cb171fddfb4a68c4537191bfc6aef535210b9a3332ed0374a07ed"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "106",
+                "mimeType": "text/plain",
+                "md5sum": "adf041d884e4d84edf3897984937472f",
+                "sha1sum": "b1a60923d4b5520c6d3e04e6e9dfac236463a42c",
+                "sha256sum": "1dcb4557cbc4d3ec746b587550fbe687b95b965dfdf4e66ec1f0ecad771a1ebe"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1387",
+                "mimeType": "application/xml",
+                "md5sum": "54cb93d2db2b6726fafbe94908cd539a",
+                "sha1sum": "8c4b9f0a385a23f65634af3e63670bf24d4d66a5",
+                "sha256sum": "804935f6e58338230ca5d34ac56fba788a596388836549bf5afe67896b01793e"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3409",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1c4f226afcee73d6d6d3f178d0d07495",
+                "sha1sum": "559824e746459d58f561e170e42187048e1a7de9",
+                "sha256sum": "c730aa73abf72c3a37ccd22a778cf1ea6c2153a0346ba35a5e48a730df15a9c9"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1565001341,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000778"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285825,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281858,
+    "submissionId": "MODEL1908050001",
+    "publicationId": "BIOMD0000000778",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "29250133",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/29250133"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1908050001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1908050001"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000778",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000778"
+        }
+    ]
+}

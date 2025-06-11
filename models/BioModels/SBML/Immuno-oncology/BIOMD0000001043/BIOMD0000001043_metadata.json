@@ -1,0 +1,290 @@
+{
+    "name": "Wodarz2001 - Viruses as antitumor weapons",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This mathematical model of the dynamics between tumor, virus and virus-specific CTL populations is described by the publication:Wodarz D. \"Viruses as antitumor weapons: defining conditions for tumor remission\". Cancer Res. 2001 Apr 15;61(8):3501-7.PMID: 11309314Comment:Reproduction of Fig. 3A was achieved by using the initial conditions infected_tumor_cells = 0.01, uninfected_tumor_cells = 0.0001, virus-specific_CTLs = 0, and with modified parameter sets.For Fig. 3A non-cytotoxic virus, k = 17 and beta= 0.5.For Fig. 3A cytotoxic virus, beta = 0.5.These simulation conditions yield plots similar to Fig. 3A in the manuscript.Abstract:Recent research has indicated that viruses specifically infecting tumor cells could be used as an alternative therapeutic approach in cancer patients. A particular example is the adenovirus ONYX-015, which has entered clinical trials in the context of head and neck cancer. Successful therapy crucially requires an understanding about how viral and host parameters influence tumor load. The interactions between the growing tumor, the replicating virus, and possible immune responses are multifactorial and nonlinear. Hence, a complete understanding of how virus and host characteristics influence the outcome of therapy requires mathematical models. In this study, such mathematical models are presented and analyzed. The study investigates three possible scenarios that could be relevant for therapy: (a) viral cytotoxicity alone kills tumor cells; (b) a virus-specific lytic CTL response contributes to killing of infected tumor cells; (c) the virus elicits immunostimulatory signals within the tumor that promote the development of tumor-specific CTL. The models precisely define conditions required for successful therapy. They identify the parameters that need to be measured and modulated to evaluate and refine the existing therapy regimes.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "11309314",
+        "journal": "Cancer research",
+        "title": "Viruses as antitumor weapons: defining conditions for tumor remission.",
+        "affiliation": "Institute for Advanced Study, Einstein Drive, Princeton, New Jersey 08540. wodarz@ias.edu",
+        "synopsis": "Recent research has indicated that viruses specifically infecting tumor cells could be used as an alternative therapeutic approach in cancer patients. A particular example is the adenovirus ONYX-015, which has entered clinical trials in the context of head and neck cancer. Successful therapy crucially requires an understanding about how viral and host parameters influence tumor load. The interactions between the growing tumor, the replicating virus, and possible immune responses are multifactorial and nonlinear. Hence, a complete understanding of how virus and host characteristics influence the outcome of therapy requires mathematical models. In this study, such mathematical models are presented and analyzed. The study investigates three possible scenarios that could be relevant for therapy: (a) viral cytotoxicity alone kills tumor cells; (b) a virus-specific lytic CTL response contributes to killing of infected tumor cells; (c) the virus elicits immunostimulatory signals within the tumor that promote the development of tumor-specific CTL. The models precisely define conditions required for successful therapy. They identify the parameters that need to be measured and modulated to evaluate and refine the existing therapy regimes.",
+        "year": 2001,
+        "month": "4",
+        "volume": "61",
+        "issue": "8",
+        "pages": "3501-3507",
+        "link": "http://identifiers.org/pubmed/11309314",
+        "authors": [
+            {
+                "name": "D Wodarz",
+                "institution": "Institute for Advanced Study, Einstein Drive, Princeton, New Jersey 08540. wodarz@ias.edu"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Wodarz2001.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "39848",
+                "mimeType": "application/xml",
+                "md5sum": "4f7f1aed18895e8fb9b4883ecdde8b8a",
+                "sha1sum": "8a3ca324cb47588ab1dee54005ac48b12c610670",
+                "sha256sum": "a04a63dc7c549b10629b9697320e04b36525f91d13bbeab9d07be1212e7ab46e"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Fig3A.png",
+                "description": "PNG file - Fig. 3A reproduction",
+                "fileSize": "108701",
+                "mimeType": "image/png",
+                "md5sum": "a859932c10b6287f6dc093e9f9ae0175",
+                "sha1sum": "45d5b61c9f7bb20bfcd030d7bf4fed6661c6b975",
+                "sha256sum": "cfd0ca2672ff68d2cf5339332b1216ad8698530c59a298f30f54722addbd8c04"
+            },
+            {
+                "name": "Wodarz2001 - Fig3A more cytotoxic.sedml",
+                "description": "SEDML file - FIg. 3A more cytotoxic virus simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14824",
+                "mimeType": "application/xml",
+                "md5sum": "9c50294199753eb868cf9b77d539b61d",
+                "sha1sum": "2185097e9a44db8cbfb3108fdf64acfb440326ab",
+                "sha256sum": "32f9d549b32a7f8fe39577ed082e36fcdf088c7bfb0599bb1838e9ba4e670d9b"
+            },
+            {
+                "name": "Wodarz2001 - Fig3A non-cytotoxic.sedml",
+                "description": "SEDML file - FIg. 3A non-cytotoxic virus simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14545",
+                "mimeType": "application/xml",
+                "md5sum": "23b2ef6129b88786ea3917a6bab1facd",
+                "sha1sum": "670c26ea18f65d79a3690cbc915050ed25c444a9",
+                "sha256sum": "bb6f6a94626bf6f4fb9b5261197f1a3a6035081ddcc8e9572ce83ed1c46c54b4"
+            },
+            {
+                "name": "Wodarz2001-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "14965",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a226a0f2fac60ffc0c63bb18f20c2d7f",
+                "sha1sum": "2cbe87cae03cfceb440d2550d14d4d73c1327486",
+                "sha256sum": "1df273c756634697764cd1b7134ad0ef008282c7ab7bc92332020dcfd12d12bc"
+            },
+            {
+                "name": "Wodarz2001-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "19902",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "353c093179270ee7ff7b8491c265d8d3",
+                "sha1sum": "a772155e4027b683542559b9451fe11064d99a12",
+                "sha256sum": "d014dfeffb59dcb681d56ad30b2eb403f83c0e2ac91d13e17aef46ff7a0408fb"
+            },
+            {
+                "name": "Wodarz2001-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5552",
+                "mimeType": "text/x-matlab",
+                "md5sum": "75f53f2497f44ecf9f8891c660980c14",
+                "sha1sum": "e77db2893a313ca8680f0c5f912dd3f2f125aa00",
+                "sha256sum": "01473db7b1fe494d5e45853c13727e0417f2759b2427b0886003bc1a83cfa08d"
+            },
+            {
+                "name": "Wodarz2001-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5552",
+                "mimeType": "text/x-matlab",
+                "md5sum": "a09dc6a45bdc4fe908f75633a6d4638b",
+                "sha1sum": "5613c9d608b5c4b74fb170846ff7ab92f7711569",
+                "sha256sum": "7931b423b6fed2f1cb75e2727c58f8ad1b1684e12514b31cf7a7c39ff9b2317e"
+            },
+            {
+                "name": "Wodarz2001.cps",
+                "description": "COPASI file",
+                "fileSize": "107474",
+                "mimeType": "application/xml",
+                "md5sum": "d4bfc75f51bb9567d7b3b22b32a3dc4f",
+                "sha1sum": "ca76f9f6553528ce826c02af9bbbd07ec7ff6732",
+                "sha256sum": "a1bbbf4c5d37e88423850ba7b21f8dd90e34d86e0cda7b8f2a02189d8850752a"
+            },
+            {
+                "name": "Wodarz2001.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3723",
+                "mimeType": "text/plain",
+                "md5sum": "a734c8fe8ff7fc894e58a9487b5d3686",
+                "sha1sum": "264c9bc4be0f0497bf8a95eae42f9e9262886e04",
+                "sha256sum": "f4f265db606081f009e6b26e43f0417f806aa114f1b5a2443fce3e67249b582d"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "108701",
+                "mimeType": "image/png",
+                "md5sum": "a859932c10b6287f6dc093e9f9ae0175",
+                "sha1sum": "45d5b61c9f7bb20bfcd030d7bf4fed6661c6b975",
+                "sha256sum": "cfd0ca2672ff68d2cf5339332b1216ad8698530c59a298f30f54722addbd8c04"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "388",
+                "mimeType": "text/plain",
+                "md5sum": "4c1bbca1f5066d4618e3aa3310a301ad",
+                "sha1sum": "fb2c54ef902e87ecd6e854bb2419b262a2045dc5",
+                "sha256sum": "d65e8a4090aadc1238bda47179f554daf4460a59819eb6bf4340d4357bdeba6f"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1675",
+                "mimeType": "application/xml",
+                "md5sum": "d628ad54d099292743b7c877d34def07",
+                "sha1sum": "e73efc8cfca6df61982203732e67fe04a4a588a8",
+                "sha256sum": "4e0f47a16baf81621f05cad57340e28d453b31f8fbf672b82cbfb801f0f0bc55"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3631",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "1283de818701bfd8863a268f9ac7897c",
+                "sha1sum": "2387550ffde7ec790b90fddea99c273176cc11cc",
+                "sha256sum": "757f25c2c62ed32ae18b0a2b0bb4b0178ae3e7ace088b127d7109a6823247868"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 1,
+                "submitted": 1631177546,
+                "submitter": "Emilia Chen",
+                "comment": "Import of Wodarz2001 - Viruses as antitumor weapons"
+            },
+            {
+                "version": 2,
+                "submitted": 1631201418,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001043"
+            },
+            {
+                "version": 3,
+                "submitted": 1724292539,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282019,
+    "submissionId": "MODEL2109090001",
+    "publicationId": "BIOMD0000001043",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:162",
+            "name": "cancer",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:162"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0046730",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0046730"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2109090001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2109090001"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001043",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001043"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "11309314",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:11309314"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "11309314",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/11309314"
+        }
+    ]
+}

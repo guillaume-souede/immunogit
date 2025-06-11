@@ -1,0 +1,248 @@
+{
+    "name": "Reppas2015 - tumor control via alternating immunostimulating and immunosuppressive phases",
+    "description": "The paper describes a model of tumor control via alternating immunostimulating and immunosuppressive phases. Created by COPASI 4.25 (Build 207) This model is described in the article: In silico tumor control induced via alternating immunostimulating and immunosuppressive phasesAI Reppas, JCL Alfonso, and H HatzikirouVirulence 7:2, 174--186Abstract: Despite recent advances in the field of Oncoimmunology, the success potential of immunomodulatory therapies against cancer remains to be elucidated. One of the reasons is the lack of understanding on the complex interplay between tumor growth dynamics and the associated immune system responses. Toward this goal, we consider a mathematical model of vascularized tumor growth and the corresponding effector cell recruitment dynamics. Bifurcation analysis allows for the exploration of model’s dynamic behavior and the determination of these parameter regimes that result in immune-mediated tumor control. In this work, we focus on a particular tumor evasion regime that involves tumor and effector cell concentration oscillations of slowly increasing and decreasing amplitude, respectively. Considering a temporal multiscale analysis, we derive an analytically tractable mapping of model solutions onto a weakly negatively damped harmonic oscillator. Based on our analysis, we propose a theory-driven intervention strategy involving immunostimulating and immunosuppressive phases to induce long-term tumor control.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "26305801",
+        "journal": "Virulence",
+        "title": "In silico tumor control induced via alternating immunostimulating and immunosuppressive phases.",
+        "affiliation": "a Center for Advancing Electronics; Technische Universität Dresden ; Dresden , Germany.",
+        "synopsis": "Despite recent advances in the field of Oncoimmunology, the success potential of immunomodulatory therapies against cancer remains to be elucidated. One of the reasons is the lack of understanding on the complex interplay between tumor growth dynamics and the associated immune system responses. Toward this goal, we consider a mathematical model of vascularized tumor growth and the corresponding effector cell recruitment dynamics. Bifurcation analysis allows for the exploration of model's dynamic behavior and the determination of these parameter regimes that result in immune-mediated tumor control. In this work, we focus on a particular tumor evasion regime that involves tumor and effector cell concentration oscillations of slowly increasing and decreasing amplitude, respectively. Considering a temporal multiscale analysis, we derive an analytically tractable mapping of model solutions onto a weakly negatively damped harmonic oscillator. Based on our analysis, we propose a theory-driven intervention strategy involving immunostimulating and immunosuppressive phases to induce long-term tumor control.",
+        "year": 2016,
+        "month": "0",
+        "volume": "7",
+        "issue": "2",
+        "pages": "174-186",
+        "link": "http://identifiers.org/pubmed/26305801",
+        "authors": [
+            {
+                "name": "A I Reppas",
+                "institution": "a Center for Advancing Electronics; Technische Universität Dresden ; Dresden , Germany."
+            },
+            {
+                "name": "J C L Alfonso",
+                "institution": "a Center for Advancing Electronics; Technische Universität Dresden ; Dresden , Germany."
+            },
+            {
+                "name": "H Hatzikirou",
+                "institution": "a Center for Advancing Electronics; Technische Universität Dresden ; Dresden , Germany.",
+                "orcid": "0000-0002-1270-7885"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Reppas2015.xml",
+                "description": "SBML L3V1 representation of the alternating immunostimulating and immunosuppressive phases model",
+                "fileSize": "64135",
+                "mimeType": "application/xml",
+                "md5sum": "a20f9fee1d36e5d89ed473ec2bd25483",
+                "sha1sum": "3c7efc51ea90ed5be2dc261801015e0b1bee29b8",
+                "sha256sum": "1af6068d26fca67d282ce3e4e2d6ce58abd205d7c935ee57cbedd2aac7c99a7f"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Reppas2015-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "12626",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "95b2e6967936b28d356d58a1ad995d46",
+                "sha1sum": "f7bffea9ed8b29ec31f605db1d0a3fcc0947d74b",
+                "sha256sum": "92a15de1ade7bde35b52ca17c46ebc6b819791ff5eed863dfc57152e35c03385"
+            },
+            {
+                "name": "Reppas2015-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "17290",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "ac96ccd64408c6497f0eac4774fac6e1",
+                "sha1sum": "83131b42dfcafe26f4d853bdd8a388f33afa4ba0",
+                "sha256sum": "b6a82f0aa50e91bfbf36f0ac34c60d18e020b3cee4a30deefbcc95175623bfb2"
+            },
+            {
+                "name": "Reppas2015-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5697",
+                "mimeType": "text/x-matlab",
+                "md5sum": "895cc90335674cd9a609eea488f3959b",
+                "sha1sum": "e0fdc4941cd781868f515aa2edb5dd569c8573ce",
+                "sha256sum": "72e68fc1ed6d76afba72d475d6cc248501f33fcebca6ca2d9f1ef0176bfae3a0"
+            },
+            {
+                "name": "Reppas2015-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5697",
+                "mimeType": "text/x-matlab",
+                "md5sum": "71ac5d7a9327028f016d4e9d70f468cf",
+                "sha1sum": "0400d1c3f16a98f44258fe1ca78a8166bd4ac9e3",
+                "sha256sum": "e0dbf839da5fa3c82edaec00713952461527375893d65b7e1fd836804a1ba13b"
+            },
+            {
+                "name": "Reppas2015.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "82939",
+                "mimeType": "application/xml",
+                "md5sum": "ee0d6d073dc7c72dd5baedce8e8d8b44",
+                "sha1sum": "a790683db3c02472a6310e3930b2196e88002bdb",
+                "sha256sum": "8d57082b953eec630f1a6af45cf5ce74d4bac2669c0bb5d83b849d49c704f7bb"
+            },
+            {
+                "name": "Reppas2015.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3768",
+                "mimeType": "text/plain",
+                "md5sum": "81971a8ae681764eca63e87d1e2a9e86",
+                "sha1sum": "e76862746b87b9c1ce08082ecf32ec3d827a7fc8",
+                "sha256sum": "d04d29c4f711fa9fbd7aa868ae6f35eb4437fab592c0d0efa59729f3298cc6bb"
+            },
+            {
+                "name": "Reppas2015.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "15322",
+                "mimeType": "application/xml",
+                "md5sum": "b43654e0b92fde6110853bf6e3068c5b",
+                "sha1sum": "2ac741cbac0fe90163be06ffb8d45c09ad46587f",
+                "sha256sum": "4eb92f9117e52d85d840d52b59b7605a172d17df1e640f0262fc5a93c815f22c"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "20349",
+                "mimeType": "image/png",
+                "md5sum": "70edf8fdd781ce7c966f02e4d47bbfa2",
+                "sha1sum": "ea3b4b09ee5fe75b72fc9114edfc11a00441bd6e",
+                "sha256sum": "e60ad2c31f85c76f2906563469779c1d2b986575bc16be282efb1a37097c2647"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "171",
+                "mimeType": "text/plain",
+                "md5sum": "79b02837a277b2908114701a1599fafc",
+                "sha1sum": "c35abc9ea1f6f6dde52fbb3624213b4b9f837e65",
+                "sha256sum": "abf2bf2ecfaa3f31b5cc1365ae645ba71d3c0624d4b3fb09191be4cb6eafbd69"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "ddfcdffb40f859d33f9543e42f43fc4f",
+                "sha1sum": "53ecdab417440da4599b99661a1b9bcbdc0339b8",
+                "sha256sum": "90abc5239e6cf0d0a6bd2dace120d859575d44b18e8a2b00e433ac7a4432db78"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3508",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "60be1b8403f7d80699ced81dba4482de",
+                "sha1sum": "439d828c4326e91cb23447f5ebacab69cb988d59",
+                "sha256sum": "b5bb94bb7e536c495717eb39307f6b0936c63d2a945445ecf5be4a3bc0c8fb8e"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1562858737,
+                "submitter": "Jinghao Men",
+                "comment": "Edited model metadata online."
+            },
+            {
+                "version": 3,
+                "submitted": 1562858822,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000749"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285133,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281840,
+    "submissionId": "MODEL1907110002",
+    "publicationId": "BIOMD0000000749",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aah",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:isVersionOf",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "26305801",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/26305801"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000749",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000749"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907110002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907110002"
+        }
+    ]
+}

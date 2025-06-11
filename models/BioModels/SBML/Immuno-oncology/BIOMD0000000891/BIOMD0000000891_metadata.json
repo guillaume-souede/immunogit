@@ -1,0 +1,248 @@
+{
+    "name": "Khajanchi2019 - Stability Analysis of a Mathematical Model forGlioma-Immune Interaction under OptimalTherapy",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Stability Analysis of a Mathematical Model for Glioma-Immune Interaction under Optimal TherapySubhas KhajanchiAbstractWe investigate a mathematical model using a system of coupled ordinary differential equations, which describes the interplay of malignant glioma cells, macrophages, glioma specific CD8+T cells and the immunotherapeutic drug Adoptive Cellular Immunotherapy (ACI). To better understand under what circumstances the glioma cells can be eliminated, we employ the theory of optimal control. We investigate the dynamics of the system by observing biologically feasible equilibrium points and their stability analysis before administration of the external therapy ACI. We solve an optimal control problem with an objective functional which minimizes the glioma cell burden as well as the side effects of the treatment. We characterize our optimal control in terms of the solutions to the optimality system, in which the state system coupled with the adjoint system. Our model simulation demonstrates that the strength of treatment u1(t) plays an important role to eliminate the glioma cells. Finally, we derive an optimal treatment strategy and then solve it numerically.Keywords: malignant gliomas; stability analysis; optimal control; adoptive cellular immunotherapy</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1515/ijnsns-2017-0206",
+        "journal": "International Journal of Nonlinear Sciences and Numerical Simulation",
+        "title": "Stability Analysis of a Mathematical Model for Glioma-Immune Interaction under Optimal Therapy",
+        "affiliation": "Department of Mathematics, Presidency University",
+        "synopsis": "We investigate a mathematical model using a system of coupled ordinary differential equations, which describes the interplay of malignant glioma cells, macrophages, glioma specific CD8+T cells and the immunotherapeutic drug Adoptive Cellular Immunotherapy (ACI). To better understand under what circumstances the glioma cells can be eliminated, we employ the theory of optimal control. We investigate the dynamics of the system by observing biologically feasible equilibrium points and their stability analysis before administration of the external therapy ACI. We solve an optimal control problem with an objective functional which minimizes the glioma cell burden as well as the side effects of the treatment. We characterize our optimal control in terms of the solutions to the optimality system, in which the state system coupled with the adjoint system. Our model simulation demonstrates that the strength of treatment u1(t) plays an important role to eliminate the glioma cells. Finally, we derive an optimal treatment strategy and then solve it numerically.",
+        "year": 2019,
+        "month": "3",
+        "volume": "20",
+        "issue": "3-4",
+        "link": "http://identifiers.org/doi/10.1515/ijnsns-2017-0206",
+        "authors": [
+            {
+                "name": "Subhas Khajanchi"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Khajanchi2019.xml",
+                "description": "SBML L2V4 Representation of Khajanchi2019 - Stability Analysis of a Mathematical Model forGlioma-Immune Interaction under OptimalTherapy",
+                "fileSize": "34501",
+                "mimeType": "application/xml",
+                "md5sum": "96799fc3e738887a8d3bca7fbf7baaf2",
+                "sha1sum": "1b45c85e8cec5ec440444621c3ad702f25efe679",
+                "sha256sum": "0b861deac3c3efe0fe8bbbd510f3dcc243800d8c3cbe371e867e3133133942ae"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Khajanchi2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11057",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b484108411fa5479892720a48728b95b",
+                "sha1sum": "b6157883154611d60a4b740eecf9a158cc63858f",
+                "sha256sum": "bf87ce9c2e9c8d78258f4438e83d254d0d8dc161e744fd1a35d028d8cf31bfea"
+            },
+            {
+                "name": "Khajanchi2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14876",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f38b7e88534de9a6dbf834a4f6956370",
+                "sha1sum": "50cb9e98187848a139f0d4cd4773c0036bf21e54",
+                "sha256sum": "82cabc46764aca9bed57b29082d6e6227a76ebcbf53061e918da1bb16075502d"
+            },
+            {
+                "name": "Khajanchi2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6573",
+                "mimeType": "text/x-matlab",
+                "md5sum": "cee06c72c4dfd04199f74f5d34bb008a",
+                "sha1sum": "858d56ff7f419a5d90a6993ef4c994aeeb2cd79a",
+                "sha256sum": "6dc8f2dafbb9220535cdea854554b6bd437950c63fd933ca3afb578670256877"
+            },
+            {
+                "name": "Khajanchi2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6573",
+                "mimeType": "text/x-matlab",
+                "md5sum": "c27f4ea1a0864a9367886465e3d7d33f",
+                "sha1sum": "9b28b261c828b97e300677ec9b129cacab24cf24",
+                "sha256sum": "f26757be082f01d43245ba4b125ba9c07ed1539806df0c916d99813b5429e81d"
+            },
+            {
+                "name": "Khajanchi2019.cps",
+                "description": "COPASI version 4.24 (Build 197) Khajanchi2019 - Stability Analysis of a Mathematical Model forGlioma-Immune Interaction under OptimalTherapy",
+                "fileSize": "61226",
+                "mimeType": "application/xml",
+                "md5sum": "a39bcbdfcec9e785ffab92614b355dbc",
+                "sha1sum": "8fd6873dfe0ec57dbb22c74efdf0b552822bc26e",
+                "sha256sum": "a2cff9b9b351630fcf12cc6626665938d670c5f923cc276d693b270556d68611"
+            },
+            {
+                "name": "Khajanchi2019.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4433",
+                "mimeType": "text/plain",
+                "md5sum": "9571c8394be7130d7c15e64a084ae870",
+                "sha1sum": "6412e5f9862b9743ea845543409c3a6d4005cf40",
+                "sha256sum": "d9f75e2bf2099746f4063ce3eb8cd05b5bc83cfd408c80364ba8b5f70c73e984"
+            },
+            {
+                "name": "Khajanchi2019.sedml",
+                "description": "SEDML L1V2 Khajanchi2019 - Stability Analysis of a Mathematical Model forGlioma-Immune Interaction under OptimalTherapy (additionally CRBM-validated and adjusted).",
+                "fileSize": "15311",
+                "mimeType": "application/xml",
+                "md5sum": "112462afc13e83c04f15005ee963486a",
+                "sha1sum": "87d903b4cd26c9019ba1aa2d2bb53b5694148fb0",
+                "sha256sum": "342bacea4600c1688653fc0118843d2e56ab9cf4de8101cf05b9afd19794aed4"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "428530",
+                "mimeType": "image/png",
+                "md5sum": "14fc02aaab4aad7990af5b0b97c05195",
+                "sha1sum": "4bb62cfca4c6fe5aac6f4f298ba25e38f4944660",
+                "sha256sum": "ab0ded57cc46d17bfc226a3f245444e8837fac87f82c4121843f3489a080d4e9"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "124",
+                "mimeType": "text/plain",
+                "md5sum": "8b6f0bf36bd4c36a512f1de6e2cbc518",
+                "sha1sum": "66f056ae2d8b4e63f68cd985aab5b85384577bee",
+                "sha256sum": "b447fbc16590d7b2644c411e8faaf5735ed6448657b23a2896314f8ee8361caa"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1435",
+                "mimeType": "application/xml",
+                "md5sum": "a8a409a7892b3fb8fcdb60f11fae6540",
+                "sha1sum": "88f693c63bf5360997df88be76157a4d74adf457",
+                "sha256sum": "8a5417afefc74c2bb9c6fd83424f0462ddcdd75130a2e4cbfe59c7120c5003bd"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4633",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c317717cb02a5918debbc9a038e968a4",
+                "sha1sum": "7d0e072d1296bb79a378f5d4848ded7f5db582ef",
+                "sha256sum": "95228eb157c6d4f8b3594b56cab60969ddc8b8172b029395e931cd1bfac498f3"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1576235936,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000891"
+            },
+            {
+                "version": 4,
+                "submitted": 1577963032,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "SBML edited to add isDerivedFrom"
+            },
+            {
+                "version": 5,
+                "submitted": 1724288668,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281924,
+    "submissionId": "MODEL1912130001",
+    "publicationId": "BIOMD0000000891",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1515/ijnsns-2017-0206",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1515/ijnsns-2017-0206"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1016/S0092-8240(05)80260-5",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1016/S0092-8240(05)80260-5"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1371/journal.pone.0123611",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1371/journal.pone.0123611"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1007/s00262-007-0387-z",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1007/s00262-007-0387-z"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000891",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000891"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912130001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912130001"
+        }
+    ]
+}

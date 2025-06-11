@@ -1,0 +1,277 @@
+{
+    "name": "Kimmel2021 - T cell competition and stochastic extinction events in CAR T cell therapy",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This mathematical model of T cell-tumour interactions considering the roles of T cell competition and stochastic extinction events in CAR T cell therapy is described by the publication:Kimmel GJ, Locke FL, Altrock PM. \"The roles of T cell competition and stochastic extinction events in chimeric antigen receptor T cell therapy.\" Proc Biol Sci. 2021 Mar 31;288(1947):20210229.doi: 10.1098/rspb.2021.0229Comment:Reproduction of Fig. 2(a) and (b) was simulated by using the fitted model parameter set given in Table 1 of the manuscript's Supplementary Material, however substituting the values of r_N and rho_C for those stated in Table 1 of the publication manuscript, i.e. r_N = 0.17 and rho_C = 0.0251.Abstract:Chimeric antigen receptor (CAR) T cell therapy is a remarkably effective immunotherapy that relies on in vivo expansion of engineered CAR T cells, after lymphodepletion (LD) by chemotherapy. The quantitative laws underlying this expansion and subsequent tumour eradication remain unknown. We develop a mathematical model of T cell–tumour cell interactions and demonstrate that expansion can be explained by immune reconstitution dynamics after LD and competition among T cells. CAR T cells rapidly grow and engage tumour cells but experience an emerging growth rate disadvantage compared to normal T cells. Since tumour eradication is deterministically unstable in our model, we define cure as a stochastic event, which, even when likely, can occur at variable times. However, we show that variability in timing is largely determined by patient variability. While cure events impacted by these fluctuations occur early and are narrowly distributed, progression events occur late and are more widely distributed in time. We parameterized our model using population-level CAR T cell and tumour data over time and compare our predictions with progression-free survival rates. We find that therapy could be improved by optimizing the tumour-killing rate and the CAR T cells' ability to adapt, as quantified by their carrying capacity. Our tumour extinction model can be leveraged to examine why therapy works in some patients but not others, and to better understand the interplay of deterministic and stochastic effects on outcomes. For example, our model implies that LD before a second CAR T injection is necessary.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "33757357",
+        "journal": "Proceedings. Biological sciences",
+        "title": "The roles of T cell competition and stochastic extinction events in chimeric antigen receptor T cell therapy.",
+        "affiliation": "Department of Integrated Mathematical Oncology, Research Institute, Tampa, FL, USA.",
+        "synopsis": "Chimeric antigen receptor (CAR) T cell therapy is a remarkably effective immunotherapy that relies on <i>in vivo</i> expansion of engineered CAR T cells, after lymphodepletion (LD) by chemotherapy. The quantitative laws underlying this expansion and subsequent tumour eradication remain unknown. We develop a mathematical model of T cell-tumour cell interactions and demonstrate that expansion can be explained by immune reconstitution dynamics after LD and competition among T cells. CAR T cells rapidly grow and engage tumour cells but experience an emerging growth rate disadvantage compared to normal T cells. Since tumour eradication is deterministically unstable in our model, we define cure as a stochastic event, which, even when likely, can occur at variable times. However, we show that variability in timing is largely determined by patient variability. While cure events impacted by these fluctuations occur early and are narrowly distributed, progression events occur late and are more widely distributed in time. We parameterized our model using population-level CAR T cell and tumour data over time and compare our predictions with progression-free survival rates. We find that therapy could be improved by optimizing the tumour-killing rate and the CAR T cells' ability to adapt, as quantified by their carrying capacity. Our tumour extinction model can be leveraged to examine why therapy works in some patients but not others, and to better understand the interplay of deterministic and stochastic effects on outcomes. For example, our model implies that LD before a second CAR T injection is necessary.",
+        "year": 2021,
+        "month": "3",
+        "volume": "288",
+        "issue": "1947",
+        "pages": "20210229",
+        "link": "http://identifiers.org/pubmed/33757357",
+        "authors": [
+            {
+                "name": "Gregory J Kimmel",
+                "institution": "Department of Integrated Mathematical Oncology, Research Institute, Tampa, FL, USA."
+            },
+            {
+                "name": "Frederick L Locke",
+                "institution": "Department of Blood and Marrow Transplant and Cellular Immunotherapy, Research Institute, Tampa, FL, USA."
+            },
+            {
+                "name": "Philipp M Altrock",
+                "institution": "Department of Integrated Mathematical Oncology, Research Institute, Tampa, FL, USA.Department of Blood and Marrow Transplant and Cellular Immunotherapy, Research Institute, Tampa, FL, USA.Department of Malignant Hematology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL, USA.",
+                "orcid": "0000-0001-7731-3345"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Kimmel2021.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "33078",
+                "mimeType": "application/xml",
+                "md5sum": "51d3b980f69b708e6f838429979075c1",
+                "sha1sum": "d7d720b63d2c7af1bfe75dcc7566158ae7f0a0c6",
+                "sha256sum": "147409cd2afb7c0f8287f34e8d93c78a34b83816f9e558fb8176d2c3c89ae5a6"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Fig2(a) and (b).png",
+                "description": "PNG file - Fig. 2(a) and (b) reproduction",
+                "fileSize": "62703",
+                "mimeType": "image/png",
+                "md5sum": "b87b6362008907be464f0d3b8a2f429b",
+                "sha1sum": "804c653b94edff01cd76b50dc5f00e34b704c524",
+                "sha256sum": "eb4b8a42b1a506001eee50ac9f0eb45e672d6850be8f816282e84aabe01cdaf6"
+            },
+            {
+                "name": "Kimmel2021 - Fig2(a) and (b).sedml",
+                "description": "SEDML file - Fig. 2(a) and (b) simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "13096",
+                "mimeType": "application/xml",
+                "md5sum": "f79b339f07c89403d8aa27a393dd7591",
+                "sha1sum": "13d67af9600f1cb1700e49c0c8065fe45bc39b03",
+                "sha256sum": "9569246a02afb4d567e112e1fad2e375dc26f4d18733f06c0d6ac25d04217230"
+            },
+            {
+                "name": "Kimmel2021-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11269",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "b22708d51eb06c899b12d97ea419c29b",
+                "sha1sum": "f8a966671cd95330b078702980284cf6bd291abb",
+                "sha256sum": "9873940c6859d4bebee8591bddb268c066c1c62fc5e06b4c4449684c43a1541e"
+            },
+            {
+                "name": "Kimmel2021-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14092",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "6f1874786a765adc0bed93f876b52bdf",
+                "sha1sum": "749bcb9cd00b46b597fccccf5c6d634494f1f3fb",
+                "sha256sum": "3fd7045041c8075eeeece49313e182d31376aa635ca8073836ce3a750b49d172"
+            },
+            {
+                "name": "Kimmel2021-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "4993",
+                "mimeType": "text/x-matlab",
+                "md5sum": "23ffed320fb7a37b25921e6c5149370e",
+                "sha1sum": "6db0df655e7ed119e8758d6f5da2ea4e8f9a71b6",
+                "sha256sum": "5de297386dab0c8682b909c4939d4f10aa05ef62f8d788625ac60aeac4122683"
+            },
+            {
+                "name": "Kimmel2021-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "4993",
+                "mimeType": "text/x-matlab",
+                "md5sum": "3ac5111fcea7a71eb1dcf1b73d11125c",
+                "sha1sum": "9dea4f1def9c091ef07904aeada186a4ebee2091",
+                "sha256sum": "e9657db5a36c8e04735ea54a6e8808794f1d744eca56c5515a6cafad2dc93386"
+            },
+            {
+                "name": "Kimmel2021.cps",
+                "description": "COPASI file",
+                "fileSize": "89068",
+                "mimeType": "application/xml",
+                "md5sum": "e67b31873863c9b34f2069ca032a6889",
+                "sha1sum": "979169573ac23f98f4abf34a52604c6fde73f2ea",
+                "sha256sum": "57af9e860166f1236a607b231911e5e01fffda77f929aa01a20d62c6a22326e8"
+            },
+            {
+                "name": "Kimmel2021.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3377",
+                "mimeType": "text/plain",
+                "md5sum": "dd7f51a81af566a71af7af9a5e9b4523",
+                "sha1sum": "7c447ef59dd450c969b8f12b3dedd17345b31cd7",
+                "sha256sum": "858d36accfb0e39c4758ccba6c44ca272dea29093ea28029b1aed253fde8ca03"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "62703",
+                "mimeType": "image/png",
+                "md5sum": "b87b6362008907be464f0d3b8a2f429b",
+                "sha1sum": "804c653b94edff01cd76b50dc5f00e34b704c524",
+                "sha256sum": "eb4b8a42b1a506001eee50ac9f0eb45e672d6850be8f816282e84aabe01cdaf6"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "309",
+                "mimeType": "text/plain",
+                "md5sum": "0dcc9ba5f7a186d002af56b1339f656a",
+                "sha1sum": "81b11f66c0b599e6c6cd452d23484f563dba9134",
+                "sha256sum": "cd73d74afbfce3a9d51049b70552a646cac85bd1fb7743c9f035d9db1a598352"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1539",
+                "mimeType": "application/xml",
+                "md5sum": "0ebb7c7661780241c49ba384adcef004",
+                "sha1sum": "33b983fc550244ab1bac0c77f651fad4ac7f71d8",
+                "sha256sum": "b0e9d8c49e1749295f2e8eece190b3f3e00fc0f3f877cb3d9047888b7d90650b"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4273",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "fd42a4d18197c9c2262eb66528ae2b7d",
+                "sha1sum": "305c827f3aecc8aa14a0c7c3d3e9aa2278b44514",
+                "sha256sum": "ca44a954265979348d2f065d4cd7f33ffaaeb877283df13ece2655c7a83a4f13"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1630505777,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001041"
+            },
+            {
+                "version": 4,
+                "submitted": 1724292485,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282018,
+    "submissionId": "MODEL2109010001",
+    "publicationId": "BIOMD0000001041",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "NCIT:C126102",
+            "name": "Chimeric Antigen Receptor T-Cell Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C126102"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001041",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001041"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2109010001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2109010001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "33757357",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:33757357"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "33757357",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/33757357"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:0060060",
+            "name": "non-Hodgkin lymphoma",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:0060060"
+        }
+    ]
+}

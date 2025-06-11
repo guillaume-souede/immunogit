@@ -1,0 +1,230 @@
+{
+    "name": "Admon2017 - Modelling tumor growth with immune response and drug using ordinary differential equations",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Modelling tumor growth with immune response and drug using ordinary differential equationsMohd Rashid Admon, Normah MaanThis is a mathematical study about tumor growth from a different perspective, with the aim of predicting and/or controlling the disease. The focus is on the effect and interaction of tumor cell with immune and drug. This paper presents a mathematical model of immune response and a cycle phase specific drug using a system of ordinary differential equations. Stability analysis is used to produce stability regions for various values of certain parameters during mitosis. The stability region of the graph shows that the curve splits the tumor decay and growth regions in the absence of immune response. However, when immune response is present, the tumor growth region is decreased. When drugs are considered in the system, the stability region remains unchanged as the system with the presence of immune response but the population of tumor cells at interphase and metaphase is reduced with percentage differences of 1.27 and 1.53 respectively. The combination of immunity and drug to fight cancer provides a better method to reduce tumor population compared to immunity alone.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.11113/jt.v79.9791",
+        "journal": "Jurnal Teknologi",
+        "title": "Modelling tumor growth with immune response and drug using ordinary differential equations",
+        "affiliation": "Department of Mathematical Sciences, Faculty of Sciences,\r\n81310, UTM Johor Bahru, Malaysia",
+        "synopsis": "This is a mathematical study about tumor growth from a different perspective, with the aim of predicting and/or controlling the disease. The focus is on the effect and interaction of tumor cell with immune and drug. This paper presents a mathematical model of immune response and a cycle phase specific drug using a system of ordinary differential equations.  Stability analysis is used to produce stability regions for various values of certain parameters during mitosis. The stability region of the graph shows that the curve splits the tumor decay and growth regions in the absence of immune response. However, when immune response is present, the tumor growth region is decreased. When drugs are considered in the system, the stability region remains unchanged as the system with the presence of immune response but the population of tumor cells at interphase and metaphase is reduced with percentage differences of 1.27 and 1.53 respectively. The combination of immunity and drug to fight cancer provides a better method to reduce tumor population compared to immunity alone.",
+        "year": 2017,
+        "month": "5",
+        "volume": "79",
+        "pages": "49-56",
+        "link": "http://identifiers.org/doi/10.11113/jt.v79.9791",
+        "authors": [
+            {
+                "name": "Mohd Rashid Admon,  Normah Maan"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Admon2017.xml",
+                "description": "SBML L2V4 Admon2017 - Modelling tumor growth with immune response and drug using ordinary differential equations",
+                "fileSize": "45077",
+                "mimeType": "application/xml",
+                "md5sum": "6a02342cac36fb318f6ac1189fa1eea6",
+                "sha1sum": "0c021cc355dafa045713fcf8034f07e33754c4ef",
+                "sha256sum": "b7c7aa779adb07a69cfd60f333a9d1e80629698b15dc5b39f8c475b3236ab96d"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Admon2017-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11598",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "dd369b878b5b72b4535d8f7343cda800",
+                "sha1sum": "75a89a580d4ec75f455be9a061336befbcc0640c",
+                "sha256sum": "80095daf4862a9020ac4beed0ce74713e1c041aae49992ea28cb86023487e30b"
+            },
+            {
+                "name": "Admon2017-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "16243",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "eec47b471e3b19c9f28e51dbbd0f0812",
+                "sha1sum": "98e2d7768120b1b7b66f01a31698d470482788e0",
+                "sha256sum": "506e6b33656638f6b8f6e10d1434ac40294fdf4b40430e913f96dd5cfed50f75"
+            },
+            {
+                "name": "Admon2017-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "7592",
+                "mimeType": "text/x-matlab",
+                "md5sum": "7275c5a0802b2a34e0224cab9736aaf5",
+                "sha1sum": "e61624e13d132e316760d1ae154bbb981fe54252",
+                "sha256sum": "3d9e8dbc89237a519eb716c4abd664c9dd89009067af5bb5475b704c48448484"
+            },
+            {
+                "name": "Admon2017-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "7592",
+                "mimeType": "text/x-matlab",
+                "md5sum": "dddcbd06fceefb8686f585ce52b67f68",
+                "sha1sum": "790f0c4138be9fd3972155479253b2d59d7b15c3",
+                "sha256sum": "e90f8a0d9589756e6c8b23e3840dd2dda2057b3867d1c8d2ee68bc135c7cb299"
+            },
+            {
+                "name": "Admon2017.cps",
+                "description": "COPASI version 4.24 (Build 197) Admon2017 - Modelling tumor growth with immune response and drug using ordinary differential equations",
+                "fileSize": "82756",
+                "mimeType": "application/xml",
+                "md5sum": "fd3caab04d6ac03f66a3ef1cecf083ff",
+                "sha1sum": "5e3432c8a35fd8d6f9627db91f81564b8af99f03",
+                "sha256sum": "147a166562c60a8b13a4686bddfe93dd88b97ee9466eb3b377bb02915a278ecb"
+            },
+            {
+                "name": "Admon2017.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "5202",
+                "mimeType": "text/plain",
+                "md5sum": "ce6b69e871cea9b388a700eeb07bc6d7",
+                "sha1sum": "3cb477f4d3440ba12f9334895a8ca0b5b34fd20c",
+                "sha256sum": "69fbbbf0b47173ced336b826f0e02a7eebc2c3f8deafd5be100b7dce9d03e245"
+            },
+            {
+                "name": "Admon2017.sedml",
+                "description": "SEDML L1V2 Admon2017 - Modelling tumor growth with immune response and drug using ordinary differential equations (additionally CRBM-validated and adjusted).",
+                "fileSize": "20159",
+                "mimeType": "application/xml",
+                "md5sum": "7c4ec6c550745c7c1fbd1d5205b59d53",
+                "sha1sum": "e1b23564f9a465a29331f238b81847b29c4d4025",
+                "sha256sum": "f4c7e3868696fcdb490770dab26a258b80855cc21fa96799644a7c844617dde5"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "22502",
+                "mimeType": "image/png",
+                "md5sum": "21dde875f260ad305c3482a2bf56ec11",
+                "sha1sum": "d5f8309c4c308ee190897f23fb921859e8bacaa6",
+                "sha256sum": "15cae079e9762f6828a571068bc5aaaf65f49b13e7c8c389d7424525eb156756"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "121",
+                "mimeType": "text/plain",
+                "md5sum": "90a7bae28c613714ad35c2e389f82f80",
+                "sha1sum": "450901c6809caf53a33f9fda0cd37d6433899ed7",
+                "sha256sum": "1dbcf4474427fcb22693cde9f2509f8ea8daa0ab03528428c0a6ac314b50e31a"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1403",
+                "mimeType": "application/xml",
+                "md5sum": "9b4fe0662822a839fd93bbc79929344b",
+                "sha1sum": "00e81d987ba59f18fcdf8d5d12664b43dcb84f7d",
+                "sha256sum": "c2bd02cf6b42ea45f0ba9f39b4775dcb698a64028bab2fa963dfdc49a060b5c6"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2840",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "dc86357ee1b201bebda734812db7fd0e",
+                "sha1sum": "933c393092a65e5ce6fd0dd6bc38e3ec5f30b76f",
+                "sha256sum": "3b2340bb204a6b320eeea3a76f564c670f2fb3ce169d01169d2b26b46563d49e"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1576689316,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000904"
+            },
+            {
+                "version": 3,
+                "submitted": 1577956592,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "SBML file edited to add Derived From"
+            },
+            {
+                "version": 4,
+                "submitted": 1724288963,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281936,
+    "submissionId": "MODEL1912180006",
+    "publicationId": "BIOMD0000000904",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.11113/jt.v79.9791",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.11113/jt.v79.9791"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912180006",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912180006"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000904",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000904"
+        }
+    ]
+}

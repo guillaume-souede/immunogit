@@ -1,0 +1,246 @@
+{
+    "name": "Bianca2013 - Persistence analysis in a Kolmogorov-type model for cancer-immune system competition",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Persistence analysis in a Kolmogorov-type model for cancer-immune system competitionAIP Conference Proceedings 1558, 1797 (2013); https://doi.org/10.1063/1.4825874C. BiancaDipartimento di Scienze Matematiche, Politecnico di Torino, Torino, ItalyF. PappalardoDipartimento di Scienza del Farmaco, Università degli Studi di Catania, Catania, ItalyM. Pennisi and M. A. RagusaDipartimento di Matematica e Informatica, Università degli Studi di Catania, Catania, Italy</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1063/1.4825874",
+        "journal": "AIP Conference Proceedings 1558",
+        "title": "Persistence analysis in a Kolmogorov-type model for cancer-immune system competition",
+        "affiliation": "Dipartimento di Scienze Matematiche, Politecnico di Torino, Torino, Italy\r\nDipartimento di Scienza del Farmaco, Università degli Studi di Catania, Catania, Italy\r\nDipartimento di Matematica e Informatica, Università degli Studi di Catania, Catania, Italy",
+        "synopsis": "This paper is concerned with analytical investigations on the competition between cancer cells and immune system cells. Specifically the role of the B-cells and T-cells in the evolution of cancer cells is taken into account. The mathematical model is a Kolmogorov-type system of three evolution equations where the growth rate of the cells is described by logistic law and the response of B-cells and T-cells is modeled according to Holling type-II function. The stability analysis of equilibrium points is performed and the persistence of the model is proved.",
+        "year": 2013,
+        "month": "10",
+        "volume": "1558",
+        "issue": "1",
+        "link": "http://identifiers.org/doi/10.1063/1.4825874",
+        "authors": [
+            {
+                "name": "C. Bianca",
+                "institution": "Dipartimento di Scienze Matematiche, Politecnico di Torino, Torino, Italy"
+            },
+            {
+                "name": "F. Pappalardo",
+                "institution": "Dipartimento di Scienza del Farmaco, Università degli Studi di Catania, Catania, Italy"
+            },
+            {
+                "name": "M. Pennisi and M. A. Ragusa",
+                "institution": "Dipartimento di Matematica e Informatica, Università degli Studi di Catania, Catania, Italy"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Bianca2013.xml",
+                "description": "SBML L2V4 Representation of Bianca2013 - Persistence analysis in a Kolmogorov-type model for cancer-immune system competition",
+                "fileSize": "36425",
+                "mimeType": "application/xml",
+                "md5sum": "bddb23bf4bf3164d366214f84bd10dab",
+                "sha1sum": "3be20457b44067bbfa61b531384197fc16a14a9b",
+                "sha256sum": "ab2d66e7b9f6f13cf2e3bd7327f69debf6dcb387fa30d47fae62ee11bb12e7bb"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Bianca2013-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "10503",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "983edc26d40ce1371a23df3bfdc995a3",
+                "sha1sum": "fa991cbb7d3d5c8ee3e59184a6c1446b0d18f163",
+                "sha256sum": "b6f3a6a480e583507b0af3ff8033577eb9a957c635a026421df2dc95d962c1e0"
+            },
+            {
+                "name": "Bianca2013-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "14082",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "f020b8d66d1e5585ee1e6a7fa44ff6c6",
+                "sha1sum": "2071afbecdec848baf44cd8d34b54f202aae73c1",
+                "sha256sum": "7e6359229e8118380b7b9c0c18eb29c16a16138d838c2d9864d449e31714fc47"
+            },
+            {
+                "name": "Bianca2013-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5953",
+                "mimeType": "text/x-matlab",
+                "md5sum": "8bf2589e10f7ca1e57ce87733601baa6",
+                "sha1sum": "ceece89b876b38fa9d0c10321f4f3568eafc2b1a",
+                "sha256sum": "0726424f598d2a75a7b32b2a474abff194677fe82e94ee536e4edce387668f35"
+            },
+            {
+                "name": "Bianca2013-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5953",
+                "mimeType": "text/x-matlab",
+                "md5sum": "e5cd27a4d14108a35c3248d43f443610",
+                "sha1sum": "dc9bd344164d6531ec70f6bff88ceae98c97db17",
+                "sha256sum": "1f7b8c6f7d2a00e2897a955341bc624da301c5ce53df3e0ab75511b6e84571bf"
+            },
+            {
+                "name": "Bianca2013.cps",
+                "description": "COPASI version 4.24 (Build 197) Representation of Bianca2013 - Persistence analysis in a Kolmogorov-type model for cancer-immune system competition",
+                "fileSize": "59484",
+                "mimeType": "application/xml",
+                "md5sum": "f75c8a60f6fe2494dacc6f0913c4a2fe",
+                "sha1sum": "4c44f3c9895c248402b724d1632071b2ef446845",
+                "sha256sum": "6d37ceecec6b6165d7eb13ac398308f0c62cea1614732b50a74e04cb9739d413"
+            },
+            {
+                "name": "Bianca2013.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4188",
+                "mimeType": "text/plain",
+                "md5sum": "c757c57f93242fadee3ae8561fd43c11",
+                "sha1sum": "79d4fed1e50325aecedac8446af4b71d90c0dd88",
+                "sha256sum": "46dfe5fbe79b9dccaf33f95e8b5cdbba59838214afbf819e45bee03bad7a879c"
+            },
+            {
+                "name": "Bianca2013.sedml",
+                "description": "SEDML L1V2 Representation of Bianca2013 - Persistence analysis in a Kolmogorov-type model for cancer-immune system competition (additionally CRBM-validated and adjusted).",
+                "fileSize": "14354",
+                "mimeType": "application/xml",
+                "md5sum": "a4820cb8e5c07ce4b0028e7a846d5650",
+                "sha1sum": "16e45b8f32efef219dcb0c4a5da38aabff9aa025",
+                "sha256sum": "6f66d630f05bddc5b2974b62f71f42ec39acd3d4a7ac452f79025d1b64eb6745"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "49694",
+                "mimeType": "image/png",
+                "md5sum": "d7907b69a5dbc22f1a0a09eef1951832",
+                "sha1sum": "c2f6e3ab2e2709f748c91543680424eafc3fd1ff",
+                "sha256sum": "0aa94d6e2eff6cfd73973e23fb02504665643ea227aaefe8921139474905540d"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "121",
+                "mimeType": "text/plain",
+                "md5sum": "a308ffdec2e6af64122ad6e6bcd28db0",
+                "sha1sum": "06ea9216cb41fc7406bb1aac182bc6aef69ad82b",
+                "sha256sum": "ec02f738e081ecf71d36c3e2d2d8e366632456d8bde22cea203ba118964f6a20"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "9c473a31952f1d3ec63f6aa9e3b6d9f5",
+                "sha1sum": "14fbc73b5a3eb9b7acd86bacccab311487330ecc",
+                "sha256sum": "2934e4227a1f584827d8d16ba81acfdd305a986fa63b848ce63f97429d0ec2b5"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2641",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "e7352b1e4e8a77eb0635b62cc51d42c2",
+                "sha1sum": "eef0c96c5459aaae1594afcfa8d326c02d50366a",
+                "sha256sum": "1da290b72aee073e14b643098efff5b29055b26f532b17e680c545fe5320feaa"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1576665243,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000900"
+            },
+            {
+                "version": 4,
+                "submitted": 1724288868,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281927,
+    "submissionId": "MODEL1912180002",
+    "publicationId": "BIOMD0000000900",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0006955",
+            "name": "immune response",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0006955"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1063/1.4825874",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1063/1.4825874"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.4039/entm9745fv",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.4039/entm9745fv"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000900",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000900"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912180002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912180002"
+        }
+    ]
+}

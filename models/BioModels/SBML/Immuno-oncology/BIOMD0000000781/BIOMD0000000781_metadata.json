@@ -1,0 +1,301 @@
+{
+    "name": "Wang2016/2 - oncolytic efficacy of M1 virus-SNT model",
+    "description": "The paper describes a model of oncolytic virotherapy. Created by COPASI 4.25 (Build 207) This model is described in the article: A mathematical model verifying potent oncolytic efficacy of M1 virusZizi Wang, Zhiming Guo, Huaqin Peng Mathematical Biosciences 276 (2016) 19–27Abstract: Motivated by the latest findings in a recent medical experiment [19] which identify a naturally occurring alphavirus (M1) as a novel selective killer targeting zinc-finger antiviral protein (ZAP)-deficient cancer cells, we propose a mathematical model to illustrate the growth of normal cells, tumor cells and the M1 virus with limited nutrient. In order to better understand biological mechanisms, we discuss two cases of the model: without competition and with competition. In the first part, the explicit threshold condi- tions for the persistence of normal cells (or tumor cells) is obtained accompanying with the biological explanations. The second part indicates that when competing with tumor cells, the normal cells will ex- tinct if M1 virus is ignored; Whereas, when M1 virus is considered, the growth trend of normal cells is similar to the one without competition. And by using uniformly strong repeller theorem, the minimum effective dosage of medication is explicitly found which is not reported in [19]. Furthermore, numerical simulations and corresponding biological interpretations are given to support our results.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "26976483",
+        "journal": "Mathematical biosciences",
+        "title": "A mathematical model verifying potent oncolytic efficacy of M1 virus.",
+        "affiliation": "School of Mathematics and Information Science, Guangzhou University, Guangzhou 510006, PR China; Key Laboratory of Mathematics and Interdisciplinary Science of Guangdong, Higher Education Institutes, Guangzhou University, Guangzhou 510006, PR China.",
+        "synopsis": "Motivated by the latest findings in a recent medical experiment [19] which identify a naturally occurring alphavirus (M1) as a novel selective killer targeting zinc-finger antiviral protein (ZAP)-deficient cancer cells, we propose a mathematical model to illustrate the growth of normal cells, tumor cells and the M1 virus with limited nutrient. In order to better understand biological mechanisms, we discuss two cases of the model: without competition and with competition. In the first part, the explicit threshold conditions for the persistence of normal cells (or tumor cells) is obtained accompanying with the biological explanations. The second part indicates that when competing with tumor cells, the normal cells will extinct if M1 virus is ignored; Whereas, when M1 virus is considered, the growth trend of normal cells is similar to the one without competition. And by using uniformly strong repeller theorem, the minimum effective dosage of medication is explicitly found which is not reported in [19]. Furthermore, numerical simulations and corresponding biological interpretations are given to support our results.",
+        "year": 2016,
+        "month": "6",
+        "volume": "276",
+        "pages": "19-27",
+        "link": "http://identifiers.org/pubmed/26976483",
+        "authors": [
+            {
+                "name": "Zizi Wang",
+                "institution": "School of Mathematics and Information Science, Guangzhou University, Guangzhou 510006, PR China; Key Laboratory of Mathematics and Interdisciplinary Science of Guangdong, Higher Education Institutes, Guangzhou University, Guangzhou 510006, PR China.",
+                "orcid": "0000-0002-4652-7954"
+            },
+            {
+                "name": "Zhiming Guo",
+                "institution": "School of Mathematics and Information Science, Guangzhou University, Guangzhou 510006, PR China; Key Laboratory of Mathematics and Interdisciplinary Science of Guangdong, Higher Education Institutes, Guangzhou University, Guangzhou 510006, PR China. Electronic address: gzm100@21cn.com.",
+                "orcid": "0000-0002-8351-8571"
+            },
+            {
+                "name": "Huaqin Peng",
+                "institution": "School of Mathematics and Information Science, Guangzhou University, Guangzhou 510006, PR China; Key Laboratory of Mathematics and Interdisciplinary Science of Guangdong, Higher Education Institutes, Guangzhou University, Guangzhou 510006, PR China."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Wang2016_2.xml",
+                "description": "SBML L3V1 representation of virotherapy SNT model",
+                "fileSize": "47474",
+                "mimeType": "application/xml",
+                "md5sum": "7ecd4cebd34b2eac907be5ffabe55129",
+                "sha1sum": "b60e5cb12b8a6948973368845fa734395bb4d65e",
+                "sha256sum": "bd3075aed2e3546622439165baddf4bf5d8d962c955398af240ba79cbfa7671c"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Wang2016_2-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11033",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "d6b64764f43bb0cdfd8974877eb0e4a9",
+                "sha1sum": "71ab68f98832fdb61ce98292e65e6cbfe335471c",
+                "sha256sum": "a45eb4057c3da99387e3a55dbf059fc4fb8e68e2dcde5b068178b326c67e202a"
+            },
+            {
+                "name": "Wang2016_2-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "15194",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "68f97e4a01bffbe92ec6d942cd04c229",
+                "sha1sum": "e45d54d260ed1ed7b824e7116efee7ba4aefba62",
+                "sha256sum": "a3155f0fe163cde2b23d01e502c10c2ef2ce6982acf09e02afd1dc7a68794b9f"
+            },
+            {
+                "name": "Wang2016_2-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5387",
+                "mimeType": "text/x-matlab",
+                "md5sum": "0b840fb0a628c191b11c2be7fc66ac75",
+                "sha1sum": "e6df6740ddefe5cd0bf4563c0764e2ec0c312f00",
+                "sha256sum": "8d51993c97dbc48dae8af6eb1c2abf28ac560bdb82d20cde21d35be3f0961ec9"
+            },
+            {
+                "name": "Wang2016_2-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5387",
+                "mimeType": "text/x-matlab",
+                "md5sum": "449d09afbead2696b8eb4903ac3747c9",
+                "sha1sum": "a3bcb63c2712e1159963675d8bdb541ff2e16df7",
+                "sha256sum": "5c42e353504ad34d3b1c290e7c27089036deb36194eba43d437484db985cbea3"
+            },
+            {
+                "name": "Wang2016_2.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "73093",
+                "mimeType": "application/xml",
+                "md5sum": "c441b8d8eddac4da4999460bea6f3536",
+                "sha1sum": "293d70f8854c6eb4024a1a2d959288762649eb3a",
+                "sha256sum": "b9165f7913781b6445161fb457137a5a2226f5b60ebefeb92eafcae116e5c227"
+            },
+            {
+                "name": "Wang2016_2.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3518",
+                "mimeType": "text/plain",
+                "md5sum": "58d7a1e6285b64ead0644511d5e5a43a",
+                "sha1sum": "637751b30649c20a3b9653818efc80ec4507ecd3",
+                "sha256sum": "0cc8a1c3346fc42a1a049bcab185614267dd87be9654942d961b57cde50e38cb"
+            },
+            {
+                "name": "Wang2016_2.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "13786",
+                "mimeType": "application/xml",
+                "md5sum": "63df48c15ffd7d64dd5ea0ae038ad7c1",
+                "sha1sum": "f57f383f5d462643233097566d2f32e552580c27",
+                "sha256sum": "85e16c2ace3b8daa007c071eec7dbab2e80bb6459a71691c8ccf533ad9fe0214"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "13124",
+                "mimeType": "image/png",
+                "md5sum": "de50b6a52b9e73b4c52f4f62b06a41e7",
+                "sha1sum": "89842133fb1d142d813fc86a460077948229e477",
+                "sha256sum": "091d0d959af55e1e313484bc6f506914f9b26d778161794488e310b9a1cff32b"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "106",
+                "mimeType": "text/plain",
+                "md5sum": "25a788ec77d4ff5da8c200dcb5fbd2e4",
+                "sha1sum": "d6c0256a66257c7ca3949fdc0deee29346829032",
+                "sha256sum": "e44ae9102d204757805181c4e0cb82e95d9be5a9e395d3a46282adf05f00a02c"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "5d997f68bf49aacae93e2fdc4dcedb15",
+                "sha1sum": "89d949c50c4a0f6b36e431ee0d73148f1c7ccf71",
+                "sha256sum": "a71ad6d5dfa7a2b70f948b75a40f51c18980a4f06a356623fa4644435eb60412"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3416",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "0263030a83bbb106eae2a1a3c963c516",
+                "sha1sum": "128b79d1d1bc78b1c9dbd0ae61a5d8b11923f16f",
+                "sha256sum": "32a34a668eeb0835e97b1d28addcd7587d487b3a29d0a6792277c36b1f31a0c4"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1565105511,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000781"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285887,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281860,
+    "submissionId": "MODEL1908060002",
+    "publicationId": "BIOMD0000000781",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "C62713",
+            "name": "Oncolytic Virus Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C62713"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "26976483",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/26976483"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "BIOMD0000000780",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000780"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "MODEL1908060001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1908060001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "BIOMD0000000780",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000780"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "MODEL1908060001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1908060001"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000781",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000781"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1908060002",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1908060002"
+        }
+    ]
+}

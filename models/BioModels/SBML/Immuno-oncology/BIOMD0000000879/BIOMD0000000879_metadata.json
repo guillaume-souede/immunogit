@@ -1,0 +1,267 @@
+{
+    "name": "Rodrigues2019 - A mathematical model for chemoimmunotherapy of chronic lymphocytic leukemia",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>THis is a simple ordinary differential equation model describing chemoimmunotherapy of chronic lymphocytic leukemia, including descriptions of the combinatorial effects of chemotherapy and adoptive cellular immunotherapy.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "DOI",
+        "accession": "10.1016/j.amc.2018.12.008",
+        "journal": "Applied Mathematics and Computation",
+        "title": "A mathematical model for chemoimmunotherapy of chronic lymphocytic leukemia",
+        "affiliation": "UNIFAL-MG, Instituto de Ciências Exatas, Alfenas, MG, Brazil",
+        "synopsis": "Immunotherapy is currently regarded as the most promising treatment to fight against cancer. This is particularly true in the treatment of chronic lymphocytic leukemia, an indolent neoplastic disease of B-lymphocytes which eventually causes the immune system's failure. In this and other areas of cancer research, mathematical modeling is pointed out as a prominent tool to analyze theoretical and practical issues. Its lack in studies of chemoimmunotherapy of chronic lymphocytic leukemia is what motivated us to come up with a simple ordinary differential equation model. It is based on ideas of de Pillis and Radunskaya and on standard pharmacokinetics-pharmacodynamics assumptions. In order to check the positivity of the state variables, we first establish an invariant region where these time-dependent variables remain positive. Afterwards, the action of the immune system, as well as the chemoimmunotherapeutic role in promoting cancer cure are investigated by means of numerical simulations and the classical linear stability analysis. The role of adoptive cellular immunotherapy is also addressed. Our overall conclusion is that chemoimmunotherapeutic protocols can be effective in treating chronic lymphocytic leukemia provided that chemotherapy is not a limiting factor to the immunotherapy efficacy.",
+        "year": 2019,
+        "month": "5",
+        "volume": "349",
+        "pages": "118-133",
+        "link": "http://identifiers.org/doi/10.1016/j.amc.2018.12.008",
+        "authors": [
+            {
+                "name": "Rodrigues, D.S.",
+                "institution": "UNIFAL-MG, Instituto de Ciências Exatas, Alfenas, MG, Brazil"
+            },
+            {
+                "name": "Mancera, P.F.A.",
+                "institution": "UNESP, Instituto de Biociências de Botucatu, Botucatu, SP, Brazil"
+            },
+            {
+                "name": "Carvalho, T.",
+                "institution": "USP, Faculdade de Filosofia, Ciências e Letras, Ribeirão Preto, SP, Brazil"
+            },
+            {
+                "name": "Gonçalves, L.F.",
+                "institution": "UNESP, Instituto de Biociências, Letras e Ciências Exatas, São José do Rio Preto, SP, Brazil"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Rodrigues2019.xml",
+                "description": "SBML L2V4 Representation of Rodrigues2019 - A mathematical model for chemoimmunotherapy of chronic lymphocytic leukemia",
+                "fileSize": "58114",
+                "mimeType": "application/xml",
+                "md5sum": "f7f2635aeed3f188d577bb62ba40a171",
+                "sha1sum": "64b64e8341491a3062e1907d73e7f814bfd20ba3",
+                "sha256sum": "a3ebd3dd65ab1d9b62932e06a2ea2a1454afa6b384bb30aabc3354dda528b205"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Rodrigues2019-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "15421",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "06d9b9db7fa15c043e9e816260de034f",
+                "sha1sum": "202e1a45366a87c3755e2baa9d24c0c04234918f",
+                "sha256sum": "38315a4a9be7b6bd3ab91c838aaacbe6311a4de15abdc50fc279abd6f4ec7f73"
+            },
+            {
+                "name": "Rodrigues2019-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "21092",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "9a99f1c73edf5eaf2f72b0c7173b5c2e",
+                "sha1sum": "905680b83365cfa8e4f63e7508f4d69217faf600",
+                "sha256sum": "01de0883bf8ef0df9e14735ac2ebcc5566ef650f451ae487a88d8d5289b1a718"
+            },
+            {
+                "name": "Rodrigues2019-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "7423",
+                "mimeType": "text/x-matlab",
+                "md5sum": "326c8e9960d8eb548fad30e9612b48e4",
+                "sha1sum": "9d90939b77fbc58e8172ffd158622b5d5c4a93ed",
+                "sha256sum": "620272d0a6c5070b6dd8c974da98e0131a3b7563093c7cbe543e4d1eff247d06"
+            },
+            {
+                "name": "Rodrigues2019-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "7423",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ec469840da4632e872c19228f740e3cc",
+                "sha1sum": "4cdb51ad3f76f6833fba8b431a0cc5c2134d8f83",
+                "sha256sum": "4639d2479f5af2119b984df9c6af8265268c98a06bec7654b1b16a25cc47d0f6"
+            },
+            {
+                "name": "Rodrigues2019.cps",
+                "description": "COPASI file of Rodrigues2019 - A mathematical model for chemoimmunotherapy of chronic lymphocytic leukemia",
+                "fileSize": "85756",
+                "mimeType": "application/xml",
+                "md5sum": "572d3680c4aee237f5a6217dbd69268e",
+                "sha1sum": "a10dad421169117d1003723ca811862b0a0f293d",
+                "sha256sum": "12a7f882a7673ac896d4dc2bb90b5e2bc89327cf7ce8517973cd9b0fdb1d7715"
+            },
+            {
+                "name": "Rodrigues2019.sedml",
+                "description": "SED-ML file of Rodrigues2019 - A mathematical model for chemoimmunotherapy of chronic lymphocytic leukemia (additionally CRBM-validated and adjusted).",
+                "fileSize": "20499",
+                "mimeType": "application/xml",
+                "md5sum": "191e791d9328154bdf6bf1d385713ff2",
+                "sha1sum": "99866837c72c2552612b4139ab9cbc333bdadbb1",
+                "sha256sum": "a4d1c6305fee3351ba3186cd29deaf2e5ca5e7d2c06dce0c2ab154375a04277c"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "10292",
+                "mimeType": "image/png",
+                "md5sum": "1598c4508942e7cf6338b25b9b2913bf",
+                "sha1sum": "51de70b9cf693565a99d17b499fa59dca96ae52a",
+                "sha256sum": "1cee9e60f2392639f790503040a0c4ff33bec755755a0fe98eb9270373654e56"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "124",
+                "mimeType": "text/plain",
+                "md5sum": "795a33987f954f2d2ac7e4b1cf1c603a",
+                "sha1sum": "13f6543f3fd2f776a760d27de250b74bf5b582e9",
+                "sha256sum": "95f6a657de0f0b0d4062f61a74ba5a0e1cd6414c1ebc41c87216bcb8dfcafa03"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1326",
+                "mimeType": "application/xml",
+                "md5sum": "9514cd11b6c05051b1a8c69c0e7ae5db",
+                "sha1sum": "a93adc5164e243bf3bf7ab3574c149a1489f9fe8",
+                "sha256sum": "5896b0895f6ded296bdc5f7541b8fb696785e4e0f664408faddb2fefc55799db"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2420",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "77bba6973e8d695839c73e6849b53220",
+                "sha1sum": "3a8027e2e00cc586eb18132b8d696bc76caca0af",
+                "sha256sum": "dc7241f53923ee7c2bf7f59be064a9afde6f27f09fedfbffc1c204a472693868"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1574948278,
+                "submitter": "Johannes Meyer",
+                "comment": "Automatically added model identifier BIOMD0000000879"
+            },
+            {
+                "version": 4,
+                "submitted": 1633676511,
+                "submitter": "Rahuman S Malik-Sheriff",
+                "comment": "Automatically added model identifier BIOMD0000000879"
+            },
+            {
+                "version": 5,
+                "submitted": 1724288365,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281920,
+    "submissionId": "MODEL1911280001",
+    "publicationId": "BIOMD0000000879",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Johannes Meyer",
+                "email": "johannes.p.meyer@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            },
+            {
+                "name": "Rahuman S Malik-Sheriff",
+                "email": "sheriff@ebi.ac.uk",
+                "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0003-0705-9809",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C15632",
+            "name": "Chemotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15632"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C15262",
+            "name": "Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15262"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "10.1016/j.amc.2018.12.008",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1016/j.amc.2018.12.008"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "10.1080/10273660108833067",
+            "resource": "DOI",
+            "uri": "http://identifiers.org/doi/10.1080/10273660108833067"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1911280001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1911280001"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000879",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000879"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C3163",
+            "name": "Chronic Lymphocytic Leukemia",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C3163"
+        }
+    ]
+}

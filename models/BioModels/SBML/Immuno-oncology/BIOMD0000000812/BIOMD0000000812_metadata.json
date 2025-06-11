@@ -1,0 +1,257 @@
+{
+    "name": "Galante2012 - B7-H1 and a Mathematical Model for Cytotoxic T Cell and Tumor Cell Interaction",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model that describes the interactions between cytotoxic T cells and tumor cells as influenced by B7-H1 (PD-L1) activity, with a focus on how B7-H1 affects cancer cells apoptosis.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "21656310",
+        "journal": "Bulletin of mathematical biology",
+        "title": "B7-h1 and a mathematical model for cytotoxic T cell and tumor cell interaction.",
+        "affiliation": "Department of Mathematics and Center for Scientific Computation and Mathematical Modeling (CSCAMM), University of Maryland, College Park, MD, 20742, USA. agalante@cscamm.umd.edu",
+        "synopsis": "The surface protein B7-H1, also called PD-L1 and CD274, is found on carcinomas of the lung, ovary, colon, and melanomas but not on most normal tissues. B7-H1 has been experimentally determined to be an antiapoptotic receptor on cancer cells, where B7-H1-positive cancer cells have been shown to be immune resistant, and in vitro experiments and mouse models have shown that B7-H1-negative tumor cells are significantly more susceptible to being repressed by the immune system. We derive a new mathematical model for studying the interaction between cytotoxic T cells and tumor cells as affected by B7-H1. By integrating experimental data into the model, we isolate the parameters that control the dynamics and obtain insights on the mechanisms that control apoptosis.",
+        "year": 2012,
+        "month": "1",
+        "volume": "74",
+        "issue": "1",
+        "pages": "91-102",
+        "link": "http://identifiers.org/pubmed/21656310",
+        "authors": [
+            {
+                "name": "Amanda Galante",
+                "institution": "Department of Mathematics and Center for Scientific Computation and Mathematical Modeling (CSCAMM), University of Maryland, College Park, MD, 20742, USA. agalante@cscamm.umd.edu"
+            },
+            {
+                "name": "Koji Tamada"
+            },
+            {
+                "name": "Doron Levy"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Galante2012.xml",
+                "description": "SBML L2V4 Representation of Galante2012 - B7-H1 and a Mathematical Model for Cytotoxic T Cell and Tumor Cell Interaction",
+                "fileSize": "48114",
+                "mimeType": "application/xml",
+                "md5sum": "ea3a29b9c23eef49477c2e414b0798b2",
+                "sha1sum": "32b7b23138055dfbacb5993621859992c5c46a80",
+                "sha256sum": "256d7f039def4455ada03553840249f3b02fcaba21ce08940ed27a73db401da7"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Galante2012-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "14863",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "5b30a04f163c2fde657d32abb916e3f2",
+                "sha1sum": "54308588c41e2e205b8f3c1efba66ab80d7470b2",
+                "sha256sum": "f77d7a9c8953ceae5943a47f0b85b6d31e981576b825b36c4d42466f9d773f7b"
+            },
+            {
+                "name": "Galante2012-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "21870",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "7311a2b67966397d9adff21d100a99e6",
+                "sha1sum": "22afc794d201d25d68a1b0e1d2c033fb50d1e5b1",
+                "sha256sum": "d059b7b2fada83acb3d1c4d4fc56cc6360754ab978c0d4314ad645cb2d6cfbe8"
+            },
+            {
+                "name": "Galante2012-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6775",
+                "mimeType": "text/x-matlab",
+                "md5sum": "5035a814e9b1fc3fd29c240a26c8aa6b",
+                "sha1sum": "5e4a229d872bcdb08cfb68d9e068aa2515088ceb",
+                "sha256sum": "87f9f079bcd279a1979e4052d1f4367fac9adf5981c1c1a2c8a940a4bb3548c8"
+            },
+            {
+                "name": "Galante2012-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6775",
+                "mimeType": "text/x-matlab",
+                "md5sum": "4645e988cdf6f8a355f75fa7228d859a",
+                "sha1sum": "db35193929097592b4a0b843339aa0ac1d6731d3",
+                "sha256sum": "32715268b50257b5e6d94e87c9f6ab7b4ba042edb620a3d31e6f94ce0a5d7af4"
+            },
+            {
+                "name": "Galante2012.cps",
+                "description": "COPASI file of Galante2012 - B7-H1 and a Mathematical Model for Cytotoxic T Cell and Tumor Cell Interaction",
+                "fileSize": "77287",
+                "mimeType": "application/xml",
+                "md5sum": "19f6deff8ba621521c83b15db309a33a",
+                "sha1sum": "4564b41cd44e2599e49d5a8af2989a8b576d6655",
+                "sha256sum": "24a75c227f7574fdebeee0705b0bbcca473193920227d362aa3c1346bc7c1459"
+            },
+            {
+                "name": "Galante2012.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4924",
+                "mimeType": "text/plain",
+                "md5sum": "19a547933d8c986e18723aa48c31049b",
+                "sha1sum": "29eeffd1f01240eb7c9747cdfc75b5f4f83dc4de",
+                "sha256sum": "2a0215263e2b21fb7d5ed061ab04f6426bb32259486c21b7e2f078775fac7109"
+            },
+            {
+                "name": "Galante2012.sedml",
+                "description": "SED-ML file of Galante2012 - B7-H1 and a Mathematical Model for Cytotoxic T Cell and Tumor Cell Interaction (additionally CRBM-validated and adjusted).",
+                "fileSize": "20124",
+                "mimeType": "application/xml",
+                "md5sum": "9b9d966b8cb8285ad25f6420cfacecf3",
+                "sha1sum": "ad56adc2395569f929e4f2108a2114fed9f09d8f",
+                "sha256sum": "68afc80a496edb414762091ee81109257643eb3c68091896523f200eb0ad2fc1"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "12479",
+                "mimeType": "image/png",
+                "md5sum": "19177a1c799d4197ee766ed203a7b2de",
+                "sha1sum": "60abee95208f96b4c346cbf6036a42fa181e4d81",
+                "sha256sum": "69893021e422ae904b4a680c5c9a7ee143745e53325b4552f22dd46d572814ab"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "211",
+                "mimeType": "text/plain",
+                "md5sum": "f2c71faeb03be82b54ffcb626c334bd8",
+                "sha1sum": "b09c12a6e6c97e0e1bda222e4929a9f292036428",
+                "sha256sum": "9cabe9e2cb9224eb1a4c560137dab4625fb495fa5d2d3d7cd86e9a7f39fa67f0"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1419",
+                "mimeType": "application/xml",
+                "md5sum": "d1d2e786b4a267f675565f0672f1541b",
+                "sha1sum": "72960a49c902448a00ae0229ad41d62509166d9f",
+                "sha256sum": "e210f153cdf91ff18dcad297a23067117ff6455c8c58162ab8aaa439bbf0eeb6"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2419",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "c8a78b80be8d22f5c7812bffb907ad0f",
+                "sha1sum": "9689ec83f6949f894589d264fd35b2f6d9ae2a9e",
+                "sha256sum": "1fe5ccc0f1aad5c4a1b0238ba5c15eb2a139e28ac9cb7be45a193d3dc013e118"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1568624626,
+                "submitter": "Johannes Meyer",
+                "comment": "Automatically added model identifier BIOMD0000000812"
+            },
+            {
+                "version": 6,
+                "submitted": 1633437111,
+                "submitter": "Rahuman S Malik-Sheriff",
+                "comment": "Automatically added model identifier BIOMD0000000812"
+            },
+            {
+                "version": 7,
+                "submitted": 1724286570,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281906,
+    "submissionId": "MODEL1909160001",
+    "publicationId": "BIOMD0000000812",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Johannes Meyer",
+                "email": "johannes.p.meyer@gmail.com",
+                "affiliation": "EMBL-EBI",
+                "external": false
+            },
+            {
+                "name": "Rahuman S Malik-Sheriff",
+                "email": "sheriff@ebi.ac.uk",
+                "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                "orcid": "0000-0003-0705-9809",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "21656310",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/21656310"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "15705911",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/15705911"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000812",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000812"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1909160001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1909160001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0012501",
+            "name": "programmed cell death",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0012501"
+        }
+    ]
+}

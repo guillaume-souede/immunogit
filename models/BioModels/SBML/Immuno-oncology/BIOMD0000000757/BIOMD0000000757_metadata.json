@@ -1,0 +1,243 @@
+{
+    "name": "Abernathy2016 - glioblastoma treatment",
+    "description": "The paper describes a model of glioblastoma. Created by COPASI 4.25 (Build 207) This model is described in the article: Modeling the Treatment of Glioblastoma Multiforme and Cancer Stem Cells with Ordinary Differential EquationsKristen Abernathy and Jeremy Burke BMC Computational and Mathematical Methods in Medicine Volume 2016, Article ID 1239861, 11 pagesAbstract: Despite improvements in cancer therapy and treatments, tumor recurrence is a common event in cancer patients. One explanation of recurrence is that cancer therapy focuses on treatment of tumor cells and does not eradicate cancer stem cells (CSCs). CSCs are postulated to behave similar to normal stem cells in that their role is to maintain homeostasis. That is, when the population of tumor cells is reduced or depleted by treatment, CSCs will repopulate the tumor, causing recurrence. In this paper, we study the application of the CSC Hypothesis to the treatment of glioblastoma multiforme by immunotherapy. We extend the work of Kogan et al. (2008) to incorporate the dynamics of CSCs, prove the existence of a recurrence state, and provide an analysis of possible cancerous states and their dependence on treatment levels.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L3V1"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "27022405",
+        "journal": "Computational and mathematical methods in medicine",
+        "title": "Modeling the Treatment of Glioblastoma Multiforme and Cancer Stem Cells with Ordinary Differential Equations.",
+        "affiliation": "Department of Mathematics, Winthrop University, Rock Hill, SC 29733, USA.",
+        "synopsis": "Despite improvements in cancer therapy and treatments, tumor recurrence is a common event in cancer patients. One explanation of recurrence is that cancer therapy focuses on treatment of tumor cells and does not eradicate cancer stem cells (CSCs). CSCs are postulated to behave similar to normal stem cells in that their role is to maintain homeostasis. That is, when the population of tumor cells is reduced or depleted by treatment, CSCs will repopulate the tumor, causing recurrence. In this paper, we study the application of the CSC Hypothesis to the treatment of glioblastoma multiforme by immunotherapy. We extend the work of Kogan et al. (2008) to incorporate the dynamics of CSCs, prove the existence of a recurrence state, and provide an analysis of possible cancerous states and their dependence on treatment levels.",
+        "year": 2016,
+        "month": "0",
+        "volume": "2016",
+        "pages": "1239861",
+        "link": "http://identifiers.org/pubmed/27022405",
+        "authors": [
+            {
+                "name": "Kristen Abernathy",
+                "institution": "Department of Mathematics, Winthrop University, Rock Hill, SC 29733, USA."
+            },
+            {
+                "name": "Jeremy Burke",
+                "institution": "Department of Mathematics, Vassar College, Poughkeepsie, NY 12604, USA."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Abernathy2016.xml",
+                "description": "SBML L3V1 representation of the glioblastoma model",
+                "fileSize": "131388",
+                "mimeType": "application/xml",
+                "md5sum": "ec1058326637ccfcb4f63308ccc4c11d",
+                "sha1sum": "4d24c56d29e6a5be20794952c1cb1f87ed365cd4",
+                "sha256sum": "414782c9ff0681d86dd0d2b6285037cb97c7d3363dc3c14ca4cd06a6d60708a5"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Abernathy2016-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "22885",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "917e69252151cc95321c1f14e60186dd",
+                "sha1sum": "9f0e40217556ce9dde253505cc285a537f6d326a",
+                "sha256sum": "335a704f463ccceb1e022c17f18ef81a3b98c739ec066d130241f0229912832f"
+            },
+            {
+                "name": "Abernathy2016-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "32858",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "17ad0442929fba7cf3f23f3e688de46e",
+                "sha1sum": "9fa9bf1e3639cd1c6bd587f993bfe71bca45e8da",
+                "sha256sum": "54b24c7f9c93792c56e2ac32cf44a0fe9f86139a2599b5e4a04966df3cd6f38b"
+            },
+            {
+                "name": "Abernathy2016-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "9477",
+                "mimeType": "text/x-matlab",
+                "md5sum": "9a0e863d552e747bfe362791f1684e68",
+                "sha1sum": "53b316b5255df8a6d6629a4a71003b2f09612422",
+                "sha256sum": "ede824d90e77fee081a1abcbf1fea353eaf94e5527e7d67a5c92e55844ac47a6"
+            },
+            {
+                "name": "Abernathy2016-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "9477",
+                "mimeType": "text/x-matlab",
+                "md5sum": "c93d223e766ba2fc709bae6181304fa1",
+                "sha1sum": "6948ef9017f4a02a0edd9c5dc4dc96d19fc04695",
+                "sha256sum": "d49221175bd75fabd36dc18061e9b849507bc92f4f5b8fbf61a511a8ac571057"
+            },
+            {
+                "name": "Abernathy2016.cps",
+                "description": "CPS file of the model in COPASI",
+                "fileSize": "138311",
+                "mimeType": "application/xml",
+                "md5sum": "a0b030f9e4d7ae2f495e92233c6d732d",
+                "sha1sum": "f2ec7012ba56fa356a7b057fb227765849770eb7",
+                "sha256sum": "3dd277cd076cf471d64080e0b04e2498ebc15ae7ef224d486efc38757141bcb2"
+            },
+            {
+                "name": "Abernathy2016.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "7352",
+                "mimeType": "text/plain",
+                "md5sum": "81dd2ba5e4abec75351da394e59bc0c6",
+                "sha1sum": "28777bfeb828835c7ecd31fe8aa67e599d602e03",
+                "sha256sum": "5c007b3753da2b8b79c6c6e2a70b1c35e66f7c23c59c7314b86304a042732cad"
+            },
+            {
+                "name": "Abernathy2016.sedml",
+                "description": "CRBM-processed SED-ML file, based on original COPASI save file export.",
+                "fileSize": "34495",
+                "mimeType": "application/xml",
+                "md5sum": "557fefb73b94fe11281d304d699c1002",
+                "sha1sum": "eeca8aa34aa9eb5a56341e2126439554a1fcccc7",
+                "sha256sum": "c052925b13d6685356b44f9863c9c77392672c1c828f036e57937d63006fa5f6"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "15302",
+                "mimeType": "image/png",
+                "md5sum": "b82de9df7079e893968eceac6d31aab2",
+                "sha1sum": "506a0cb657315035191ec0b50580cda6882283fd",
+                "sha256sum": "dec81dc74b49476f64228e8f9b18d44f482870b5069cdf1d13bb60d2bcbd3ee4"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "106",
+                "mimeType": "text/plain",
+                "md5sum": "f2dac5100e594819610c7ec57e77df4c",
+                "sha1sum": "cb5dd0fd8c42dc8f965d6d039f6db43645cf92fe",
+                "sha256sum": "ed6efea797fc1b48bddc41d97fcef832e32b57073af93f167689a8be27daa453"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1435",
+                "mimeType": "application/xml",
+                "md5sum": "e66bc7a9bd1311dcecc8e1c6392a72a3",
+                "sha1sum": "8fa3d6e2feec53238826bb142e7ef5e4f9128303",
+                "sha256sum": "1697dc446b6b7e85e31266f76a2aa3d0486bff3de8f7c8a405b1d0dd56d66398"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "3292",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "8ced1b9e0d1fd76af51c516f2464732c",
+                "sha1sum": "2d40e9d691b4d89728bc8e6d914d52e34256a147",
+                "sha256sum": "f705176e0bbc0819390cb3f411490a92e62e98c0d3b3760a06273d0509d02226"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 3,
+                "submitted": 1563957080,
+                "submitter": "Jinghao Men",
+                "comment": "Automatically added model identifier BIOMD0000000757"
+            },
+            {
+                "version": 4,
+                "submitted": 1724285351,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281845,
+    "submissionId": "MODEL1907240001",
+    "publicationId": "BIOMD0000000757",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Jinghao Men",
+                "email": "jm2187@cam.ac.uk",
+                "affiliation": "University of Cambridge",
+                "orcid": "0000-0003-4781-8144",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "27022405",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/27022405"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000757",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000757"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1907240001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1907240001"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "0000519",
+            "name": "glioblastoma multiforme",
+            "resource": "Experimental Factor Ontology",
+            "uri": "http://identifiers.org/efo/0000519"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002418",
+            "name": "immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002418"
+        }
+    ]
+}

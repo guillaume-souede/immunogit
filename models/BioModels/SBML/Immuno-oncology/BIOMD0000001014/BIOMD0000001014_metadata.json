@@ -1,0 +1,312 @@
+{
+    "name": "Leon-Triana2021 - Competition between tumour cells and dual-target CAR T-cells",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This model of the use of chimeric antigen receptor (CAR)-T cell therapy in the treatment of solid tumours is described in the article:\"Dual-Target CAR-Ts with On- and Off-Tumour Activity May Override Immune Suppression in Solid Cancers: A Mathematical Proof of Concept\"Odelaisy León-Triana, Antonio Pérez-Martínez, Manuel Ramírez-Orellana and Víctor M. Pérez-GarcíaCancers 2021, 13, 703.; doi: 10.3390/cancers13040703Comment:This is the second mathematical model, derived from equations 3 to 6, used in the paper.Reproduction of Figure 5b was achieved by setting alpha_1 = 0.183, in substitution for alpha_1 = 0.2 as quoted in the article.Abstract:Chimeric antigen receptor (CAR)-T cell-based therapies have achieved substantial success against B-cell malignancies, which has led to a growing scientific and clinical interest in extending their use to solid cancers. However, results for solid tumours have been limited up to now, in part due to the immunosuppressive tumour microenvironment, which is able to inactivate CAR-T cell clones. In this paper we put forward a mathematical model describing the competition of CAR-T and tumour cells, taking into account their immunosuppressive capacity. Using the mathematical model, we show that the use of large numbers of CAR-T cells targetting the solid tumour antigens could overcome the immunosuppressive potential of cancer. To achieve such high levels of CAR-T cells we propose, and study computationally, the manufacture and injection of CAR-T cells targetting two antigens: CD19 and a tumour-associated antigen. We study in silico the resulting dynamics of the disease after the injection of this product and find that the expansion of the CAR-T cell population in the blood and lymphopoietic organs could lead to the massive production of an army of CAR-T cells targetting the solid tumour, and potentially overcoming its immune suppression capabilities. This strategy could benefit from the combination with PD-1 inhibitors and low tumour loads. Our computational results provide theoretical support for the treatment of different types of solid tumours using T cells engineered with combination treatments of dual CARs with on- and off-tumour activity and anti-PD-1 drugs after completion of classical cytoreductive treatments.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "33572301",
+        "journal": "Cancers",
+        "title": "Dual-Target CAR-Ts with On- and Off-Tumour Activity May Override Immune Suppression in Solid Cancers: A Mathematical Proof of Concept.",
+        "affiliation": "Mathematical Oncology Laboratory (MOLAB), Department of Mathematics, Instituto de Matemática Aplicada a la Ciencia y la Ingeniería, Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+        "synopsis": "Chimeric antigen receptor (CAR)-T cell-based therapies have achieved substantial success against B-cell malignancies, which has led to a growing scientific and clinical interest in extending their use to solid cancers. However, results for solid tumours have been limited up to now, in part due to the immunosuppressive tumour microenvironment, which is able to inactivate CAR-T cell clones. In this paper we put forward a mathematical model describing the competition of CAR-T and tumour cells, taking into account their immunosuppressive capacity. Using the mathematical model, we show that the use of large numbers of CAR-T cells targetting the solid tumour antigens could overcome the immunosuppressive potential of cancer. To achieve such high levels of CAR-T cells we propose, and study computationally, the manufacture and injection of CAR-T cells targetting two antigens: CD19 and a tumour-associated antigen. We study in silico the resulting dynamics of the disease after the injection of this product and find that the expansion of the CAR-T cell population in the blood and lymphopoietic organs could lead to the massive production of an army of CAR-T cells targetting the solid tumour, and potentially overcoming its immune suppression capabilities. This strategy could benefit from the combination with PD-1 inhibitors and low tumour loads. Our computational results provide theoretical support for the treatment of different types of solid tumours using T cells engineered with combination treatments of dual CARs with on- and off-tumour activity and anti-PD-1 drugs after completion of classical cytoreductive treatments.",
+        "year": 2021,
+        "month": "2",
+        "volume": "13",
+        "issue": "4",
+        "pages": "703",
+        "link": "http://identifiers.org/pubmed/33572301",
+        "authors": [
+            {
+                "name": "Odelaisy León-Triana",
+                "institution": "Mathematical Oncology Laboratory (MOLAB), Department of Mathematics, Instituto de Matemática Aplicada a la Ciencia y la Ingeniería, Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+                "orcid": "0000-0002-7509-7754"
+            },
+            {
+                "name": "Antonio Pérez-Martínez",
+                "institution": "Paediatric Haemato-Oncology Department, Hospital Universitario La Paz, 28046 Madrid, Spain.",
+                "orcid": "0000-0002-6436-9195"
+            },
+            {
+                "name": "Manuel Ramírez-Orellana",
+                "institution": "Translational Research Unit in Paediatric Haemato-Oncology, Haematopoietic Stem Cell Transplantation and Cell Therapy, Hospital Infantil Universitario Niño Jesús, 28009 Madrid, Spain.",
+                "orcid": "0000-0003-0332-6973"
+            },
+            {
+                "name": "Víctor M Pérez-García",
+                "institution": "Mathematical Oncology Laboratory (MOLAB), Department of Mathematics, Instituto de Matemática Aplicada a la Ciencia y la Ingeniería, Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+                "orcid": "0000-0002-6575-495X"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Leon-Triana2021 (eqs 3-6).xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "48340",
+                "mimeType": "application/xml",
+                "md5sum": "cbec429b0c490963b2adf3a56e1feb6c",
+                "sha1sum": "03fc0b7752329c246ca642188170f5f97bfdfdae",
+                "sha256sum": "4545ecb91f9d9113b789496cc6888ccb3cd1af52ce6837cac7df9ca910097828"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Leon-Triana2021 (eqs 3-6)-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "16898",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "15ac59917d5d8bf3f2dd3e118e5c4f40",
+                "sha1sum": "7fcf8b3dd17fac868692d43f412a17d28b44608b",
+                "sha256sum": "ef67f9b60da12b2c00bfc5f3427384161e3e893644a9fbe4a9f3efc9291c9f0e"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6)-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "21457",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "a071763b2df0809172708c10ab347c22",
+                "sha1sum": "35d6e9d2bdd63318baa986969ebbb7de2c9573e1",
+                "sha256sum": "189e8f50915ad606a41c548905fb265d29e3d7b093b8eaf4c4a510af50ed8595"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6)-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6461",
+                "mimeType": "text/x-matlab",
+                "md5sum": "88d866b445083a0215985eb801591d19",
+                "sha1sum": "d0d090e9b8df5cfb72d7782abf669f32d042b3c5",
+                "sha256sum": "0fd79735183063a2d43188a48800af461d2b220569524772c5585986a80f874e"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6)-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6461",
+                "mimeType": "text/x-matlab",
+                "md5sum": "ad74841f6aa5e4204450562e94f3c36d",
+                "sha1sum": "420b8a28aad522a332d925bd33de3518918f6343",
+                "sha256sum": "498192a74ddce62dd420d775b9cda37e8f18dba776b9ebbbf89887c8f2600a40"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6).cps",
+                "description": "COPASI file",
+                "fileSize": "79873",
+                "mimeType": "application/xml",
+                "md5sum": "cbadf808c40622e8803ca5227d5d6d3c",
+                "sha1sum": "4c119ac8bec9c638410bef7ac6dda769509f50da",
+                "sha256sum": "46b43396b28bf7588a8e73078941a7ade2b9f8b5cd38b87a3c7286643df6e6c4"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6).ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4738",
+                "mimeType": "text/plain",
+                "md5sum": "9064c3e1d83d62a53dabb1dbb8dbc499",
+                "sha1sum": "cce2c45b062bdf8e48dc57ed7773b2f862c3626e",
+                "sha256sum": "b7b0c8de160b41a1a6d7d2c42c748d6a3b9a883d138b01454993d4b5f95d720f"
+            },
+            {
+                "name": "Leon-Triana2021 (eqs 3-6).sedml",
+                "description": "SEDML file (additionally CRBM-validated and adjusted).",
+                "fileSize": "18619",
+                "mimeType": "application/xml",
+                "md5sum": "58d0bc3b8c6f8e3f91d4d5368dd9924d",
+                "sha1sum": "fd13ee53725b6d0a1bcd608d3711abc6e5a79161",
+                "sha256sum": "5a202ccfccbe726bbb23f8d3d61836cd702bcd03d2b3fd3dc438b994d02f7b25"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "134308",
+                "mimeType": "image/png",
+                "md5sum": "0723624059b467f648c7c25a2e1996c7",
+                "sha1sum": "c90fcd12bdf3d485e0dc47291781a8733866efb6",
+                "sha256sum": "ec6b66eeafed262f6ee7193df16282a16b2d4ac22e6b475205af8262be6f32e1"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "229",
+                "mimeType": "text/plain",
+                "md5sum": "d1f7a31290b914117e58326618694adb",
+                "sha1sum": "a8bbe061db2e8915878fd5d1ab0b05c6303f70b1",
+                "sha256sum": "b8fa3147cd06ba425fa1c9e2a094fdeec2410ca050ef4e32404a274b8d0de73f"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1531",
+                "mimeType": "application/xml",
+                "md5sum": "1234d87769ce0cccbb3f6080a3f2886d",
+                "sha1sum": "27818e9532e8382e6ed50f8b5994bc32384a42fa",
+                "sha256sum": "1b0853fa9339cbde7ced4a38f9e6c83171222b749153e1fa1e4e662df30d6268"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4112",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "626e7839a543a1e130818b263b6476a1",
+                "sha1sum": "dc8f9c3f4ccceee7370229cfbe98ea0967b8dbc3",
+                "sha256sum": "266c032082b71840e6006744a38039260ecda08ede732fce792f6ba6ff975707"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1626112567,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001014"
+            },
+            {
+                "version": 4,
+                "submitted": 1626169427,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001014"
+            },
+            {
+                "version": 5,
+                "submitted": 1626170908,
+                "submitter": "Emilia Chen",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 6,
+                "submitted": 1626257427,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001014"
+            },
+            {
+                "version": 8,
+                "submitted": 1626273215,
+                "submitter": "Emilia Chen",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 9,
+                "submitted": 1626789774,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001014"
+            },
+            {
+                "version": 10,
+                "submitted": 1724291757,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282013,
+    "submissionId": "MODEL2107120004",
+    "publicationId": "BIOMD0000001014",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "NCIT:C126102",
+            "name": "Chimeric Antigen Receptor T-Cell Therapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C126102"
+        },
+        {
+            "qualifier": "bqbiol:occursIn",
+            "accession": "C94498",
+            "name": "Tumor Microenvironment",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C94498"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "33572301",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:33572301"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "33572301",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/33572301"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2107120004",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2107120004"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001014",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001014"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "DOID:3068",
+            "name": "glioblastoma multiforme",
+            "resource": "Human Disease Ontology",
+            "uri": "http://identifiers.org/doid/DOID:3068"
+        }
+    ]
+}

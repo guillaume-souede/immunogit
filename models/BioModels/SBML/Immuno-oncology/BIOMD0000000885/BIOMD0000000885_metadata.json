@@ -1,0 +1,265 @@
+{
+    "name": "Sumana2018 - Mathematical modeling of cancer-immune system, considering the role of antibodies.",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Mathematical modeling of cancer-immune system, considering the role of antibodies.Ghosh S1, Banerjee S2.Author information1    Department of Mathematics, Indian Institute of Technology Roorkee, Roorkee, Uttaranchal, 247667, India.2    Department of Mathematics, Indian Institute of Technology Roorkee, Roorkee, Uttaranchal, 247667, India. sandofma@iitr.ac.in.AbstractA mathematical model for the quantitative analysis of cancer-immune interaction, considering the role of antibodies has been proposed in this paper. The model is based on the clinical evidence, which states that antibodies can directly kill cancerous cells (Ivano et al. in J Clin Investig 119(8):2143-2159, 2009). The existence of transcritical bifurcation, which has been proved using Sotomayor theorem, provides strong biological implications. Through numerical simulations, it has been illustrated that under certain therapy (like monoclonal antibody therapy), which is capable of altering the parameters of the system, cancer-free state can be obtained.KEYWORDS:Antibodies; B cells; Cancer cells; Global stability; Plasma cells; Transcritical bifurcation</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "29572780",
+        "journal": "Theory in biosciences = Theorie in den Biowissenschaften",
+        "title": "Mathematical modeling of cancer-immune system, considering the role of antibodies.",
+        "affiliation": "Department of Mathematics, Indian Institute of Technology Roorkee, Roorkee, Uttaranchal, 247667, India.",
+        "synopsis": "A mathematical model for the quantitative analysis of cancer-immune interaction, considering the role of antibodies has been proposed in this paper. The model is based on the clinical evidence, which states that antibodies can directly kill cancerous cells (Ivano et al. in J Clin Investig 119(8):2143-2159, 2009). The existence of transcritical bifurcation, which has been proved using Sotomayor theorem, provides strong biological implications. Through numerical simulations, it has been illustrated that under certain therapy (like monoclonal antibody therapy), which is capable of altering the parameters of the system, cancer-free state can be obtained.",
+        "year": 2018,
+        "month": "4",
+        "volume": "137",
+        "issue": "1",
+        "pages": "67-78",
+        "link": "http://identifiers.org/pubmed/29572780",
+        "authors": [
+            {
+                "name": "Sumana Ghosh",
+                "institution": "Department of Mathematics, Indian Institute of Technology Roorkee, Roorkee, Uttaranchal, 247667, India."
+            },
+            {
+                "name": "Sandip Banerjee",
+                "institution": "Department of Mathematics, Indian Institute of Technology Roorkee, Roorkee, Uttaranchal, 247667, India. sandofma@iitr.ac.in."
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Sumana2018.xml",
+                "description": "SBML L2V4 representation of Sumana2018 - Mathematical modeling of cancer–immune system, considering the role of antibodies",
+                "fileSize": "37538",
+                "mimeType": "application/xml",
+                "md5sum": "50f589d293ca25836ec3945f630742f8",
+                "sha1sum": "84446c25aa980c710b9d4cb22fc22f7a0f37dd85",
+                "sha256sum": "187d7ccf4f3f915c64ba9dc37a4ba452d47b5250a5a26ed300c4d08f7fae0c1b"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Sumana2018-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11339",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "bdaaf66bda235ecdcc07f37d3a73e9cc",
+                "sha1sum": "edb114cdb75234ef2536753df31902f3afbfbdbc",
+                "sha256sum": "7d109731ce5ba9beb1930ae389b90f0752467968fd5d9b5df40812cfe8415e06"
+            },
+            {
+                "name": "Sumana2018-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "15961",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "35d03517c5e809781b1280570959103f",
+                "sha1sum": "362bc51fe7985255de480cc9324e5d199319b54a",
+                "sha256sum": "9df5d59aaca3579d38f9daec48a492e7e8047c9b3e68c1e346034c28b74b65bf"
+            },
+            {
+                "name": "Sumana2018-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "6566",
+                "mimeType": "text/x-matlab",
+                "md5sum": "091c0f216b1e15e629fe428a8dde67a6",
+                "sha1sum": "668bef216bc355b4db746dcda8340533b46b39fb",
+                "sha256sum": "9b899794a2bd88a349a0cf447eddac526e39b176cbc7083f3a0a068a3d14ecd8"
+            },
+            {
+                "name": "Sumana2018-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "6566",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b6a829f7d9133262f6184f44eca1872e",
+                "sha1sum": "f08e1a75d991b24b1ce5ad850a53850c83e7a98b",
+                "sha256sum": "74a7b913fe67a9f82f9323577999ae4548fba7781bc32f674abe94fe70d11bb3"
+            },
+            {
+                "name": "Sumana2018.cps",
+                "description": "COPASI version 4.24 (Build 197) Sumana2018 - Mathematical modeling of cancer–immune system, considering the role of antibodies",
+                "fileSize": "69882",
+                "mimeType": "application/xml",
+                "md5sum": "b14e5703767b426126cf7b88ff483e64",
+                "sha1sum": "170e063bc0f8efd6938239d7b2b339936a78a954",
+                "sha256sum": "534bafa1a54986abe262a029d9a52984ef3c5c80219da7aa9981e69dd5b27089"
+            },
+            {
+                "name": "Sumana2018.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "4610",
+                "mimeType": "text/plain",
+                "md5sum": "0d9711c1c70a84f19543af3220372476",
+                "sha1sum": "3bb6c6d7cf6d6bd5e7070646cb3c5c249b97b8cd",
+                "sha256sum": "40141714ecfd8017e5971d04925c02e26dc0c97e1a27e7b72dfe625ee44fe4e6"
+            },
+            {
+                "name": "Sumana2018.sedml",
+                "description": "SEDML L1V2 Sumana2018 - Mathematical modeling of cancer–immune system, considering the role of antibodies (additionally CRBM-validated and adjusted).",
+                "fileSize": "15961",
+                "mimeType": "application/xml",
+                "md5sum": "74af11064737ae551f858a1ed492f8ab",
+                "sha1sum": "532a2bd671129f9dbd67509456520eb7649cbea6",
+                "sha256sum": "443bc00f88ec46f953c2c08fe22307f5b23f47ce72323608a2234f0bfafc7a4d"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "435338",
+                "mimeType": "image/png",
+                "md5sum": "930f3746322718550d8a4e81aeafe7ef",
+                "sha1sum": "33228e51f9692d6c513a9368a83b40a2c3cd0428",
+                "sha256sum": "febbf3fd76f71b00e892e45b78139cd58a5922da083e1b615b0fab5d1fde8a4d"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "229",
+                "mimeType": "text/plain",
+                "md5sum": "8fdcfd7dbe88bd55850ce813877a4068",
+                "sha1sum": "2f1a9f10944feddf79b25a9da9bf1233dbabda05",
+                "sha256sum": "06372329e2da07c666445cf1fd1f9bcff69f5696434dacd966914b1f101bda6a"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1411",
+                "mimeType": "application/xml",
+                "md5sum": "d621f63a0528def7238d71071fe95c06",
+                "sha1sum": "3923e9e1f8d3d73b29a7c9ed52950f200a32c67d",
+                "sha256sum": "6fcf24c212cf819077975ee7aa94821fdf93eb022d0c9d9ec2260bf11805b299"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "2779",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "9e869cef8e894b2d1da78088e8aac232",
+                "sha1sum": "57d4ced7f1574dfb6d6cf0c9dfadfda3592c3eeb",
+                "sha256sum": "2fcc503bcb9c29dd55166293f163b1e6dbfeabf2a4bf449c9ed11d812446d622"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1575911491,
+                "submitter": "Mohammad Umer Sharif Shohan",
+                "comment": "Automatically added model identifier BIOMD0000000885"
+            },
+            {
+                "version": 3,
+                "submitted": 1724288530,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725281922,
+    "submissionId": "MODEL1912090004",
+    "publicationId": "BIOMD0000000885",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Mohammad Umer Sharif Shohan",
+                "email": "msharifshohan@ebi.ac.uk",
+                "affiliation": "EMBL-EBI",
+                "orcid": "0000-0003-3985-2879",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aai",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "NCIT:C19691",
+            "name": "Cancer Model",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C19691"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqmodel:hasInstance",
+            "accession": "C16295",
+            "name": "Antibody",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C16295"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "29572780",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/29572780"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "NCIT:C19691",
+            "name": "Cancer Model",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C19691"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000000885",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000885"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL1912090004",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL1912090004"
+        }
+    ]
+}

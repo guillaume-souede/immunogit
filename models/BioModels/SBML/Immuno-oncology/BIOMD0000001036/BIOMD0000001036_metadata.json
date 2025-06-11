@@ -1,0 +1,294 @@
+{
+    "name": "Cappuccio2007 - Tumor-immune system interactions and determination of the optimal therapeutic protocol in immunotherapy",
+    "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This ordinary differential equation model is the Panetta-Kirschner model of tumor-immune interactions is described in the publication:Cappuccio A, Castiglione F, Piccoli B.\" Determination of the optimal therapeutic protocols in cancer immunotherapy.\" Math Biosci. 2007 Sep;209(1):1-13.doi: 10.1016/j.mbs.2007.02.009. Comment:The model represented in Equations 1-3 is the Panetta-Kirschner model and was used to reproduce Fig. 1.N.B.: Labelling of Fig. 1 graphs in manuscript mismatches with simulation results - CTL and tumor cell plots swapped.Abstract:Cancer immunotherapy aims at eliciting an immune system response against the tumor. However, it is often characterized by toxic side-effects. Limiting the tumor growth and, concurrently, avoiding the toxicity of a drug, is the problem of protocol design. We formulate this question as an optimization problem and derive an algorithm for its solution. Unlike the standard optimal control approach, the algorithm simulates impulse-like drug administrations. It relies on an exact computation of the gradient of the cost function with respect to any protocol by means of the variational equations, that can be solved in parallel with the system. In comparison with previous versions of this method [F. Castiglione, B. Piccoli, Optimal control in a model of dendritic cell transfection cancer immunotherapy, Bull. Math. Biol. 68 (2006) 255-274; B. Piccoli, F. Castiglione, Optimal vaccine scheduling in cancer immunotherapy, Physica A. 370 (2) (2007) 672-680], we optimize both the timing and the dosage of each administration and introduce a penalty term to avoid clustering of subsequent injections, a requirement consistent with the clinical practice. In addition, we implement the optimization scheme to simulate the case of multi-therapies. The procedure works for any ODE system describing the pharmacokinetics and pharmacodynamics of an arbitrary number of therapeutic agents. In this work, it was tested for a well known model of the tumor-immune system interaction [D. Kirschner, J.C. Panetta, Modeling immunotherapy of tumor-immune interaction, J. Math. Biol. 37 (1998) 235-252]. Exploring three immunotherapeutic scenarios (CTL therapy, IL-2 therapy and combined therapy), we display the stability and efficacy of the optimization method, obtaining protocols that are successful compromises between various clinical requirements.</pre>      </body>    </notes>",
+    "format": {
+        "name": "SBML",
+        "identifier": "SBML",
+        "version": "L2V4"
+    },
+    "publication": {
+        "type": "PubMed ID",
+        "accession": "17416392",
+        "journal": "Mathematical biosciences",
+        "title": "Determination of the optimal therapeutic protocols in cancer immunotherapy.",
+        "affiliation": "Istituto Applicazioni Calcolo - CNR, V.le del Policlinico 137, 00161 Roma, Italy. a.cappuccio@iac.cnr.it",
+        "synopsis": "Cancer immunotherapy aims at eliciting an immune system response against the tumor. However, it is often characterized by toxic side-effects. Limiting the tumor growth and, concurrently, avoiding the toxicity of a drug, is the problem of protocol design. We formulate this question as an optimization problem and derive an algorithm for its solution. Unlike the standard optimal control approach, the algorithm simulates impulse-like drug administrations. It relies on an exact computation of the gradient of the cost function with respect to any protocol by means of the variational equations, that can be solved in parallel with the system. In comparison with previous versions of this method [F. Castiglione, B. Piccoli, Optimal control in a model of dendritic cell transfection cancer immunotherapy, Bull. Math. Biol. 68 (2006) 255-274; B. Piccoli, F. Castiglione, Optimal vaccine scheduling in cancer immunotherapy, Physica A. 370 (2) (2007) 672-680], we optimize both the timing and the dosage of each administration and introduce a penalty term to avoid clustering of subsequent injections, a requirement consistent with the clinical practice. In addition, we implement the optimization scheme to simulate the case of multi-therapies. The procedure works for any ODE system describing the pharmacokinetics and pharmacodynamics of an arbitrary number of therapeutic agents. In this work, it was tested for a well known model of the tumor-immune system interaction [D. Kirschner, J.C. Panetta, Modeling immunotherapy of tumor-immune interaction, J. Math. Biol. 37 (1998) 235-252]. Exploring three immunotherapeutic scenarios (CTL therapy, IL-2 therapy and combined therapy), we display the stability and efficacy of the optimization method, obtaining protocols that are successful compromises between various clinical requirements.",
+        "year": 2007,
+        "month": "9",
+        "volume": "209",
+        "issue": "1",
+        "pages": "1-13",
+        "link": "http://identifiers.org/pubmed/17416392",
+        "authors": [
+            {
+                "name": "Antonio Cappuccio",
+                "institution": "Istituto Applicazioni Calcolo - CNR, V.le del Policlinico 137, 00161 Roma, Italy. a.cappuccio@iac.cnr.it",
+                "orcid": "0000-0002-8266-2344"
+            },
+            {
+                "name": "Castiglione F",
+                "institution": "Institute for Applied Mathematics, National Research Council of Italy, 00185 Rome, Italy.",
+                "orcid": "0000-0002-1442-3552"
+            },
+            {
+                "name": "Benedetto Piccoli",
+                "orcid": "0000-0002-6000-5394"
+            }
+        ]
+    },
+    "files": {
+        "main": [
+            {
+                "name": "Cappuccio2007.xml",
+                "description": "SBML level 2 version 4 representation of the model",
+                "fileSize": "35703",
+                "mimeType": "application/xml",
+                "md5sum": "fdf47881bf30140f5f18486f83617a0c",
+                "sha1sum": "5fbc8df7cd5857486aea2648505c9c01f62e145c",
+                "sha256sum": "661d010d912e6be8a5866ccd17575a1625f3bdb39578f6ec16ce359931367959"
+            }
+        ],
+        "additional": [
+            {
+                "name": "Cappuccio2007 - Fig1.sedml",
+                "description": "SEDML file - Fig. 1 simulation (additionally CRBM-validated and adjusted).",
+                "fileSize": "14798",
+                "mimeType": "application/xml",
+                "md5sum": "4437e3316bce578e0b3ba824f852301e",
+                "sha1sum": "e10bae20507094b414959147297c5a4021cfcf52",
+                "sha256sum": "6a24c3a9cacc5bb5219459d79d7d7499dfe5ad3efba4cc03e331913f03cb3f25"
+            },
+            {
+                "name": "Cappuccio2007-biopax2.owl",
+                "description": "Auto-generated BioPAX (Level 2) file.",
+                "fileSize": "11645",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "72d4d0f814a0ae570015be7cccaab32f",
+                "sha1sum": "63bfccc0515cd4952115422d7067c0120f10a386",
+                "sha256sum": "6a83767a35055ef1eba4f7b87cccd7e06794679e2fce1cc30257a3bc6b067540"
+            },
+            {
+                "name": "Cappuccio2007-biopax3.owl",
+                "description": "Auto-generated BioPAX (Level 3) file.",
+                "fileSize": "15030",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "cfc5e444f247c6576e9a2b274cb2597a",
+                "sha1sum": "f2acebff998a07929236aacd69a744dd04645e29",
+                "sha256sum": "28ae60322c61b16f3388002c003260ef59452cd82fd4994e08e86384005cc5aa"
+            },
+            {
+                "name": "Cappuccio2007-matlab.m",
+                "description": "Auto-generated Matlab file.",
+                "fileSize": "5378",
+                "mimeType": "text/x-matlab",
+                "md5sum": "92e7f50e01085eedc542ef4f2bcc4d2a",
+                "sha1sum": "93c2021e014df536d7f0196ae1d3865ac3a89c65",
+                "sha256sum": "4dcd12338f458b50adb88a716e392d779222adc52df847690ba717ac7e9b8a62"
+            },
+            {
+                "name": "Cappuccio2007-octave.m",
+                "description": "Auto-generated Octave file.",
+                "fileSize": "5378",
+                "mimeType": "text/x-matlab",
+                "md5sum": "b06aa67f16f2827a3519c4699e29f78f",
+                "sha1sum": "352eea41af18b08671b7682c6aa24b3fb5bf7ca6",
+                "sha256sum": "0ef8b6a5f71ba27c0f9490bcab6a96583d14f557b8521d392100f26bcf4ab62e"
+            },
+            {
+                "name": "Cappuccio2007.cps",
+                "description": "COPASI file",
+                "fileSize": "73358",
+                "mimeType": "application/xml",
+                "md5sum": "1ab7553b37402186721c4a4c074c4842",
+                "sha1sum": "3fa7567b3fa972098c5387bbfe06b97df1019b40",
+                "sha256sum": "f23b59d2832881ede4ceb844d406b5404764c0d27b1ab9bd1591ad55f612aa83"
+            },
+            {
+                "name": "Cappuccio2007.ode",
+                "description": "Auto-generated ODE file for XPP.",
+                "fileSize": "3535",
+                "mimeType": "text/plain",
+                "md5sum": "0fe47ede9ce756ea5293389fb31d26b3",
+                "sha1sum": "bfad68a410bc6f3b9541729170074f6927fcbfe3",
+                "sha256sum": "1f67927a9dddf92f36e9d43f2a7581d1d2a878b238f890bb03196ddc909e9895"
+            },
+            {
+                "name": "Fig1.png",
+                "description": "PNG file - Fig. 1 reproduction",
+                "fileSize": "128803",
+                "mimeType": "image/png",
+                "md5sum": "fe5bd5552d4c9db229e1881dd227f7f5",
+                "sha1sum": "106d8c9adcfbe52bc2f50bc67ec128c1b4539e0c",
+                "sha256sum": "edf97021437aacc03bdc0925ed1d9992c1d29a53e60fa504f65b3044e9c547c5"
+            },
+            {
+                "name": "curation_image.png",
+                "description": "Reproduced figure(s) from original curation.",
+                "fileSize": "128803",
+                "mimeType": "image/png",
+                "md5sum": "fe5bd5552d4c9db229e1881dd227f7f5",
+                "sha1sum": "106d8c9adcfbe52bc2f50bc67ec128c1b4539e0c",
+                "sha256sum": "edf97021437aacc03bdc0925ed1d9992c1d29a53e60fa504f65b3044e9c547c5"
+            },
+            {
+                "name": "curation_notes.txt",
+                "description": "Notes from original curation (describes curation_image).",
+                "fileSize": "262",
+                "mimeType": "text/plain",
+                "md5sum": "6bc3e0e8ddb2da4cfb43653f98a1bdfc",
+                "sha1sum": "af756f1e77ca5c60a0043613f3242aac047f2f89",
+                "sha256sum": "315d17899625c4b48f22a58543f98fe8d7a3ba310465632b82555b91810a3be9"
+            },
+            {
+                "name": "manifest.xml",
+                "description": "Auto-generated manifest file for OMEX archives.",
+                "fileSize": "1541",
+                "mimeType": "application/xml",
+                "md5sum": "7dc0fa805f305a4822056c0b8dbb85be",
+                "sha1sum": "24f51c0759613892eda7b19fa8f81b9f91018707",
+                "sha256sum": "18067ece5c29de7c06c49b4f6b187fa56fb2dce6974472d0e31be986978c96f6"
+            },
+            {
+                "name": "metadata.rdf",
+                "description": "Auto-generated annotation metadata file.",
+                "fileSize": "4695",
+                "mimeType": "application/rdf+xml",
+                "md5sum": "481885d62ae982866935b3d4ffd37158",
+                "sha1sum": "738ade1a552de03c90030441aa431ee5390a7730",
+                "sha256sum": "45d9025d34b44ba02c621214849f181b0208c1c56ea9cb7984417ee9895adc0e"
+            }
+        ]
+    },
+    "history": {
+        "revisions": [
+            {
+                "version": 2,
+                "submitted": 1629976675,
+                "submitter": "Emilia Chen",
+                "comment": "Model revised without commit message"
+            },
+            {
+                "version": 4,
+                "submitted": 1629977016,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001036"
+            },
+            {
+                "version": 6,
+                "submitted": 1629977406,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001036"
+            },
+            {
+                "version": 8,
+                "submitted": 1629977947,
+                "submitter": "Emilia Chen",
+                "comment": "Automatically added model identifier BIOMD0000001036"
+            },
+            {
+                "version": 9,
+                "submitted": 1724292344,
+                "submitter": "Lucian Smith",
+                "comment": "CRBM-sponsored manual and automated updates."
+            }
+        ]
+    },
+    "firstPublished": 1725282017,
+    "submissionId": "MODEL2108260001",
+    "publicationId": "BIOMD0000001036",
+    "modellingApproach": {
+        "accession": "MAMO_0000046",
+        "name": "ordinary differential equation model",
+        "resource": "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    "curationStatus": "CURATED",
+    "modelTags": [
+        "Immuno-oncology"
+    ],
+    "contributors": {
+        "Curator": [
+            {
+                "name": "Lucian Smith",
+                "email": "lpsmith@uw.edu",
+                "affiliation": "University of Washington",
+                "orcid": "0000-0001-7002-6386",
+                "external": false
+            }
+        ],
+        "Modeller": [
+            {
+                "name": "Emilia Chen",
+                "email": "emiliachen1@gmail.com",
+                "affiliation": "University of Cambridge",
+                "external": false
+            }
+        ]
+    },
+    "vcsIdentifier": "aaj",
+    "modelLevelAnnotations": [
+        {
+            "qualifier": "bqbiol:hasTaxon",
+            "accession": "9606",
+            "name": "Homo sapiens",
+            "resource": "Taxonomy",
+            "uri": "http://identifiers.org/taxonomy/9606"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "MAMO_0000046",
+            "name": "Ordinary differential equation model",
+            "resource": "Mathematical Modelling Ontology",
+            "uri": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        {
+            "qualifier": "bqbiol:hasProperty",
+            "accession": "GO:0002837",
+            "name": "regulation of immune response to tumor cell",
+            "resource": "Gene Ontology",
+            "uri": "http://identifiers.org/go/GO:0002837"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "BIOMD0000000732",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000000732"
+        },
+        {
+            "qualifier": "bqbiol:isPropertyOf",
+            "accession": "C15438",
+            "name": "Cancer Immunotherapy",
+            "resource": "NCIt",
+            "uri": "http://identifiers.org/ncit/C15438"
+        },
+        {
+            "qualifier": "bqmodel:isDerivedFrom",
+            "accession": "9785481",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/9785481"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "BIOMD0000001036",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/BIOMD0000001036"
+        },
+        {
+            "qualifier": "bqmodel:is",
+            "accession": "MODEL2108260001",
+            "resource": "BioModels Database",
+            "uri": "http://identifiers.org/biomodels.db/MODEL2108260001"
+        },
+        {
+            "qualifier": "bqmodel:isDescribedBy",
+            "accession": "17416392",
+            "resource": "PubMed",
+            "uri": "https://identifiers.org/pubmed:17416392"
+        },
+        {
+            "qualifier": "bqbiol:isDescribedBy",
+            "accession": "17416392",
+            "resource": "PubMed",
+            "uri": "http://identifiers.org/pubmed/17416392"
+        }
+    ]
+}
