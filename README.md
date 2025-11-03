@@ -124,7 +124,7 @@ This project is licensed. See the [LICENSE](LICENSE) file for more details.
 ### Students
 - Guillaume Souède  
 - Issa Kerima Khalil  
-- Mamadou Hawa Bakle  
+- Mamadou Hawa Balde  
 - Yasmine Boukakida
 
 ### Affiliations
