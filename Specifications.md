@@ -1,4 +1,4 @@
-![image](raw/logo.png)
+<img src="raw/logo.png" width="200" alt="ImmunoGIT Logo">
 
 # ImmunoGIT Specifications document
 
