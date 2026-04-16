@@ -14,7 +14,7 @@ ImmunoGIT is a project focused on extracting, enriching, and organizing computat
 - [GitHub Pages](#github-pages)
 - [Documentation and User Guide](#documentation-and-user-guide)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Credits](#credits)
 - [References](#references)
 
 ## Installation and Quick Startup
