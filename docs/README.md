@@ -91,7 +91,8 @@ Each model is stored as a **ZIP archive** containing:
 - The script executes the defined query, downloads the SBML + metadata files, categorizes, and archives each model.  
 - Messages are displayed in the console to track progress.  
 
-## **Dependencies** - **`bioservices`**: interaction with the BioModels API  
+## **Dependencies** 
+- **`bioservices`**: interaction with the BioModels API  
 - **`requests`**: file downloading  
 - **`json`**: metadata processing  
 - **`zipfile`**: creation of ZIP files  
