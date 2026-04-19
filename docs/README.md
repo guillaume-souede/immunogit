@@ -1,5 +1,6 @@
 # Documentation for the script **SMBLGetmodelandmetadata.py** 
-## **Script Objective** This script automatically retrieves **SBML** (Systems Biology Markup Language) models from the **BioModels** platform based on specific queries. For each model, the script downloads:  
+## **Script Objective** 
+This script automatically retrieves **SBML** (Systems Biology Markup Language) models from the **BioModels** platform based on specific queries. For each model, the script downloads:  
 - the SBML file (`.xml`),  
 - the associated metadata (`.json`),  
 and archives both files into a **ZIP** file.  
