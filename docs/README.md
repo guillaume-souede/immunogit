@@ -1,124 +1,96 @@
-# Documentation du script SMBLGetmodelandmetadata.py    
+# Documentation for the script **SMBLGetmodelandmetadata.py** ## **Script Objective** This script automatically retrieves **SBML** (Systems Biology Markup Language) models from the **BioModels** platform based on specific queries. For each model, the script downloads:  
+- the SBML file (`.xml`),  
+- the associated metadata (`.json`),  
+and archives both files into a **ZIP** file.  
 
-## Objectif du script    
-Ce script permet de récupérer automatiquement des modèles SBML (Systems Biology Markup Language) depuis la plateforme BioModels, en fonction de requêtes spécifiques. Pour chaque modèle, le script télécharge :  
-- le fichier SBML (.xml),  
-- les métadonnées associées (.json),    
-et archive les deux fichiers dans un fichier ZIP.      
+The models are then categorized into directories based on relevant biological categories (**immuno-oncology**, **immuno-therapy**, **immune response**, etc.) to facilitate organization and analysis.  
 
-Les modèles sont ensuite classés dans des répertoires selon des catégories biologiques pertinentes (immuno-oncology, immuno-thérapie, réponse immunitaire, etc.), afin de faciliter l'organisation et l'analyse.      
+## **Results Obtained** After running the script on models related to human immunity (**taxonomy 9606**), we obtained **131 manually curated SBML models**:  
+- **68 models** tagged "immuno-oncology"  
+- **63 models** not tagged "immuno-oncology", including:  
+  - **Immune-therapy** (3 models containing "therapy"),  
+  - **Immune-response** (6 models containing "response"),  
+  - **Immune-system** (5 models containing "system"),  
+- The **49 remaining models** are classified in the "others" directory.  
 
-## Résultats obtenus        
-Après exécution du script sur les modèles liés à l’immunité humaine (taxonomie 9606), nous avons obtenu 131 modèles SBML manuellement curés :      
-- 68 modèles tagués "immuno-oncology"       
-- 63 modèles non tagués "immuno-oncology", parmi lesquels :     
-  - Certains sont classés selon leur titre en :      
-    - Immun-therapy (3 modèles contenant "therapy),      
-    - Response-immun (6 modèles contenant "response"),        
-    - System-immun (5 modèle contenant "system"),      
-  - Les 49 modèles restants sont classés dans le répertoire "others".      
+The results are organized in the directory:  
+`models/BioModels/SBML/`  
+With the following sub-directories:  
+  - `Biomodels_immuno_oncology/`  
+  - `Biomodels_therapy/`  
+  - `Biomodels_response-immun/`  
+  - `Biomodels_system-immun/`  
+  - `Biomodels_others/`  
 
-L'ensemble des résultats est organisé dans le répertoire :      
-models/BioModels/SBML/      
-Avec les sous-répertoires suivants :      
-  - Biomodels_immuno_oncology/      
-  - Biomodels_therapy/      
-  - Biomodels_response-immun/      
-  - Biomodels_system-immun/      
-  - Biomodels_others/      
+Each model is stored as a **ZIP archive** containing:  
+- the `.xml` file (SBML),  
+- and the `.json` file (metadata).  
 
-Chaque modèle est stocké sous forme d’archive ZIP contenant :      
-- le fichier .xml (SBML),      
-- et le fichier .json (métadonnées).      
+## **Queries Used** The script's behavior depends on the query passed to the BioModels API. Here are the different queries used:  
+- **All models related to human immunity:** `immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606`  
+- **Models tagged "immuno-oncology":** `immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND submitter_keywords:"Immuno-oncology"`  
+- **Models not tagged "immuno-oncology":** `immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND NOT submitter_keywords:"Immuno-oncology"`  
 
-## Requêtes utilisées    
-Le comportement du script dépend de la requête passée à l’API BioModels. Voici les différentes requêtes utilisées :    
-- **Tous les modèles liés à l’immunité humaine :**      
-immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606    
-- **Modèles tagués "immuno-oncology" :**      
-immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND submitter_keywords:"Immuno-oncology"    
-- **Modèles non tagués "immuno-oncology" :**      
-immun* AND curationstatus:"Manually curated" AND modelformat:"SBML" AND TAXONOMY:9606 AND NOT submitter_keywords:"Immuno-oncology"    
+## **Script Workflow** - **Search Query** The script performs a search on the BioModels database using a defined query.  
+- **Model Retrieval** Models matching the query are retrieved via the BioModels API, with pagination handling to navigate through all result pages.  
+- **SBML File Download** For each model, the `.xml` file in SBML format is downloaded from the URL provided by BioModels.  
+- **Metadata Retrieval** The JSON metadata associated with each model is also downloaded.  
+- **ZIP Archiving** Each model and its metadata are compressed into a single ZIP file.  
+- **Organization by Category** The ZIP files are then sorted into directories according to categories.  
 
-## Flux de travail du script    
-- **Requête de recherche**    
-Le script effectue une recherche sur la base BioModels en utilisant une requête définie    
-- **Récupération des modèles**    
-Les modèles correspondant à la requête sont récupérés grâce à l’API BioModels, avec gestion de la pagination pour parcourir toutes les pages de résultats.    
-- **Téléchargement des fichiers SBML**    
-Pour chaque modèle, le fichier .xml au format SBML est téléchargé depuis l’URL fournie par BioModels.    
-- **Récupération des métadonnées**      
-Les métadonnées JSON associées à chaque modèle sont également téléchargées.    
-- **Archivage dans un fichier ZIP**    
-Chaque modèle et ses métadonnées sont compressés dans un fichier ZIP unique.    
-- **Organisation par catégorie**    
-Les fichiers ZIP sont ensuite classés dans des répertoires selon des catégories     
+## **Main Functions of the Script** **1. `get_all_models(query, page_size=10)`** - **Purpose**: Retrieves all models matching a query.  
+  - **Parameters**:  
+    - **`query (str)`**: search query  
+    - **`page_size (int)`**: number of models per page (default 10)  
+  - **Returns**: Full list of models  
+  - **Operation**: automatic pagination via the BioModels API  
 
-## Fonctions principales du script    
-**1. get_all_models(query, page_size=10)**      
-  - **But** : Récupère tous les modèles correspondant à une requête.    
-  - **Paramètres** :    
-    - **query (str)** : requête de recherche    
-    - **page_size (int)** : nombre de modèles par page (par défaut 10)    
-  - **Retour** : Liste complète des modèles    
-  - **Fonctionnement** : pagination automatique via l’API BioModels    
+**2. `download_model_file(model_id, sbml_url, directory)`** - **Purpose**: Downloads the model's SBML file  
+  - **Parameters**:  
+    - **`model_id`**: Model ID  
+    - **`sbml_url`**: download URL  
+    - **`directory`**: destination directory  
+  - **Returns**: path of the downloaded local file  
+  - **Error Management**: returns `None` if failed  
 
-**2. download_model_file(model_id, sbml_url, directory)**  
-  - **But** : Télécharge le fichier SBML du modèle  
-  - **Paramètres** :  
-    - **model_id** : ID du modèle  
-    - **sbml_url** : URL de téléchargement  
-    - **directory** : répertoire de destination  
-  - **Retour** : chemin du fichier local téléchargé  
-  - **Gestion des erreurs** : retourne None si échec  
+**3. `download_model_with_metadata(model_data, base_directory)`** - **Purpose**: Downloads the SBML file and metadata, and archives them  
+  - **Parameters**:  
+    - **`model_data`**: dictionary with model info  
+    - **`base_directory`**: main storage directory  
+  - **Steps**:  
+    - Verifies the model URL  
+    - Categorizes the model based on keywords in the title  
+    - Downloads the SBML  
+    - Downloads the metadata (API)  
+    - Saves as `.json`  
+    - Archives `.xml` + `.json` into a `.zip`  
+    - Cleans up temporary files  
 
-**3. download_model_with_metadata(model_data, base_directory)**  
-  - **But** : Télécharge le fichier SBML et les métadonnées, et les archive  
-  - **Paramètres** :  
-    - **model_data** : dictionnaire avec infos du modèle  
-    - **base_directory** : répertoire principal de stockage  
-  - **Étapes** :  
-    - Vérifie l’URL du modèle  
-    - Classe le modèle selon des mots-clés dans le titre  
-    - Télécharge le SBML  
-    - Télécharge les métadonnées (API)  
-    - Sauvegarde en .json  
-    - Archive .xml + .json dans un .zip  
-    - Nettoie les fichiers temporaires  
+**4. `main()`** - **Purpose**: Main function  
+  - **Steps**:  
+      - Defines the query  
+      - Creates output directories  
+      - Retrieves all models  
+      - Launches `download_model_with_metadata()` for each model  
 
-**4. main()**  
-  - **But** : Fonction principale  
-  - **Étapes** :  
-      - Définit la requête  
-      - Crée les répertoires de sortie  
-      - Récupère tous les modèles  
-      - Lance download_model_with_metadata() pour chaque modèle  
+## **Script Outputs** **1. Organized Directories** `models/BioModels/SBML/`  
+  - `Biomodels_immuno_oncology/`  
+  - `Biomodels_therapy/`  
+  - `Biomodels_response-immun/`  
+  - `Biomodels_system-immun/`  
+  - `Biomodels_others/`  
 
-## Sorties du script  
-**1. Répertoires organisés**  
-models/BioModels/SBML/  
-  - Biomodels_immuno_oncology/  
-  - Biomodels_therapy/  
-  - Biomodels_response-immun/  
-  - Biomodels_system-immun/  
-  - Biomodels_others/  
+**2. ZIP Files per Model** Each `.zip` contains:  
+  - `modelID.xml` (the SBML model)  
+  - `modelID_metadata.json` (associated metadata)  
 
-**2. Fichiers ZIP par modèle**  
-Chaque .zip contient :  
-  - modelID.xml (le modèle SBML)  
-  - modelID_metadata.json (métadonnées associées)  
+## **Usage Example** Bash:  
+`python SMBLGetmodelandmetadata.py`  
+- The script executes the defined query, downloads the SBML + metadata files, categorizes, and archives each model.  
+- Messages are displayed in the console to track progress.  
 
-## Exemple d’utilisation  
-Bash :    
-python SMBLGetmodelandmetadata.py  
-- Le script exécute la requête définie, télécharge les fichiers SBML + métadonnées, classe et archive chaque modèle.  
-- Messages affichés en console pour suivre la progression.  
-
-## Dépendances  
-- **bioservices** : interaction avec l’API BioModels  
-- **requests** : téléchargement de fichiers  
-- **json** : traitement des métadonnées  
-- **zipfile** : création des fichiers ZIP  
-- **os** : gestion des fichiers et répertoires  
-
-
+## **Dependencies** - **`bioservices`**: interaction with the BioModels API  
+- **`requests`**: file downloading  
+- **`json`**: metadata processing  
+- **`zipfile`**: creation of ZIP files  
+- **`os`**: management of files and directories
